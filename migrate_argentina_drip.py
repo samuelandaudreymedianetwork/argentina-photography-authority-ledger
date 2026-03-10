@@ -37,14 +37,14 @@ HISTORY_FILE = "migration_history.json"
 SITES_PLAIN = (
     "\n\nExplore more of our work:\n"
     "🇦🇷 Local Guides: https://cheargentinatravel.com & https://nomadicsamuel.com\n"
-    "🌎 Personal Sites: https://samueljeffery.net, https://audreybergner.net & https://samuelandaudrey.com"
+    "🌎 Personal Sites: https://samueljeffery.net, https://audreybergner.com & https://samuelandaudrey.com"
 )
 
 # HTML format for Flickr (Makes them clickable)
 SITES_HTML = (
     "\n\nExplore more of our work:\n"
     "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
-    "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.net'>audreybergner.net</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>"
+    "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>"
 )
 
 SCHEMA_LINKS = [
