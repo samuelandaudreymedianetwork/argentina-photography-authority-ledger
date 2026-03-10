@@ -2,7 +2,7 @@ import os, time, requests, json, tempfile, sys
 import flickrapi
 from google import genai 
 from google.genai import types
-from requests_oauthlib import OAuth1 # NEW: Required for SmugMug God Mode
+from requests_oauthlib import OAuth1
 
 # Force logs to show up immediately in GitHub Actions
 def print_now(text):
@@ -12,14 +12,12 @@ def print_now(text):
 # ==========================================
 # 1. CREDENTIALS
 # ==========================================
-# Gemini & Flickr
 GEMINI_KEY = os.environ.get('GEMINI_API_KEY')
 FLICKR_KEY = os.environ.get('FLICKR_API_KEY')
 FLICKR_SECRET = os.environ.get('FLICKR_API_SECRET')
 FLICKR_ACCESS_TOKEN = os.environ.get('FLICKR_ACCESS_TOKEN')
 FLICKR_ACCESS_SECRET = os.environ.get('FLICKR_ACCESS_SECRET')
 
-# SmugMug Full OAuth Secrets
 SMUG_KEY = os.environ.get('SMUGMUG_API_KEY')
 SMUG_SECRET = os.environ.get('SMUGMUG_API_SECRET')
 SMUG_ACCESS_TOKEN = os.environ.get('SMUGMUG_ACCESS_TOKEN')
@@ -53,7 +51,7 @@ TARGET_ALBUMS = [
 # ==========================================
 # 2. INITIALIZATION
 # ==========================================
-print_now("🚀 Starting Team-Aware Engine...")
+print_now("🚀 Starting Team-Aware Engine (Atomic Save Mode)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
 MODEL_ID = "gemini-3.1-pro-preview"
@@ -68,7 +66,6 @@ token_obj = FlickrAccessToken(
 flickr.token_cache.token = token_obj
 flickr.flickr_oauth.token = token_obj
 
-# Initialize SmugMug OAuth
 smug_auth = OAuth1(SMUG_KEY, SMUG_SECRET, SMUG_ACCESS_TOKEN, SMUG_ACCESS_SECRET)
 
 def load_history():
@@ -78,11 +75,14 @@ def load_history():
         except: return []
     return []
 
-def save_history(img_id):
+# NEW: Atomic Save Function
+def save_history_atomic(img_id):
     history = load_history()
     if img_id not in history:
         history.append(img_id)
-        with open(HISTORY_FILE, 'w') as f: json.dump(history, f)
+        with open(HISTORY_FILE, 'w') as f: 
+            json.dump(history, f, indent=2)
+        print_now(f"  💾 [History Saved]: {img_id}")
 
 def get_or_create_flickr_album(album_name, primary_photo_id=None):
     try:
@@ -106,7 +106,6 @@ def run_migration():
     
     # --- PAGINATED ALBUM SCAN ---
     all_albums = []
-    # Using OAuth for SmugMug reads now too
     next_uri = f"https://api.smugmug.com/api/v2/user/{NICKNAME}!albums"
     print_now("📡 Scanning entire SmugMug library for Argentina targets...")
     
@@ -122,7 +121,14 @@ def run_migration():
 
     print_now(f"📊 Total Albums Mapped: {len(all_albums)}")
 
+    # NEW: Global Counter
+    global_count = 0
+
     for album in all_albums:
+        if global_count >= 30:
+            print_now("🛑 Global limit of 30 photos reached. Ending session.")
+            break
+            
         album_name = album.get('Name')
         album_uri = album.get('Uri')
         album_slug = album.get('UrlPath').split('/')[-1]
@@ -130,8 +136,6 @@ def run_migration():
         if album_slug not in TARGET_ALBUMS and album_name not in TARGET_ALBUMS:
             continue
 
-        print_now(f"📂 TARGET MATCHED: {album_name}")
-        
         img_api = f"https://api.smugmug.com{album_uri}!images"
         img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
         images = img_resp.get('Response', {}).get('AlbumImage', [])
@@ -139,20 +143,23 @@ def run_migration():
         if not images:
             continue
 
-        print_now(f"  📸 Found {len(images)} images. Processing next 5...")
+        print_now(f"📂 TARGET MATCHED: {album_name} (Found {len(images)} images)")
         album_id = get_or_create_flickr_album(album_name)
-        count = 0
         
         for img in images:
-            if count >= 5: break 
+            if global_count >= 30: 
+                break 
+                
             img_id = img.get('ImageKey')
-            if img_id in processed_history: continue
+            if img_id in processed_history: 
+                continue
             
             img_uri = img.get('Uri')
             img_url = img.get('ArchivedUri')
-            if not img_url: continue
+            if not img_url: 
+                continue
             
-            print_now(f"  ⬇️ Downloading: {img_id}")
+            print_now(f"  ⬇️ Downloading ({global_count + 1}/30): {img_id}")
             img_bytes = requests.get(img_url).content
             
             # --- STRICT SCHEMA PROMPT ---
@@ -160,9 +167,9 @@ def run_migration():
                 f"Act as Lead SEO Architect for '{PROJECT_NAME}'. This photo is a joint production by "
                 f"travel photographers {AUTHOR} and {PARTNER}. Analyze this photo from {album_name}, Argentina. "
                 f"Attribute the photography and exploration to both Samuel Jeffery and Audrey Bergner. "
-                f"When Samuel Jeffery, Audrey Bergner, or Daniel Bergner are visible in the photo, clearly identify them. "
-                f"IMPORTANT: For the 'json_ld' response, you MUST return a valid ImageObject schema. The 'creator' field "
-                f"MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'. "
+                f"When {TEAM} are visible in the photo, clearly identify them. "
+                f"IMPORTANT: For the 'json_ld' response, you MUST return a valid schema where '@type' is 'ImageObject'. "
+                f"The 'creator' field MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'. "
                 f"Return JSON: 'title', 'description' (20 sentences, bilingual), 'tags' (50), 'json_ld'."
             )
             
@@ -177,7 +184,6 @@ def run_migration():
                 temp.write(img_bytes)
                 temp_path = temp.name
 
-            # Adding a professional credit line at the bottom of the description
             full_desc = f"{ai_data['description']}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}\n\n<script type=\"application/ld+json\">{json.dumps(ai_data['json_ld'])}</script>"
             
             try:
@@ -196,7 +202,6 @@ def run_migration():
                 elif photo_id:
                     flickr.photosets.addPhoto(photoset_id=album_id, photo_id=photo_id)
                 
-                # --- TRUE SMUGMUG SYNC ---
                 print_now(f"  🔄 Updating SmugMug...")
                 smug_patch = f"https://api.smugmug.com{img_uri}"
                 smug_payload = {
@@ -205,21 +210,21 @@ def run_migration():
                     "Keywords": ",".join(ai_data['tags'])
                 }
                 
-                # Using requests.patch with OAuth1 authentication
                 patch_resp = requests.patch(smug_patch, headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
                 
                 if patch_resp.status_code in [200, 201]:
-                    save_history(img_id)
                     print_now(f"  🏆 SUCCESS!")
+                    save_history_atomic(img_id) # Instantly writes to file
+                    global_count += 1
                 else:
                     print_now(f"  ⚠️ SmugMug Update Failed: {patch_resp.status_code} - {patch_resp.text}")
 
-                count += 1
-                time.sleep(10)
+                time.sleep(15) # Safe breather
             except Exception as e:
                 print_now(f"  ❌ Failed: {e}")
             finally:
-                if os.path.exists(temp_path): os.remove(temp_path)
+                if 'temp_path' in locals() and os.path.exists(temp_path): 
+                    os.remove(temp_path)
 
 if __name__ == "__main__":
     run_migration()
