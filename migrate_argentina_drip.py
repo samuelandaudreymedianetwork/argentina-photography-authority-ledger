@@ -31,7 +31,29 @@ TEAM = "Samuel Jeffery, Audrey Bergner, and Daniel Bergner"
 HISTORY_FILE = "migration_history.json"
 
 # ==========================================
-# 2. THE 100% INTEGRATED LISTS
+# 2. AUTHORITY WEBSITES
+# ==========================================
+# Standard format for SmugMug
+SITES_PLAIN = (
+    "\n\nExplore more of our work:\n"
+    "🇦🇷 Local Guides: https://cheargentinatravel.com & https://nomadicsamuel.com\n"
+    "🌎 Personal Sites: https://samueljeffery.net, https://audreybergner.net & https://samuelandaudrey.com"
+)
+
+# HTML format for Flickr (Makes them clickable)
+SITES_HTML = (
+    "\n\nExplore more of our work:\n"
+    "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
+    "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.net'>audreybergner.net</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>"
+)
+
+SCHEMA_LINKS = [
+    "https://cheargentinatravel.com", "https://nomadicsamuel.com",
+    "https://samueljeffery.net", "https://audreybergner.net", "https://samuelandaudrey.com"
+]
+
+# ==========================================
+# 3. THE 100% INTEGRATED LISTS
 # ==========================================
 
 # PHASE 1: VIP MAP (Direct Teleport using Secret Keys)
@@ -125,9 +147,9 @@ TARGET_ALBUMS = [
 ]
 
 # ==========================================
-# 3. INITIALIZATION
+# 4. INITIALIZATION
 # ==========================================
-print_now("🚀 Starting Hybrid Engine (Multi-Album Safe Mode)...")
+print_now("🚀 Starting Hybrid Engine (Multi-Album Safe Mode w/ SEO Links)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
 MODEL_ID = "gemini-3.1-pro-preview"
@@ -173,7 +195,7 @@ def get_or_create_flickr_album(album_name, primary_photo_id=None):
     return None
 
 # ==========================================
-# 4. CORE IMAGE PROCESSING FUNCTION
+# 5. CORE IMAGE PROCESSING FUNCTION
 # ==========================================
 def process_album_images(images, official_album_name, global_count, processed_history):
     album_id = get_or_create_flickr_album(official_album_name)
@@ -202,6 +224,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"When {TEAM} are visible in the photo, clearly identify them. "
             f"IMPORTANT: For the 'json_ld' response, you MUST return a valid schema where '@type' is 'ImageObject'. "
             f"The 'creator' field MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'. "
+            f"Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for both Person objects. "
             f"Return JSON: 'title', 'description' (20 sentences, bilingual), 'tags' (50), 'json_ld'."
         )
         
@@ -233,14 +256,16 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             temp.write(img_bytes)
             temp_path = temp.name
 
-        full_desc = f"{ai_data['description']}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}\n\n<script type=\"application/ld+json\">{json.dumps(ai_data['json_ld'])}</script>"
+        # --- DUAL-FORMAT FOOTERS ---
+        flickr_desc = f"{ai_data['description']}{SITES_HTML}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}\n\n<script type=\"application/ld+json\">{json.dumps(ai_data['json_ld'])}</script>"
+        smug_caption = f"{ai_data['description']}{SITES_PLAIN}\n\nPhoto by {AUTHOR} & {PARTNER}"
         
         try:
             print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:30]}...")
             up_resp = flickr.upload(
                 filename=temp_path, 
                 title=ai_data['title'], 
-                description=full_desc, 
+                description=flickr_desc, 
                 tags=" ".join([f'"{t}"' for t in ai_data['tags']]),
                 is_public=1
             )
@@ -252,14 +277,13 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 flickr.photosets.addPhoto(photoset_id=album_id, photo_id=photo_id)
             
             print_now(f"  🔄 Updating SmugMug...")
-            smug_patch = f"https://api.smugmug.com{img_uri}"
             smug_payload = {
                 "Title": ai_data['title'], 
-                "Caption": f"{ai_data['description']}\n\nPhoto by {AUTHOR} & {PARTNER}", 
+                "Caption": smug_caption, 
                 "Keywords": ",".join(ai_data['tags'])
             }
             
-            patch_resp = requests.patch(smug_patch, headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
+            patch_resp = requests.patch(f"https://api.smugmug.com{img_uri}", headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
             
             if patch_resp.status_code in [200, 201]:
                 print_now(f"  🏆 SUCCESS!")
@@ -278,7 +302,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
     return global_count
 
 # ==========================================
-# 5. EXECUTION ENGINE
+# 6. EXECUTION ENGINE
 # ==========================================
 def run_migration():
     processed_history = load_history()
