@@ -296,35 +296,47 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         except Exception as e:
             print_now(f"  ❌ Failed: {e}")
         finally:
-            if 'temp_path' in locals() and os.path.exists(temp_path): 
+            if os.path.exists(temp_path): 
                 os.remove(temp_path)
                 
     return global_count
 
 # ==========================================
-# 6. EXECUTION ENGINE
+# 6. EXECUTION ENGINE (FULL-FOCUS DEPTH-FIRST)
 # ==========================================
 def run_migration():
     processed_history = load_history()
     global_count = 0
+    print_now("✅ Initialization Complete. Starting Full-Focus Run...")
 
     # --- PHASE 1: VIP TELEPORT ---
     for custom_name, album_key in PRIORITY_MAP.items():
         if global_count >= 30: break
 
-        print_now(f"⚡ PHASE 1 - TELEPORTING TO: {custom_name} (Key: {album_key})")
+        print_now(f"⚡ Checking VIP Album: {custom_name} (Key: {album_key})")
         img_api = f"https://api.smugmug.com/api/v2/album/{album_key}!images"
         img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
         images = img_resp.get('Response', {}).get('AlbumImage', [])
         
-        if images:
-            # FIX: Force Flickr to use your unique custom name (e.g., "Bariloche: Alpine Architecture")
-            # This prevents multiple Bariloche folders from merging.
-            global_count = process_album_images(images, custom_name, global_count, processed_history)
+        # Filter for only what hasn't been done yet
+        unprocessed = [i for i in images if i.get('ImageKey') not in processed_history]
+        
+        if not unprocessed:
+            print_now(f"  ✅ {custom_name} is 100% complete. Skipping...")
+            continue
+
+        # Process as many as we can in THIS album up to the 30 limit
+        print_now(f"  📂 Found {len(unprocessed)} photos remaining in {custom_name}. Processing...")
+        global_count = process_album_images(unprocessed, custom_name, global_count, processed_history)
+        
+        # CRITICAL: If we hit 30, we STOP EVERYTHING to maintain focus on this album.
+        if global_count >= 30:
+            print_now(f"🛑 Hit 30-photo limit while working on {custom_name}. Stopping to maintain focus.")
+            return 
 
     # --- PHASE 2: FALLBACK DEEP SCAN ---
     if global_count < 30:
-        print_now("🔍 PHASE 2 - STARTING FALLBACK SCAN FOR TARGET_ALBUMS...")
+        print_now("🔍 PHASE 1 Complete. Searching for matches in remaining library...")
         next_uri = f"https://api.smugmug.com/api/v2/user/{NICKNAME}!albums?count=500"
         
         while next_uri and global_count < 30:
@@ -334,19 +346,24 @@ def run_migration():
                     if global_count >= 30: break
                     
                     album_slug = album.get('UrlPath', '').split('/')[-1]
-                    
                     if album_slug in TARGET_ALBUMS or album.get('Name') in TARGET_ALBUMS:
-                        print_now(f"📂 PHASE 2 - MATCH FOUND: {album['Name']}")
+                        
                         img_api = f"https://api.smugmug.com{album['Uri']}!images"
                         img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
                         images = img_resp.get('Response', {}).get('AlbumImage', [])
                         
-                        if images:
-                            # FIX: Append the slug to ensure multiple albums with the same base name 
-                            # (like "Buenos Aires") are kept totally separate on Flickr.
-                            unique_fallback_name = f"{album['Name']} ({album_slug})"
-                            global_count = process_album_images(images, unique_fallback_name, global_count, processed_history)
-                
+                        unprocessed_fb = [i for i in images if i.get('ImageKey') not in processed_history]
+                        
+                        if unprocessed_fb:
+                            print_now(f"📂 PHASE 2 - MATCH FOUND: {album['Name']}")
+                            unique_name = f"{album['Name']} ({album_slug})"
+                            global_count = process_album_images(unprocessed_fb, unique_name, global_count, processed_history)
+                            
+                            # Again, stop immediately if we hit the limit to keep it clean
+                            if global_count >= 30:
+                                print_now(f"🛑 Hit 30-photo limit in {album['Name']}. Stopping.")
+                                return
+
                 pages = resp['Response'].get('Pages', {})
                 next_path = pages.get('NextPage') or pages.get('Next')
                 next_uri = f"https://api.smugmug.com{next_path}" if next_path else None
@@ -356,7 +373,7 @@ def run_migration():
     if global_count >= 30:
         print_now("🛑 Global limit of 30 photos reached. Ending session.")
     else:
-        print_now("🏁 All available photos from both lists have been processed.")
+        print_now("🏁 All targeted albums in the current list are 100% migrated.")
 
 if __name__ == "__main__":
     run_migration()
