@@ -292,7 +292,7 @@ def run_migration():
         if global_count >= 30: break
 
         print_now(f"⚡ Checking VIP Album: {custom_name} (Key: {album_key})")
-        img_api = f"https://api.smugmug.com/api/v2/album/{album_key}!images"
+        img_api = f"https://api.smugmug.com/api/v2/album/{album_key}!images?count=10000"
         img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
         images = img_resp.get('Response', {}).get('AlbumImage', [])
         
