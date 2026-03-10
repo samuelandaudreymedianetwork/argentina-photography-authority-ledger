@@ -33,23 +33,30 @@ HISTORY_FILE = "migration_history.json"
 # ==========================================
 # 2. AUTHORITY WEBSITES
 # ==========================================
-# Standard format for SmugMug
+# Standard format for SmugMug (Plain text auto-links)
 SITES_PLAIN = (
     "\n\nExplore more of our work:\n"
     "🇦🇷 Local Guides: https://cheargentinatravel.com & https://nomadicsamuel.com\n"
-    "🌎 Personal Sites: https://samueljeffery.net, https://audreybergner.com & https://samuelandaudrey.com"
+    "🌎 Personal Sites: https://samueljeffery.net, https://audreybergner.com & https://samuelandaudrey.com\n"
+    "📊 Project 23 Master Database: https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
 )
 
 # HTML format for Flickr (Makes them clickable)
 SITES_HTML = (
     "\n\nExplore more of our work:\n"
     "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
-    "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>"
+    "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>\n"
+    "📊 <a href='https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23'>Project 23 Master Database</a>"
 )
 
+# Links for JSON-LD sameAs array (Crucial for Entity Building)
 SCHEMA_LINKS = [
-    "https://cheargentinatravel.com", "https://nomadicsamuel.com",
-    "https://samueljeffery.net", "https://audreybergner.com", "https://samuelandaudrey.com"
+    "https://cheargentinatravel.com", 
+    "https://nomadicsamuel.com",
+    "https://samueljeffery.net", 
+    "https://audreybergner.com", 
+    "https://samuelandaudrey.com",
+    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
 ]
 
 # ==========================================
