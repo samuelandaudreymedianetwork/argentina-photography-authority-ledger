@@ -72,7 +72,6 @@ PRIORITY_MAP = {
     "The Chalet: Alpine Restoration & Boutique Design in Córdoba": "Dkghrb",
     "Salta & The Argentine Northwest": "Fh34V9",
     "Buenos Aires: The Paris of the South": "6hZGsS",
-    "The Chalet (Hotel Renovation)": "Dkghrb",
     "Villa Berna: Secluded Alpine Charm": "wdFKS7",
     "La Cumbrecita: Pedestrian Alpine Village": "4ZLgK5",
     "Península Valdés: UNESCO Wildlife": "KJ9CCC",
