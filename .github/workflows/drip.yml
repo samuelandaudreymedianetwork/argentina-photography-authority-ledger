@@ -36,13 +36,23 @@ jobs:
           FLICKR_ACCESS_SECRET: ${{ secrets.FLICKR_ACCESS_SECRET }}
         run: python migrate_argentina_drip.py
 
-      # --- CRITICAL UPGRADE ---
+      # --- BULLETPROOF SAVE UPGRADE ---
       - name: Save Migration History
         if: always() # Forces a save even if the run is canceled or fails halfway
         run: |
           git config --global user.name "Project 23 Bot"
           git config --global user.email "bot@samuelandaudrey.com"
+          
+          # 1. Pull latest changes to avoid conflicts
           git pull origin main --rebase
+          
+          # 2. Stage the history file
           git add migration_history.json
-          # Only commit and push if there are actually changes to the history
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Project 23 migration history [skip ci]" && git push)
+          
+          # 3. Explicitly check for changes and push
+          if git diff --staged --quiet; then
+            echo "No new history to save."
+          else
+            git commit -m "Update Project 23 migration history [skip ci]"
+            git push origin main
+          fi
