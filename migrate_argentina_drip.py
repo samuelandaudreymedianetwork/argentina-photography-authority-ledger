@@ -127,7 +127,7 @@ TARGET_ALBUMS = [
 # ==========================================
 # 3. INITIALIZATION
 # ==========================================
-print_now("🚀 Starting Hybrid Engine (VIP + Fallback Scan)...")
+print_now("🚀 Starting Hybrid Engine (Multi-Album Safe Mode)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
 MODEL_ID = "gemini-3.1-pro-preview"
@@ -294,8 +294,9 @@ def run_migration():
         images = img_resp.get('Response', {}).get('AlbumImage', [])
         
         if images:
-            official_album_name = images[0].get('Album', {}).get('Name', custom_name)
-            global_count = process_album_images(images, official_album_name, global_count, processed_history)
+            # FIX: Force Flickr to use your unique custom name (e.g., "Bariloche: Alpine Architecture")
+            # This prevents multiple Bariloche folders from merging.
+            global_count = process_album_images(images, custom_name, global_count, processed_history)
 
     # --- PHASE 2: FALLBACK DEEP SCAN ---
     if global_count < 30:
@@ -308,8 +309,8 @@ def run_migration():
                 for album in resp['Response']['Album']:
                     if global_count >= 30: break
                     
-                    # Check if the album slug or name matches the fallback list
                     album_slug = album.get('UrlPath', '').split('/')[-1]
+                    
                     if album_slug in TARGET_ALBUMS or album.get('Name') in TARGET_ALBUMS:
                         print_now(f"📂 PHASE 2 - MATCH FOUND: {album['Name']}")
                         img_api = f"https://api.smugmug.com{album['Uri']}!images"
@@ -317,7 +318,10 @@ def run_migration():
                         images = img_resp.get('Response', {}).get('AlbumImage', [])
                         
                         if images:
-                            global_count = process_album_images(images, album['Name'], global_count, processed_history)
+                            # FIX: Append the slug to ensure multiple albums with the same base name 
+                            # (like "Buenos Aires") are kept totally separate on Flickr.
+                            unique_fallback_name = f"{album['Name']} ({album_slug})"
+                            global_count = process_album_images(images, unique_fallback_name, global_count, processed_history)
                 
                 pages = resp['Response'].get('Pages', {})
                 next_path = pages.get('NextPage') or pages.get('Next')
