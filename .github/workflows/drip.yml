@@ -1,0 +1,46 @@
+name: Argentina Authority Drip
+on:
+  schedule:
+    # Runs every 3 hours to keep your 'Recent Activity' fresh
+    - cron: '0 */3 * * *' 
+  workflow_dispatch:   # Manual "Run now" button
+
+jobs:
+  run-migration:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      # IMPORTANT: Added requests-oauthlib for SmugMug God Mode
+      - name: Install Tools
+        run: pip install flickrapi google-genai requests requests-oauthlib
+
+      - name: Execute Drip
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
+          SMUGMUG_API_SECRET: ${{ secrets.SMUGMUG_API_SECRET }}
+          SMUGMUG_ACCESS_TOKEN: ${{ secrets.SMUGMUG_ACCESS_TOKEN }}
+          SMUGMUG_ACCESS_TOKEN_SECRET: ${{ secrets.SMUGMUG_ACCESS_TOKEN_SECRET }}
+          FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
+          FLICKR_API_SECRET: ${{ secrets.FLICKR_API_SECRET }}
+          FLICKR_ACCESS_TOKEN: ${{ secrets.FLICKR_ACCESS_TOKEN }}
+          FLICKR_ACCESS_SECRET: ${{ secrets.FLICKR_ACCESS_SECRET }}
+        run: python migrate_argentina_drip.py
+
+      - name: Save Migration History
+        run: |
+          git config --global user.name "Project 23 Bot"
+          git config --global user.email "bot@samuelandaudrey.com"
+          git pull origin main --rebase
+          git add migration_history.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Project 23 migration history [skip ci]" && git push)
