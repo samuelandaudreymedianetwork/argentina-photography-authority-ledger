@@ -2,6 +2,7 @@ import os, time, requests, json, tempfile, sys
 import flickrapi
 from google import genai 
 from google.genai import types
+from requests_oauthlib import OAuth1 # NEW: Required for SmugMug God Mode
 
 # Force logs to show up immediately in GitHub Actions
 def print_now(text):
@@ -11,16 +12,21 @@ def print_now(text):
 # ==========================================
 # 1. CREDENTIALS
 # ==========================================
-SMUG_KEY = os.environ.get('SMUGMUG_API_KEY')
+# Gemini & Flickr
 GEMINI_KEY = os.environ.get('GEMINI_API_KEY')
 FLICKR_KEY = os.environ.get('FLICKR_API_KEY')
 FLICKR_SECRET = os.environ.get('FLICKR_API_SECRET')
 FLICKR_ACCESS_TOKEN = os.environ.get('FLICKR_ACCESS_TOKEN')
 FLICKR_ACCESS_SECRET = os.environ.get('FLICKR_ACCESS_SECRET')
 
+# SmugMug Full OAuth Secrets
+SMUG_KEY = os.environ.get('SMUGMUG_API_KEY')
+SMUG_SECRET = os.environ.get('SMUGMUG_API_SECRET')
+SMUG_ACCESS_TOKEN = os.environ.get('SMUGMUG_ACCESS_TOKEN')
+SMUG_ACCESS_SECRET = os.environ.get('SMUGMUG_ACCESS_TOKEN_SECRET')
+
 NICKNAME = "samuelandaudrey"
 PROJECT_NAME = "Project 23"
-# Explicitly defining the team for the AI's ground truth
 AUTHOR = "Samuel Jeffery"
 PARTNER = "Audrey Bergner"
 TEAM = "Samuel Jeffery, Audrey Bergner, and Daniel Bergner"
@@ -62,6 +68,9 @@ token_obj = FlickrAccessToken(
 flickr.token_cache.token = token_obj
 flickr.flickr_oauth.token = token_obj
 
+# Initialize SmugMug OAuth
+smug_auth = OAuth1(SMUG_KEY, SMUG_SECRET, SMUG_ACCESS_TOKEN, SMUG_ACCESS_SECRET)
+
 def load_history():
     if os.path.exists(HISTORY_FILE):
         try:
@@ -97,18 +106,17 @@ def run_migration():
     
     # --- PAGINATED ALBUM SCAN ---
     all_albums = []
-    next_uri = f"/api/v2/user/{NICKNAME}!albums?APIKey={SMUG_KEY}"
+    # Using OAuth for SmugMug reads now too
+    next_uri = f"https://api.smugmug.com/api/v2/user/{NICKNAME}!albums"
     print_now("📡 Scanning entire SmugMug library for Argentina targets...")
     
     while next_uri:
-        url = next_uri if next_uri.startswith('http') else f"https://api.smugmug.com{next_uri}"
-        if "!albums" not in url: url += f"!albums?APIKey={SMUG_KEY}"
-            
-        resp = requests.get(url, headers=headers).json()
+        resp = requests.get(next_uri, headers=headers, auth=smug_auth).json()
         page_albums = resp.get('Response', {}).get('Album', [])
         all_albums.extend(page_albums)
         
-        next_uri = resp.get('Response', {}).get('Pages', {}).get('Next', None)
+        next_path = resp.get('Response', {}).get('Pages', {}).get('Next', None)
+        next_uri = f"https://api.smugmug.com{next_path}" if next_path else None
         if next_uri:
             print_now(f"   .. found {len(all_albums)} albums, continuing scan...")
 
@@ -124,8 +132,8 @@ def run_migration():
 
         print_now(f"📂 TARGET MATCHED: {album_name}")
         
-        img_api = f"https://api.smugmug.com{album_uri}!images?APIKey={SMUG_KEY}"
-        img_resp = requests.get(img_api, headers=headers).json()
+        img_api = f"https://api.smugmug.com{album_uri}!images"
+        img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
         images = img_resp.get('Response', {}).get('AlbumImage', [])
         
         if not images:
@@ -147,14 +155,15 @@ def run_migration():
             print_now(f"  ⬇️ Downloading: {img_id}")
             img_bytes = requests.get(img_url).content
             
-            # --- UPDATED DUAL-CREDIT & IDENTITY PROMPT ---
+            # --- STRICT SCHEMA PROMPT ---
             prompt = (
                 f"Act as Lead SEO Architect for '{PROJECT_NAME}'. This photo is a joint production by "
                 f"travel photographers {AUTHOR} and {PARTNER}. Analyze this photo from {album_name}, Argentina. "
                 f"Attribute the photography and exploration to both Samuel Jeffery and Audrey Bergner. "
-                f"When Samuel Jeffery, Audrey Bergner, or Daniel Bergner are visible in the photo, "
-                f"clearly identify them as the subjects. Return JSON: 'title', 'description' (20 sentences, bilingual), "
-                f"'tags' (50), 'json_ld'."
+                f"When Samuel Jeffery, Audrey Bergner, or Daniel Bergner are visible in the photo, clearly identify them. "
+                f"IMPORTANT: For the 'json_ld' response, you MUST return a valid ImageObject schema. The 'creator' field "
+                f"MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'. "
+                f"Return JSON: 'title', 'description' (20 sentences, bilingual), 'tags' (50), 'json_ld'."
             )
             
             ai_resp = client.models.generate_content(
@@ -172,7 +181,7 @@ def run_migration():
             full_desc = f"{ai_data['description']}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}\n\n<script type=\"application/ld+json\">{json.dumps(ai_data['json_ld'])}</script>"
             
             try:
-                print_now(f"  📤 Uploading: {ai_data['title'][:30]}...")
+                print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:30]}...")
                 up_resp = flickr.upload(
                     filename=temp_path, 
                     title=ai_data['title'], 
@@ -187,17 +196,24 @@ def run_migration():
                 elif photo_id:
                     flickr.photosets.addPhoto(photoset_id=album_id, photo_id=photo_id)
                 
-                # SmugMug Sync
-                smug_patch = f"https://api.smugmug.com{img_uri}?APIKey={SMUG_KEY}"
+                # --- TRUE SMUGMUG SYNC ---
+                print_now(f"  🔄 Updating SmugMug...")
+                smug_patch = f"https://api.smugmug.com{img_uri}"
                 smug_payload = {
                     "Title": ai_data['title'], 
                     "Caption": f"{ai_data['description']}\n\nPhoto by {AUTHOR} & {PARTNER}", 
                     "Keywords": ",".join(ai_data['tags'])
                 }
-                requests.post(smug_patch, headers={"Accept": "application/json", "X-Http-Method-Override": "PATCH"}, data=json.dumps(smug_payload))
+                
+                # Using requests.patch with OAuth1 authentication
+                patch_resp = requests.patch(smug_patch, headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
+                
+                if patch_resp.status_code in [200, 201]:
+                    save_history(img_id)
+                    print_now(f"  🏆 SUCCESS!")
+                else:
+                    print_now(f"  ⚠️ SmugMug Update Failed: {patch_resp.status_code} - {patch_resp.text}")
 
-                save_history(img_id)
-                print_now(f"  🏆 SUCCESS!")
                 count += 1
                 time.sleep(10)
             except Exception as e:
