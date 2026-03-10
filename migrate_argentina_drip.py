@@ -203,16 +203,21 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         print_now(f"  ⬇️ Downloading ({global_count + 1}/30): {img_id}")
         img_bytes = requests.get(img_url).content
         
-        # --- STRICT SCHEMA PROMPT ---
+       # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
-            f"Act as Lead SEO Architect for '{PROJECT_NAME}'. This photo is a joint production by "
-            f"travel photographers {AUTHOR} and {PARTNER}. Analyze this photo from {official_album_name}, Argentina. "
-            f"Attribute the photography and exploration to both Samuel Jeffery and Audrey Bergner. "
-            f"When {TEAM} are visible in the photo, clearly identify them. "
-            f"IMPORTANT: For the 'json_ld' response, you MUST return a valid schema where '@type' is 'ImageObject'. "
+            f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
+            f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
+            f"STRICT INSTRUCTIONS for the 'description' field:\n"
+            f"1. START immediately with a vivid, sensory description of the subject and location. NO AI INTROS or greetings.\n"
+            f"2. Focus on the atmosphere, technical photography (lighting, depth of field), and cultural context.\n"
+            f"3. DO NOT mention who is NOT in the photo. Only identify members of {TEAM} if they are physically visible in the image.\n"
+            f"4. At the very end of the English description, add this exact sentence: 'This image is a collaborative production by {AUTHOR} and {PARTNER} for {PROJECT_NAME}.'\n"
+            f"5. Provide ~10-12 high-quality sentences in English, then a '---' separator, then the exact Spanish translation.\n\n"
+            f"STRICT INSTRUCTIONS for the 'json_ld' field:\n"
+            f"You MUST return a valid schema where '@type' is 'ImageObject'. "
             f"The 'creator' field MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'. "
-            f"Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for both Person objects. "
-            f"Return JSON: 'title', 'description' (20 sentences, bilingual), 'tags' (50), 'json_ld'."
+            f"Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for both Person objects.\n\n"
+            f"Return JSON: 'title', 'description', 'tags' (50), 'json_ld'."
         )
         
         ai_data = None
