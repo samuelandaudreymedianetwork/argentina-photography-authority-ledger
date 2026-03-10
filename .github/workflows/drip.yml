@@ -1,7 +1,7 @@
 name: Argentina Authority Drip
 on:
   schedule:
-    # Runs every 3 hours to keep your 'Recent Activity' fresh
+    # 240 photos/day: 30 photos per run, every 3 hours
     - cron: '0 */3 * * *' 
   workflow_dispatch:   # Manual "Run now" button
 
@@ -20,7 +20,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      # IMPORTANT: Added requests-oauthlib for SmugMug God Mode
       - name: Install Tools
         run: pip install flickrapi google-genai requests requests-oauthlib
 
@@ -37,10 +36,13 @@ jobs:
           FLICKR_ACCESS_SECRET: ${{ secrets.FLICKR_ACCESS_SECRET }}
         run: python migrate_argentina_drip.py
 
+      # --- CRITICAL UPGRADE ---
       - name: Save Migration History
+        if: always() # Forces a save even if the run is canceled or fails halfway
         run: |
           git config --global user.name "Project 23 Bot"
           git config --global user.email "bot@samuelandaudrey.com"
           git pull origin main --rebase
           git add migration_history.json
+          # Only commit and push if there are actually changes to the history
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update Project 23 migration history [skip ci]" && git push)
