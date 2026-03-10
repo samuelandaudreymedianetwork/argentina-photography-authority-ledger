@@ -49,7 +49,7 @@ SITES_HTML = (
 
 SCHEMA_LINKS = [
     "https://cheargentinatravel.com", "https://nomadicsamuel.com",
-    "https://samueljeffery.net", "https://audreybergner.net", "https://samuelandaudrey.com"
+    "https://samueljeffery.net", "https://audreybergner.com", "https://samuelandaudrey.com"
 ]
 
 # ==========================================
@@ -127,40 +127,17 @@ PRIORITY_MAP = {
     "Puerto Madero Barrio": "8jkVcc"
 }
 
-# PHASE 2: SAFETY NET (Original Target List)
-TARGET_ALBUMS = [
-    "San-Telmo", "Puerto-Madero", "Buenos-Aires-2024", "San-Antonio-de-Areco",
-    "El-Chalten", "El-Calafate", "Estancia-Nibepo-Aike", "El-Bolson", "Lago-Puelo",
-    "El-Hoyo", "Trevelin", "Esquel", "Estancia-Tecka", "Estancia-Arroyo-Verde",
-    "Lago-Gutierrez-Bariloche", "Tolhuin", "Ushuaia", "Rada-Tilly", "Comodoro-Rivadavia",
-    "Ciudad-de-Cordoba", "Sierras-Chicas-Horse-Trek", "Humahuaca", "Nahuel-Huapi",
-    "Bariloche2019", "Tilcara", "Purmamarca-Salinas-Grandes", "Salta", "Chicoana",
-    "Cafayate", "Tucuman", "Tafi-del-Valle-Quilmes", "Trekking-Tierra-del-Fuego",
-    "Villa-Alpina", "Buenos-Aires-2019", "Rio-de-la-Plata", "Alta-Montaña-Mendoza",
-    "Mendoza", "Bodegas-Luminis", "Las-Grutas", "Tren-Patagonico", "Colonia-Suiza",
-    "Bariloche", "San-Martin-de-los-Andes", "Siete-Lagos", "Villa-La-Angostura",
-    "Fiesta-Gaucha-Laberinto", "Primos", "Piedra-Parada", "Los-Alerces",
-    "Finca-Adalgisa", "Cholila", "Fiesta-Nacional-del-Asado", "Bodegas-Lopez-Mendoza",
-    "Mar-del-Plata", "Feria-Masticar", "Villa-General-Belgrano", "Dolavon",
-    "Gaiman", "Puerto-Madryn", "Trelew", "Peninsula-Valdes", "La-Cumbrecita",
-    "Villa-Berna", "Buenos-Aires", "Iguazu-Falls", "Norte-Argentino", "Faces-of-Argentina"
-]
-
 # ==========================================
 # 4. INITIALIZATION
 # ==========================================
-print_now("🚀 Starting Hybrid Engine (Multi-Album Safe Mode w/ SEO Links)...")
+print_now("🚀 Starting Hybrid Engine (VIP-Surgical Mode w/ SEO Links)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
 MODEL_ID = "gemini-3.1-pro-preview"
 flickr = flickrapi.FlickrAPI(FLICKR_KEY, FLICKR_SECRET, format='etree')
 
 from flickrapi.auth import FlickrAccessToken
-token_obj = FlickrAccessToken(
-    token=FLICKR_ACCESS_TOKEN,
-    token_secret=FLICKR_ACCESS_SECRET,
-    access_level='write'
-)
+token_obj = FlickrAccessToken(token=FLICKR_ACCESS_TOKEN, token_secret=FLICKR_ACCESS_SECRET, access_level='write')
 flickr.token_cache.token = token_obj
 flickr.flickr_oauth.token = token_obj
 
@@ -262,13 +239,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         
         try:
             print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:30]}...")
-            up_resp = flickr.upload(
-                filename=temp_path, 
-                title=ai_data['title'], 
-                description=flickr_desc, 
-                tags=" ".join([f'"{t}"' for t in ai_data['tags']]),
-                is_public=1
-            )
+            up_resp = flickr.upload(filename=temp_path, title=ai_data['title'], description=flickr_desc, tags=" ".join([f'"{t}"' for t in ai_data['tags']]), is_public=1)
             photo_id = up_resp.find('photoid').text
             
             if not album_id:
@@ -296,20 +267,20 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         except Exception as e:
             print_now(f"  ❌ Failed: {e}")
         finally:
-            if os.path.exists(temp_path): 
+            if 'temp_path' in locals() and os.path.exists(temp_path): 
                 os.remove(temp_path)
                 
     return global_count
 
 # ==========================================
-# 6. EXECUTION ENGINE (FULL-FOCUS DEPTH-FIRST)
+# 6. EXECUTION ENGINE (VIP-ONLY DEPTH-FIRST)
 # ==========================================
 def run_migration():
     processed_history = load_history()
     global_count = 0
-    print_now("✅ Initialization Complete. Starting Full-Focus Run...")
+    print_now("✅ Initialization Complete. Running Priority List Only.")
 
-    # --- PHASE 1: VIP TELEPORT ---
+    # --- VIP TELEPORT ONLY ---
     for custom_name, album_key in PRIORITY_MAP.items():
         if global_count >= 30: break
 
@@ -322,58 +293,22 @@ def run_migration():
         unprocessed = [i for i in images if i.get('ImageKey') not in processed_history]
         
         if not unprocessed:
-            print_now(f"  ✅ {custom_name} is 100% complete. Skipping...")
+            print_now(f"  ✅ {custom_name} is 100% complete. Moving to next VIP target...")
             continue
 
         # Process as many as we can in THIS album up to the 30 limit
         print_now(f"  📂 Found {len(unprocessed)} photos remaining in {custom_name}. Processing...")
         global_count = process_album_images(unprocessed, custom_name, global_count, processed_history)
         
-        # CRITICAL: If we hit 30, we STOP EVERYTHING to maintain focus on this album.
+        # CRITICAL: Hard stop if we hit 30 to maintain depth focus
         if global_count >= 30:
             print_now(f"🛑 Hit 30-photo limit while working on {custom_name}. Stopping to maintain focus.")
             return 
 
-    # --- PHASE 2: FALLBACK DEEP SCAN ---
-    if global_count < 30:
-        print_now("🔍 PHASE 1 Complete. Searching for matches in remaining library...")
-        next_uri = f"https://api.smugmug.com/api/v2/user/{NICKNAME}!albums?count=500"
-        
-        while next_uri and global_count < 30:
-            resp = requests.get(next_uri, headers=headers, auth=smug_auth).json()
-            if 'Response' in resp and 'Album' in resp['Response']:
-                for album in resp['Response']['Album']:
-                    if global_count >= 30: break
-                    
-                    album_slug = album.get('UrlPath', '').split('/')[-1]
-                    if album_slug in TARGET_ALBUMS or album.get('Name') in TARGET_ALBUMS:
-                        
-                        img_api = f"https://api.smugmug.com{album['Uri']}!images"
-                        img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
-                        images = img_resp.get('Response', {}).get('AlbumImage', [])
-                        
-                        unprocessed_fb = [i for i in images if i.get('ImageKey') not in processed_history]
-                        
-                        if unprocessed_fb:
-                            print_now(f"📂 PHASE 2 - MATCH FOUND: {album['Name']}")
-                            unique_name = f"{album['Name']} ({album_slug})"
-                            global_count = process_album_images(unprocessed_fb, unique_name, global_count, processed_history)
-                            
-                            # Again, stop immediately if we hit the limit to keep it clean
-                            if global_count >= 30:
-                                print_now(f"🛑 Hit 30-photo limit in {album['Name']}. Stopping.")
-                                return
-
-                pages = resp['Response'].get('Pages', {})
-                next_path = pages.get('NextPage') or pages.get('Next')
-                next_uri = f"https://api.smugmug.com{next_path}" if next_path else None
-            else:
-                break
-
     if global_count >= 30:
         print_now("🛑 Global limit of 30 photos reached. Ending session.")
     else:
-        print_now("🏁 All targeted albums in the current list are 100% migrated.")
+        print_now("🏁 All albums in the PRIORITY_MAP have been 100% migrated.")
 
 if __name__ == "__main__":
     run_migration()
