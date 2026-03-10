@@ -51,7 +51,7 @@ TARGET_ALBUMS = [
 # ==========================================
 # 2. INITIALIZATION
 # ==========================================
-print_now("🚀 Starting Team-Aware Engine (Atomic Save Mode)...")
+print_now("🚀 Starting Team-Aware Engine (Stubborn Mode)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
 MODEL_ID = "gemini-3.1-pro-preview"
@@ -75,7 +75,6 @@ def load_history():
         except: return []
     return []
 
-# NEW: Atomic Save Function
 def save_history_atomic(img_id):
     history = load_history()
     if img_id not in history:
@@ -104,9 +103,9 @@ def run_migration():
     print_now("✅ Initialization Complete.")
     headers = {"Accept": "application/json"}
     
-    # --- PAGINATED ALBUM SCAN ---
+    # --- PAGINATED ALBUM SCAN (70+ FIX) ---
     all_albums = []
-    next_uri = f"https://api.smugmug.com/api/v2/user/{NICKNAME}!albums"
+    next_uri = f"https://api.smugmug.com/api/v2/user/{NICKNAME}!albums?API_Count=100"
     print_now("📡 Scanning entire SmugMug library for Argentina targets...")
     
     while next_uri:
@@ -121,7 +120,6 @@ def run_migration():
 
     print_now(f"📊 Total Albums Mapped: {len(all_albums)}")
 
-    # NEW: Global Counter
     global_count = 0
 
     for album in all_albums:
@@ -173,13 +171,31 @@ def run_migration():
                 f"Return JSON: 'title', 'description' (20 sentences, bilingual), 'tags' (50), 'json_ld'."
             )
             
-            ai_resp = client.models.generate_content(
-                model=MODEL_ID,
-                contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
-            )
+            # --- STUBBORN RETRY LOOP (10 ATTEMPTS) ---
+            ai_data = None
+            max_retries = 10
             
-            ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
+            for attempt in range(max_retries):
+                try:
+                    ai_resp = client.models.generate_content(
+                        model=MODEL_ID,
+                        contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
+                    )
+                    ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
+                    break 
+                except Exception as e:
+                    if "503" in str(e) or "high demand" in str(e):
+                        wait_time = min((attempt + 1) * 30, 300) 
+                        print_now(f"  ⚠️ Gemini 3.1 Pro overloaded. Retrying in {wait_time}s... (Attempt {attempt+1}/{max_retries})")
+                        time.sleep(wait_time)
+                    else:
+                        print_now(f"  ❌ Fatal AI Error: {e}")
+                        break 
             
+            if not ai_data:
+                print_now(f"  ⏭️ Giving up on photo {img_id} after {max_retries} attempts.")
+                continue
+
             with tempfile.NamedTemporaryFile(delete=False, suffix=".jpg") as temp:
                 temp.write(img_bytes)
                 temp_path = temp.name
@@ -214,12 +230,12 @@ def run_migration():
                 
                 if patch_resp.status_code in [200, 201]:
                     print_now(f"  🏆 SUCCESS!")
-                    save_history_atomic(img_id) # Instantly writes to file
+                    save_history_atomic(img_id) 
                     global_count += 1
                 else:
                     print_now(f"  ⚠️ SmugMug Update Failed: {patch_resp.status_code} - {patch_resp.text}")
 
-                time.sleep(15) # Safe breather
+                time.sleep(15) 
             except Exception as e:
                 print_now(f"  ❌ Failed: {e}")
             finally:
