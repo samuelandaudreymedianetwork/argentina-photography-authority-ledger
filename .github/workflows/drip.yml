@@ -1,9 +1,8 @@
 name: Argentina Authority Drip
 on:
   schedule:
-    # 240 photos/day: 30 photos per run, every 3 hours
     - cron: '0 */3 * * *' 
-  workflow_dispatch:   # Manual "Run now" button
+  workflow_dispatch: 
 
 jobs:
   run-migration:
@@ -36,27 +35,27 @@ jobs:
           FLICKR_ACCESS_SECRET: ${{ secrets.FLICKR_ACCESS_SECRET }}
         run: python migrate_argentina_drip.py
 
-      # --- STASH, PULL, POP UPGRADE ---
       - name: Save Migration History
-        if: always() # Forces a save even if the run is canceled or fails halfway
+        if: always() 
         run: |
           git config --global user.name "Project 23 Bot"
           git config --global user.email "bot@samuelandaudrey.com"
           
-          # 1. Add and stash the bot's work to clear the working directory
+          # Ensure we are on the correct branch
+          git checkout main
+          
+          # 1. Stage and Stash the bot's new IDs
           git add migration_history.json
           git stash
           
-          # 2. Safely pull your latest manual code edits
+          # 2. Pull your latest manual edits (San Telmo keys, etc.)
           git pull origin main --rebase
           
-          # 3. Bring the bot's history data back
-          git stash pop || echo "No stashed changes to apply"
+          # 3. Pop the IDs back in. If there is a conflict, 'ours' (the bot) wins.
+          git stash pop || git checkout --theirs migration_history.json
           
-          # 4. Stage it again (stash pop can sometimes leave things unstaged)
+          # 4. Final Stage and Push
           git add migration_history.json
-          
-          # 5. Explicitly check for changes and push
           if git diff --staged --quiet; then
             echo "No new history to save."
           else
