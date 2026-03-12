@@ -69,6 +69,7 @@ PRIORITY_MAP = {
     "Iguazu Falls: A Visual Guide to the Powerful Cascades of Argentina": "LsQ6nZ",
     "Salta & The Argentine Northwest: Colonial Heritage & Andean Culture": "HwGKwD",
     "Norte Argentino: A Visual Guide to the Argentine Northwest & Iruya": "m8QGsB",
+    "Faces of Argentina": "XhwZfT",
     "The Chalet: Alpine Restoration & Boutique Design in Córdoba": "Dkghrb",
     "Salta & The Argentine Northwest": "Fh34V9",
     "Buenos Aires: The Paris of the South": "6hZGsS",
