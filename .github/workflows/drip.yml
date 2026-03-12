@@ -33,6 +33,8 @@ jobs:
           FLICKR_API_SECRET: ${{ secrets.FLICKR_API_SECRET }}
           FLICKR_ACCESS_TOKEN: ${{ secrets.FLICKR_ACCESS_TOKEN }}
           FLICKR_ACCESS_SECRET: ${{ secrets.FLICKR_ACCESS_SECRET }}
+        # This ensures the Save step runs even if the Python script hits a Gemini error
+        continue-on-error: true
         run: python migrate_argentina_drip.py
 
       - name: Save Migration History
@@ -41,7 +43,8 @@ jobs:
           git config --global user.name "Project 23 Bot"
           git config --global user.email "bot@samuelandaudrey.com"
           
-          # Ensure we are on the correct branch
+          # Force sync to ensure the bot sees your manual website edits
+          git fetch origin main
           git checkout main
           
           # 1. Stage and Stash the bot's new IDs
@@ -51,7 +54,7 @@ jobs:
           # 2. Pull your latest manual edits (San Telmo keys, etc.)
           git pull origin main --rebase
           
-          # 3. Pop the IDs back in. If there is a conflict, 'ours' (the bot) wins.
+          # 3. Pop the IDs back in. If there is a conflict, 'theirs' (the bot's work) wins.
           git stash pop || git checkout --theirs migration_history.json
           
           # 4. Final Stage and Push
