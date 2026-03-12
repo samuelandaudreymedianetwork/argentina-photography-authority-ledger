@@ -234,7 +234,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 break 
             except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
-                    wait_time = min((attempt + 1) * 30, 300) 
+                    wait_time = min((attempt + 1) * 20, 60) 
                     print_now(f"  ⚠️ Gemini overloaded. Retrying in {wait_time}s... (Attempt {attempt+1}/{max_retries})")
                     time.sleep(wait_time)
                 else:
@@ -279,7 +279,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             else:
                 print_now(f"  ⚠️ SmugMug Update Failed: {patch_resp.status_code}")
 
-            time.sleep(15) 
+            time.sleep(20) 
         except Exception as e:
             print_now(f"  ❌ Failed: {e}")
         finally:
