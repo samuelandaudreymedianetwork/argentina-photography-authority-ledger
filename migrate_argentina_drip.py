@@ -224,10 +224,10 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"Return JSON: 'title', 'description', 'tags' (50), 'json_ld'."
         )
         
-        ai_data = None
+      ai_data = None
         max_retries = 10
         
-       for attempt in range(max_retries):
+        for attempt in range(max_retries):
             try:
                 ai_resp = client.models.generate_content(
                     model=MODEL_ID,
