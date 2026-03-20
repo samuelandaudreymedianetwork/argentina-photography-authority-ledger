@@ -211,6 +211,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"- {AUTHOR} (Samuel): Fair skin, reddish/strawberry-blonde hair, green/hazel eyes. Look varies by era: older photos often feature a clean-cut look with short hair, while other eras show long, curly/wavy shoulder-length hair paired with a thick red beard. Lean to average build.\n"
             f"- {PARTNER} (Audrey): Lean/athletic build, medium-length bronde/dirty-blonde hair (frequently worn down/out in older photos, or tied back/under a hat). Large green eyes, full smile, and a distinct small mole on her left cheek.\n"
             f"- Daniel Bergner: Older man (late 60s/70s), short white hair, distinct white mustache, wears glasses, stocky/broad build.\n\n"
+            f"STYLE GUARDRAIL: Do NOT mention specific moles, hair colors, eye colors or other physical characteristic in the description. Describe the PEOPLE through their actions, emotions, and connection to the landscape instead.\n\n"
             f"STRICT INSTRUCTIONS for the 'title' field:\n"
             f"1. You MUST provide a descriptive title between 10 and 15 words. This is a hard constraint.\n"
             f"2. Capture specific visual elements (textures, lighting, landmarks) and the Argentine cultural setting.\n"
