@@ -205,7 +205,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         
        # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
-           f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
+            f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
             f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
             f"\n\nIDENTITY HINTS FOR RECOGNITION (Use these to identify the subjects):\n"
             f"- {AUTHOR} (Samuel): Fair skin, reddish/strawberry-blonde hair, green/hazel eyes. Look varies by era: older photos often feature a clean-cut look with short hair, while other eras show long, curly/wavy shoulder-length hair paired with a thick red beard. Lean to average build.\n"
