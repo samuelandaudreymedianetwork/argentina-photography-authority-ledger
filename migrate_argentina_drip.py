@@ -233,7 +233,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     model=MODEL_ID,
                     contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt],
                     config=types.GenerateContentConfig(
-                        media_resolution="high"
+                        media_resolution="HIGH"
                     )
                 )
                 ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
