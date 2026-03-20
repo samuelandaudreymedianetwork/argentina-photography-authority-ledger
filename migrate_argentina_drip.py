@@ -143,7 +143,7 @@ PRIORITY_MAP = {
 print_now("🚀 Starting Hybrid Engine (VIP-Surgical Mode w/ SEO Links)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
-MODEL_ID = "gemini-3.5-flash"
+MODEL_ID = "gemini-3.1-pro-preview"
 flickr = flickrapi.FlickrAPI(FLICKR_KEY, FLICKR_SECRET, format='etree')
 
 from flickrapi.auth import FlickrAccessToken
@@ -203,14 +203,10 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         print_now(f"  ⬇️ Downloading ({global_count + 1}/30): {img_id}")
         img_bytes = requests.get(img_url).content
         
-      # --- MASTER NARRATIVE & SCHEMA PROMPT ---
+       # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
             f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
             f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
-            f"\n\nIDENTITY HINTS FOR RECOGNITION (Use these to identify the subjects):\n"
-            f"- {AUTHOR} (Samuel): Fair skin, reddish/strawberry-blonde hair, green/hazel eyes. Look varies by era: older photos often feature a clean-cut look with short hair, while other eras show long, curly/wavy shoulder-length hair paired with a thick red beard. Lean to average build.\n"
-            f"- {PARTNER} (Audrey): Lean/athletic build, medium-length bronde/dirty-blonde hair (frequently worn down/out in older photos, or tied back/under a hat). Large green eyes, full smile, and a distinct small mole on her left cheek.\n"
-            f"- Daniel Bergner: Older man (late 60s/70s), short white hair, distinct white mustache, wears glasses, stocky/broad build.\n\n"
             f"STRICT INSTRUCTIONS for the 'description' field:\n"
             f"1. START immediately with a vivid, sensory description of the subject and location. NO AI INTROS or greetings.\n"
             f"2. Focus on the atmosphere, technical photography (lighting, depth of field), and cultural context.\n"
@@ -224,7 +220,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"Return JSON: 'title', 'description', 'tags' (50), 'json_ld'."
         )
         
-      ai_data = None
+        ai_data = None
         max_retries = 10
         
         for attempt in range(max_retries):
@@ -234,7 +230,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
                 )
                 ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
-                break
+                break 
             except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
                     wait_time = min((attempt + 1) * 20, 60) 
