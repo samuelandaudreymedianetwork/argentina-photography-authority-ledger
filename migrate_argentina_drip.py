@@ -143,7 +143,7 @@ PRIORITY_MAP = {
 print_now("🚀 Starting Hybrid Engine (VIP-Surgical Mode w/ SEO Links)...")
 
 client = genai.Client(api_key=GEMINI_KEY)
-MODEL_ID = "gemini-3.5-flash"
+MODEL_ID = "gemini-3.1-flash-lite-preview"
 flickr = flickrapi.FlickrAPI(FLICKR_KEY, FLICKR_SECRET, format='etree')
 
 from flickrapi.auth import FlickrAccessToken
