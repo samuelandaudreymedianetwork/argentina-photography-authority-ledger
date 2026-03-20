@@ -231,10 +231,13 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             try:
                 ai_resp = client.models.generate_content(
                     model=MODEL_ID,
-                    contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
+                    contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt],
+                    config=types.GenerateContentConfig(
+                        media_resolution="high"
+                    )
                 )
                 ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
-                break 
+                break
             except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
                     wait_time = min((attempt + 1) * 20, 60) 
