@@ -65,21 +65,6 @@ SCHEMA_LINKS = [
 
 # PHASE 1: VIP MAP (Direct Teleport using Secret Keys)
 PRIORITY_MAP = {
-    "Iguazu Falls: A Visual Guide to the Powerful Cascades of Argentina": "LsQ6nZ",
-    "Salta & The Argentine Northwest: Colonial Heritage & Andean Culture": "HwGKwD",
-    "Norte Argentino: A Visual Guide to the Argentine Northwest & Iruya": "m8QGsB",
-    "Faces of Argentina": "XhwZfT",
-    "The Chalet: Alpine Restoration & Boutique Design in Córdoba": "Dkghrb",
-    "Salta & The Argentine Northwest": "Fh34V9",
-    "Buenos Aires: The Paris of the South": "6hZGsS",
-    "Villa Berna: Secluded Alpine Charm": "wdFKS7",
-    "La Cumbrecita: Pedestrian Alpine Village": "4ZLgK5",
-    "Península Valdés: UNESCO Wildlife": "KJ9CCC",
-    "Trelew: Welsh Heritage": "mCQXhJ",
-    "Puerto Madryn: Wildlife Gateway": "X9NkvD",
-    "Gaiman: Welsh Heritage & Tea Houses": "2Qwjgt",
-    "Dolavon: Welsh Heritage & Flour Mills": "fv2nJF",
-    "Villa General Belgrano: German Heritage": "m9qXTZ",
     "Feria Masticar Mar del Plata": "McTftj",
     "Mar del Plata: Atlantic Architecture": "ZZXqw7",
     "Bodegas López: Historic Wine Cellars": "2Jxpmt",
