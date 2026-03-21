@@ -288,7 +288,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             else:
                 print_now(f"  ⚠️ SmugMug Update Failed: {patch_resp.status_code}")
 
-            time.sleep(random.randint(31, 51)) 
+            time.sleep(41)
         except Exception as e:
             print_now(f"  ❌ Failed: {e}")
         finally:
