@@ -188,7 +188,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
     album_id = get_or_create_flickr_album(official_album_name)
     
     for img in images:
-        if global_count >= 40: 
+        if global_count >= 43: 
             return global_count
             
         img_id = img.get('ImageKey')
@@ -200,7 +200,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         if not img_url: 
             continue
         
-        print_now(f"  ⬇️ Downloading ({global_count + 1}/40): {img_id}")
+        print_now(f"  ⬇️ Downloading ({global_count + 1}/43): {img_id}")
         img_bytes = requests.get(img_url).content
         
        # --- MASTER NARRATIVE & SCHEMA PROMPT ---
@@ -263,7 +263,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         smug_caption = f"{ai_data['description']}{SITES_PLAIN}\n\nPhoto by {AUTHOR} & {PARTNER}"
         
         try:
-            print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:40]}...")
+            print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:43]}...")
             up_resp = flickr.upload(filename=temp_path, title=ai_data['title'], description=flickr_desc, tags=" ".join([f'"{t}"' for t in ai_data['tags']]), is_public=1)
             photo_id = up_resp.find('photoid').text
             
@@ -307,7 +307,7 @@ def run_migration():
 
     # --- VIP TELEPORT ONLY ---
     for custom_name, album_key in PRIORITY_MAP.items():
-        if global_count >= 40: break
+        if global_count >= 43: break
 
         print_now(f"⚡ Checking VIP Album: {custom_name} (Key: {album_key})")
         img_api = f"https://api.smugmug.com/api/v2/album/{album_key}!images?count=10000"
@@ -321,17 +321,17 @@ def run_migration():
             print_now(f"  ✅ {custom_name} is 100% complete. Moving to next VIP target...")
             continue
 
-        # Process as many as we can in THIS album up to the 40 limit
+        # Process as many as we can in THIS album up to the 43 limit
         print_now(f"  📂 Found {len(unprocessed)} photos remaining in {custom_name}. Processing...")
         global_count = process_album_images(unprocessed, custom_name, global_count, processed_history)
         
-        # CRITICAL: Hard stop if we hit 40 to maintain depth focus
-        if global_count >= 40:
-            print_now(f"🛑 Hit 40-photo limit while working on {custom_name}. Stopping to maintain focus.")
+        # CRITICAL: Hard stop if we hit 43 to maintain depth focus
+        if global_count >= 43:
+            print_now(f"🛑 Hit 43-photo limit while working on {custom_name}. Stopping to maintain focus.")
             return 
 
-    if global_count >= 40:
-        print_now("🛑 Global limit of 40 photos reached. Ending session.")
+    if global_count >= 43:
+        print_now("🛑 Global limit of 43 photos reached. Ending session.")
     else:
         print_now("🏁 All albums in the PRIORITY_MAP have been 100% migrated.")
 
