@@ -188,7 +188,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         print_now(f"  ⬇️ Downloading ({global_count + 1}/43): {img_id}")
         img_bytes = requests.get(img_url).content
         
-       # --- MASTER NARRATIVE & SCHEMA PROMPT ---
+      # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
             f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
             f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
@@ -199,19 +199,26 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"STYLE GUARDRAIL: Do NOT mention specific moles, hair colors, eye colors or other physical characteristic in the description. Describe the PEOPLE through their actions, emotions, and connection to the landscape instead.\n\n"
             f"STRICT INSTRUCTIONS for the 'title' field:\n"
             f"1. You MUST provide a descriptive title between 10 and 15 words. This is a hard constraint.\n"
-            f"2. Capture specific visual elements (textures, lighting, landmarks) and the Argentine cultural setting.\n"
-            f"3. Example: 'Rustic Stone Architecture and Traditional Welsh Tea House in the Village of Gaiman Chubut'.\n\n"
+            f"2. Format the title using this pattern: Subject + Place + Region + Distinguishing Feature.\n"
+            f"3. Within that pattern, capture specific visual elements (textures, lighting, landmarks) and the Argentine cultural setting.\n"
+            f"4. Example: 'Rustic Stone Architecture and Traditional Welsh Tea House in the Village of Gaiman Chubut'.\n\n"
             f"STRICT INSTRUCTIONS for the 'description' field:\n"
-            f"1. START immediately with a vivid, sensory description of the subject and location. NO AI INTROS or greetings.\n"
-            f"2. Focus on the atmosphere, technical photography (lighting, depth of field), and cultural context.\n"
-            f"3. Use a mix of complex and compound sentences to ensure the narrative feels professional and authoritative.\n"
-            f"4. DO NOT mention who is NOT in the photo. Only identify members of {TEAM} if they are physically visible in the image.\n"
-            f"5. At the very end of the English description, add this exact sentence: 'This image is a collaborative production by {AUTHOR} and {PARTNER} for {PROJECT_NAME}.'\n"
-            f"6. Provide ~10-12 high-quality sentences in English, then a '---' separator, then the exact Spanish translation.\n\n"
+            f"1. The FIRST sentence MUST begin with the exact place name, province, and subject (e.g., 'Villa La Angostura, Neuquén: A white catamaran...').\n"
+            f"2. Immediately follow with your vivid, sensory description of the subject and location. START immediately; NO AI INTROS or greetings.\n"
+            f"3. Focus on the atmosphere, technical photography (lighting, depth of field), and cultural context.\n"
+            f"4. Use a mix of complex and compound sentences to ensure the narrative feels professional and authoritative.\n"
+            f"5. DO NOT mention who is NOT in the photo. Only identify members of {TEAM} if they are physically visible in the image.\n"
+            f"6. At the very end of the English description, add this exact sentence: 'This image is a collaborative production by {AUTHOR} and {PARTNER} for {PROJECT_NAME}.'\n"
+            f"7. Provide ~10-12 high-quality sentences in English, then a '---' separator, then the exact Spanish translation.\n\n"
+            f"STRICT INSTRUCTIONS for the 'tags' field:\n"
+            f"1. Return EXACTLY 50 tags. Prioritize specific locations, regional geography, and cultural terms.\n"
+            f"2. DO NOT include generic, low-value filler tags (e.g., 'Boat', 'Blue Water', 'Nature', 'Outdoor', 'Scenic').\n"
+            f"3. SAFETY: Avoid tags associated with nudity, voyeurism, or ambiguous terms that drift into unsafe categories.\n\n"
             f"STRICT INSTRUCTIONS for the 'json_ld' field:\n"
-            f"You MUST return a valid schema where '@type' is 'ImageObject'. "
-            f"The 'creator' field MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'. "
-            f"Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for both Person objects.\n\n"
+            f"1. You MUST return a valid schema where '@context' is 'https://schema.org' and '@type' is 'ImageObject'.\n"
+            f"2. CRITICAL: DO NOT include a 'contentUrl' field at all in the JSON.\n"
+            f"3. The 'creator' field MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'.\n"
+            f"4. Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for both Person objects.\n\n"
             f"Return JSON: 'title', 'description', 'tags' (50), 'json_ld'."
         )
         
