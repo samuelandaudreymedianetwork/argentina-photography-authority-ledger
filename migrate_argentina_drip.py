@@ -235,7 +235,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 )
                 ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
                 break 
-            except Exception as e:
+          except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
                     wait_time = min((attempt + 1) * 20, 60) 
                     print_now(f"  ⚠️ Gemini overloaded. Retrying in {wait_time}s... (Attempt {attempt+1}/{max_retries})")
@@ -243,11 +243,18 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 else:
                     print_now(f"  ❌ Fatal AI Error: {e}")
                     break 
+
+        # --- NEW SURGICAL FIX: Forcibly strip hallucinated URLs ---
+        if ai_data and 'json_ld' in ai_data:
+            ai_data['json_ld'].pop('contentUrl', None)
+        # ----------------------------------------------------------
         
-     # Check if we have the necessary keys and tag count before proceeding
+        # Check if we have the necessary keys and tag count before proceeding
         required_keys = ['title', 'description', 'tags', 'json_ld']
         if not ai_data or not all(k in ai_data for k in required_keys) or len(ai_data.get('tags', [])) != 50:
             print_now(f"  ⚠️ Validation Failed for {img_id}. Data incomplete or tags != 50. Skipping.")
+            print_now("  🛑 Forcing a 60-second global cooldown to let the API recover...")
+            time.sleep(60)
             continue
 
         # --- LOCAL SIDECAR SAVE (Data Provenance) ---
