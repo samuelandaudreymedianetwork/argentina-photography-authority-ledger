@@ -233,7 +233,17 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     model=MODEL_ID,
                     contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
                 )
-                ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
+               # Surgically isolate the JSON object to ignore AI "chatter"
+                raw_text = ai_resp.text.strip()
+                start_idx = raw_text.find('{')
+                end_idx = raw_text.rfind('}') + 1
+                
+                if start_idx != -1 and end_idx > 0:
+                    # Extracts ONLY the content between the first { and the last }
+                    ai_data = json.loads(raw_text[start_idx:end_idx])
+                else:
+                    # Fallback to your original logic if no braces are found
+                    ai_data = json.loads(raw_text.replace('```json', '').replace('```', '').strip())
                 break 
             except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
