@@ -235,7 +235,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 )
                 ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
                 break 
-          except Exception as e:
+            except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
                     wait_time = min((attempt + 1) * 20, 60) 
                     print_now(f"  ⚠️ Gemini overloaded. Retrying in {wait_time}s... (Attempt {attempt+1}/{max_retries})")
