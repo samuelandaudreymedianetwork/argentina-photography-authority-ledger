@@ -185,10 +185,17 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         if not img_url: 
             continue
         
+        # --- FIX 1: NETWORK RESILIENCE (Stops SmugMug Timeouts from Crashing) ---
         print_now(f"  ⬇️ Downloading ({global_count + 1}/43): {img_id}")
-        img_bytes = requests.get(img_url).content
-        
-     # --- MASTER NARRATIVE & SCHEMA PROMPT ---
+        try:
+            img_resp = requests.get(img_url, timeout=20)
+            img_resp.raise_for_status()
+            img_bytes = img_resp.content
+        except Exception as e:
+            print_now(f"  ❌ Download Failed for {img_id}: {e}")
+            continue
+
+        # --- MASTER NARRATIVE & SCHEMA PROMPT (100% Detail) ---
         prompt = (
             f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
             f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
@@ -229,21 +236,15 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         
         for attempt in range(max_retries):
             try:
+                # --- FIX 2: NATIVE JSON MODE (Eliminates "Extra data" Errors) ---
                 ai_resp = client.models.generate_content(
                     model=MODEL_ID,
-                    contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
+                    contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt],
+                    config=types.GenerateContentConfig(
+                        response_mime_type='application/json' # Forces clean output
+                    )
                 )
-               # Surgically isolate the JSON object to ignore AI "chatter"
-                raw_text = ai_resp.text.strip()
-                start_idx = raw_text.find('{')
-                end_idx = raw_text.rfind('}') + 1
-                
-                if start_idx != -1 and end_idx > 0:
-                    # Extracts ONLY the content between the first { and the last }
-                    ai_data = json.loads(raw_text[start_idx:end_idx])
-                else:
-                    # Fallback to your original logic if no braces are found
-                    ai_data = json.loads(raw_text.replace('```json', '').replace('```', '').strip())
+                ai_data = json.loads(ai_resp.text)
                 break 
             except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
@@ -254,13 +255,13 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     print_now(f"  ❌ Fatal AI Error: {e}")
                     break 
         
-     # Check if we have the necessary keys and tag count before proceeding
+        # --- FIX 3: PRODUCTION-GRADE VALIDATION ---
         required_keys = ['title', 'description', 'tags', 'json_ld']
         if not ai_data or not all(k in ai_data for k in required_keys) or len(ai_data.get('tags', [])) != 50:
             print_now(f"  ⚠️ Validation Failed for {img_id}. Data incomplete or tags != 50. Skipping.")
             continue
 
-        # --- LOCAL SIDECAR SAVE (Data Provenance) ---
+        # --- FIX 4: LOCAL SIDECAR SAVE (Ensures Data Provenance) ---
         sidecar_dir = "metadata_sidecars"
         os.makedirs(sidecar_dir, exist_ok=True)
         with open(os.path.join(sidecar_dir, f"{img_id}.json"), 'w', encoding='utf-8') as f:
