@@ -185,15 +185,8 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         if not img_url: 
             continue
         
-       print_now(f"  ⬇️ Downloading ({global_count + 1}/43): {img_id}")
-        try:
-            # Added a 20-second timeout and error checking to prevent script crashes
-            img_resp = requests.get(img_url, timeout=20)
-            img_resp.raise_for_status()
-            img_bytes = img_resp.content
-        except Exception as e:
-            print_now(f"  ❌ Download Failed for {img_id}: {e}")
-            continue # Skip this specific image and move to the next one
+        print_now(f"  ⬇️ Downloading ({global_count + 1}/43): {img_id}")
+        img_bytes = requests.get(img_url).content
         
      # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
