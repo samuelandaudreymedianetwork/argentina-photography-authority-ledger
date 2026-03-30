@@ -247,12 +247,24 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         
         try:
             print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:43]}...")
-            up_resp = flickr.upload(filename=temp_path, title=ai_data['title'], description=flickr_desc, tags=" ".join([f'"{t}"' for t in ai_data['tags']]), is_public=1)
-            photo_id = up_resp.find('photoid').text
-            if not album_id:
-                album_id = get_or_create_flickr_album(official_album_name, primary_photo_id=photo_id)
-            elif photo_id:
-                flickr.photosets.addPhoto(photoset_id=album_id, photo_id=photo_id)
+            
+            # --- FLICKR RETRY LOOP ---
+            for f_attempt in range(3):
+                try:
+                    up_resp = flickr.upload(filename=temp_path, title=ai_data['title'], description=flickr_desc, tags=" ".join([f'"{t}"' for t in ai_data['tags']]), is_public=1)
+                    photo_id = up_resp.find('photoid').text
+                    if not album_id:
+                        album_id = get_or_create_flickr_album(official_album_name, primary_photo_id=photo_id)
+                    elif photo_id:
+                        flickr.photosets.addPhoto(photoset_id=album_id, photo_id=photo_id)
+                    break  # Success! Break out of the retry loop.
+                except Exception as f_err:
+                    if f_attempt < 2:
+                        print_now(f"  ⚠️ Flickr Error/Timeout. Retrying ({f_attempt+1}/3) in 10s...")
+                        time.sleep(10)
+                    else:
+                        raise Exception(f"Flickr Upload Permanently Failed: {f_err}")
+            # -------------------------
             
             print_now(f"  🔄 Updating SmugMug...")
             smug_payload = {"Title": ai_data['title'], "Caption": smug_caption, "Keywords": ",".join(ai_data['tags'])}
