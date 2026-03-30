@@ -285,7 +285,12 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             
            smug_success = False
             for sm_attempt in range(3):
-                patch_resp = requests.patch(f"[https://api.smugmug.com](https://api.smugmug.com){img_uri}", headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
+                patch_resp = requests.patch(
+                    f"https://api.smugmug.com{img_uri}", 
+                    headers={"Accept": "application/json", "Content-Type": "application/json"}, 
+                    auth=smug_auth, 
+                    json=smug_payload
+                )
                 
                 if patch_resp.status_code in [200, 201]:
                     smug_success = True
