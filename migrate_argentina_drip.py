@@ -60,7 +60,6 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "Humahuaca: 14-Colored Mountain": "zhc7rV",
     "Sierras Chicas: Gaucho Horse Trek": "x5ZkWd",
     "Córdoba City: Jesuit Heritage": "b9BwFS",
     "Comodoro Rivadavia": "tczXXh",
