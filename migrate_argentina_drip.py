@@ -65,8 +65,6 @@ SCHEMA_LINKS = [
 
 # PHASE 1: VIP MAP (Direct Teleport using Secret Keys)
 PRIORITY_MAP = {
-    "Purmamarca & Salinas Grandes": "KghTCN",
-    "Tilcara: Ancient Pucará Ruins": "bT5xNp",
     "Bariloche: Gateway to Lake District": "PV7Pbg",
     "Nahuel Huapi: Glacial Lakes": "XPPbt3",
     "Humahuaca: 14-Colored Mountain": "zhc7rV",
