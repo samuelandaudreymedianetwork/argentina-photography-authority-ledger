@@ -33,7 +33,6 @@ HISTORY_FILE = "migration_history.json"
 # ==========================================
 # 2. AUTHORITY WEBSITES
 # ==========================================
-# Standard format for SmugMug (Plain text auto-links)
 SITES_PLAIN = (
     "\n\nExplore more of our work:\n"
     "🇦🇷 Local Guides: https://cheargentinatravel.com & https://nomadicsamuel.com\n"
@@ -41,7 +40,6 @@ SITES_PLAIN = (
     "📊 Project 23 Master Database: https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
 )
 
-# HTML format for Flickr (Makes them clickable)
 SITES_HTML = (
     "\n\nExplore more of our work:\n"
     "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
@@ -49,7 +47,6 @@ SITES_HTML = (
     "📊 <a href='https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23'>Project 23 Master Database</a>"
 )
 
-# Links for JSON-LD sameAs array (Crucial for Entity Building)
 SCHEMA_LINKS = [
     "https://cheargentinatravel.com", 
     "https://nomadicsamuel.com",
@@ -62,8 +59,6 @@ SCHEMA_LINKS = [
 # ==========================================
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
-
-# PHASE 1: VIP MAP (Direct Teleport using Secret Keys)
 PRIORITY_MAP = {
     "Bariloche: Gateway to Lake District": "PV7Pbg",
     "Nahuel Huapi: Glacial Lakes": "XPPbt3",
@@ -157,7 +152,6 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         print_now(f"  ⬇️ Downloading ({global_count + 1}/{session_limit}): {img_id}")
         img_bytes = requests.get(img_url).content
         
-        # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
             f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
             f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
@@ -195,19 +189,15 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         
         ai_data = None
         max_retries = 10
-        
         for attempt in range(max_retries):
             try:
                 ai_resp = client.models.generate_content(
                     model=MODEL_ID,
                     contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
                 )
-                
                 raw_text = ai_resp.text.strip()
-                # Find the very first { and the very last }
                 start_idx = raw_text.find('{')
                 end_idx = raw_text.rfind('}')
-                
                 if start_idx != -1 and end_idx != -1:
                     clean_json = raw_text[start_idx:end_idx+1]
                     ai_data = json.loads(clean_json)
@@ -223,33 +213,25 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     print_now(f"  ❌ Fatal AI Error: {e}")
                     break 
 
-        # --- NEW SURGICAL FIX: Forcibly strip hallucinated URLs ---
         if ai_data and 'json_ld' in ai_data:
             ai_data['json_ld'].pop('contentUrl', None)
-        # ----------------------------------------------------------
         
-        # Check if we have the necessary keys
         required_keys = ['title', 'description', 'tags', 'json_ld']
         if not ai_data or not all(k in ai_data for k in required_keys):
             print_now(f"  ⚠️ Validation Failed for {img_id}. Missing core schema keys. Skipping.")
-            time.sleep(10) # Short breather, not a full 60s cooldown
+            time.sleep(10)
             continue
 
-        # Forgiving Tag Validation: Pad or Trim to exactly 50
         core_fallback_tags = ["Argentina", "Travel Photography", "South America", "Wanderlust", "Travel", "Landscape", "Samuel Jeffery", "Audrey Bergner"]
         current_tags = ai_data.get('tags', [])
-        
         if len(current_tags) < 50:
             needed = 50 - len(current_tags)
-            # Add fallback tags that aren't already in the list
             padding = [t for t in core_fallback_tags if t not in current_tags][:needed]
             current_tags.extend(padding)
         elif len(current_tags) > 50:
             current_tags = current_tags[:50]
-            
         ai_data['tags'] = current_tags
 
-        # --- LOCAL SIDECAR SAVE (Data Provenance) ---
         sidecar_dir = "metadata_sidecars"
         os.makedirs(sidecar_dir, exist_ok=True)
         with open(os.path.join(sidecar_dir, f"{img_id}.json"), 'w', encoding='utf-8') as f:
@@ -260,7 +242,6 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             temp.write(img_bytes)
             temp_path = temp.name
 
-        # --- DUAL-FORMAT FOOTERS ---
         flickr_desc = f"{ai_data['description']}{SITES_HTML}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}\n\n<script type=\"application/ld+json\">{json.dumps(ai_data['json_ld'])}</script>"
         smug_caption = f"{ai_data['description']}{SITES_PLAIN}\n\nPhoto by {AUTHOR} & {PARTNER}"
         
@@ -268,23 +249,16 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:43]}...")
             up_resp = flickr.upload(filename=temp_path, title=ai_data['title'], description=flickr_desc, tags=" ".join([f'"{t}"' for t in ai_data['tags']]), is_public=1)
             photo_id = up_resp.find('photoid').text
-            
             if not album_id:
                 album_id = get_or_create_flickr_album(official_album_name, primary_photo_id=photo_id)
             elif photo_id:
                 flickr.photosets.addPhoto(photoset_id=album_id, photo_id=photo_id)
             
             print_now(f"  🔄 Updating SmugMug...")
-            smug_payload = {
-                "Title": ai_data['title'], 
-                "Caption": smug_caption, 
-                "Keywords": ",".join(ai_data['tags'])
-            }
-            
+            smug_payload = {"Title": ai_data['title'], "Caption": smug_caption, "Keywords": ",".join(ai_data['tags'])}
             smug_success = False
             for sm_attempt in range(3):
                 patch_resp = requests.patch(f"https://api.smugmug.com{img_uri}", headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
-                
                 if patch_resp.status_code in [200, 201]:
                     smug_success = True
                     break
@@ -292,7 +266,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     print_now(f"  ⚠️ SmugMug {patch_resp.status_code}. Retrying ({sm_attempt+1}/3) in 5s...")
                     time.sleep(5)
                 else:
-                    break # Fatal error, don't retry (e.g., 404 Not Found)
+                    break
                     
             if smug_success:
                 print_now(f"  🏆 SUCCESS!")
@@ -304,13 +278,11 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             sleep_time = random.uniform(30, 35)
             print_now(f"  ⏳ Respecting API: Sleeping for {sleep_time:.2f}s...")
             time.sleep(sleep_time)
-            
         except Exception as e:
             print_now(f"  ❌ Failed: {e}")
         finally:
             if 'temp_path' in locals() and os.path.exists(temp_path): 
                 os.remove(temp_path)
-                
     return global_count
 
 # ==========================================
@@ -320,11 +292,10 @@ def run_migration():
     processed_history = load_history()
     global_count = 0
     
-    # --- NEW: Dynamic Session Limit ---
+    # --- DYNAMIC LIMIT: 55 to 65 photos ---
     SESSION_LIMIT = random.randint(55, 65)
     print_now(f"✅ Initialization Complete. Target limit for this session: {SESSION_LIMIT} photos.")
 
-    # --- VIP TELEPORT ONLY ---
     for custom_name, album_key in PRIORITY_MAP.items():
         if global_count >= SESSION_LIMIT: break
 
@@ -332,19 +303,16 @@ def run_migration():
         img_api = f"https://api.smugmug.com/api/v2/album/{album_key}!images?count=10000"
         img_resp = requests.get(img_api, headers=headers, auth=smug_auth).json()
         images = img_resp.get('Response', {}).get('AlbumImage', [])
-        
-        # Filter for only what hasn't been done yet
         unprocessed = [i for i in images if i.get('ImageKey') not in processed_history]
         
         if not unprocessed:
             print_now(f"  ✅ {custom_name} is 100% complete. Moving to next VIP target...")
             continue
 
-        # Process as many as we can in THIS album up to the limit
         print_now(f"  📂 Found {len(unprocessed)} photos remaining in {custom_name}. Processing...")
+        # PASS THE DYNAMIC LIMIT
         global_count = process_album_images(unprocessed, custom_name, global_count, processed_history, SESSION_LIMIT)
         
-        # CRITICAL: Hard stop if we hit the limit to maintain depth focus
         if global_count >= SESSION_LIMIT:
             print_now(f"🛑 Hit {SESSION_LIMIT}-photo limit while working on {custom_name}. Stopping to maintain focus.")
             return 
