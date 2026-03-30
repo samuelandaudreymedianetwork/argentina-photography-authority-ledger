@@ -65,15 +65,6 @@ SCHEMA_LINKS = [
 
 # PHASE 1: VIP MAP (Direct Teleport using Secret Keys)
 PRIORITY_MAP = {
-    "Río de la Plata: Sailing": "ZpkT5n",
-    "Buenos Aires: Architecture & Landmarks": "xdPXcq",
-    "Villa Alpina: Gateway to Champaquí": "BJDPWJ",
-    "Ushuaia Trekking": "6BGzf9",
-    "Tafí del Valle & Quilmes Ruins": "pk5Pd2",
-    "Tucumán: Historic Independence": "JxLDph",
-    "Cafayate: Torrontés Vineyards": "z8Rqg8",
-    "Chicoana: Gaucho Traditions": "6DgRWw",
-    "Salta: Colonial Heritage": "ssJKWS",
     "Purmamarca & Salinas Grandes": "KghTCN",
     "Tilcara: Ancient Pucará Ruins": "bT5xNp",
     "Bariloche: Gateway to Lake District": "PV7Pbg",
