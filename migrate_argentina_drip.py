@@ -159,7 +159,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         print_now(f"  ⬇️ Downloading ({global_count + 1}/43): {img_id}")
         img_bytes = requests.get(img_url).content
         
-     # --- MASTER NARRATIVE & SCHEMA PROMPT ---
+        # --- MASTER NARRATIVE & SCHEMA PROMPT ---
         prompt = (
             f"Act as a professional travel documentary photographer and regional expert for '{PROJECT_NAME}'. "
             f"Analyze this photo from {official_album_name}, Argentina, shot by {AUTHOR} and {PARTNER}. "
@@ -230,7 +230,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             ai_data['json_ld'].pop('contentUrl', None)
         # ----------------------------------------------------------
         
-       # Check if we have the necessary keys
+        # Check if we have the necessary keys
         required_keys = ['title', 'description', 'tags', 'json_ld']
         if not ai_data or not all(k in ai_data for k in required_keys):
             print_now(f"  ⚠️ Validation Failed for {img_id}. Missing core schema keys. Skipping.")
@@ -283,14 +283,9 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 "Keywords": ",".join(ai_data['tags'])
             }
             
-           smug_success = False
+            smug_success = False
             for sm_attempt in range(3):
-                patch_resp = requests.patch(
-                    f"https://api.smugmug.com{img_uri}", 
-                    headers={"Accept": "application/json", "Content-Type": "application/json"}, 
-                    auth=smug_auth, 
-                    json=smug_payload
-                )
+                patch_resp = requests.patch(f"https://api.smugmug.com{img_uri}", headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
                 
                 if patch_resp.status_code in [200, 201]:
                     smug_success = True
