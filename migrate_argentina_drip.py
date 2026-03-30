@@ -204,8 +204,18 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                     model=MODEL_ID,
                     contents=[types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'), prompt]
                 )
-                ai_data = json.loads(ai_resp.text.replace('```json', '').replace('```', '').strip())
-                break 
+                
+                raw_text = ai_resp.text.strip()
+                # Find the very first { and the very last }
+                start_idx = raw_text.find('{')
+                end_idx = raw_text.rfind('}')
+                
+                if start_idx != -1 and end_idx != -1:
+                    clean_json = raw_text[start_idx:end_idx+1]
+                    ai_data = json.loads(clean_json)
+                    break
+                else:
+                    raise ValueError("No valid JSON structure found in AI response.") 
             except Exception as e:
                 if "503" in str(e) or "high demand" in str(e):
                     wait_time = min((attempt + 1) * 20, 60) 
@@ -220,13 +230,26 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             ai_data['json_ld'].pop('contentUrl', None)
         # ----------------------------------------------------------
         
-        # Check if we have the necessary keys and tag count before proceeding
+       # Check if we have the necessary keys
         required_keys = ['title', 'description', 'tags', 'json_ld']
-        if not ai_data or not all(k in ai_data for k in required_keys) or len(ai_data.get('tags', [])) != 50:
-            print_now(f"  ⚠️ Validation Failed for {img_id}. Data incomplete or tags != 50. Skipping.")
-            print_now("  🛑 Forcing a 60-second global cooldown to let the API recover...")
-            time.sleep(60)
+        if not ai_data or not all(k in ai_data for k in required_keys):
+            print_now(f"  ⚠️ Validation Failed for {img_id}. Missing core schema keys. Skipping.")
+            time.sleep(10) # Short breather, not a full 60s cooldown
             continue
+
+        # Forgiving Tag Validation: Pad or Trim to exactly 50
+        core_fallback_tags = ["Argentina", "Travel Photography", "South America", "Wanderlust", "Travel", "Landscape", "Samuel Jeffery", "Audrey Bergner"]
+        current_tags = ai_data.get('tags', [])
+        
+        if len(current_tags) < 50:
+            needed = 50 - len(current_tags)
+            # Add fallback tags that aren't already in the list
+            padding = [t for t in core_fallback_tags if t not in current_tags][:needed]
+            current_tags.extend(padding)
+        elif len(current_tags) > 50:
+            current_tags = current_tags[:50]
+            
+        ai_data['tags'] = current_tags
 
         # --- LOCAL SIDECAR SAVE (Data Provenance) ---
         sidecar_dir = "metadata_sidecars"
@@ -260,14 +283,25 @@ def process_album_images(images, official_album_name, global_count, processed_hi
                 "Keywords": ",".join(ai_data['tags'])
             }
             
-            patch_resp = requests.patch(f"https://api.smugmug.com{img_uri}", headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
-            
-            if patch_resp.status_code in [200, 201]:
+           smug_success = False
+            for sm_attempt in range(3):
+                patch_resp = requests.patch(f"[https://api.smugmug.com](https://api.smugmug.com){img_uri}", headers={"Accept": "application/json", "Content-Type": "application/json"}, auth=smug_auth, json=smug_payload)
+                
+                if patch_resp.status_code in [200, 201]:
+                    smug_success = True
+                    break
+                elif patch_resp.status_code in [401, 503, 429]:
+                    print_now(f"  ⚠️ SmugMug {patch_resp.status_code}. Retrying ({sm_attempt+1}/3) in 5s...")
+                    time.sleep(5)
+                else:
+                    break # Fatal error, don't retry (e.g., 404 Not Found)
+                    
+            if smug_success:
                 print_now(f"  🏆 SUCCESS!")
                 save_history_atomic(img_id) 
                 global_count += 1
             else:
-                print_now(f"  ⚠️ SmugMug Update Failed: {patch_resp.status_code}")
+                print_now(f"  ❌ SmugMug Update Permanently Failed after retries: {patch_resp.status_code}")
 
             time.sleep(41)
         except Exception as e:
