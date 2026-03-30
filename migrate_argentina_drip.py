@@ -138,11 +138,11 @@ def get_or_create_flickr_album(album_name, primary_photo_id=None):
 # ==========================================
 # 5. CORE IMAGE PROCESSING FUNCTION
 # ==========================================
-def process_album_images(images, official_album_name, global_count, processed_history):
+def process_album_images(images, official_album_name, global_count, processed_history, session_limit):
     album_id = get_or_create_flickr_album(official_album_name)
     
     for img in images:
-        if global_count >= 58: 
+        if global_count >= session_limit: 
             return global_count
             
         img_id = img.get('ImageKey')
@@ -154,7 +154,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
         if not img_url: 
             continue
         
-        print_now(f"  ⬇️ Downloading ({global_count + 1}/58): {img_id}")
+        print_now(f"  ⬇️ Downloading ({global_count + 1}/{session_limit}): {img_id}")
         img_bytes = requests.get(img_url).content
         
         # --- MASTER NARRATIVE & SCHEMA PROMPT ---
@@ -319,11 +319,14 @@ def process_album_images(images, official_album_name, global_count, processed_hi
 def run_migration():
     processed_history = load_history()
     global_count = 0
-    print_now("✅ Initialization Complete. Running Priority List Only.")
+    
+    # --- NEW: Dynamic Session Limit ---
+    SESSION_LIMIT = random.randint(55, 65)
+    print_now(f"✅ Initialization Complete. Target limit for this session: {SESSION_LIMIT} photos.")
 
     # --- VIP TELEPORT ONLY ---
     for custom_name, album_key in PRIORITY_MAP.items():
-        if global_count >= 58: break
+        if global_count >= SESSION_LIMIT: break
 
         print_now(f"⚡ Checking VIP Album: {custom_name} (Key: {album_key})")
         img_api = f"https://api.smugmug.com/api/v2/album/{album_key}!images?count=10000"
@@ -337,17 +340,17 @@ def run_migration():
             print_now(f"  ✅ {custom_name} is 100% complete. Moving to next VIP target...")
             continue
 
-        # Process as many as we can in THIS album up to the 58 limit
+        # Process as many as we can in THIS album up to the limit
         print_now(f"  📂 Found {len(unprocessed)} photos remaining in {custom_name}. Processing...")
-        global_count = process_album_images(unprocessed, custom_name, global_count, processed_history)
+        global_count = process_album_images(unprocessed, custom_name, global_count, processed_history, SESSION_LIMIT)
         
-        # CRITICAL: Hard stop if we hit 58 to maintain depth focus
-        if global_count >= 58:
-            print_now(f"🛑 Hit 58-photo limit while working on {custom_name}. Stopping to maintain focus.")
+        # CRITICAL: Hard stop if we hit the limit to maintain depth focus
+        if global_count >= SESSION_LIMIT:
+            print_now(f"🛑 Hit {SESSION_LIMIT}-photo limit while working on {custom_name}. Stopping to maintain focus.")
             return 
 
-    if global_count >= 58:
-        print_now("🛑 Global limit of 58 photos reached. Ending session.")
+    if global_count >= SESSION_LIMIT:
+        print_now(f"🛑 Global limit of {SESSION_LIMIT} photos reached. Ending session.")
     else:
         print_now("🏁 All albums in the PRIORITY_MAP have been 100% migrated.")
 
