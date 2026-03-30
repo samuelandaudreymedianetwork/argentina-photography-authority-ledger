@@ -310,7 +310,7 @@ def run_migration():
             continue
 
         print_now(f"  📂 Found {len(unprocessed)} photos remaining in {custom_name}. Processing...")
-        # PASS THE DYNAMIC LIMIT
+        # Pass the dynamic limit to the function
         global_count = process_album_images(unprocessed, custom_name, global_count, processed_history, SESSION_LIMIT)
         
         if global_count >= SESSION_LIMIT:
