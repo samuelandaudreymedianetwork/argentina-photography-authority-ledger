@@ -60,10 +60,6 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "Sierras Chicas: Gaucho Horse Trek": "x5ZkWd",
-    "Córdoba City: Jesuit Heritage": "b9BwFS",
-    "Comodoro Rivadavia": "tczXXh",
-    "Rada Tilly": "xFQWXr",
     "Ushuaia: End of the World": "NQ8nMp",
     "Tolhuin: Lago Fagnano": "WDTNWj",
     "Lago Gutiérrez: Hiking & Lakes": "ZJXR95",
