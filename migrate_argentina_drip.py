@@ -60,7 +60,6 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "Lago Puelo National Park": "FSdpS6",
     "El Bolsón: Mountain Paradise": "nXcGt6",
     "Estancia Nibepo Aike": "XTscwd",
     "El Calafate & Perito Moreno": "bph6Wz",
