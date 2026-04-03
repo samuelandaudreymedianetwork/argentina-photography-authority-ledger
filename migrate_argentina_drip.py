@@ -60,14 +60,6 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "Ushuaia: End of the World": "NQ8nMp",
-    "Tolhuin: Lago Fagnano": "WDTNWj",
-    "Lago Gutiérrez: Hiking & Lakes": "ZJXR95",
-    "Estancia Arroyo Verde": "m2XKfP",
-    "Estancia Tecka: Fly Fishing": "gzsk7v",
-    "Esquel: La Trochita": "L3XbKS",
-    "Trevelin: Welsh Culture": "KL9kF3",
-    "El Hoyo: Patagonian Vineyards": "bmZLz2",
     "Lago Puelo National Park": "FSdpS6",
     "El Bolsón: Mountain Paradise": "nXcGt6",
     "Estancia Nibepo Aike": "XTscwd",
