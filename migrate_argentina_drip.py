@@ -60,8 +60,6 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "El Bolsón: Mountain Paradise": "nXcGt6",
-    "Estancia Nibepo Aike": "XTscwd",
     "El Calafate & Perito Moreno": "bph6Wz",
     "El Chaltén Trekking": "xdgbn9",
     "San Antonio de Areco": "5s3TL5",
