@@ -164,12 +164,9 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"3. SAFETY: Avoid tags associated with nudity, voyeurism, or ambiguous terms that drift into unsafe categories.\n\n"
             f"STRICT INSTRUCTIONS for the 'json_ld' field:\n"
             f"1. You MUST return a valid schema where '@context' is 'https://schema.org' and '@type' is 'ImageObject'.\n"
-            f"2. Format the schema using the @graph structure.\n"
-            f"3. CRITICAL: DO NOT include a 'contentUrl' field at all in the JSON.\n"
-            f"4. The 'creator' field MUST be structured as an Organization named 'Samuel and Audrey Media Network'.\n"
-            f"5. Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for the Organization.\n"
-            f"6. Include mandatory licensing and credit nodes: 'creditText', 'copyrightNotice', 'license', and 'acquireLicensePage'.\n"
-            f"7. Set the image 'width' to '1000' and DO NOT include a 'height' attribute.\n\n"
+            f"2. CRITICAL: DO NOT include a 'contentUrl' field at all in the JSON.\n"
+            f"3. The 'creator' field MUST be an array containing TWO Person objects: one for 'Samuel Jeffery' and one for 'Audrey Bergner'.\n"
+            f"4. Include 'sameAs': {json.dumps(SCHEMA_LINKS)} for both Person objects.\n\n"
             f"Return JSON: 'title', 'description', 'tags' (50), 'json_ld'."
         )
         
