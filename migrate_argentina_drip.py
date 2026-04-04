@@ -65,6 +65,7 @@ PRIORITY_MAP = {
     "San Antonio de Areco": "5s3TL5",
     "Historic Buenos Aires Exploration": "7SKZQD",
     "San Telmo: Oldest Neighborhood": "4VBvqX",
+    "Cruce Andino: The Spectacular Lake Crossing from Bariloche to Puerto Varas": "7ZXqJf",
     "Puerto Madero Barrio": "8jkVcc"
 }
 
