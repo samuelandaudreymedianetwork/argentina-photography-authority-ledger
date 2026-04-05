@@ -60,8 +60,8 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "Bariloche Family Trip: Argentine Lake District": "zs3z5m",
-    "Cruce Andino: Lake Crossing from Bariloche to Puerto Varas": "7ZXqJf"
+    "Bariloche Family Trip (Argentine Lake District)": "zs3z5m",
+    "Cruce Andino (Lake Crossing from Bariloche to Puerto Varas)": "7ZXqJf"
 }
 
 # ==========================================
