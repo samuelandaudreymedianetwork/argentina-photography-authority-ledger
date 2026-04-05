@@ -60,9 +60,6 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "San Antonio de Areco: The Gaucho Inspired Slow Paced Vacation We Needed": "5s3TL5",
-    "Historic Buenos Aires Exploration: Our Family Trip With Daniel": "7SKZQD",
-    "Puerto Madero Barrio in Buenos Aires, Argentina": "8jkVcc",
     "San Telmo: Oldest Neighborhood in Buenos Aires": "4VBvqX",
     "Bariloche 2026 Family Trip: Modern Exploration of the Argentine Lake District": "zs3z5m",
     "Cruce Andino: The Spectacular Lake Crossing from Bariloche to Puerto Varas": "7ZXqJf"
