@@ -60,9 +60,8 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
-    "San Telmo: Oldest Neighborhood in Buenos Aires": "4VBvqX",
-    "Bariloche 2026 Family Trip: Modern Exploration of the Argentine Lake District": "zs3z5m",
-    "Cruce Andino: The Spectacular Lake Crossing from Bariloche to Puerto Varas": "7ZXqJf"
+    "Bariloche Family Trip: Argentine Lake District": "zs3z5m",
+    "Cruce Andino: Lake Crossing from Bariloche to Puerto Varas": "7ZXqJf"
 }
 
 # ==========================================
