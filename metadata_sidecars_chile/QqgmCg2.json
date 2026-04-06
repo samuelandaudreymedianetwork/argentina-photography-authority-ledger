@@ -1,0 +1,90 @@
+{
+    "title": "A Weathered Mural of the Amadeo Steamship in Punta Arenas Magallanes Regional Port",
+    "description": "Punta Arenas, Magallanes: A weathered brick wall displays a striking mural of the legendary Amadeo steamship, serving as a poignant reminder of the region’s rugged maritime heritage. The afternoon light catches the textured masonry, highlighting the layered paint that depicts the vessel which played a pivotal role in the early settlement of the Strait of Magellan. A modern black street sign punctuates the foreground, contrasting the historic industrial art with the functional infrastructure of contemporary city life. The composition utilizes a shallow depth of field, drawing the viewer's eye from the scrubby coastal vegetation toward the fading red hull of the ship. Each crack in the brickwork tells a story of the harsh, windswept climate that defines this southernmost gateway to the Antarctic. The mural preserves the memory of steam-powered navigation in an era when such vessels were the only lifeline for isolated Patagonian outposts. Travelers observing this scene gain a deeper appreciation for how Punta Arenas honors its seafaring roots through public art installations that breathe life into decaying urban spaces. As an essential site for understanding Chilean maritime history, the mural bridges the gap between the adventurous spirit of the past and the bustling commerce of today. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey.",
+    "tags": [
+        "Punta Arenas",
+        "Magallanes",
+        "Chile",
+        "Patagonia",
+        "Amadeo",
+        "Steamship",
+        "MaritimeHistory",
+        "Mural",
+        "StreetArt",
+        "ChileanCulture",
+        "SouthAmerica",
+        "StraitOfMagellan",
+        "TravelPhotography",
+        "CoastalCity",
+        "BrickWall",
+        "UrbanArt",
+        "NavigationHistory",
+        "PatagonianHeritage",
+        "PublicArt",
+        "TourismChile",
+        "Geography",
+        "ShipwreckArt",
+        "RegionalHistory",
+        "IndustrialHistory",
+        "ExploreChile",
+        "SouthChile",
+        "TravelDocumentary",
+        "StreetSigns",
+        "CulturalLandscape",
+        "HistoricVessel",
+        "PortCity",
+        "PatagoniaTravel",
+        "OutdoorArt",
+        "ArtisticHeritage",
+        "SouthernHemisphere",
+        "PuntaArenasChile",
+        "MagallanesRegion",
+        "VisualStorytelling",
+        "TravelInspiration",
+        "MaritimeTradition",
+        "UrbanGeography",
+        "ChileanCoast",
+        "ArchitectureDetail",
+        "HistoryOfChile",
+        "CoastalPhotography",
+        "TravelGuide",
+        "CulturalIdentity",
+        "RegionalIdentity",
+        "MarineHeritage",
+        "LandscapeDetail"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "A Weathered Mural of the Amadeo Steamship in Punta Arenas Magallanes Regional Port",
+        "description": "A weathered brick wall displays a striking mural of the legendary Amadeo steamship, serving as a poignant reminder of the region’s rugged maritime heritage in Punta Arenas.",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}

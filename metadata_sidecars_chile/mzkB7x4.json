@@ -1,0 +1,89 @@
+{
+    "title": "Abandoned Industrial Pier and Cormorant Colony at the Strait of Magellan in Punta Arenas",
+    "description": "Punta Arenas, Magallanes Region: A decaying, weathered industrial pier stretches into the frigid waters of the Strait of Magellan, reclaimed by a dense colony of cormorants. The weathered wood and rusted iron structure serves as a stark testament to the region's maritime history, standing resilient against the relentless Patagonian winds. Low-hanging, slate-gray clouds blanket the horizon, casting a moody, monochromatic light across the restless deep blue sea. The rhythmic movement of the water contrasts sharply with the static, avian-occupied structure, highlighting the intersection of human heritage and wild nature. Cormorants perch in organized rows, their dark silhouettes punctuating the weathered remains of the wooden pilings, creating a natural tableau of maritime succession. Captured with a sharp focus on the textures of the eroding wood, the image evokes the solitude of the far south. The vast, empty distance toward the distant mountainous coastline emphasizes the extreme geography that defines the character of the Magallanes province. This scene serves as a poignant reminder of the enduring connection between Chile’s frontier industrial past and its thriving coastal ecosystem. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey.",
+    "tags": [
+        "Punta Arenas",
+        "Magallanes",
+        "Chile",
+        "Strait of Magellan",
+        "Patagonia",
+        "South America",
+        "Maritime History",
+        "Industrial Ruins",
+        "Cormorants",
+        "Wildlife",
+        "Coastal Landscape",
+        "Travel Photography",
+        "Chilean Patagonia",
+        "Remote Destinations",
+        "Southern Chile",
+        "Sea Birds",
+        "Abandoned Pier",
+        "Weathered Wood",
+        "Ocean View",
+        "Atmospheric",
+        "Travel Documentary",
+        "South American Travel",
+        "Nature Photography",
+        "Regional Identity",
+        "Frontier Landscape",
+        "Coastal Ecology",
+        "Punta Arenas History",
+        "Magallanes Province",
+        "Outdoor Exploration",
+        "Waterfront",
+        "Pacific Ocean",
+        "Avian Habitat",
+        "Maritime Heritage",
+        "Rugged Terrain",
+        "Chilean Coast",
+        "Distant Mountains",
+        "Cloudy Sky",
+        "Moody Lighting",
+        "Patagonian Geography",
+        "Eco-tourism",
+        "Bird Watching",
+        "Historic Infrastructure",
+        "Geography",
+        "Travel Culture",
+        "South of Chile",
+        "End of the World",
+        "Coastal Texture",
+        "Seaside Ruins",
+        "Marine Life",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Abandoned Industrial Pier and Cormorant Colony at the Strait of Magellan in Punta Arenas",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}
