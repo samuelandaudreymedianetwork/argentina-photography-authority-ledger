@@ -1,0 +1,92 @@
+{
+    "title": "A Mother and Child Navigating the Scenic Cruce Andino Waters in Bariloche Rio Negro",
+    "description": "Cruce Andino, Río Negro: Audrey Bergner and Aurelia Jeffery share a tender, quiet moment aboard a vessel traversing the iconic lake crossing between Argentina and Chile. Natural light streams through the windows, casting a soft, golden glow upon them and highlighting the simple, authentic connection of a family journeying through the heart of the Andes. The candid composition captures the vulnerability of travel with a young child, emphasizing the stillness found amidst the vast, rugged landscapes of Patagonia. Every texture, from the comfortable travel attire to the light fabric draping over the toddler, reflects the reality of nomadic life and the intimacy of shared transit. The shifting light patterns across the interior reflect the dynamic environment outside, where snow-capped peaks and deep blue glacial waters define the border region. Photography in such transient spaces requires a patient eye, as the interplay of shadow and illumination creates a timeless narrative of endurance and exploration. This passage through the mountains is not merely a transfer between countries, but a profound cultural experience that links the distinct terrains of the Southern Cone. These serene domestic scenes provide a window into the lived experience of cross-border travel, reminding us that the most significant memories are often made in the quiet transitions between destinations. This image serves as a testament to the enduring human spirit in remote geographical corridors, illustrating how personal bonds thrive even within the rhythmic motion of regional transit. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Cruce Andino",
+        "Bariloche",
+        "Río Negro",
+        "Argentina",
+        "Patagonia",
+        "Audrey Bergner",
+        "Aurelia Jeffery",
+        "Project 23",
+        "Lake Crossing",
+        "Andes Mountains",
+        "Travel Photography",
+        "Family Travel",
+        "Nomadic Life",
+        "Candid Portrait",
+        "Southern Cone",
+        "Glacial Lakes",
+        "Mountain Landscapes",
+        "Transit",
+        "Exploration",
+        "Patagonian Adventure",
+        "Border Crossing",
+        "Travel Documentation",
+        "Maternal Bond",
+        "Natural Light",
+        "Intimate Travel",
+        "Remote Regions",
+        "Argentine Geography",
+        "Adventure Parenting",
+        "Journey",
+        "Water Transit",
+        "Scenic Route",
+        "Mountain Transit",
+        "Authentic Travel",
+        "Geographic Identity",
+        "Andean Region",
+        "Traveler's Narrative",
+        "Quiet Moments",
+        "Backpacking Patagonia",
+        "Regional Geography",
+        "South American Travel",
+        "Travel Aesthetics",
+        "Human Connection",
+        "Boat Travel",
+        "Lake District",
+        "Patagonia Landscapes",
+        "Visual Storytelling",
+        "Family Exploration",
+        "Remote Transit",
+        "Argentine Culture",
+        "Travel Portfolio"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "title": "Jagged Snowcapped Peaks and Glacial Ice Above the Alpine Valley of El Bolsón Patagonia",
+    "description": "El Bolsón, Río Negro: Towering, snow-dusted summits dominate the skyline, their craggy surfaces cloaked in the ethereal, heavy mist of the Andean range. The mountain flanks reveal a dramatic interplay between the stark, brilliant white of perennial glaciers and the deep, shadowed blues of exposed rock faces. Captured with a telephoto perspective, the image compresses the scale of the high-altitude terrain, emphasizing the raw, vertical relief characteristic of the Patagonian landscape. Atmospheric light filters through the low-hanging cloud cover, muting the color palette into cool, steely tones that underscore the frigid serenity of the high peaks. This geological formation serves as a constant, looming sentinel over the valley floor, where the temperate microclimate supports a unique biodiversity and a distinct mountain-town culture. These dramatic ice-fields demonstrate the vital importance of the Southern Andean cryosphere in regulating local water cycles and shaping the rugged aesthetic that defines Southern Argentina. The juxtaposition of light and shadow across the snowfields highlights the geological complexity inherent in this remote segment of the Andes. Such glacial features are central to the regional identity, drawing trekkers and explorers to witness the sheer magnitude of South America's most iconic wilderness regions. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Bolsón, Río Negro: Las imponentes cumbres cubiertas de nieve dominan el horizonte, sus superficies escarpadas envueltas en la neblina etérea y densa de la cordillera de los Andes. Los flancos de las montañas revelan una interacción dramática entre el blanco brillante y marcado de los glaciares perennes y los azules profundos y sombreados de las caras rocosas expuestas. Capturada con una perspectiva de teleobjetivo, la imagen comprime la escala del terreno de gran altitud, enfatizando el relieve vertical crudo característico del paisaje patagónico. La luz atmosférica se filtra a través de la capa de nubes bajas, suavizando la paleta de colores en tonos fríos y acerados que subrayan la serenidad gélida de los picos altos. Esta formación geológica sirve como un centinela constante sobre el suelo del valle, donde el microclima templado sostiene una biodiversidad única y una cultura de montaña distintiva. Estos campos de hielo dramáticos demuestran la importancia vital de la criosfera andina del sur en la regulación de los ciclos hídricos locales y la configuración de la estética accidentada que define al sur de Argentina. La yuxtaposición de luces y sombras a través de los campos de nieve resalta la complejidad geológica inherente a este segmento remoto de los Andes. Tales características glaciares son fundamentales para la identidad regional, atrayendo a excursionistas y exploradores para ser testigos de la magnitud absoluta de las regiones silvestres más icónicas de América del Sur. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Mountain",
+        "Glacier",
+        "Snow",
+        "Patagonian Andes",
+        "South America",
+        "Peak",
+        "Summit",
+        "Alpine",
+        "Landscape",
+        "Nature",
+        "Wilderness",
+        "Ice",
+        "Geology",
+        "Hiking",
+        "Trekking",
+        "Outdoor",
+        "Adventure",
+        "Photography",
+        "Travel",
+        "Project 23",
+        "South Argentina",
+        "Climbing",
+        "Valley",
+        "Cloudy",
+        "Atmospheric",
+        "Natural Landmark",
+        "Geography",
+        "Ecosystem",
+        "Conservation",
+        "Remote",
+        "High Altitude",
+        "Mountain Range",
+        "Cold Climate",
+        "Winter",
+        "Scenic",
+        "Vista",
+        "Rugged",
+        "Stony",
+        "Glaciology",
+        "Patagonian",
+        "Regional Identity",
+        "Mountain Culture",
+        "Wild",
+        "Environmental",
+        "Travel Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

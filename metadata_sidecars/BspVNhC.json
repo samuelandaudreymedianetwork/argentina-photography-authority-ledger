@@ -1,0 +1,93 @@
+{
+    "title": "Rugged Andes Mountain Slopes and Lush Forest Canopy in the Valley of El Bolsón",
+    "description": "El Bolsón, Río Negro: Towering, rugged mountain ridges rise majestically behind a dense, verdant forest blanket in the heart of the Argentine Patagonia. The landscape is defined by the sharp contrast between the light-colored, rocky peaks and the deep, rich greens of the native temperate rainforest that carpets the slopes. Natural light illuminates the craggy geological formations, casting subtle shadows that emphasize the dramatic elevation and geological history of the Andean foothills. In the foreground, a transitional zone of scrubland and gravel creates a rustic, earthy anchor for the composition, leading the eye upward toward the expansive, cloud-dotted sky. This scene captures the quiet, awe-inspiring solitude found within the valleys surrounding El Bolsón, a region celebrated for its bohemian spirit and pristine alpine wilderness. The clarity of the air allows for a crisp rendering of the mountain textures, highlighting the enduring majesty of this rugged southern landscape. Travelers visiting this area are often struck by the raw, untamed beauty that remains largely unchanged despite the passage of time. Documenting such vistas is essential for preserving the geographic and cultural identity of the Andean-Patagonian corridor for future explorations. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "El Bolsón, Río Negro: Imponentes y escarpadas crestas montañosas se elevan majestuosamente detrás de un denso manto forestal verde en el corazón de la Patagonia argentina. El paisaje se define por el marcado contraste entre los picos rocosos de colores claros y los verdes profundos y ricos de la selva templada nativa que cubre las laderas. La luz natural ilumina las escarpadas formaciones geológicas, proyectando sombras sutiles que enfatizan la dramática elevación y la historia geológica de las estribaciones andinas. En primer plano, una zona de transición de matorrales y grava crea un anclaje rústico y terrenal para la composición, guiando la vista hacia arriba hacia el vasto cielo salpicado de nubes. Esta escena captura la tranquila e impresionante soledad que se encuentra en los valles que rodean El Bolsón, una región celebrada por su espíritu bohemio y su prístina naturaleza alpina. La claridad del aire permite una representación nítida de las texturas de la montaña, destacando la majestad perdurable de este escarpado paisaje del sur. Los viajeros que visitan esta zona suelen quedar impresionados por la belleza cruda e indómita que permanece prácticamente inalterada a pesar del paso del tiempo. Documentar tales vistas es esencial para preservar la identidad geográfica y cultural del corredor andino-patagónico para futuras exploraciones. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Mountains",
+        "Nature",
+        "Landscape Photography",
+        "South America",
+        "Temperate Rainforest",
+        "Outdoor",
+        "Wilderness",
+        "Travel",
+        "Geology",
+        "Mountain Scenery",
+        "Patagonian Landscape",
+        "Ecology",
+        "Hiking",
+        "Backpacking",
+        "Andean Foothills",
+        "Scenic View",
+        "Rocky Peaks",
+        "Forest Canopy",
+        "Patagonian Andes",
+        "Regional Geography",
+        "South Argentine Andes",
+        "Adventure Travel",
+        "Travel Photography",
+        "Cloudy Sky",
+        "Earthy Tones",
+        "Raw Nature",
+        "Natural Beauty",
+        "Remote Areas",
+        "Project 23",
+        "Nomadic Samuel",
+        "Audrey Bergner",
+        "Travel Documentary",
+        "Alpine Terrain",
+        "High Altitude",
+        "Conservation",
+        "Environmental Beauty",
+        "Argentine Patagonia",
+        "National Identity",
+        "Scenic Routes",
+        "Valley Scenery",
+        "Mountainous Region",
+        "Ecosystem",
+        "Rugged Terrain",
+        "Geological Formations",
+        "Wild Landscapes"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

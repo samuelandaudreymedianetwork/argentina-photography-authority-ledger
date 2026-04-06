@@ -1,0 +1,93 @@
+{
+    "title": "A Secluded Alpine Shoreline and Vibrant Yellow Bloom in the Town of El Bolsón",
+    "description": "El Bolsón, Río Negro: A serene, overcast morning reveals the tranquil intersection of Andean topography and Patagonian flora along a quiet lakeshore. The landscape is dominated by dense, layered woodlands where the brilliant, golden hues of invasive Scotch broom stand out against the deep evergreen palette of native conifers. A singular, rustic dwelling sits nestled among the trees, its architectural simplicity echoing the isolated charm of this mountain valley. The soft, diffuse light typical of the region flattens the contrast, allowing the subtle textures of the pebbled shoreline and the gentle ripples on the water's surface to take center stage. Small, stationary watercraft are moored near the water's edge, suggesting a slower pace of life defined by the rhythmic tides and winds of the lake. This composition captures the transition between the wild, forested mountain slopes and the intimate, human-scale infrastructure of a remote Argentine community. The deliberate focus on the shoreline highlights the ecological interplay between introduced species and the established forest canopy, reflecting a complex environmental history. As the mist clings to the distant ridgeline, the image encapsulates the profound solitude and raw, atmospheric beauty that defines the Patagonian wilderness experience. Travelers often seek out these hidden nooks of the Río Negro province to escape urban intensity and immerse themselves in the quietude of the Andean foothills. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "El Bolsón, Río Negro: Una mañana serena y nublada revela la tranquila intersección de la topografía andina y la flora patagónica a lo largo de una costa tranquila. El paisaje está dominado por densos bosques estratificados donde los brillantes tonos dorados de la retama invasora destacan contra la profunda paleta de coníferas nativas. Una vivienda rústica y solitaria se encuentra entre los árboles, su sencillez arquitectónica hace eco del encanto aislado de este valle de montaña. La luz suave y difusa típica de la región suaviza el contraste, permitiendo que las sutiles texturas de la orilla guijarrosa y las suaves ondas en la superficie del agua ocupen un lugar central. Pequeñas embarcaciones estacionarias están amarradas cerca de la orilla del agua, lo que sugiere un ritmo de vida más lento definido por las mareas y los vientos del lago. Esta composición captura la transición entre las laderas boscosas y salvajes de la montaña y la infraestructura a escala humana de una comunidad argentina remota. El enfoque deliberado en la costa destaca la interacción ecológica entre las especies introducidas y el dosel forestal establecido, reflejando una compleja historia ambiental. Mientras la niebla se aferra a la cresta lejana, la imagen encapsula la profunda soledad y la belleza atmosférica cruda que define la experiencia de la naturaleza salvaje de la Patagonia. Los viajeros suelen buscar estos rincones escondidos de la provincia de Río Negro para escapar de la intensidad urbana y sumergirse en la quietud de las estribaciones andinas. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Andean foothills",
+        "Scotch broom",
+        "Cytisus scoparius",
+        "Patagonian landscape",
+        "Lake shoreline",
+        "Mountain lake",
+        "Wilderness",
+        "Nature photography",
+        "Remote travel",
+        "South America",
+        "Forest ecology",
+        "Evergreen forest",
+        "Travel photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Outdoor exploration",
+        "Scenic view",
+        "Overcast sky",
+        "Alpine environment",
+        "Geography of Argentina",
+        "Rural living",
+        "Rustic architecture",
+        "Pebbled beach",
+        "Quiet waters",
+        "Regional travel",
+        "South American travel",
+        "Patagonian geography",
+        "Environmental diversity",
+        "Botanical scenery",
+        "Tranquility",
+        "Solitude",
+        "Andean region",
+        "Mountain valley",
+        "Natural beauty",
+        "Coastal landscape",
+        "Waterfront",
+        "Invasive species",
+        "Regional identity",
+        "Tourism in Patagonia",
+        "Atmospheric landscape",
+        "Outdoor adventure",
+        "Ecology",
+        "Lake District",
+        "Argentine Patagonia"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

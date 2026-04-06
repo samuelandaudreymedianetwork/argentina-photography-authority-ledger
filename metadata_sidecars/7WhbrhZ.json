@@ -1,0 +1,92 @@
+{
+    "title": "Sunlight Dancing Upon The Rippling Waters Of Lake Puelo In El Bolsón Río Negro",
+    "description": "El Bolsón, Río Negro: Sunlight dances across the surface of the lake, creating a mesmerizing tapestry of bokeh and reflected light that shifts with the gentle movement of the currents. The shallow depth of field isolates the rhythmic texture of the water, transforming the natural liquid landscape into an abstract play of gold, green, and deep obsidian tones. Each ripple catches the afternoon sun, casting fleeting brilliance against the cool, shadowed depths of the glacial basin characteristic of the Patagonian region. This photographic study emphasizes the tactile quality of the environment, where the motion of the water serves as a living mirror to the surrounding Andean foothills. The composition captures the serene, meditative nature of high-altitude Argentine lakes, which remain largely untouched by the frenetic pace of modern life. As the light filters through the canopy above, it creates a shifting mosaic that changes with every passing second, grounding the viewer in the fluid beauty of the wilderness. This image highlights the importance of preserving these pristine Andean ecosystems, as they represent the vital hydrological health and raw, elemental majesty of Northern Patagonia. Through this lens, the viewer experiences the quiet, rhythmic energy that defines the remote landscapes of Argentina. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n\n---\n\nEl Bolsón, Río Negro: La luz del sol danza sobre la superficie del lago, creando un tapiz fascinante de bokeh y luz reflejada que cambia con el movimiento suave de las corrientes. La poca profundidad de campo aísla la textura rítmica del agua, transformando el paisaje líquido natural en un juego abstracto de tonos dorados, verdes y obsidiana profunda. Cada onda captura el sol de la tarde, proyectando brillos fugaces contra las profundidades frías y sombreadas de la cuenca glaciar característica de la región patagónica. Este estudio fotográfico enfatiza la calidad táctil del entorno, donde el movimiento del agua sirve como un espejo viviente de las estribaciones andinas circundantes. La composición captura la naturaleza serena y meditativa de los lagos argentinos de gran altitud, que permanecen en gran medida intactos por el ritmo frenético de la vida moderna. A medida que la luz se filtra a través del dosel, crea un mosaico cambiante que se transforma con cada segundo, anclando al espectador en la fluida belleza de la naturaleza. Esta imagen destaca la importancia de preservar estos ecosistemas andinos prístinos, ya que representan la vital salud hidrológica y la cruda majestuosidad elemental del norte de la Patagonia. A través de este lente, el espectador experimenta la energía tranquila y rítmica que define los paisajes remotos de Argentina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Lake Puelo",
+        "Lago Puelo",
+        "Andes",
+        "Water Texture",
+        "Bokeh",
+        "Glacial Lake",
+        "Patagonian Landscapes",
+        "Nature Photography",
+        "Abstract Nature",
+        "Reflections",
+        "South America",
+        "Wilderness",
+        "Ecosystem Preservation",
+        "Mountain Lake",
+        "Andean Foothills",
+        "Outdoor Photography",
+        "Sunlight Reflection",
+        "Macro Nature",
+        "Argentine Patagonia",
+        "Travel Photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Hydrology",
+        "Water Surface",
+        "Natural Light",
+        "Serenity",
+        "Environmental Beauty",
+        "Patagonia Argentina",
+        "Northern Patagonia",
+        "Glacial Water",
+        "Liquid Texture",
+        "Scenic View",
+        "Peaceful Waters",
+        "Raw Nature",
+        "Atmospheric",
+        "Visual Arts",
+        "Landscape Details",
+        "Freshwater",
+        "Patagonian Geography",
+        "Travel Argentina",
+        "Andean Region",
+        "Summer In Patagonia",
+        "Ripples",
+        "Light Patterns",
+        "Blue Lakes"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
