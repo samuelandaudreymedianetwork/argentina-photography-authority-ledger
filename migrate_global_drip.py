@@ -68,7 +68,7 @@ SCHEMA_LINKS = [
 # Replace with the SmugMug Album keys for the current TARGET_COUNTRY
 PRIORITY_MAP = {
     "Punta Arenas, Chile (Capital of Magallanes): Maritime History, Food and Culture": "Bw8kWp",
-    "Torres del Paine National Park (Chilean Patagonia): Wildlife, Glaciers & Iconic Peaks": "kBNdZJ"
+    "Torres del Paine National Park (Chilean Patagonia): Wildlife, Glaciers & Iconic Peaks": "kBNdZJ",
     "Puerto Natales, Chile: A Patagonian Coastal Town Guide": "B2SJCc"
 }
 
