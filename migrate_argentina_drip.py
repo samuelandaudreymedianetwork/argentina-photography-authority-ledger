@@ -61,7 +61,13 @@ SCHEMA_LINKS = [
 # ==========================================
 PRIORITY_MAP = {
     "Bariloche Family Trip (Argentine Lake District)": "tQ8NRr",
-    "Cruce Andino (Lake Crossing from Bariloche to Puerto Varas)": "CpQ57N"
+    "Cruce Andino (Lake Crossing from Bariloche to Puerto Varas)": "CpQ57N",
+    "El Bolsón: A Perfect Week With Friends + Exploring The Surrounding Area": "jrGXgp",
+    "El Maitén: La Trochita Old Patagonian Express (Epic Historical Train Ride)": "NHFHzw",
+    "El Chalten to El Calafate to Puerto Natales (Argentina to Chile Border Crossing)": "xdGpN7",
+    "Punta Arenas To Ushuaia Transportation by Bus and Ferry (Chile to Argentina Border Crossing)": "LSv63z",
+    "Best Pizza In Buenos Aires Challenge Along Avenida Corrientes": "JhtCHn",
+    "Río Gallegos: Museums, Food and Dinosaurs as a Stopover in Santa Cruz, Southern Patagonia": "Lrdhvz"
 }
 
 # ==========================================
