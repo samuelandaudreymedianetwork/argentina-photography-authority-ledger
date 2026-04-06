@@ -1,0 +1,92 @@
+{
+    "title": "A Gentle Waterfall Cascading Down Mossy Rock Faces in the Valley of El Bolsón",
+    "description": "El Bolsón, Río Negro: A gentle waterfall carves its path through a vibrant tapestry of damp rock and lush, hanging vegetation, illustrating the lush Andean microclimate. The light is soft and diffused, characteristic of a cloudy mountain day, which enhances the emerald tones of the moss and the crisp, clean textures of the cliffside. Water trickles gracefully over the stratified geological layers, pooling at the base among scattered branches and dark, wet earth. This scene captures the quiet, untamed beauty of the Patagonian wilderness where water acts as the primary sculptor of the mountain landscape. The composition focuses on the contrast between the rigid, jagged stones and the delicate, persistent growth of ferns and lichen that thrive in the mist. By highlighting such remote water features, the image serves as a visual testament to the diverse ecosystem of Argentina's southern regions, inviting travelers to explore beyond the well-trodden paths of the town center. The intimate perspective emphasizes the stillness found in these pockets of nature, a core component of the adventurous spirit defining the surrounding area. Whether trekking through the dense forest or finding solace by a stream, this landscape reflects the refreshing vitality of the Patagonian Andes. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Bolsón, Río Negro: Una suave cascada traza su camino a través de un tapiz vibrante de rocas húmedas y vegetación colgante, ilustrando el exuberante microclima andino. La luz es suave y difusa, característica de un día nublado en la montaña, lo que realza los tonos esmeralda del musgo y las texturas nítidas de la ladera. El agua gotea con gracia sobre las capas geológicas estratificadas, acumulándose en la base entre ramas esparcidas y tierra oscura y húmeda. Esta escena captura la belleza tranquila e indómita de la naturaleza salvaje de la Patagonia, donde el agua actúa como el principal escultor del paisaje montañoso. La composición se centra en el contraste entre las piedras rígidas y dentadas y el crecimiento delicado y persistente de helechos y líquenes que prosperan en la bruma. Al resaltar estas características acuáticas remotas, la imagen sirve como un testimonio visual del diverso ecosistema de las regiones del sur de Argentina, invitando a los viajeros a explorar más allá de los caminos trillados del centro de la ciudad. La perspectiva íntima enfatiza la quietud que se encuentra en estos rincones de la naturaleza, un componente central del espíritu aventurero que define el área circundante. Ya sea caminando por el denso bosque o encontrando consuelo junto a un arroyo, este paisaje refleja la vitalidad refrescante de los Andes patagónicos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolson",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Waterfall",
+        "Andes Mountains",
+        "Nature Photography",
+        "Mountain Scenery",
+        "Mossy Rocks",
+        "Water Feature",
+        "Patagonian Landscape",
+        "Hiking Argentina",
+        "South America Travel",
+        "Wilderness",
+        "Eco Tourism",
+        "Geology",
+        "Lush Vegetation",
+        "Ferns",
+        "Stream",
+        "Outdoor Adventure",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Mountain Creek",
+        "Natural Beauty",
+        "Andean Region",
+        "Travel Photography",
+        "Patagonia Wilderness",
+        "Environmental Photography",
+        "Cloudy Day",
+        "Soft Lighting",
+        "Mountain Stream",
+        "Remote Nature",
+        "Argentine Patagonia",
+        "Backpacking Argentina",
+        "Hiking Trails",
+        "Scenic View",
+        "Water Cascade",
+        "Forest Floor",
+        "Mountain Trek",
+        "Nature Documentary",
+        "Patagonia Travel",
+        "Argentine Andes",
+        "Earth Elements",
+        "Geological Formations",
+        "Botanical Diversity",
+        "Wild Landscapes",
+        "Adventure Travel",
+        "Patagonia Adventure",
+        "Landscape Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

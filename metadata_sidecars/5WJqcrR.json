@@ -1,0 +1,93 @@
+{
+    "title": "Grilled Ribeye Steak and Melted Cheese Feast in the Mountain Town of El Bolsón",
+    "description": "El Bolsón, Río Negro: A rustic wooden serving board presents a decadent Argentine parrillada centerpiece, featuring a thick-cut, seared ribeye steak draped in layers of bubbling, golden melted cheese. The meat’s charred crust contrasts sharply with the creamy, molten texture of the cheese, which pools invitingly over sliced charred eggplant. Beside the main protein, two small metallic bowls hold vibrant chimichurri and a zesty salsa, their speckled textures and rich colors providing a sharp, acidic counterpoint to the savory richness of the dish. The lighting is intimate and warm, casting soft highlights across the glistening fats and textured wood grain of the serving platter. Every element of this culinary spread emphasizes the high-quality beef and rustic preparation methods characteristic of Patagonia’s deep-rooted ranching traditions. Captured with a shallow depth of field, the image draws the viewer’s eye toward the interplay of heat, texture, and regional artisanal ingredients. This dish reflects the rugged spirit of the Andes, where mountain hospitality is defined by hearty, communal meals shared after a day of exploring the wild landscape. Experiencing these traditional flavors is essential for travelers looking to understand the intersection of Patagonian agricultural heritage and contemporary Argentine dining culture. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "El Bolsón, Río Negro: Una rústica tabla de madera presenta un decadente centro de mesa de parrillada argentina, destacando un corte grueso de bife de costilla sellado y cubierto con capas de queso fundido burbujeante y dorado. La corteza carbonizada de la carne contrasta fuertemente con la textura cremosa y fundida del queso, que se acumula de forma tentadora sobre rodajas de berenjena a la parrilla. Junto a la proteína principal, dos pequeños cuencos metálicos contienen chimichurri vibrante y una salsa picante, cuyas texturas moteadas y colores intensos proporcionan un contrapunto ácido y agudo a la riqueza sabrosa del plato. La iluminación es íntima y cálida, proyectando reflejos suaves sobre las grasas brillantes y la veta texturizada de la madera de la tabla de servir. Cada elemento de este despliegue culinario enfatiza la carne de alta calidad y los métodos de preparación rústicos característicos de las tradiciones ganaderas profundamente arraigadas de la Patagonia. Capturada con una profundidad de campo reducida, la imagen dirige la mirada del espectador hacia la interacción del calor, la textura y los ingredientes artesanales regionales. Este plato refleja el espíritu rugoso de los Andes, donde la hospitalidad de montaña se define por comidas abundantes y comunitarias compartidas después de un día de explorar el paisaje salvaje. Experimentar estos sabores tradicionales es esencial para los viajeros que buscan comprender la intersección entre el patrimonio agrícola patagónico y la cultura gastronómica argentina contemporánea. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Parrillada",
+        "Asado",
+        "Ribeye",
+        "Bife de costilla",
+        "Argentine beef",
+        "Melted cheese",
+        "Chimichurri",
+        "Patagonian food",
+        "South American cuisine",
+        "Food photography",
+        "Travel photography",
+        "Gastronomy",
+        "Culinary travel",
+        "Rustic dining",
+        "Grilled meat",
+        "Andean region",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Food culture",
+        "Patagonia tourism",
+        "Argentine traditions",
+        "Local ingredients",
+        "BBQ",
+        "Meat lovers",
+        "Foodie travel",
+        "Mountain town",
+        "Patagonian gastronomy",
+        "Dinner",
+        "Lunch",
+        "Authentic Argentina",
+        "Steakhouse",
+        "Regional food",
+        "Dining experience",
+        "Food styling",
+        "Texture",
+        "Macro food",
+        "Gourmet",
+        "Savory",
+        "Barbecue",
+        "Travel guide",
+        "Explore Argentina",
+        "Visit Patagonia",
+        "Patagonian style",
+        "Traditional food",
+        "Appetizing"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

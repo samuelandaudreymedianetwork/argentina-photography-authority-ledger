@@ -1,0 +1,93 @@
+{
+    "title": "Twisted Arrayan Trees Within the Lush Patagonian Forests of El Bolsón Rio Negro Province",
+    "description": "El Bolsón, Río Negro: The intricate, sun-dappled trunks of Arrayán trees create an architectural labyrinth that defines the unique botanical identity of the Andean-Patagonian forest. The camera captures a low-angle perspective, emphasizing the smooth, cinnamon-colored bark that peels away to reveal lighter, contrasting patches underneath. Soft, diffused light filters through the dense canopy above, casting gentle shadows that snake around the knotted, interconnected roots near the forest floor. A sense of ancient tranquility permeates the scene, as the organic geometry of these trees creates a natural cathedral that invites quiet contemplation of the region's wilderness. This specific species is renowned in Argentina for its exceptionally smooth texture and deep, vibrant hues that stand out against the verdant undergrowth. The composition utilizes a wide-angle lens to draw the viewer into the heart of the thicket, highlighting the complex, sprawling nature of the forest floor. This image serves as a vital record of the fragile, temperate rainforest ecosystems that make trekking in the Patagonia region a world-class outdoor experience for nature enthusiasts. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "El Bolsón, Río Negro: Los intrincados troncos de los arrayanes, bañados por la luz del sol, crean un laberinto arquitectónico que define la identidad botánica única del bosque andino-patagónico. La cámara captura una perspectiva de ángulo bajo, enfatizando la corteza suave y de color canela que se desprende para revelar parches claros que contrastan debajo. La luz suave y difusa se filtra a través del denso dosel superior, proyectando sombras tenues que serpentean alrededor de las raíces nudosas e interconectadas cerca del suelo del bosque. Una sensación de tranquilidad antigua impregna la escena, mientras la geometría orgánica de estos árboles crea una catedral natural que invita a la contemplación silenciosa de la naturaleza salvaje de la región. Esta especie en particular es conocida en Argentina por su textura excepcionalmente suave y sus tonos profundos y vibrantes que destacan contra el sotobosque verde. La composición utiliza un lente gran angular para atraer al espectador al corazón del matorral, destacando la naturaleza compleja y extensa del suelo del bosque. Esta imagen sirve como un registro vital de los frágiles ecosistemas de bosque templado lluvioso que hacen que el senderismo en la región de la Patagonia sea una experiencia al aire libre de clase mundial para los entusiastas de la naturaleza. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolson",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Arrayan",
+        "Luma apiculata",
+        "Forest",
+        "Andean Patagonia",
+        "Nature",
+        "Patagonian Forest",
+        "Wilderness",
+        "Hiking",
+        "Trekking",
+        "Travel Photography",
+        "Botanical",
+        "Ecosystem",
+        "Temperate Rainforest",
+        "South America",
+        "Landscape",
+        "Outdoor Adventure",
+        "Ecotourism",
+        "Forestry",
+        "Trees",
+        "Bark",
+        "Woodland",
+        "Organic",
+        "Texture",
+        "Flora",
+        "Botany",
+        "Natural Heritage",
+        "Andes",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Travel",
+        "Exploration",
+        "Photography",
+        "Backpacking",
+        "Nature Photography",
+        "Green",
+        "Environmental",
+        "Geography",
+        "South American Travel",
+        "Patagonia Argentina",
+        "Conservation",
+        "Dense Forest",
+        "Wild Landscapes",
+        "Woodland Walk",
+        "Native Plants",
+        "Remote Travel"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

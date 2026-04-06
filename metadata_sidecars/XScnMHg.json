@@ -1,0 +1,93 @@
+{
+    "title": "Crumble Apple Kuchen Dessert at a Local Tea House in El Bolsón Río Negro",
+    "description": "El Bolsón, Río Negro: A thick, indulgent slice of traditional apple kuchen sits centered on a clean white plate, capturing the essence of the region’s strong Central European culinary influence. The dessert features a dense, moist cake base layered with soft, stewed fruit, all hidden beneath a generous, golden-brown crumble topping that catches the soft ambient light. Photographed with a shallow depth of field, the texture of the cinnamon-dusted streusel is rendered with sharp, crisp detail, emphasizing the rustic, homemade appeal of Patagonian baking. The soft focus in the background provides just enough context to suggest a cozy café environment, where warm beverages and slow afternoons are part of the local ritual. Such culinary delights are a testament to the region’s diverse migration history, blending Alpine traditions with the bounty of local orchards. This image provides a sensory anchor for travelers seeking to understand the intersection of European heritage and Argentine hospitality in the foothills of the Andes. It invites the viewer to slow down and appreciate the intricate balance of spice and fruit that defines many regional desserts across the Southern Cone. Whether enjoyed after a long mountain hike or as part of a leisurely afternoon break, this simple plate of cake represents the comforting heart of Argentine travel experiences. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Argentina travel",
+        "Patagonian cuisine",
+        "Kuchen",
+        "Apple cake",
+        "Dessert",
+        "Tea house",
+        "Food photography",
+        "South America",
+        "Culinary travel",
+        "Alpine influence",
+        "Patagonia food",
+        "Bakery",
+        "Sweet treats",
+        "Travel photography",
+        "Project 23",
+        "Andean region",
+        "Food culture",
+        "Homemade",
+        "Streusel",
+        "Cinnamon",
+        "Orchard fruit",
+        "Gastronomy",
+        "Local flavors",
+        "Comfort food",
+        "Rustic food",
+        "Cafe culture",
+        "Southern Argentina",
+        "Pastry",
+        "Baked goods",
+        "Authentic travel",
+        "Foodie",
+        "Argentine dessert",
+        "Patagonian tradition",
+        "Travel guide",
+        "Andes mountains",
+        "Photography",
+        "Macro food",
+        "Crumble",
+        "European influence",
+        "Regional food",
+        "Dining",
+        "Afternoon tea",
+        "South American food",
+        "Tourism",
+        "Travel stories",
+        "Food blogging"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Crumble Apple Kuchen Dessert at a Local Tea House in El Bolsón Río Negro",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
