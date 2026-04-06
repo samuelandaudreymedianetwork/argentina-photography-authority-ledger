@@ -1,1 +1,76 @@
+name: Global Authority Drip
+on:
+  schedule:
+    - cron: '0 */3 * * *' 
+  workflow_dispatch: 
 
+jobs:
+  run-migration:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Tools
+        run: pip install flickrapi google-genai requests requests-oauthlib
+
+      - name: Execute Drip
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
+          SMUGMUG_API_SECRET: ${{ secrets.SMUGMUG_API_SECRET }}
+          SMUGMUG_ACCESS_TOKEN: ${{ secrets.SMUGMUG_ACCESS_TOKEN }}
+          SMUGMUG_ACCESS_TOKEN_SECRET: ${{ secrets.SMUGMUG_ACCESS_TOKEN_SECRET }}
+          FLICKR_API_KEY: ${{ secrets.FLICKR_API_KEY }}
+          FLICKR_API_SECRET: ${{ secrets.FLICKR_API_SECRET }}
+          FLICKR_ACCESS_TOKEN: ${{ secrets.FLICKR_ACCESS_TOKEN }}
+          FLICKR_ACCESS_SECRET: ${{ secrets.FLICKR_ACCESS_SECRET }}
+        # This ensures the Save step runs even if the Python script hits a Gemini error
+        continue-on-error: true
+        run: python migrate_global_drip.py
+
+      - name: Save Migration History and Sidecars
+        if: always() 
+        run: |
+          git config --global user.name "Global Bot"
+          git config --global user.email "bot@samuelandaudrey.com"
+          
+          # Force sync to ensure the bot sees your manual website edits
+          git fetch origin main
+          git checkout main
+          
+          # 1. Stage the dynamic bot files (using || true prevents failure on the very first run before files exist)
+          git add migration_history_*.json || true
+          git add metadata_sidecars_*/ || true
+          
+          # Check if there are actually changes to stash
+          if ! git diff --staged --quiet; then
+            # Stash the bot's newly generated files
+            git stash
+            
+            # 2. Pull your latest manual edits
+            git pull origin main --rebase
+            
+            # 3. Pop the files back in. If there is a conflict, 'theirs' (the bot's work) wins.
+            git stash pop || {
+              git checkout --theirs migration_history_*.json || true
+              git checkout --theirs metadata_sidecars_*/ || true
+            }
+            
+            # 4. Final Stage and Push
+            git add migration_history_*.json || true
+            git add metadata_sidecars_*/ || true
+            
+            git commit -m "Update Global migration history and schema sidecars [skip ci]"
+            git push origin main
+          else
+            echo "No new history or sidecars to save."
+          fi
