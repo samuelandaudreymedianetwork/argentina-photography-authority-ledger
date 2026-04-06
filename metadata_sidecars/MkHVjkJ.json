@@ -1,0 +1,87 @@
+{
+    "title": "Snow Capped Puntiagudo Volcano Above Todos Los Santos Lake in the Chilean Lake District",
+    "description": "Todos Los Santos, Los Lagos: The jagged, snow-dusted peak of the Puntiagudo Volcano dominates the horizon, rising dramatically above the deep sapphire expanse of the lake. Shot with a sharp telephoto lens, the image emphasizes the stark geological contrast between the volcanic obsidian slopes and the vibrant, dense temperate rainforests clinging to the lower ridges. The morning light casts a crisp, clear illumination across the scene, highlighting the glacial scars that trace the mountain's steep, conical geometry. Below, the water captures the sky's reflection in a mosaic of moving ripples, creating a dynamic foreground that draws the eye toward the mountain's summit. This vista represents a pivotal moment in the Cruce Andino journey, where the scale of the Andes shifts from rolling foothills to high-altitude volcanic monoliths. The lack of haze suggests a high-pressure system, allowing the textures of the volcanic scree to stand out in high definition against the cloudless azure heavens. Such dramatic scenery defines the rugged, untamed beauty of the Chilean-Argentine borderlands, a region characterized by its powerful geological history and persistent tectonic activity. For travelers navigating this route, the sight of this iconic landmark serves as a testament to the sheer magnitude of the Andean landscape. This image serves as a visual record of the unique volcanic corridors that link the dramatic lake crossings of the Patagonia region. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Todos Los Santos, Los Lagos: La cima dentada y espolvoreada de nieve del Volcán Puntiagudo domina el horizonte, elevándose dramáticamente sobre la profunda extensión de zafiro del lago. Capturada con un teleobjetivo nítido, la imagen enfatiza el marcado contraste geológico entre las laderas volcánicas de obsidiana y las vibrantes y densas selvas templadas que se aferran a las crestas inferiores. La luz de la mañana proyecta una iluminación nítida y clara en toda la escena, resaltando las cicatrices glaciares que trazan la geometría cónica y empinada de la montaña. Debajo, el agua captura el reflejo del cielo en un mosaico de ondas en movimiento, creando un primer plano dinámico que atrae la mirada hacia la cima de la montaña. Esta vista representa un momento crucial en el viaje del Cruce Andino, donde la escala de los Andes cambia de suaves colinas a monolitos volcánicos de gran altitud. La ausencia de neblina sugiere un sistema de alta presión, permitiendo que las texturas del material volcánico destaquen en alta definición contra el cielo azul sin nubes. Un paisaje tan dramático define la belleza rugosa e indómita de las tierras fronterizas entre Chile y Argentina, una región caracterizada por su poderosa historia geológica y su persistente actividad tectónica. Para los viajeros que navegan por esta ruta, la vista de este hito icónico sirve como testimonio de la magnitud pura del paisaje andino. Esta imagen sirve como un registro visual de los corredores volcánicos únicos que conectan los espectaculares cruces de lagos de la región de la Patagonia. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Puntiagudo",
+        "Volcano",
+        "Chile",
+        "Los Lagos",
+        "Cruce Andino",
+        "Andes",
+        "Patagonia",
+        "Volcanic",
+        "Glacier",
+        "Lake",
+        "Todos Los Santos",
+        "Mountain",
+        "Landscape",
+        "Photography",
+        "Travel",
+        "Adventure",
+        "Nature",
+        "Geography",
+        "Geology",
+        "Wilderness",
+        "Outdoors",
+        "South America",
+        "Summit",
+        "Temperate Rainforest",
+        "Vista",
+        "Blue Sky",
+        "High Altitude",
+        "Tourism",
+        "Scenic",
+        "Exploration",
+        "Andean",
+        "Patagonian",
+        "Peak",
+        "Iconic",
+        "Geological",
+        "Alpine",
+        "Travel Photography",
+        "Regional Identity",
+        "Water",
+        "Reflection",
+        "Rugged",
+        "Tectonic",
+        "Mountain Range",
+        "Conical",
+        "Obsidian",
+        "Scree",
+        "Atmospheric",
+        "Borderlands",
+        "Chilean Lakes",
+        "Project 23"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

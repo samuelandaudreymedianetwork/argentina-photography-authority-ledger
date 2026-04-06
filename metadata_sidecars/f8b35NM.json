@@ -1,0 +1,86 @@
+{
+    "title": "Weathered Wooden Directional Signpost at the Cruce Andino Lake Crossing in Los Lagos Region",
+    "description": "Puerto Frías, Los Lagos: A weathered wooden signpost stands as a silent navigator, its hand-painted letters and miniature national flags pointing toward the distant connections between Chile and Argentina. The midday sun casts sharp, dramatic shadows across the aged planks, highlighting the textured grain of the timber that has stood against the harsh, windswept mountain elements. In the soft-focus background, a pristine alpine structure sits nestled against a wall of dense, emerald-green forest, while the clear blue sky emphasizes the isolation of this remote border transit point. The composition utilizes a shallow depth of field to isolate the signs, ensuring the geographical milestones to places like Bariloche and Puerto Varas remain the central focus of the frame. This directional marker acts as a symbolic bridge, bridging the gap between two nations linked by interconnected glacial lakes and rugged Andean terrain. The crisp lighting illuminates the craftsmanship of the signage, evoking a sense of adventure and the slow, deliberate pace of travel common in this high-altitude region. As travelers navigate this iconic route, these signposts become essential landmarks that define the boundary between the quiet wilderness and the bustle of neighboring mountain towns. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nPuerto Frías, Los Lagos: Un letrero de madera desgastada se alza como un silencioso navegante, con sus letras pintadas a mano y banderas nacionales en miniatura que señalan las conexiones distantes entre Chile y Argentina. El sol del mediodía proyecta sombras nítidas y dramáticas a través de los tablones envejecidos, resaltando la textura de la madera que ha resistido los elementos montañosos azotados por el viento. En el fondo, con un enfoque suave, una estructura alpina prístina se asienta contra una pared de bosque verde esmeralda, mientras que el cielo azul despejado enfatiza el aislamiento de este punto de tránsito fronterizo remoto. La composición utiliza una profundidad de campo reducida para aislar los letreros, asegurando que los hitos geográficos hacia lugares como Bariloche y Puerto Varas sigan siendo el foco central del encuadre. Este marcador direccional actúa como un puente simbólico, uniendo a dos naciones conectadas por lagos glaciares interconectados y un terreno andino escarpado. La iluminación nítida ilumina la artesanía de la señalización, evocando un sentido de aventura y el ritmo lento y deliberado de los viajes comunes en esta región de gran altitud. A medida que los viajeros navegan por esta ruta icónica, estos letreros se convierten en puntos de referencia esenciales que definen el límite entre la naturaleza tranquila y el bullicio de los pueblos de montaña vecinos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Cruce Andino",
+        "Puerto Frías",
+        "Los Lagos",
+        "Chile",
+        "Argentina",
+        "Patagonia",
+        "Lake Crossing",
+        "Andes Mountains",
+        "Travel Photography",
+        "Signpost",
+        "Waypoint",
+        "Border Crossing",
+        "Puerto Varas",
+        "Bariloche",
+        "Petrohué",
+        "Peulla",
+        "Puerto Alegre",
+        "Puerto Blest",
+        "Puerto Pañuelo",
+        "Navigation",
+        "Mountain Scenery",
+        "Alpine Wilderness",
+        "Backpacking",
+        "Adventure Travel",
+        "Remote Locations",
+        "Scenic Routes",
+        "Landscape Photography",
+        "Outdoor Exploration",
+        "South America",
+        "Travel Logistics",
+        "Geographic Landmarks",
+        "Rustic Texture",
+        "Hand Painted Sign",
+        "Patagonian Summer",
+        "Nature Trails",
+        "Tourism Infrastructure",
+        "Intermodal Transport",
+        "Travel Documentation",
+        "Hiking Culture",
+        "Geographic Milestones",
+        "Mountain Transit",
+        "Wilderness",
+        "Glacial Lakes",
+        "Iconic Landmarks",
+        "Route Planning",
+        "Transnational Travel",
+        "High Altitude",
+        "Travel Aesthetics",
+        "Project 23",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

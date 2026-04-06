@@ -1,0 +1,87 @@
+{
+    "title": "Snow-Capped Osorno Volcano Across Nahuel Huapi Lake in the Scenic Cruce Andino Argentina Corridor",
+    "description": "Cruce Andino, Neuquén: The majestic, snow-dusted silhouette of the Osorno Volcano dominates the horizon, rising dramatically above the deep blue, shimmering waters of the Andean lake system. A traveler gazes out toward this geological icon, their presence framed by the soft-focus foreground which grounds the viewer in the experience of the journey. The interplay of crisp morning light creates a crystalline clarity, emphasizing the volcanic peak's perfect conical geometry against the vast, cloudless sky. Lush, dark-green forests blanket the shoreline, providing a rich, textured contrast to the stark, icy summit and the shimmering surface of the water. This crossing represents the historical route used by indigenous peoples and early explorers, now serving as a vital bridge connecting the wild landscapes of Argentina and Chile. The atmosphere remains one of profound serenity, capturing a fleeting moment of connection between the observer and the rugged Patagonian frontier. As the light dances across the gentle ripples, the composition highlights the immense scale of the Cordillera, reminding us of the region's raw, tectonic vitality. Photographically, the shallow depth of field effectively isolates the volcanic landmark, drawing the eye toward the distant, frozen pinnacle while acknowledging the human element of the voyage. This iconic landscape serves as a reminder of the enduring allure of trans-Andean travel, where geography dictates the rhythm of discovery and cultural exchange. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Cruce Andino",
+        "Osorno Volcano",
+        "Patagonia",
+        "Argentina",
+        "Lake Crossing",
+        "Andes Mountains",
+        "Volcan Osorno",
+        "Nahuel Huapi",
+        "Travel Photography",
+        "Andean Landscape",
+        "South America",
+        "Mountain Scenery",
+        "Nature Photography",
+        "Glacial Lake",
+        "Volcanic Peak",
+        "Patagonian Andes",
+        "Scenic Route",
+        "Adventure Travel",
+        "Geography",
+        "Water Reflection",
+        "Outdoor Exploration",
+        "Landscape Photography",
+        "Wilderness",
+        "Mountain Vista",
+        "Neuquén",
+        "Bariloche",
+        "Puerto Varas",
+        "Border Crossing",
+        "Regional Travel",
+        "High Altitude",
+        "Snow Capped Mountain",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Icy Summit",
+        "Lakes District",
+        "Travel Documentary",
+        "Cordillera",
+        "Atmospheric",
+        "Natural Landmark",
+        "Travel Narrative",
+        "Remote Destination",
+        "Water Surface",
+        "Sunlight Reflection",
+        "Environmental Beauty",
+        "Geological Feature",
+        "Iconic View",
+        "Wild Patagonia",
+        "South American Travel",
+        "Expedition"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Snow-Capped Osorno Volcano Across Nahuel Huapi Lake in the Scenic Cruce Andino Argentina Corridor",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

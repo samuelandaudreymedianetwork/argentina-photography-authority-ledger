@@ -1,0 +1,87 @@
+{
+    "title": "Topographic Tourist Map Displaying The Cruce Andino Route Between Puerto Varas And Bariloche",
+    "description": "Puerto Varas, Los Lagos: A detailed topographic map showcases the intricate Cruce Andino route, illustrating the dramatic transition from the Chilean lake district to the Argentine Andean peaks. The display provides a vibrant aerial view of the volcanic topography, tracing the iconic water-and-land crossing that connects the lush green forests of Chile with the majestic Nahuel Huapi National Park in Argentina. Sharp lighting reflects off the protective glass, adding a layer of depth to the intricate network of blue water channels and rugged mountain terrain depicted in the cartography. The map acts as a vital navigational tool for travelers, highlighting landmarks like the Osorno and Calbuco volcanoes alongside the pristine lakes that define this border region. Through this graphic representation, one can visualize the geologic history of the Southern Andes and the strategic path taken by explorers and tourists alike for over a century. The clear demarcation of national parks and international borders emphasizes the unique ecological continuity that spans across both nations. By examining this display, visitors gain a deeper appreciation for the remote beauty and complex geography of Patagonia’s interconnected wilderness. This visual documentation serves as an essential guide for those traversing the rugged heart of the Southern Cone, preserving the historical importance of the Andean lake crossing. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Cruce Andino",
+        "Puerto Varas",
+        "Bariloche",
+        "Patagonia",
+        "Chile",
+        "Argentina",
+        "Nahuel Huapi",
+        "Lake Crossing",
+        "Topographic Map",
+        "Cartography",
+        "Andes Mountains",
+        "Los Lagos",
+        "Neuquen",
+        "Volcanoes",
+        "Osorno Volcano",
+        "Calbuco Volcano",
+        "Travel Guide",
+        "Tourism",
+        "Navigation",
+        "Geography",
+        "Project 23",
+        "South America",
+        "Lake District",
+        "National Park",
+        "Adventure Travel",
+        "Outdoor Mapping",
+        "Cartographic Design",
+        "Andean Peaks",
+        "Regional Identity",
+        "Tourist Infrastructure",
+        "Pristine Lakes",
+        "Border Crossing",
+        "Scientific Illustration",
+        "Wilderness Exploration",
+        "Travel Documentation",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Visual Geography",
+        "Educational Display",
+        "Andean Landscape",
+        "Mountain Geography",
+        "Patagonian Wilderness",
+        "Border Territory",
+        "Hiking Route",
+        "Transit Hub",
+        "Travel Planning",
+        "Geology",
+        "Nature Education",
+        "Map Visuals",
+        "Southern Cone"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Topographic Tourist Map Displaying The Cruce Andino Route Between Puerto Varas And Bariloche",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://cheargentinatravel.com",
+                    "https://nomadicsamuel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
