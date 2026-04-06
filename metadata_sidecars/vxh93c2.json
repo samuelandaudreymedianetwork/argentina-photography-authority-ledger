@@ -1,0 +1,92 @@
+{
+    "title": "Emerald Waters and Lush Nothofagus Forests in the Valley of El Bolsón Rio Negro",
+    "description": "El Bolsón, Río Negro: Vibrant emerald glacial waters carve through the dramatic, rugged terrain of the Andean foothills, framed by dense, verdant Nothofagus forests that cascade down to the water’s edge. The composition utilizes a wide-angle perspective to emphasize the deep saturation of the lake, where mineral-rich sediment produces a striking turquoise hue that shifts under the interplay of sunlight and shadow. Above, the expansive Patagonian sky is filled with a dynamic assembly of cumulus clouds, casting undulating patterns across the mountainside that emphasize the geological scale of this remote wilderness. The light captures the intricate textures of the native trees, highlighting the lush canopy against the stoic, darkened slopes of the distant peaks. This scene exemplifies the untamed beauty of the Argentine Patagonia, where geography dictates the slow, deliberate pace of regional exploration. Capturing the convergence of sky, forest, and mountain provides a window into the pristine environment that defines the spirit of local trekking culture. Travelers visiting this area will find themselves immersed in a sanctuary of biodiversity, offering profound opportunities for reflection and connection with the natural world. The interplay of light and shadow across the landscape creates a sense of timelessness, inviting onlookers to appreciate the silent majesty of the high-altitude ecosystem. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "South America",
+        "Andes Mountains",
+        "Glacial Lake",
+        "Nothofagus Forest",
+        "Nature Photography",
+        "Travel Photography",
+        "Landscape Photography",
+        "Project 23",
+        "Wilderness",
+        "Patagonian Andes",
+        "Outdoor Adventure",
+        "Hiking Argentina",
+        "Turquoise Water",
+        "Mountain Scenery",
+        "Cloudscape",
+        "Travel Documentary",
+        "Eco Tourism",
+        "South American Geography",
+        "Temperate Rainforest",
+        "National Parks Argentina",
+        "Remote Landscapes",
+        "Scenic View",
+        "Environmental Conservation",
+        "Patagonian Wilderness",
+        "Andean Foothills",
+        "Travel Inspiration",
+        "Geotourism",
+        "Argentine Patagonia",
+        "Hiking Trails",
+        "Nature Sanctuary",
+        "Forest Ecology",
+        "Mountain Wilderness",
+        "Lake District",
+        "Río Negro Province",
+        "Landscape Aesthetics",
+        "Outdoor Lifestyle",
+        "Wild Argentina",
+        "Patagonian Skies",
+        "Ecotourism Patagonia",
+        "Untamed Nature",
+        "Exploring Argentina",
+        "Scenic Landscapes",
+        "Mountain Ecosystem",
+        "Natural Beauty",
+        "Adventure Travel",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

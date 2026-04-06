@@ -1,0 +1,92 @@
+{
+    "title": "Glacial Blue Azul River Waters in the Forested Valley of El Bolson Rio Negro",
+    "description": "El Bolsón, Río Negro: The vibrant, turquoise currents of the Río Azul surge through a dense, temperate forest landscape, framed by the emerald foliage of native coihue and cypress trees. The photographer captures the raw kinetic energy of the glacial meltwater as it transitions from serene pools into frothy, turbulent rapids beneath the dappled canopy sunlight. High-contrast lighting highlights the crystalline clarity of the riverbed, where submerged stones shimmer through the translucent, mineral-rich depths of the mountain stream. The composition utilizes natural foreground framing to draw the viewer’s eye toward the river’s winding path, emphasizing the intimate connection between the forest ecosystem and the region’s alpine hydrology. This scene encapsulates the pristine, untamed beauty of the Andean wilderness, a hallmark of Patagonia’s ecologically diverse and protected environments. The lush, verdant banks provide a striking contrast to the cool tones of the water, creating a tranquil yet dynamic atmosphere that defines the sensory experience of trekking in this sub-Antarctic climate. As these waters carve their way through the valley, they sustain the unique biodiversity that makes this protected natural area a vital destination for sustainable tourism and conservation efforts. Capturing such moments of natural splendor serves to deepen our appreciation for the geological history and the essential water resources that characterize this corner of the Southern Hemisphere. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n---\nEl Bolsón, Río Negro: Las vibrantes corrientes turquesas del Río Azul surgen a través de un denso paisaje de bosque templado, enmarcado por el follaje esmeralda de los coihues y cipreses nativos. El fotógrafo captura la energía cinética pura del agua de deshielo glacial a medida que transita desde piscinas serenas hacia rápidos espumosos y turbulentos bajo la luz moteada del dosel forestal. La iluminación de alto contraste resalta la claridad cristalina del lecho del río, donde las piedras sumergidas brillan a través de las profundidades translúcidas y ricas en minerales del arroyo de montaña. La composición utiliza el encuadre natural en primer plano para atraer la mirada del espectador hacia el camino sinuoso del río, enfatizando la conexión íntima entre el ecosistema forestal y la hidrología alpina de la región. Esta escena encapsula la belleza prístina e indómita de la naturaleza andina, un sello distintivo de los entornos ecológicamente diversos y protegidos de la Patagonia. Las orillas exuberantes y verdes proporcionan un contraste sorprendente con los tonos fríos del agua, creando una atmósfera tranquila pero dinámica que define la experiencia sensorial del senderismo en este clima subantártico. A medida que estas aguas se abren camino a través del valle, sostienen la biodiversidad única que convierte a esta área natural protegida en un destino vital para el turismo sostenible y los esfuerzos de conservación. Capturar tales momentos de esplendor natural sirve para profundizar nuestra apreciación por la historia geológica y los recursos hídricos esenciales que caracterizan este rincón del hemisferio sur. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Río Azul",
+        "Andes Mountains",
+        "Glacial River",
+        "Turquoise Water",
+        "Temperate Forest",
+        "Patagonian Landscape",
+        "Nature Photography",
+        "South America",
+        "Wilderness",
+        "Outdoor Adventure",
+        "Mountain Stream",
+        "Ecology",
+        "Conservation",
+        "Andean Forest",
+        "Water Resources",
+        "Hiking Destinations",
+        "Travel Photography",
+        "River Rapids",
+        "Natural Scenery",
+        "Sustainable Tourism",
+        "Landscape Photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Environmental Beauty",
+        "Alpine Waters",
+        "Native Trees",
+        "Coihue",
+        "Cypress Forest",
+        "Geography",
+        "Geological Features",
+        "Scenic Views",
+        "Eco-tourism",
+        "Patagonia Argentina",
+        "Mountain Wilderness",
+        "Clear Water",
+        "Nature Conservation",
+        "Adventure Travel",
+        "Remote Wilderness",
+        "River Ecosystem",
+        "Andean Region",
+        "Sub-Antarctic Climate",
+        "Wild Landscapes",
+        "Natural Heritage",
+        "River Valley",
+        "Outdoors"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

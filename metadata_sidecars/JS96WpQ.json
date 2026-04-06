@@ -1,0 +1,93 @@
+{
+    "title": "Jagged Snow-Dusted Granite Peaks Towering Over El Bolsón in the Rio Negro Region Argentina",
+    "description": "El Bolsón, Río Negro: The dramatic, serrated ridges of the Andes Mountains dominate the horizon, showcasing a striking contrast between the raw, weathered granite and the pristine blankets of late-season snow. Captured with a sharp telephoto lens, the image emphasizes the intricate geological textures and deep crevasses that define this high-altitude landscape. The morning sunlight filters through a scattering of wispy clouds, casting soft shadows that highlight the precipitous cliffs and rugged spires of the range. Below the snowline, the dark, volcanic-hued rock faces give way to lush pockets of vegetation, hinting at the diverse ecosystems thriving within the valley floor. The composition captures the sheer scale of these geological monoliths, evoking a sense of profound stillness that is characteristic of the Argentine Patagonia. This mountainous backdrop serves as a testament to the untamed beauty of the Southern Andes, drawing trekkers and nature enthusiasts to explore its challenging alpine trails. As a centerpiece of the regional geography, these peaks act as natural sentinels that have shaped both the climate and the adventurous spirit of the surrounding communities. Understanding these mountain formations is essential for any traveler looking to comprehend the geological heritage and natural majesty that define the heart of Patagonia. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "El Bolsón, Río Negro: Las dramáticas crestas serradas de la Cordillera de los Andes dominan el horizonte, mostrando un contraste sorprendente entre el granito crudo y desgastado y los mantos prístinos de nieve de finales de temporada. Capturada con un teleobjetivo nítido, la imagen enfatiza las intrincadas texturas geológicas y las profundas grietas que definen este paisaje de gran altitud. La luz del sol de la mañana se filtra a través de una dispersión de nubes tenues, proyectando sombras suaves que resaltan los acantilados precipitados y las agujas escarpadas de la cadena. Debajo de la línea de nieve, las caras de roca de tonos volcánicos oscuros dan paso a exuberantes bolsillos de vegetación, insinuando los diversos ecosistemas que prosperan dentro del fondo del valle. La composición captura la escala absoluta de estos monolitos geológicos, evocando una sensación de profunda quietud que es característica de la Patagonia argentina. Este telón de fondo montañoso sirve como testimonio de la belleza indómita de los Andes del Sur, atrayendo a excursionistas y entusiastas de la naturaleza a explorar sus desafiantes senderos alpinos. Como pieza central de la geografía regional, estos picos actúan como centinelas naturales que han dado forma tanto al clima como al espíritu aventurero de las comunidades circundantes. Comprender estas formaciones montañosas es esencial para cualquier viajero que busque comprender el patrimonio geológico y la majestuosidad natural que definen el corazón de la Patagonia. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Mountains",
+        "Snow",
+        "Granite",
+        "Peaks",
+        "Hiking",
+        "Trekking",
+        "Adventure",
+        "Landscape",
+        "Nature",
+        "Geology",
+        "MountainRange",
+        "SouthAmerica",
+        "PatagoniaArgentina",
+        "Outdoors",
+        "Alpine",
+        "Wilderness",
+        "Scenic",
+        "Photography",
+        "Travel",
+        "Summit",
+        "Glacial",
+        "RockFormation",
+        "Climbing",
+        "MountainPhotography",
+        "HighAltitude",
+        "Rugged",
+        "Geography",
+        "Environmental",
+        "Clouds",
+        "Sky",
+        "Earth",
+        "AdventureTravel",
+        "NaturePhotography",
+        "VisualArts",
+        "Remote",
+        "Wild",
+        "Pristine",
+        "Cliffs",
+        "Spires",
+        "Cordillera",
+        "NationalPark",
+        "Andean",
+        "TravelPhotography",
+        "Ecosystem",
+        "Project23"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

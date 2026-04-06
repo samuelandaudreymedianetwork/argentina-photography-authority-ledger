@@ -1,0 +1,92 @@
+{
+    "title": "Turquoise Glacial River and Andean Peaks in the Mountain Town of El Bolsón Patagonia",
+    "description": "El Bolsón, Río Negro: A vibrant turquoise river winds gracefully through a dense, temperate rainforest, flanked by the towering, snow-dusted summits of the Andes Mountains. The soft, diffuse light of midday highlights the rich textures of the lush canopy, where deep forest greens contrast sharply against the brilliant blue of the glacial meltwater. This landscape composition utilizes a wide-angle perspective to emphasize the sheer scale of the Patagonian wilderness, capturing the serene interplay between alpine geology and riparian vitality. The rushing water creates a rhythmic motion, suggesting the pristine and powerful nature of the hydrological systems in this remote corner of Argentina. Wispy clouds drift lazily across a pale blue sky, softening the harsh edges of the high-altitude peaks that define the horizon. By maintaining a deep depth of field, the image brings every detail of the jagged mountain ridges into sharp focus, showcasing the rugged topographical beauty of the region. Visitors to this area are often struck by the profound silence and the raw, untamed atmosphere that persists far from urban centers. This scene serves as an essential visual record of the glacial landscapes that act as the lifeblood for Andean communities, highlighting the environmental significance of protecting these fragile mountain ecosystems. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n\n---\n\nEl Bolsón, Río Negro: Un río turquesa vibrante serpentea con gracia a través de una densa selva templada, flanqueado por las imponentes cumbres nevadas de la Cordillera de los Andes. La luz suave y difusa del mediodía resalta las ricas texturas del dosel exuberante, donde los verdes intensos del bosque contrastan fuertemente con el azul brillante del agua de deshielo glacial. Esta composición paisajística utiliza una perspectiva de gran angular para enfatizar la escala absoluta de la naturaleza patagónica, capturando la interacción serena entre la geología alpina y la vitalidad ribereña. El agua que fluye crea un movimiento rítmico, sugiriendo la naturaleza prístina y poderosa de los sistemas hidrológicos en este rincón remoto de Argentina. Nubes tenues se desplazan perezosamente a través de un cielo azul pálido, suavizando los bordes ásperos de los picos de gran altitud que definen el horizonte. Al mantener una gran profundidad de campo, la imagen enfoca cada detalle de las crestas montañosas irregulares, mostrando la belleza topográfica escarpada de la región. Los visitantes de esta área a menudo quedan impresionados por el silencio profundo y la atmósfera cruda e indomable que persiste lejos de los centros urbanos. Esta escena sirve como un registro visual esencial de los paisajes glaciares que actúan como el alma de las comunidades andinas, destacando la importancia ambiental de proteger estos frágiles ecosistemas de montaña. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes Mountains",
+        "Glacial River",
+        "Turquoise Water",
+        "Temperate Rainforest",
+        "Patagonian Andes",
+        "Nature Photography",
+        "Mountain Scenery",
+        "Wilderness",
+        "Alpine Landscape",
+        "South America Travel",
+        "Project 23",
+        "Outdoor Adventure",
+        "Landscape Photography",
+        "Geography",
+        "Ecotourism",
+        "Riparian Ecosystem",
+        "Snow-capped Peaks",
+        "Rugged Terrain",
+        "Natural Beauty",
+        "Travel Photography",
+        "Patagonia Argentina",
+        "Andean Peaks",
+        "Río Azul",
+        "Forest Canopy",
+        "Mountain Valley",
+        "Sustainable Travel",
+        "Environmental Conservation",
+        "Argentine Patagonia",
+        "Backpacking",
+        "Hiking Destinations",
+        "River Gorge",
+        "Scenic View",
+        "Nature Lovers",
+        "Untamed Nature",
+        "Topography",
+        "Earth Sciences",
+        "Regional Identity",
+        "Nomadic Life",
+        "High Altitude",
+        "Mountain Streams",
+        "Photographic Journey",
+        "Wild Landscapes",
+        "Andean Corridor",
+        "Remote Travel",
+        "Flora and Fauna",
+        "Summer in Patagonia"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

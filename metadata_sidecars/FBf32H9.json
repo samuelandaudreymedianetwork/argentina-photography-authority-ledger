@@ -1,0 +1,92 @@
+{
+    "title": "Cattle Grazing in the Fertile Valley of El Bolsón Rio Negro Under Glacial Peaks",
+    "description": "El Bolsón, Río Negro: A tranquil herd of cattle occupies the lush, expansive grasslands that define the rural character of this Patagonian valley. The mid-afternoon light casts a soft glow over the pasture, highlighting the rich textures of the swaying grass and the varied coats of the livestock scattered across the plain. In the distance, the imposing, snow-dusted ridges of the Andes rise dramatically against a pale sky, acting as a natural fortress that cradles the small cluster of farmhouses and wind-bent poplars. The depth of field carefully balances the immediacy of the grazing animals in the foreground with the monumental, silent presence of the mountain range behind them. This scene captures the harmonious intersection of small-scale agriculture and rugged alpine geography, reflecting a lifestyle deeply rooted in the rhythmic cycles of the seasons. The peaceful atmosphere evokes the solitude and vastness commonly experienced while traversing the remote corners of Argentina’s southern provinces. By documenting these quiet, agrarian moments, one gains a profound appreciation for the essential role that local livestock farming plays in maintaining the cultural and economic vitality of mountain settlements. The juxtaposition of man-made fence lines against the unyielding, ancient geology of the Andes serves as a testament to the endurance of those who call this picturesque valley home. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Bolsón, Río Negro: Un tranquilo rebaño de ganado ocupa los exuberantes y extensos pastizales que definen el carácter rural de este valle patagónico. La luz de media tarde proyecta un suave resplandor sobre el pasto, resaltando las ricas texturas de la hierba y los variados pelajes del ganado esparcido por la llanura. En la distancia, las imponentes crestas cubiertas de nieve de los Andes se elevan dramáticamente contra un cielo pálido, actuando como una fortaleza natural que alberga el pequeño grupo de casas de campo y álamos doblados por el viento. La profundidad de campo equilibra cuidadosamente la inmediatez de los animales pastando en primer plano con la presencia monumental y silenciosa de la cordillera detrás de ellos. Esta escena captura la armoniosa intersección entre la agricultura a pequeña escala y la accidentada geografía alpina, reflejando un estilo de vida profundamente arraigado en los ciclos rítmicos de las estaciones. La atmósfera pacífica evoca la soledad y la inmensidad que comúnmente se experimenta al atravesar los rincones remotos de las provincias del sur de Argentina. Al documentar estos momentos agrarios tranquilos, uno obtiene una profunda apreciación por el papel esencial que desempeña la ganadería local en el mantenimiento de la vitalidad cultural y económica de los asentamientos de montaña. La yuxtaposición de las líneas de cercas artificiales contra la geología inquebrantable y antigua de los Andes sirve como testimonio de la resistencia de quienes llaman hogar a este pintoresco valle. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Mountains",
+        "Cattle",
+        "Farming",
+        "Agriculture",
+        "Landscape",
+        "Travel",
+        "Photography",
+        "Nature",
+        "Rural",
+        "Pasture",
+        "Grasslands",
+        "Glaciers",
+        "Snowcapped",
+        "Valley",
+        "South America",
+        "Outdoor",
+        "Livestock",
+        "Farm",
+        "Scenery",
+        "Environment",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Travel Documentary",
+        "Argentine Patagonia",
+        "Eco Tourism",
+        "Countryside",
+        "Alpine",
+        "Geography",
+        "Wildlife",
+        "Sustainability",
+        "Heritage",
+        "Culture",
+        "Exploration",
+        "Wilderness",
+        "Mountainside",
+        "Vista",
+        "Panoramas",
+        "Light",
+        "Textures",
+        "Ranch",
+        "Estancia",
+        "Patagonian Andes",
+        "Remote",
+        "Adventure"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

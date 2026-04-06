@@ -1,0 +1,92 @@
+{
+    "title": "Towering Snowy Peaks and Dense Coniferous Forests in the Mountains of El Bolsón Río Negro",
+    "description": "El Bolsón, Río Negro: A majestic snow-capped mountain dominates the horizon, rising sharply above an expansive, verdant expanse of coniferous forest. The rugged, striated rock faces of the peak catch the morning light, revealing ancient geological textures that contrast beautifully with the soft, vibrant green of the valley floor. In the foreground, the dense canopy of native trees creates a lush, textured tapestry, emphasizing the sheer scale and untamed wilderness of the Andean foothills. The clear, cobalt blue sky provides a stark, minimalist backdrop that draws the eye upward toward the summit’s glistening glaciers. Shadow and light dance across the slopes, highlighting the diverse topography typical of this Northern Patagonia sanctuary. As the sun climbs higher, the subtle shifts in illumination articulate the deep valleys and ridges that carve through this protected landscape. This region remains a profound destination for hikers and nature enthusiasts seeking connection with the raw, high-altitude environment of the Argentine Andes. By capturing the stark verticality of the mountain against the soft, rolling foothills, the photograph illustrates the dramatic physical geography that defines the character of the town of El Bolsón. Preserving such vistas is vital for understanding the ecological diversity and heritage of this rugged mountainous territory. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Bolsón, Río Negro: Un majestuoso pico nevado domina el horizonte, elevándose abruptamente sobre una vasta y verde extensión de bosque de coníferas. Las escarpadas paredes rocosas estriadas de la cima capturan la luz de la mañana, revelando antiguas texturas geológicas que contrastan maravillosamente con el suave y vibrante verde del suelo del valle. En primer plano, el denso dosel de árboles nativos crea un tapiz exuberante y texturizado, enfatizando la magnitud y la naturaleza indómita de las estribaciones andinas. El cielo azul cobalto despejado proporciona un fondo minimalista y marcado que atrae la vista hacia los glaciares brillantes de la cumbre. La luz y la sombra danzan a través de las laderas, resaltando la topografía diversa típica de este santuario del norte de la Patagonia. A medida que el sol asciende, los sutiles cambios en la iluminación articulan los profundos valles y crestas que se abren paso a través de este paisaje protegido. Esta región sigue siendo un destino profundo para excursionistas y entusiastas de la naturaleza que buscan una conexión con el entorno crudo y de gran altitud de los Andes argentinos. Al capturar la verticalidad marcada de la montaña contra las suaves colinas, la fotografía ilustra la dramática geografía física que define el carácter de la ciudad de El Bolsón. Preservar tales vistas es vital para comprender la diversidad ecológica y el patrimonio de este territorio montañoso. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Mountain",
+        "Snow",
+        "Landscape",
+        "Nature",
+        "Hiking",
+        "Wilderness",
+        "Forest",
+        "Coniferous",
+        "Adventure",
+        "Travel",
+        "Photography",
+        "South America",
+        "Outdoor",
+        "Geography",
+        "Glacier",
+        "Summit",
+        "Valley",
+        "Ecology",
+        "Environment",
+        "Scenic",
+        "Topography",
+        "Nomadic",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Patagonian Andes",
+        "Mountain Peak",
+        "Vegetation",
+        "Blue Sky",
+        "Geology",
+        "Regional Identity",
+        "Argentine Travel",
+        "Conservation",
+        "National Park",
+        "Hiking Destination",
+        "Northern Patagonia",
+        "Mountain Range",
+        "Visual Arts",
+        "Ecological Diversity",
+        "Mountain Photography",
+        "Alpine Scenery",
+        "South American Travel",
+        "Wild Landscapes",
+        "Rugged Terrain",
+        "Natural Beauty"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
