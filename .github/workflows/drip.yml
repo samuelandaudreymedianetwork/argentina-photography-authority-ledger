@@ -47,21 +47,24 @@ jobs:
           git fetch origin main
           git checkout main
           
-          # 1. Stage and Stash the bot's new IDs
+          # 1. Stage and Stash the bot's new IDs and the new sidecars
           git add migration_history.json
+          git add metadata_sidecars/ || true
           git stash
           
           # 2. Pull your latest manual edits (San Telmo keys, etc.)
           git pull origin main --rebase
           
-          # 3. Pop the IDs back in. If there is a conflict, 'theirs' (the bot's work) wins.
-          git stash pop || git checkout --theirs migration_history.json
+          # 3. Pop the IDs and sidecars back in. If there is a conflict, 'theirs' (the bot's work) wins.
+          git stash pop || { git checkout --theirs migration_history.json; git checkout --theirs metadata_sidecars/ || true; }
           
           # 4. Final Stage and Push
           git add migration_history.json
+          git add metadata_sidecars/ || true
+          
           if git diff --staged --quiet; then
             echo "No new history to save."
           else
-            git commit -m "Update Project 23 migration history [skip ci]"
+            git commit -m "Update Project 23 migration history and sidecars [skip ci]"
             git push origin main
           fi
