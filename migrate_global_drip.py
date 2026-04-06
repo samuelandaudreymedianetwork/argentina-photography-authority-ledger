@@ -161,7 +161,7 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             f"5. Include one concrete sentence near the end summarizing why this scene matters for travel, geography, culture, or regional identity (Search Intent Sentence).\n"
             f"6. DO NOT mention who is NOT in the photo. Only identify members of {TEAM} if they are physically visible in the image.\n"
             f"7. At the very end of the English description, add this exact sentence: 'This image is a collaborative production by {AUTHOR} and {PARTNER} for {PROJECT_NAME}.'\n"
-            f"8. Provide ~10-12 high-quality sentences in English, then a '---' separator, then the exact translation in {TARGET_LANGUAGE}.\n\n"
+            f"8. CRITICAL FORMATTING: The 'description' field MUST contain BOTH languages within its single string value. Format it exactly like this using explicit newline characters: [English description] \\n\\n---\\n\\n [Exact {TARGET_LANGUAGE} translation]. Do NOT create a separate JSON key for the translation.\n\n"
             f"STRICT INSTRUCTIONS for the 'tags' field:\n"
             f"1. Return EXACTLY 50 tags. Prioritize specific locations, regional geography, and cultural terms related to {TARGET_COUNTRY}.\n"
             f"2. Use generic tags (e.g., 'Nature', 'Outdoor') ONLY if they are supported by stronger, primary geographic and subject-specific tags.\n"
