@@ -1,0 +1,88 @@
+{
+    "title": "Audrey Bergner at the Historic Wooden Muelle Loreto Pier in Punta Arenas Chile",
+    "description": "Punta Arenas, Magallanes: Audrey Bergner stands confidently before the weathered ruins of the Muelle Loreto, a historic maritime landmark that reaches into the frigid waters of the Strait of Magellan. The composition utilizes a shallow depth of field to isolate the subject against the dramatic, decaying wooden pilings, where local seabirds have claimed their territory in the bracing coastal wind. Soft, natural light highlights the textures of her modern outdoor gear, which contrasts sharply with the raw, structural remnants of the 19th-century pier that served as a vital artery for this remote southern gateway. This scene captures the intersection of Patagonian maritime history and contemporary exploration, illustrating how the rugged, windswept landscapes of the Magallanes Region continue to shape the narrative of those who traverse the world's southernmost city. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey. \n\n---\n\n Punta Arenas, Magallanes: Audrey Bergner se encuentra con confianza frente a las ruinas desgastadas del Muelle Loreto, un hito marítimo histórico que se adentra en las gélidas aguas del Estrecho de Magallanes. La composición utiliza una profundidad de campo reducida para aislar a la protagonista contra los dramáticos pilares de madera en descomposición, donde las aves marinas locales han reclamado su territorio bajo el viento costero. Una luz natural suave resalta las texturas de su equipamiento de exterior moderno, el cual contrasta marcadamente con los restos estructurales del muelle del siglo XIX que sirvió como una arteria vital para esta remota puerta de entrada al sur. Esta escena captura la intersección de la historia marítima patagónica y la exploración contemporánea, ilustrando cómo los paisajes accidentados y azotados por el viento de la Región de Magallanes continúan dando forma a la narrativa de quienes recorren la ciudad más austral del mundo. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Samuel and Audrey.",
+    "tags": [
+        "Punta Arenas",
+        "Magallanes",
+        "Chile",
+        "Patagonia",
+        "Strait of Magellan",
+        "Muelle Loreto",
+        "Maritime History",
+        "Travel Photography",
+        "Audrey Bergner",
+        "South America",
+        "Chilean Patagonia",
+        "Coastal Landscape",
+        "Historic Pier",
+        "Southernmost City",
+        "Outdoor Adventure",
+        "Patagonian Coast",
+        "Travel Documentary",
+        "Cultural Heritage",
+        "Seabirds",
+        "Wooden Ruins",
+        "Arctic Apparel",
+        "Travel Portrait",
+        "Regional Identity",
+        "Remote Destinations",
+        "Chilean Culture",
+        "Photography Expedition",
+        "Windy Coast",
+        "Ocean View",
+        "Exploring Chile",
+        "Travel Vloggers",
+        "Magallanes Region",
+        "Rustic Architecture",
+        "Travel Lifestyle",
+        "Sea Breeze",
+        "Adventure Travel",
+        "Patagonian Summer",
+        "Documenting Travel",
+        "Punta Arenas Pier",
+        "Historic Landmarks",
+        "Geography of Chile",
+        "Outdoor Enthusiast",
+        "Travel Narratives",
+        "Maritime Heritage",
+        "Southern Chile",
+        "Scenic Coastline",
+        "Texture and Light",
+        "Visual Storytelling",
+        "Nomadic Life",
+        "Chilean Tourism",
+        "Port City"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}
