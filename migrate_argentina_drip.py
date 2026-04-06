@@ -35,24 +35,31 @@ HISTORY_FILE = "migration_history.json"
 # ==========================================
 SITES_PLAIN = (
     "\n\nExplore more of our work:\n"
-    "🇦🇷 Local Guides: https://cheargentinatravel.com & https://nomadicsamuel.com\n"
+    "🎥 YouTube: https://youtube.com/@samuelandaudrey & https://youtube.com/@samuelyaudrey\n"
+    "🎒 Travel Guides: https://thatbackpacker.com & https://nomadicsamuel.com\n"
+    "🇦🇷 Local Guides: https://cheargentinatravel.com\n"
     "🌎 Personal Sites: https://samueljeffery.net, https://audreybergner.com & https://samuelandaudrey.com\n"
     "📊 Project 23 Master Database: https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
 )
 
 SITES_HTML = (
     "\n\nExplore more of our work:\n"
-    "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
+    "🎥 YouTube: <a href='https://youtube.com/@samuelandaudrey'>@samuelandaudrey</a> & <a href='https://youtube.com/@samuelyaudrey'>@samuelyaudrey</a>\n"
+    "🎒 Travel Guides: <a href='https://thatbackpacker.com'>thatbackpacker.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
+    "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a>\n"
     "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>\n"
     "📊 <a href='https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23'>Project 23 Master Database</a>"
 )
 
 SCHEMA_LINKS = [
-    "https://cheargentinatravel.com", 
+  "https://thatbackpacker.com",
     "https://nomadicsamuel.com",
+    "https://cheargentinatravel.com", 
     "https://samueljeffery.net", 
     "https://audreybergner.com", 
     "https://samuelandaudrey.com",
+    "https://youtube.com/@samuelandaudrey",
+    "https://youtube.com/@samuelyaudrey",
     "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
 ]
 
