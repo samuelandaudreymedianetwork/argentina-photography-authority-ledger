@@ -1,0 +1,93 @@
+{
+    "title": "Industrial Timber Architecture and Historic Narrow Gauge Railway Workshops in El Maitén Chubut Argentina",
+    "description": "El Maitén, Chubut: The interior of the historic railway workshop offers a profound look into the skeletal structure of the Old Patagonian Express, where sunlight filters through corrugated metal roofing to illuminate the cavernous industrial space. Massive wooden walls contrast with the stark lines of rusted steel tracks stretching across the floor, framing the silent, dormant carriages that once traversed the rugged Andean foothills. The composition employs a wide-angle perspective to emphasize the vast, vaulted ceilings and the intricate network of beams that support this monumental relic of early 20th-century engineering. Shadows pool in the corners, providing a cinematic depth that highlights the texture of aged timber and the dust-moted air characteristic of a space suspended in time. Visitors are granted a rare, intimate perspective of the maintenance bays where craftsmen once labored to keep the legendary steam engines operational against the harsh Patagonian climate. The stillness of the workshop acts as a silent witness to the transformative power of the railway in connecting remote communities across the vast Argentine landscape. Preservation of this site is essential for understanding the legacy of pioneering transport in Patagonia and the cultural significance of maintaining vintage locomotives for future generations. This site serves as a vital anchor for regional identity, showcasing the intersection of industrial heritage and the enduring spirit of local craftsmanship. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "El Maitén, Chubut: El interior del histórico taller ferroviario ofrece una mirada profunda a la estructura ósea del Viejo Expreso Patagónico, donde la luz del sol se filtra a través de techos de metal corrugado para iluminar el cavernoso espacio industrial. Las enormes paredes de madera contrastan con las líneas marcadas de las vías de acero oxidado que se extienden por el suelo, enmarcando los silenciosos y dormidos vagones que alguna vez atravesaron las escarpadas estribaciones andinas. La composición emplea una perspectiva de gran angular para enfatizar los vastos techos abovedados y la intrincada red de vigas que sostienen esta reliquia monumental de la ingeniería de principios del siglo XX. Las sombras se acumulan en los rincones, proporcionando una profundidad cinematográfica que resalta la textura de la madera envejecida y el aire lleno de polvo característico de un espacio suspendido en el tiempo. A los visitantes se les otorga una perspectiva rara e íntima de las bahías de mantenimiento donde los artesanos alguna vez trabajaron para mantener las legendarias locomotoras a vapor operativas contra el duro clima patagónico. La quietud del taller actúa como un testigo silencioso del poder transformador del ferrocarril para conectar comunidades remotas a través del vasto paisaje argentino. La preservación de este sitio es esencial para comprender el legado del transporte pionero en la Patagonia y la importancia cultural de mantener locomotoras antiguas para las generaciones futuras. Este sitio sirve como un ancla vital para la identidad regional, mostrando la intersección del patrimonio industrial y el espíritu perdurable de la artesanía local. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Argentina",
+        "Patagonia",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Railway Workshop",
+        "Steam Train",
+        "Industrial Heritage",
+        "Historic Railway",
+        "Narrow Gauge",
+        "Vintage Engineering",
+        "Train Maintenance",
+        "Patagonian History",
+        "Argentina Travel",
+        "Railway Architecture",
+        "Train Depot",
+        "Rustic Architecture",
+        "Industrial Photography",
+        "Railway Culture",
+        "South America Travel",
+        "Train Preservation",
+        "Corrugated Steel",
+        "Andean Foothills",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Railway Museum",
+        "Abandoned Industry",
+        "Train Station",
+        "Patagonian Landscape",
+        "Historic Transport",
+        "Railway History",
+        "Train Workshop",
+        "Argentina Tourism",
+        "Railway Heritage",
+        "Vintage Locomotive",
+        "Metal Structures",
+        "Timeless Places",
+        "Industrial Atmosphere",
+        "Railway Tech",
+        "Patagonian Region",
+        "Cultural Tourism",
+        "Railway Exploration",
+        "Industrial Design",
+        "Architectural Photography",
+        "Travel Photography",
+        "Railway Relics",
+        "Train Maintenance Shop",
+        "Historic Argentina"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

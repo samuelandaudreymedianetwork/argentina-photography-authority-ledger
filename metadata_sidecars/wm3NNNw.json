@@ -1,0 +1,92 @@
+{
+    "title": "Rusty Steam Locomotives at El Maitén Station in Chubut Under the Patagonian Sun",
+    "description": "El Maitén, Chubut: A row of weathered, iron-clad steam locomotives rests silently in the high-altitude desert sun, remnants of the legendary La Trochita narrow-gauge railway. The sharp, clear light of the Patagonian sky casts deep shadows beneath the undercarriages, emphasizing the oxidized textures of the metal against a backdrop of ancient, rugged mountains. Lush green poplars provide a stark, vertical contrast to the horizontal decay of the abandoned train cars, bridging the gap between historical industry and the untamed landscape. This scene captures the quiet dignity of a site that once served as the logistical heart of the remote countryside, now preserved as an atmospheric testament to engineering history. The composition utilizes a wide depth of field to draw the eye from the foreground wildflowers across the rusted tracks to the imposing, arid peaks rising sharply into the clear azure horizon. Such locations are vital to understanding the legacy of rail infrastructure that bridged isolated communities across southern Argentina, effectively shaping the socioeconomic identity of the region. As the dry wind sweeps across the valley, the rusted iron acts as a physical archive of the early twentieth-century settlers who relied upon these tracks to traverse the challenging terrain. This image invites viewers to reflect on the interplay between human ambition and the endurance of the natural world in one of the world's most sparsely populated regions. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Maitén, Chubut: Una hilera de locomotoras a vapor, oxidadas y bañadas por el sol del desierto de gran altitud, descansa silenciosamente, siendo remanentes del legendario ferrocarril de trocha angosta La Trochita. La luz nítida y clara del cielo patagónico proyecta sombras profundas bajo los vagones, enfatizando las texturas oxidadas del metal contra un telón de fondo de montañas antiguas y escarpadas. Los exuberantes álamos verdes proporcionan un contraste vertical marcado frente a la decadencia horizontal de los vagones abandonados, tendiendo un puente entre la industria histórica y el paisaje indómito. Esta escena captura la dignidad silenciosa de un sitio que alguna vez sirvió como el corazón logístico del campo remoto, ahora preservado como un testimonio atmosférico de la historia de la ingeniería. La composición utiliza una gran profundidad de campo para guiar la mirada desde las flores silvestres del primer plano a través de las vías oxidadas hacia los picos imponentes y áridos que se elevan bruscamente hacia el horizonte azul despejado. Tales ubicaciones son vitales para comprender el legado de la infraestructura ferroviaria que unió comunidades aisladas en todo el sur de Argentina, moldeando eficazmente la identidad socioeconómica de la región. Mientras el viento seco barre el valle, el hierro oxidado actúa como un archivo físico de los colonos de principios del siglo XX que dependían de estas vías para atravesar el difícil terreno. Esta imagen invita a los espectadores a reflexionar sobre la interacción entre la ambición humana y la resistencia del mundo natural en una de las regiones menos pobladas del mundo. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Steam Locomotive",
+        "Railway Heritage",
+        "Train Graveyard",
+        "Patagonian Mountains",
+        "Narrow Gauge Railway",
+        "Industrial Archaeology",
+        "Rural Argentina",
+        "Desert Landscape",
+        "Abandoned Train",
+        "Train History",
+        "South America Travel",
+        "Patagonian Landscape",
+        "Historical Landmark",
+        "Iron Decay",
+        "Andes Mountains",
+        "Railway Photography",
+        "Patagonia Travel",
+        "Rustic Architecture",
+        "Train Station",
+        "Cultural Heritage",
+        "Photography Travel",
+        "Mountain Scenery",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Argentine Railroads",
+        "Remote Regions",
+        "Patagonian Summer",
+        "Vintage Engineering",
+        "Travel Documentation",
+        "Desert Flora",
+        "Locomotive Graveyard",
+        "Historic Preservation",
+        "Patagonian Wilderness",
+        "Old Iron",
+        "Blue Sky",
+        "High Altitude",
+        "Train Tracks",
+        "Rural Tourism",
+        "Patagonian History",
+        "Railway Tourism",
+        "Landmark Photography",
+        "Argentine Geography",
+        "Travel Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

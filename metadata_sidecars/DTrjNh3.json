@@ -1,0 +1,92 @@
+{
+    "title": "A Historic Steam Locomotive Resting at the Patagonian Railway Depot in El Maitén Chubut",
+    "description": "El Maitén, Chubut: A legendary steam locomotive of La Trochita sits dormant under a vast, cloud-streaked Patagonian sky, serving as a silent sentinel of a bygone industrial era. The engine’s weathered iron surfaces catch the crisp midday light, highlighting the intricate mechanical details that once powered transcontinental travel across these rugged southern plains. Beyond the chain-link perimeter, the skeletal workshop buildings stand ready, their corrugated metal walls mirroring the desolate yet captivating beauty of the surrounding steppe landscape. High-contrast shadows define the track geometry, leading the eye toward the horizon where history and modern rail heritage converge in this remote corner of Argentina. The scene is framed by a row of slender, wind-swept poplars, which act as natural sentinels against the expansive, deep blue expanse above. This photograph captures the stillness of the rail yard, offering a profound sense of temporal suspension as if the train might whistle to life at any passing gust of wind. Every rusted rivet and parallel steel rail tells the story of an ambitious, narrow-gauge dream that successfully bridged the isolation of the windswept Patagonian interior. Preserving such heritage sites is vital for understanding the evolution of regional connectivity and the enduring spirit of engineering in harsh, frontier environments. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Maitén, Chubut: Una legendaria locomotora a vapor de La Trochita reposa inactiva bajo un vasto cielo patagónico surcado por nubes, funcionando como un centinela silencioso de una era industrial pasada. Las superficies de hierro desgastadas de la máquina captan la luz nítida del mediodía, resaltando los intrincados detalles mecánicos que alguna vez impulsaron los viajes transcontinentales a través de estas escarpadas llanuras del sur. Más allá del perímetro de malla metálica, los edificios del taller se mantienen firmes, con sus paredes de metal corrugado que reflejan la belleza desolada pero cautivadora de la estepa circundante. Las sombras de alto contraste definen la geometría de las vías, guiando la mirada hacia el horizonte donde la historia y el patrimonio ferroviario moderno convergen en este rincón remoto de Argentina. La escena está enmarcada por una hilera de álamos esbeltos azotados por el viento, que actúan como centinelas naturales frente a la inmensa extensión azul del cielo. Esta fotografía captura la quietud de los patios ferroviarios, ofreciendo una profunda sensación de suspensión temporal, como si el tren pudiera cobrar vida con cualquier ráfaga de viento. Cada remache oxidado y riel de acero paralelo cuenta la historia de un ambicioso sueño de trocha estrecha que logró unir con éxito el aislamiento del ventoso interior patagónico. Preservar este tipo de sitios patrimoniales es vital para comprender la evolución de la conectividad regional y el espíritu perdurable de la ingeniería en entornos fronterizos hostiles. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Steam Locomotive",
+        "Train",
+        "Railroad",
+        "Railway Heritage",
+        "Industrial History",
+        "Narrow Gauge",
+        "Historic Train",
+        "Patagonian Steppe",
+        "Travel Photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "South America",
+        "Engineering",
+        "Abandoned",
+        "Vintage Machinery",
+        "Steel Rails",
+        "Workshop",
+        "Rail Yard",
+        "Mechanical",
+        "Transportation History",
+        "Frontier",
+        "Landscape",
+        "Blue Sky",
+        "Poplars",
+        "Argentine Culture",
+        "Tourism",
+        "Patagonian Express",
+        "Railway Preservation",
+        "Iron",
+        "Rust",
+        "Textures",
+        "Travel Documentation",
+        "Remote Argentina",
+        "Railway Depot",
+        "Engine",
+        "Vintage",
+        "Patagonia Region",
+        "Railway Engineering",
+        "Industrial Architecture",
+        "Photography",
+        "Train Travel",
+        "National Monument",
+        "Patagonian Landscape"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

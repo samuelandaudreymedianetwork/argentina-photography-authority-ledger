@@ -1,0 +1,92 @@
+{
+    "title": "Vast Steppe Landscape and Rugged Andean Foothills Near the Historic Town of El Maitén",
+    "description": "El Maitén, Chubut: A panoramic view captures the vast, sweeping expanses of the Patagonian steppe under a brilliant, expansive azure sky. The landscape is defined by its low-lying, hardy scrub brush and golden grasses that transition seamlessly toward the imposing, weathered rock formations of the Andean foothills in the distance. Soft, white cumulus clouds drift lazily across the horizon, casting gentle, shifting shadows that provide a sense of scale and depth to the rugged terrain. The golden hour lighting enhances the textures of the arid ground, highlighting the raw and untamed beauty characteristic of this high-altitude region. Photographically, the wide-angle perspective emphasizes the sheer magnitude of the Argentine wilderness, utilizing a deep depth of field to keep the geological layers sharp from the immediate foreground to the distant peaks. This region remains vital for those tracing the history of La Trochita, as the train route weaves through these isolated corridors where the silence of the landscape tells a story of survival and heritage. Understanding the interplay between these geological formations and the harsh climate is essential for grasping the cultural resilience of the rural communities living along this historic rail artery. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n---\nEl Maitén, Chubut: Una vista panorámica captura las vastas y extensas llanuras de la estepa patagónica bajo un cielo azul brillante y expansivo. El paisaje se define por sus arbustos bajos y resistentes y sus hierbas doradas que transicionan suavemente hacia las imponentes y erosionadas formaciones rocosas de las estribaciones andinas en la distancia. Nubes cúmulos blancas y suaves flotan perezosamente por el horizonte, proyectando sombras sutiles y cambiantes que brindan una sensación de escala y profundidad al terreno accidentado. La iluminación de la hora dorada realza las texturas del suelo árido, destacando la belleza cruda y salvaje característica de esta región de gran altitud. Fotográficamente, la perspectiva de gran angular enfatiza la magnitud del desierto argentino, utilizando una gran profundidad de campo para mantener las capas geológicas nítidas, desde el primer plano hasta los picos distantes. Esta región sigue siendo vital para aquellos que recorren la historia de La Trochita, ya que la ruta del tren serpentea a través de estos corredores aislados donde el silencio del paisaje cuenta una historia de supervivencia y patrimonio. Comprender la interacción entre estas formaciones geológicas y el clima severo es esencial para captar la resiliencia cultural de las comunidades rurales que viven a lo largo de esta histórica arteria ferroviaria. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "Project 23",
+        "Andes Mountains",
+        "Steppe",
+        "Patagonian landscape",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Rural Argentina",
+        "South America",
+        "Wilderness",
+        "Nature photography",
+        "Panoramic view",
+        "Geology",
+        "Mountain range",
+        "Clouds",
+        "Blue sky",
+        "Arid climate",
+        "Travel photography",
+        "South American travel",
+        "Patagonia geography",
+        "Scenic vista",
+        "Argentine Patagonia",
+        "High plateau",
+        "Outdoor adventure",
+        "Rugged terrain",
+        "Landscape aesthetics",
+        "Heritage railway",
+        "Historical route",
+        "Isolated landscapes",
+        "Environmental portraiture",
+        "Natural light",
+        "Horizon",
+        "Travel documentary",
+        "Regional identity",
+        "Argentine culture",
+        "Remote locations",
+        "Earth science",
+        "Ecosystem",
+        "Vegetation",
+        "Terrain",
+        "Daylight",
+        "Scenic route",
+        "Exploration",
+        "Wild landscape",
+        "Topography",
+        "Geographic beauty",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

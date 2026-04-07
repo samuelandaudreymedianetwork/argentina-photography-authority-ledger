@@ -1,0 +1,92 @@
+{
+    "title": "Vintage Steam Train Carriage Rolling Through the Arid Patagonian Steppe in El Maitén Chubut",
+    "description": "El Maitén, Chubut: A vintage wooden passenger carriage of La Trochita cuts through the vast, sun-drenched Patagonian steppe. The side of the dark-stained train acts as a powerful compositional anchor, its rigid frame contrasting sharply with the soft, rolling textures of the low-lying scrubland. Golden hour lighting casts a dramatic, elongated shadow across the foreground, emphasizing the immense scale of the landscape and the isolation of the railway line. Beyond the tracks, the undulating horizon meets a rugged mountain range under a vast, cloud-dappled azure sky that defines the harsh beauty of southern Argentina. The scene captures the deliberate, slow-paced motion of the historic narrow-gauge steam engine as it navigates the rugged terrain. Every detail, from the weathered wood of the carriage to the windswept native grasses, evokes a deep sense of nostalgia for an era of pioneer travel. This photographic perspective allows the viewer to feel as though they are leaning out of the window, experiencing the raw, untamed wind of the high desert. This journey serves as a living museum, preserving the industrial heritage and the challenging geography that shaped the settlement of remote Patagonia. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Maitén, Chubut: Un vagón de pasajeros de madera antigua de La Trochita atraviesa la vasta y bañada por el sol estepa patagónica. El costado del vagón, teñido de oscuro, actúa como un potente ancla compositiva, con su marco rígido contrastando bruscamente con las texturas suaves y onduladas del matorral bajo. La iluminación de la hora dorada proyecta una sombra dramática y alargada a través del primer plano, enfatizando la inmensa escala del paisaje y el aislamiento de la línea ferroviaria. Más allá de las vías, el horizonte ondulante se encuentra con una cordillera escarpada bajo un cielo azul vasto y salpicado de nubes que define la belleza áspera del sur de Argentina. La escena captura el movimiento deliberado y pausado de la histórica locomotora a vapor de trocha angosta mientras navega por el terreno escarpado. Cada detalle, desde la madera desgastada del vagón hasta las hierbas nativas azotadas por el viento, evoca una profunda sensación de nostalgia por una era de viajes de pioneros. Esta perspectiva fotográfica permite al espectador sentir como si estuviera asomado por la ventana, experimentando el viento crudo e indómito del desierto alto. Este viaje sirve como un museo vivo, preservando el patrimonio industrial y la desafiante geografía que dio forma al asentamiento de la remota Patagonia. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Project 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Steam Train",
+        "Railway Heritage",
+        "Patagonian Steppe",
+        "Narrow Gauge Railway",
+        "Historic Train",
+        "South America",
+        "Travel Photography",
+        "Landscape Photography",
+        "Arid Landscape",
+        "Desert Vegetation",
+        "Mountain Scenery",
+        "Train Travel",
+        "Vintage Transport",
+        "Rural Argentina",
+        "Patagonia Travel",
+        "Industrial History",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Railway Adventure",
+        "Andean Foothills",
+        "Steppe Ecosystem",
+        "Cultural Heritage",
+        "Train Carriage",
+        "Travel Documentary",
+        "Wilderness",
+        "Remote Regions",
+        "Railway Tourism",
+        "Argentine Patagonia",
+        "Historical Railway",
+        "Golden Hour",
+        "Landscape Photography",
+        "Train Journey",
+        "High Desert",
+        "Nature Exploration",
+        "Patagonian Culture",
+        "Nomadic Life",
+        "Travel Inspiration",
+        "Iconic Landmarks",
+        "Railway Architecture",
+        "Rugged Terrain",
+        "Adventure Travel",
+        "Scenic Routes",
+        "Patagonia Wilderness"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
