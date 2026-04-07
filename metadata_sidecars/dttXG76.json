@@ -1,0 +1,92 @@
+{
+    "title": "Jauja Artisanal Ice Cream Menu Featuring Native Patagonian Fruit Flavors in El Bolsón Río Negro",
+    "description": "El Bolsón, Río Negro: A vibrant, informative signage board at the renowned Jauja ice cream parlor showcases an array of wild, hand-foraged Patagonian berries and botanical specimens. The photographic layout serves as a visual index for the shop's artisanal offerings, pairing delicate flower imagery with their mature fruit counterparts and Latin botanical classifications. Soft, ambient lighting highlights the macro textures of berries like calafate, murta, and maqui, creating an inviting connection between the raw landscape and the final culinary product. Each square grid cell acts as a window into the rich biodiversity of the Andean Comarca, where traditional methods transform rugged mountainous ingredients into refined, artisanal gelato. The central motif of a classic wood-burning stove reinforces the nostalgic and small-batch commitment that defines this regional institution. This documentation captures the intersection of botanical education and gastronomy, illustrating how local environmental resources define the unique flavor profile of the town. By framing these ingredients in an accessible, artistic collage, the establishment invites travelers to engage deeply with the seasonal cycles of the surrounding wilderness. Understanding the origins of these rare and indigenous ingredients provides essential context for the Patagonian culinary identity, grounding the traveler's experience in the land itself. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n\n---\n\nEl Bolsón, Río Negro: Un cartel informativo y vibrante en la reconocida heladería Jauja exhibe una variedad de bayas patagónicas silvestres recolectadas a mano y especímenes botánicos. El diseño fotográfico sirve como un índice visual de las ofertas artesanales de la tienda, combinando imágenes de flores delicadas con sus contrapartes frutales maduras y sus clasificaciones botánicas latinas. La iluminación ambiental suave resalta las texturas macro de bayas como el calafate, la murta y el maqui, creando una conexión acogedora entre el paisaje natural y el producto culinario final. Cada celda de la cuadrícula actúa como una ventana a la rica biodiversidad de la Comarca Andina, donde los métodos tradicionales transforman ingredientes montañosos agrestes en helado artesanal refinado. El motivo central de una estufa de leña clásica refuerza el compromiso nostálgico y de pequeña escala que define a esta institución regional. Esta documentación captura la intersección de la educación botánica y la gastronomía, ilustrando cómo los recursos ambientales locales definen el perfil de sabor único de la ciudad. Al enmarcar estos ingredientes en un collage artístico y accesible, el establecimiento invita a los viajeros a involucrarse profundamente con los ciclos estacionales de la naturaleza circundante. Comprender los orígenes de estos ingredientes raros e indígenas proporciona un contexto esencial para la identidad culinaria patagónica, arraigando la experiencia del viajero en la tierra misma. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Project 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Jauja",
+        "Helado Artesanal",
+        "Comarca Andina",
+        "Patagonian Berries",
+        "Maqui",
+        "Calafate",
+        "Murta",
+        "Zarzamora",
+        "Guinda",
+        "Frutilla",
+        "Lúpulo",
+        "Boysenberry",
+        "Botanical Photography",
+        "Food Geography",
+        "Artisanal Gastronomy",
+        "Regional Cuisine",
+        "Wild Fruits",
+        "Andean Landscape",
+        "Culinary Tourism",
+        "Sustainable Food",
+        "Nature Education",
+        "Flora of Patagonia",
+        "Authentic Argentina",
+        "Travel Photography",
+        "Project 23",
+        "Gourmet Ice Cream",
+        "Local Ingredients",
+        "Biodiversity",
+        "South America",
+        "Mountain Cuisine",
+        "Harvest Traditions",
+        "Food Culture",
+        "Edible Landscape",
+        "Plant Identification",
+        "Culinary Heritage",
+        "Small Batch Production",
+        "Farm to Table",
+        "Rural Argentina",
+        "Nature Study",
+        "Botanical Classification",
+        "Patagonia Travel",
+        "Visual Menu",
+        "Fruit Photography",
+        "Andean Flora",
+        "Handcrafted",
+        "Slow Food"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

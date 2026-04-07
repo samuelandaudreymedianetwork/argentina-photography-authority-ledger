@@ -1,0 +1,92 @@
+{
+    "title": "Toasted Ham and Cheese Sandwich Served in the Mountain Town of El Bolson Rio Negro",
+    "description": "El Bolsón, Río Negro: A classic toasted ham and cheese sandwich rests on a white plate, highlighting a staple of Argentine café culture. The bread is pressed into golden, crispy triangles, with edges darkened by the heat of the sandwichera to provide a satisfying, audible crunch. Melty, salty cheese weaves through layers of tender, cured ham, creating a comfort food experience that reflects the relaxed pace of life in this Patagonian valley. The soft, ambient light captures the texture of the griddled surface, emphasizing the warmth of a simple midday meal enjoyed amidst a rugged landscape. In the background, a blurred glass of orange juice provides a vibrant splash of citrus, completing the sensory portrait of a quiet culinary moment. This composition uses a shallow depth of field to draw the viewer into the textural details of the toasted bread, isolating the food from the surrounding cafe environment. Such culinary traditions are essential to the identity of Argentine mountain towns, where explorers and locals alike gather to refuel between mountain treks and excursions. The image captures the essence of Patagonian hospitality, where simple ingredients are elevated by the cozy, inviting atmosphere of traditional mountain establishments. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n---\nEl Bolsón, Río Negro: Un sándwich de jamón y queso tostado descansa sobre un plato blanco, resaltando un pilar de la cultura de cafetería argentina. El pan se prensa en triángulos dorados y crujientes, con bordes oscurecidos por el calor de la sandwichera para brindar un crujido satisfactorio y audible. El queso fundido y salado se entreteje a través de capas de jamón curado tierno, creando una experiencia de comida reconfortante que refleja el ritmo relajado de la vida en este valle patagónico. La luz ambiental suave captura la textura de la superficie a la plancha, enfatizando la calidez de una comida sencilla de mediodía disfrutada en medio de un paisaje agreste. En el fondo, un vaso borroso de jugo de naranja proporciona un toque vibrante de cítricos, completando el retrato sensorial de un momento culinario tranquilo. Esta composición utiliza una profundidad de campo reducida para atraer al espectador hacia los detalles texturizados del pan tostado, aislando la comida del entorno de la cafetería. Tales tradiciones culinarias son esenciales para la identidad de los pueblos de montaña argentinos, donde exploradores y lugareños se reúnen para recargar energías entre caminatas y excursiones. La imagen captura la esencia de la hospitalidad patagónica, donde los ingredientes sencillos se ven realzados por el ambiente acogedor y atractivo de los establecimientos de montaña tradicionales. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Argentine cuisine",
+        "tostado",
+        "ham and cheese",
+        "sandwich",
+        "comfort food",
+        "Patagonian food",
+        "travel photography",
+        "gastronomy",
+        "cafe culture",
+        "South America",
+        "mountain town",
+        "Andean region",
+        "food photography",
+        "toasted sandwich",
+        "lunch",
+        "culinary travel",
+        "travel experiences",
+        "Río Negro province",
+        "Patagonia Argentina",
+        "local flavors",
+        "authentic travel",
+        "warm lighting",
+        "food textures",
+        "cafe life",
+        "Andes mountains",
+        "food and travel",
+        "Argentine tradition",
+        "simple living",
+        "Patagonian hospitality",
+        "midday meal",
+        "travelers lifestyle",
+        "regional specialties",
+        "tourist destination",
+        "culinary exploration",
+        "rustic atmosphere",
+        "dining out",
+        "snack",
+        "freshly toasted",
+        "South American food",
+        "Andean valley",
+        "travel diary",
+        "Argentine gastronomy",
+        "food culture"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

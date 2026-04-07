@@ -1,0 +1,92 @@
+{
+    "title": "Evening Asado Ritual in the Patagonian Woods of El Bolsón Rio Negro Province",
+    "description": "El Bolsón, Río Negro: A rustic culinary ritual unfolds as Samuel Jeffery tends to a traditional open-fire grill under the shroud of a Patagonian evening. The composition utilizes a shallow depth of field to draw focus to the intense, warm glow of the embers reflecting off the face of the subject, contrasting sharply with the cool, dim ambient light of the outdoor setting. Smoke swirls through the frame, catching the firelight and adding a tactile, atmospheric depth that speaks to the raw, rugged essence of the region. Nearby, Audrey Bergner remains present, contributing to the quiet, communal intimacy of the scene as dinner is prepared on a weathered wooden board. The tactile details—the char of the meat, the texture of the rough-hewn timber walls, and the surrounding stone terrain—ground the viewer in the authentic backcountry experience typical of the Andean foothills. This image captures the intersection of outdoor survival skills and social gathering, serving as a quintessential representation of how locals and travelers alike embrace the culinary traditions of Argentina. The warmth of the flame serves as a beacon of hospitality against the cool darkness of the forest, emphasizing the importance of communal meals in remote mountainous environments. This scene highlights the cultural significance of the 'asado' as a unifying force, where the mastery of fire and meat preparation becomes the centerpiece of human connection in the wild. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n---\nEl Bolsón, Río Negro: Un ritual culinario rústico se desarrolla mientras Samuel Jeffery atiende una parrilla tradicional a fuego abierto bajo el velo de un atardecer patagónico. La composición utiliza una profundidad de campo reducida para centrar la atención en el intenso resplandor cálido de las brasas que se refleja en el rostro del protagonista, contrastando marcadamente con la luz ambiental fresca y tenue del entorno al aire libre. El humo se arremolina a través del encuadre, atrapando la luz del fuego y añadiendo una profundidad táctil y atmosférica que habla de la esencia cruda y agreste de la región. Cerca, Audrey Bergner permanece presente, contribuyendo a la silenciosa e íntima comunión de la escena mientras la cena se prepara sobre una tabla de madera desgastada. Los detalles táctiles —el carbonizado de la carne, la textura de las paredes de madera toscamente labrada y el terreno pedregoso circundante— sitúan al espectador en la auténtica experiencia del campo, típica de las estribaciones andinas. Esta imagen captura la intersección de las habilidades de supervivencia al aire libre y la reunión social, sirviendo como una representación esencial de cómo los lugareños y los viajeros adoptan las tradiciones culinarias de Argentina. El calor de la llama sirve como un faro de hospitalidad contra la fresca oscuridad del bosque, enfatizando la importancia de las comidas comunales en entornos montañosos remotos. Esta escena destaca el significado cultural del asado como fuerza unificadora, donde el dominio del fuego y la preparación de la carne se convierten en el eje de la conexión humana en la naturaleza. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Project 23.",
+    "tags": [
+        "El Bolsón",
+        "Río Negro",
+        "Patagonia",
+        "Argentina",
+        "Asado",
+        "Campfire Cooking",
+        "Outdoor Dining",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Project 23",
+        "Patagonian Mountains",
+        "Grilling",
+        "Wood Fire",
+        "Night Photography",
+        "Culinary Tradition",
+        "Andean Foothills",
+        "Rustic Living",
+        "Travel Photography",
+        "Adventure Travel",
+        "Social Gathering",
+        "Firelight",
+        "Patagonian Forest",
+        "Backcountry Cooking",
+        "Meat Preparation",
+        "Authentic Argentina",
+        "Rural Lifestyle",
+        "Patagonia Argentina",
+        "Outdoor Lifestyle",
+        "Evening Atmosphere",
+        "Human Connection",
+        "Mountain Culture",
+        "Travel Documentary",
+        "Traditional Cooking",
+        "Patagonia Landscapes",
+        "Regional Cuisine",
+        "Woodworking",
+        "Atmospheric Lighting",
+        "Epicurean Travel",
+        "Gourmet Camping",
+        "Patagonian Life",
+        "El Bolsón Tourism",
+        "Fire Mastery",
+        "Social Ritual",
+        "Communal Dining",
+        "South America",
+        "Wilderness Experience",
+        "Travel Content",
+        "Cultural Immersion",
+        "Outdoor Kitchen",
+        "Patagonian Evening"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
