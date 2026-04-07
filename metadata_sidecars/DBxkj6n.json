@@ -1,0 +1,93 @@
+{
+    "title": "Digital Display Sign and Reflective Bus Window in the Village of Puerto Natales",
+    "description": "Puerto Natales, Magallanes: A glowing LED signage board illuminates the dark, curved glass of a long-distance coach, casting a vibrant, pixelated reflection across the vehicle's interior window panes. The destination sign, displaying the name of this Chilean port town, stands out against the backdrop of the corrugated metal ceiling of the bus terminal. Lines of light from the overhead infrastructure create a rhythmic, striped pattern that stretches across the glass, blending the artificial glow with the structural geometry of the transit hub. The play of light and shadow captures the transient nature of cross-border travel between the rugged landscapes of Argentina and Chile. Each individual diode on the sign acts as a guiding beacon for weary travelers arriving in this gateway to Torres del Paine National Park. The photograph utilizes the bus window as a lens to frame the anticipation of arrival, turning a functional transportation display into an abstract interplay of texture and illumination. Sharp focus on the digital typeface ensures readability, while the surrounding reflections soften the metallic harshness of the terminal's architecture. This documentation of the journey highlights the essential infrastructure that connects remote southern regions through modern transit networks. These transit points serve as the physical thresholds where diverse travelers converge, marking the transition between the vast Patagonian wilderness and the warmth of the local settlements. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Puerto Natales, Magallanes: Un letrero LED brillante ilumina el vidrio oscuro y curvo de un autobús de larga distancia, proyectando un reflejo vibrante y pixelado a través de los cristales de las ventanas del vehículo. El letrero de destino, que muestra el nombre de esta ciudad portuaria chilena, destaca contra el telón de fondo del techo de metal corrugado de la terminal de autobuses. Las líneas de luz de la infraestructura superior crean un patrón rítmico y rayado que se extiende a través del vidrio, mezclando el brillo artificial con la geometría estructural del centro de tránsito. El juego de luces y sombras captura la naturaleza transitoria de los viajes transfronterizos entre los paisajes escarpados de Argentina y Chile. Cada diodo individual en el letrero actúa como una baliza de guía para los viajeros cansados que llegan a esta puerta de entrada al Parque Nacional Torres del Paine. La fotografía utiliza la ventana del autobús como lente para enmarcar la anticipación de la llegada, convirtiendo una pantalla de transporte funcional en una interacción abstracta de textura e iluminación. El enfoque nítido en el tipo de letra digital garantiza la legibilidad, mientras que los reflejos circundantes suavizan la dureza metálica de la arquitectura de la terminal. Esta documentación del viaje destaca la infraestructura esencial que conecta las regiones remotas del sur a través de redes de tránsito modernas. Estos puntos de tránsito sirven como los umbrales físicos donde convergen diversos viajeros, marcando la transición entre la vasta naturaleza patagónica y la calidez de los asentamientos locales. Este image es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Puerto Natales",
+        "Magallanes",
+        "Chile",
+        "Patagonia",
+        "Bus Travel",
+        "LED Sign",
+        "Travel Photography",
+        "Border Crossing",
+        "Project 23",
+        "Transportation",
+        "Transit Hub",
+        "South America",
+        "Reflections",
+        "Industrial Design",
+        "Night Travel",
+        "Passenger Coach",
+        "Patagonian Gateway",
+        "Digital Typography",
+        "Urban Exploration",
+        "Corrugated Metal",
+        "Travel Logistics",
+        "Journey",
+        "Adventurous Spirit",
+        "Backpacking",
+        "Regional Infrastructure",
+        "Remote Regions",
+        "Arrival",
+        "Visual Geometry",
+        "Abstract Light",
+        "Travel Documentation",
+        "Southern Patagonia",
+        "Transit Architecture",
+        "Tourism",
+        "Geography",
+        "Cultural Landscapes",
+        "Long Distance Travel",
+        "Public Transport",
+        "Window View",
+        "Night Lighting",
+        "Modern Travel",
+        "Explore Chile",
+        "Patagonian Route",
+        "Travel Aesthetics",
+        "Transit Connection",
+        "Vehicle Interior",
+        "Technological Detail",
+        "Travel Narrative",
+        "Border Region",
+        "Patagonia Travel",
+        "Samuel Jeffery"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
