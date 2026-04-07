@@ -1,0 +1,88 @@
+{
+    "title": "Collaged Travel Mementos Pinned to a Chilean Map in Punta Arenas, Magallanes Province",
+    "description": "Punta Arenas, Magallanes, Chile: A wall-mounted map serves as a vibrant, tactile archive of global memories captured through hundreds of handwritten notes, boarding passes, and receipts. The paper fragments are densely layered, creating a mosaic of human experience that mirrors the diverse geography of Chile itself. Soft, ambient lighting highlights the varied textures of ink-stained paper, weathered tickets, and colorful tourist postcards pinned haphazardly across the cartographic surface. Close-up focal points draw the eye to intimate messages of love and transit records, grounding the vast scale of the continent in personal, lived moments. The composition feels spontaneous and layered, reflecting the transient nature of wanderlust found in this gateway to the southern reaches of Patagonia. Each scrap of paper acts as a visual anchor, connecting far-flung travelers to this specific coastal hub. Through the convergence of diverse languages and dated inscriptions, the board transforms from a mere map into a living repository of shared adventures and cultural intersection. Exploring such communal displays reveals the enduring human desire to leave a mark on the places visited during long-term exploration. This collection of ephemera stands as a testament to the thriving backpacker culture and historical significance of the Magallanes region for those traversing the edges of the world. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey. \n\n---\n\n Punta Arenas, Magallanes, Chile: Un mapa montado en la pared sirve como un archivo vibrante y táctil de recuerdos globales capturados a través de cientos de notas escritas a mano, pases de abordar y recibos. Los fragmentos de papel están densamente superpuestos, creando un mosaico de experiencia humana que refleja la diversa geografía de la propia Chile. La iluminación ambiental suave resalta las texturas variadas del papel manchado de tinta, los boletos desgastados y las coloridas postales turísticas clavadas al azar sobre la superficie cartográfica. Los puntos focales de primer plano atraen la mirada hacia mensajes íntimos de amor y registros de tránsito, aterrizando la vasta escala del continente en momentos personales vividos. La composición se siente espontánea y estratificada, lo que refleja la naturaleza transitoria de la pasión por los viajes que se encuentra en esta puerta de entrada a los confines australes de la Patagonia. Cada trozo de papel actúa como un ancla visual, conectando a viajeros de lugares lejanos con este centro costero específico. A través de la convergencia de diversos idiomas e inscripciones fechadas, el tablero se transforma de un simple mapa en un depósito viviente de aventuras compartidas e intersección cultural. Explorar tales exhibiciones comunitarias revela el deseo humano perdurable de dejar una marca en los lugares visitados durante la exploración a largo plazo. Esta colección de efímeros se erige como un testimonio de la próspera cultura de mochileros y la importancia histórica de la región de Magallanes para quienes atraviesan los bordes del mundo. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Samuel and Audrey.",
+    "tags": [
+        "Punta Arenas",
+        "Magallanes",
+        "Chile",
+        "Patagonia",
+        "Travel photography",
+        "Backpacker culture",
+        "Cartography",
+        "Map",
+        "Travel memories",
+        "Boarding passes",
+        "Souvenirs",
+        "Cultural ephemera",
+        "South America",
+        "Tourism",
+        "Wanderlust",
+        "Travel storytelling",
+        "Chilean history",
+        "Regional identity",
+        "Geography",
+        "Adventure travel",
+        "Collectibles",
+        "Handwritten notes",
+        "Travel documentation",
+        "Punta Arenas tourism",
+        "Magallanes region",
+        "Southern Chile",
+        "Travel inspiration",
+        "Nomadic lifestyle",
+        "Global travel",
+        "Historical archives",
+        "Visual storytelling",
+        "Travel community",
+        "Stationery",
+        "Travel gear",
+        "Landmarks",
+        "Coastal towns",
+        "Latin America",
+        "Expedition",
+        "Wayfinding",
+        "Traveler's board",
+        "Documentary photography",
+        "Exploration",
+        "Personal history",
+        "Cultural exchange",
+        "Route planning",
+        "Chile travel",
+        "Travel logistics",
+        "Border regions",
+        "World maps",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}
