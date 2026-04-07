@@ -1,0 +1,92 @@
+{
+    "title": "A Lonely Vehicle Navigates the Expansive Coastal Highway near Ushuaia Tierra del Fuego",
+    "description": "Ushuaia, Tierra del Fuego: A solitary silver vehicle travels along the winding, paved expanse of National Route 3, flanked by lush southern beech forests and rugged, snow-dusted peaks. The composition emphasizes the vast scale of the Patagonian wilderness, where the road curves gracefully toward the horizon under a soft, overcast sky. The sharp focus on the asphalt and the surrounding greenery captures the transition from the dense, temperate woodland to the jagged glacial topography of the region. Light filters gently through the clouds, highlighting the textures of the metallic guardrails and the sparse vegetation clinging to the roadside. A clear signage post provides a sense of navigation, pointing the way toward the southernmost city on Earth and the nearby national park. The scene evokes the quintessential experience of traversing the wild, isolated stretches of Argentina’s final frontier, where the infrastructure fades into the untamed grandeur of the Southern Andes. This isolated transit route serves as a crucial artery for explorers venturing toward the literal edge of the habitable world. As the road snakes through the valley, the interplay of shadow and light underscores the serene yet formidable nature of this isolated corner of the planet. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nUshuaia, Tierra del Fuego: Un vehículo plateado transita por la sinuosa y pavimentada extensión de la Ruta Nacional 3, flanqueado por densos bosques de lengas y picos escarpados cubiertos de nieve. La composición enfatiza la vasta escala de la naturaleza patagónica, donde el camino se curva elegantemente hacia el horizonte bajo un cielo suavemente nublado. El enfoque nítido sobre el asfalto y la vegetación circundante captura la transición desde el bosque templado hasta la accidentada topografía glaciar de la región. La luz se filtra suavemente a través de las nubes, resaltando las texturas de las barandillas metálicas y la escasa vegetación que se aferra al borde del camino. Un cartel de señalización proporciona un sentido de navegación, indicando el camino hacia la ciudad más austral del mundo y el parque nacional cercano. La escena evoca la experiencia esencial de atravesar los tramos salvajes y aislados de la frontera final de Argentina, donde la infraestructura se desvanece ante la majestuosidad indómita de los Andes del Sur. Esta ruta de tránsito aislada sirve como una arteria crucial para los exploradores que se aventuran hacia el límite literal del mundo habitable. Mientras la carretera serpentea por el valle, la interacción de luces y sombras subraya la naturaleza serena pero formidable de este rincón aislado del planeta. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Ushuaia",
+        "Tierra del Fuego",
+        "Argentina",
+        "Patagonia",
+        "National Route 3",
+        "Ruta Nacional 3",
+        "Southern Andes",
+        "Road trip",
+        "Patagonian landscape",
+        "Travel photography",
+        "Glacial mountains",
+        "Temperate forest",
+        "Southernmost city",
+        "Driving in Argentina",
+        "South America travel",
+        "Scenic highway",
+        "Remote travel",
+        "Wilderness road",
+        "Mountain scenery",
+        "Travel documentary",
+        "Nature photography",
+        "Outdoors",
+        "Landmarks",
+        "Geography of Argentina",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Adventure travel",
+        "Isolated landscapes",
+        "Tierra del Fuego National Park",
+        "Road signs",
+        "Mountain range",
+        "Scenic drive",
+        "Paved road",
+        "Travel guide",
+        "Patagonian road",
+        "South of the world",
+        "Exploration",
+        "Geographic beauty",
+        "Regional identity",
+        "Landscape photography",
+        "Travel inspiration",
+        "Alpine terrain",
+        "Green forest",
+        "Dramatic skies",
+        "South American wilderness",
+        "Route 3",
+        "Expedition",
+        "Destination travel",
+        "Journey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
