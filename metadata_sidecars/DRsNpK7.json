@@ -1,0 +1,93 @@
+{
+    "title": "Low Desert Scrub and Rolling Andean Foothills in the Rural Landscape of El Maitén",
+    "description": "El Maitén, Chubut: A sweeping panoramic view captures the vast, arid expanse of the Patagonian steppe under an expansive cerulean sky. In the foreground, resilient shrubs and desert flora texture the rolling terrain, leading the eye toward a vibrant, emerald-green ribbon of deciduous trees marking the path of a hidden water source. These dense groves create a stark, refreshing contrast against the muted earth tones of the rugged, undulating mountain range that dominates the horizon. Sunlight filters through light cloud cover, casting soft, shifting shadows across the valley floor, which adds a profound sense of depth and atmospheric scale to the composition. The interplay of light and shadow highlights the intricate geological formations and the sheer, open space that defines this historic corridor of the Old Patagonian Express. Every element in the frame underscores the raw, untamed beauty of Argentina's southern interior, where geography dictates the slow pace of life and travel. This vista serves as a testament to the resilient ecosystems that survive in the rain shadow of the Andes, offering travelers a glimpse into the vastness of the Chubut province. Such landscapes are essential to understanding the isolation and endurance required for the pioneering rail history that links these remote communities. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "El Maiten",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "La Trochita",
+        "Patagonian Steppe",
+        "Andean Foothills",
+        "Desert Landscapes",
+        "Rural Argentina",
+        "South America",
+        "Travel Photography",
+        "Patagonian Geography",
+        "Nature Photography",
+        "Mountain Scenery",
+        "Outdoor Adventure",
+        "Scenic Vistas",
+        "Wilderness",
+        "Arid Region",
+        "Geography of Argentina",
+        "Project 23",
+        "Old Patagonian Express",
+        "Remote Travel",
+        "Steppe Ecosystem",
+        "Patagonian Flora",
+        "Landscape Photography",
+        "Chubut Province",
+        "Argentine Patagonia",
+        "Eco-tourism",
+        "Hiking Destinations",
+        "Rural Development",
+        "Historical Railways",
+        "Cultural Landscapes",
+        "Vast Horizon",
+        "Natural Beauty",
+        "Earth Tones",
+        "Mountain Range",
+        "Patagonian Wilderness",
+        "Environmental Photography",
+        "Travel Documentation",
+        "Regional Identity",
+        "Expedition Photography",
+        "Desert Vegetation",
+        "Southern Cone",
+        "Pampa Landscape",
+        "Geology",
+        "Light and Shadow",
+        "Sustainable Travel",
+        "Patagonia Road Trip",
+        "Topography",
+        "Remote Frontiers"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Low Desert Scrub and Rolling Andean Foothills in the Rural Landscape of El Maitén",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

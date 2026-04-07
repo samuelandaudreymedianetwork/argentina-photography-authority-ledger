@@ -1,0 +1,92 @@
+{
+    "title": "Weathered Railway Tracks and Red Sorrel Vegetation in El Maitén Chubut Historic Argentine Landscape",
+    "description": "El Maitén, Chubut: Rust-covered railway tracks stretch across a desolate, gravel-strewn expanse, marking the historic path of the Old Patagonian Express. The harsh, high-desert sun casts sharp, defined shadows across the steel rails, emphasizing the oxidation and structural fatigue of the metal through a shallow depth of field. Nestled between the parallel iron lines, clusters of vibrant red sorrel punctuate the monochromatic palette of grey stones and arid soil with a stark, organic contrast. This neglected corridor serves as a silent testament to the enduring legacy of narrow-gauge steam travel in the rugged Patagonian frontier. The interplay of man-made engineering and encroaching native flora captures the slow reclamation of industrial artifacts by the relentless elements of southern Argentina. Each detail—from the fragmented, discarded debris to the resilient weeds—echoes the quiet solitude that defines the transit through this remote region. By framing the tracks in this intimate manner, the composition invites an appreciation for the textural beauty hidden within aging infrastructure. Such documentation provides a vital window into the intersection of historical rail heritage and the wild, untamed geography of the Chubut province. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n\n---\n\nEl Maitén, Chubut: Las vías ferroviarias cubiertas de óxido se extienden a través de una extensión desolada y llena de grava, marcando el camino histórico del Viejo Expreso Patagónico. El sol intenso del desierto de altura proyecta sombras nítidas y definidas sobre los rieles de acero, enfatizando la oxidación y la fatiga estructural del metal a través de una profundidad de campo reducida. Ubicados entre las líneas de hierro paralelas, racimos de acedera roja vibrante puntúan la paleta monocromática de piedras grises y tierra árida con un contraste orgánico marcado. Este corredor descuidado sirve como un testimonio silencioso del legado duradero de los viajes en tren de trocha angosta en la accidentada frontera patagónica. La interacción entre la ingeniería creada por el hombre y la flora nativa que avanza captura la lenta recuperación de los artefactos industriales por parte de los elementos implacables del sur de Argentina. Cada detalle, desde los restos fragmentados y desechados hasta las malezas resistentes, resuena con la soledad silenciosa que define el tránsito a través de esta región remota. Al encuadrar las vías de esta manera íntima, la composición invita a apreciar la belleza textural oculta dentro de la infraestructura antigua. Dicha documentación proporciona una ventana vital a la intersección del patrimonio ferroviario histórico y la geografía salvaje e indómita de la provincia de Chubut. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Argentina",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Patagonia",
+        "Railway",
+        "Train tracks",
+        "Narrow gauge",
+        "Industrial heritage",
+        "Historic rail",
+        "Steel rails",
+        "Rust",
+        "Patagonian landscape",
+        "High desert",
+        "Flora",
+        "Red sorrel",
+        "Rumex",
+        "Wild plants",
+        "Gravel",
+        "Arid environment",
+        "Engineering",
+        "Infrastructure",
+        "Travel photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Abandoned",
+        "Texture",
+        "Macro",
+        "South America",
+        "Railroad",
+        "Steel",
+        "Nature reclamation",
+        "Patagonia Argentina",
+        "Historical landmark",
+        "Rural landscape",
+        "Outdoors",
+        "Geography",
+        "Transportation history",
+        "Steam train legacy",
+        "Remote location",
+        "Solitude",
+        "Environmental detail",
+        "Argentine culture",
+        "Natural vegetation",
+        "Desert flora",
+        "Weathered metal",
+        "Expedition",
+        "Documentary"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

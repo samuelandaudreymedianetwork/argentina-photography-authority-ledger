@@ -1,0 +1,92 @@
+{
+    "title": "Rugged Mountain Peaks Overlooking the Vast Patagonian Steppe near El Maitén in Chubut Province",
+    "description": "El Maitén, Chubut: A dramatic, jagged mountain range rises abruptly from the golden, sweeping expanses of the Patagonian steppe under a vibrant, cloud-dappled azure sky. The high-contrast lighting accentuates the deep textures of the ancient volcanic rock faces, revealing intricate fissures and shadows cast by the afternoon sun. Low-lying shrubs and hardy grasses blanket the foreground, creating a rhythmic, textured transition between the vast plains and the towering geological formations that dominate the horizon. The composition utilizes a wide perspective to convey the immense, untamed scale of the southern Argentine wilderness, emphasizing the solitude and silence of this remote landscape. Through the lens, the clarity of the air highlights the stark beauty of the terrain, a place where the earth seems to shift between rolling meadows and formidable, weathered stone giants. The atmosphere is one of profound geological history, where the rugged peaks serve as a silent sentry for the sprawling valleys below. This terrain is fundamental to understanding the sheer geographic isolation and beauty that define the iconic routes traveled by historic regional trains. Capturing this intersection of rugged natural architecture and the sweeping horizon is essential for documenting the authentic, raw character of the Patagonian frontier. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Maitén, Chubut: Una dramática y escarpada cadena montañosa surge abruptamente de las doradas y extensas planicies de la estepa patagónica bajo un cielo azul vibrante y moteado de nubes. La iluminación de alto contraste acentúa las texturas profundas de las antiguas caras de roca volcánica, revelando intrincadas fisuras y sombras proyectadas por el sol de la tarde. Arbustos bajos y gramíneas resistentes cubren el primer plano, creando una transición rítmica y texturizada entre las vastas llanuras y las imponentes formaciones geológicas que dominan el horizonte. La composición utiliza una perspectiva amplia para transmitir la inmensa e indómita escala de la naturaleza salvaje del sur argentino, enfatizando la soledad y el silencio de este paisaje remoto. A través del lente, la claridad del aire resalta la belleza austera del terreno, un lugar donde la tierra parece oscilar entre praderas ondulantes y formidables gigantes de piedra erosionada. La atmósfera es de una profunda historia geológica, donde los picos escarpados actúan como centinelas silenciosos sobre los valles que se extienden debajo. Este terreno es fundamental para comprender el aislamiento geográfico y la belleza absoluta que definen las rutas icónicas recorridas por los trenes históricos de la región. Capturar esta intersección entre la arquitectura natural escarpada y el horizonte infinito es esencial para documentar el carácter auténtico y crudo de la frontera patagónica. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "Steppe",
+        "Mountains",
+        "Landscape",
+        "Photography",
+        "Project 23",
+        "Travel",
+        "Geography",
+        "Nature",
+        "Wilderness",
+        "Andes",
+        "Patagonian Steppe",
+        "Geology",
+        "Rock Formations",
+        "Azure Sky",
+        "South America",
+        "Adventure Travel",
+        "Remote Landscapes",
+        "Rugged Terrain",
+        "Outdoor Photography",
+        "Scenic View",
+        "Mountain Peaks",
+        "Natural Beauty",
+        "Argentine Frontier",
+        "Travel Documentary",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Wide Angle",
+        "Horizon",
+        "Volcanic Landscapes",
+        "Patagonian Wildlife",
+        "Environmental Photography",
+        "Rural Argentina",
+        "High Desert",
+        "Vista",
+        "Topography",
+        "Clouds",
+        "Geological Wonders",
+        "Iconic Landscapes",
+        "Regional Identity",
+        "Exploration",
+        "Raw Nature",
+        "Sustainable Tourism",
+        "Cultural Geography",
+        "Steppe Ecosystem",
+        "Mountain Photography",
+        "Authentic Argentina"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

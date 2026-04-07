@@ -1,0 +1,93 @@
+{
+    "title": "Family Walking Near Historic Train Station in El Maitén Chubut Under Radiant Sun",
+    "description": "El Maitén, Chubut: A vibrant group of visitors traverses the gravel path alongside the historic railway tracks of the legendary La Trochita. The scene captures the transition from the shade of the rustic, timber-framed station overhang into the bright, high-altitude Patagonia sunshine. Audrey Bergner is seen in the foreground, gracefully guiding a small child, while Samuel Jeffery walks nearby, his focus on the rhythmic flow of the group against the stark backdrop of the industrial water tower. The composition utilizes a shallow depth of field to isolate the travelers from the distant, arid landscape, emphasizing their connection to the enduring heritage of the Old Patagonian Express. Sharp, clear light illuminates the textures of the weathered wood and metal structures, signaling the station's role as a vital nexus in Argentina's rail history. The travelers move with a sense of wonder and casual ease, embodying the spirit of exploration that defines this remote corner of the southern continent. Each stride along the iron rails bridges the gap between the town's mechanical past and its present-day role as a cherished regional landmark. This scene serves as a poignant reminder of why preserving historical infrastructure is crucial for maintaining the cultural identity and geographic narrative of Argentina’s rural provinces. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "El Maitén, Chubut: Un grupo vibrante de visitantes recorre el camino de grava junto a las históricas vías del legendario ferrocarril La Trochita. La escena captura la transición desde la sombra del rústico alero de la estación de madera hacia el brillante sol de alta montaña de la Patagonia. Audrey Bergner se observa en primer plano, guiando con gracia a una niña pequeña, mientras que Samuel Jeffery camina cerca, enfocado en el flujo rítmico del grupo frente al austero telón de fondo de la torre de agua industrial. La composición utiliza una profundidad de campo reducida para aislar a los viajeros del paisaje árido y distante, enfatizando su conexión con el legado perdurable del Viejo Expreso Patagónico. Una luz nítida y clara ilumina las texturas de las estructuras de madera y metal, señalando el papel de la estación como un nexo vital en la historia ferroviaria de Argentina. Los viajeros se desplazan con una sensación de asombro y tranquilidad, encarnando el espíritu de exploración que define este remoto rincón del continente sur. Cada paso a lo largo de los rieles de hierro acorta la brecha entre el pasado mecánico del pueblo y su presente como un preciado hito regional. Esta escena sirve como un recordatorio conmovedor de por qué preservar la infraestructura histórica es crucial para mantener la identidad cultural y la narrativa geográfica de las provincias rurales de Argentina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maiten",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Railway Station",
+        "Train Tracks",
+        "Historic Railway",
+        "Narrow Gauge",
+        "Steam Train Era",
+        "Argentine Travel",
+        "Patagonian Landscapes",
+        "Rural Argentina",
+        "Project 23",
+        "Travel Photography",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Family Travel",
+        "Cultural Tourism",
+        "Heritage Site",
+        "Industrial Architecture",
+        "Water Tower",
+        "Southern Argentina",
+        "Outdoor Adventure",
+        "Patagonia Road Trip",
+        "Regional History",
+        "Train Travel",
+        "Railway Heritage",
+        "South America Travel",
+        "Scenic Routes",
+        "Rural Tourism",
+        "Historical Landmarks",
+        "Architecture",
+        "Mountain Scenery",
+        "Sunny Day",
+        "Documentary Photography",
+        "Travel Documentary",
+        "Exploring Patagonia",
+        "Argentine Culture",
+        "Exploration",
+        "Heritage Preservation",
+        "Railway Infrastructure",
+        "Train Station",
+        "Travelers",
+        "Outdoor Photography",
+        "Patagonia Region",
+        "Argentina Landscapes",
+        "Historical Railway Station",
+        "Adventure Travel"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

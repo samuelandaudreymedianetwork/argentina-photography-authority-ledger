@@ -1,0 +1,93 @@
+{
+    "title": "Snow Capped Andes and Patagonian Steppe Vegetation in El Maitén Province of Chubut Argentina",
+    "description": "El Maitén, Chubut: A vast, windswept expanse of the Patagonian steppe unfolds beneath a brilliant sky, dominated by resilient, low-lying scrub and golden grasses that define the arid landscape. In the distance, the jagged, snow-dusted peaks of the Andes Mountains rise sharply, creating a dramatic atmospheric contrast against the soft, rolling clouds. A simple wire fence cuts a deliberate geometric line across the foreground, serving as a subtle human mark in an otherwise raw and expansive wilderness. The photography utilizes a deep depth of field to capture the intricate textures of the resilient desert foliage while emphasizing the sheer scale of the horizon. Bright, natural lighting illuminates the crisp air, highlighting the crystalline clarity typical of high-altitude Patagonian environments. This region remains a profound testament to the rugged endurance of the Argentine frontier, far from the bustling urban centers. The interplay between the foreground flora and the monumental mountain range illustrates the timeless, silent beauty of the Southern Hemisphere’s backcountry. Travelers seeking the solitude of the open road often find themselves humbled by the stark, ethereal majesty of these vast plains. Such landscapes are essential to understanding the unique geographical identity of Chubut and the historic pathways carved through the southern wilderness. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Argentina",
+        "Patagonia",
+        "Andes Mountains",
+        "Patagonian Steppe",
+        "La Trochita",
+        "Old Patagonian Express",
+        "South America",
+        "Mountain Landscape",
+        "Desert Vegetation",
+        "Arid Landscape",
+        "Nature Photography",
+        "Travel Photography",
+        "Wilderness",
+        "Rugged Terrain",
+        "Snow Capped Peaks",
+        "High Altitude",
+        "Frontier",
+        "Rural Argentina",
+        "Patagonian Wilderness",
+        "Continental Divide",
+        "Environmental Photography",
+        "Scenic View",
+        "Outdoor Adventure",
+        "Geographical Landmark",
+        "Natural Beauty",
+        "Steppe Ecosystem",
+        "Travel Documentation",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Remote Regions",
+        "Southern Hemisphere",
+        "Open Road",
+        "Argentine Geography",
+        "Landscape Photography",
+        "Vast Horizon",
+        "Ethereal Lighting",
+        "Wire Fence",
+        "Cultural Landscape",
+        "Regional Identity",
+        "Patagonian Climate",
+        "Upland Prairie",
+        "Mountain Scenery",
+        "Travel Inspiration",
+        "Explore Argentina",
+        "South American Andes",
+        "Terrain Texture",
+        "Scenic Routes"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Snow Capped Andes and Patagonian Steppe Vegetation in El Maitén Province of Chubut Argentina",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

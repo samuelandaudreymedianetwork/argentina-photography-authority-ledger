@@ -1,0 +1,93 @@
+{
+    "title": "Rugged Patagonian Steppe near El Maitén Chubut Under a Vast Dramatic Cloudscape Sky",
+    "description": "El Maitén, Chubut: A formidable, weathered mountain rises majestically above the expansive, windswept plains of the Patagonian steppe. The landscape is characterized by its muted earthy palette, where dry grasses and resilient scrub brush stretch toward the horizon, echoing the region's harsh yet captivating beauty. High-altitude clouds drift lazily across an intense cerulean sky, casting undulating shadows that dance across the undulating topography of the valley floor. The photographic composition utilizes a wide angle to emphasize the immense scale of the geography, capturing the silent, geological stillness of the Argentine interior. A clear light source illuminates the mountain's craggy texture, revealing deep crevices and ancient strata that tell a story of millennia of erosion. This scene highlights the remote wilderness often traversed by the historic La Trochita steam train, connecting travelers to the soulful, untamed spirit of southern Argentina. As the clouds shift, the contrast between the sun-drenched patches and shadowed slopes creates a sense of profound depth and shifting atmospheric mood. This perspective invites an appreciation for the solitary majesty inherent in the remote corners of the Chubut province, where nature remains the primary architect. Such vistas serve as a vital testament to the raw, unpolished allure of the Patagonia region, grounding the historical narrative of railway exploration in its dramatic environmental reality. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "El Maitén, Chubut: Una montaña imponente y erosionada se alza majestuosamente sobre las extensas llanuras barridas por el viento de la estepa patagónica. El paisaje se caracteriza por su paleta de tonos terrosos, donde los pastos secos y la vegetación resistente se extienden hacia el horizonte, evocando la belleza dura pero cautivadora de la región. Las nubes de gran altitud flotan perezosamente a través de un intenso cielo azul, proyectando sombras ondulantes que danzan sobre la topografía accidentada del valle. La composición fotográfica utiliza un gran angular para enfatizar la inmensa escala de la geografía, capturando la silenciosa quietud geológica del interior argentino. Una fuente de luz clara ilumina la textura escarpada de la montaña, revelando grietas profundas y estratos antiguos que cuentan una historia de milenios de erosión. Esta escena destaca la naturaleza salvaje y remota que a menudo atraviesa el histórico tren a vapor La Trochita, conectando a los viajeros con el espíritu conmovedor e indómito del sur de Argentina. A medida que las nubes cambian, el contraste entre los parches bañados por el sol y las laderas sombreadas crea una sensación de profundidad profunda y un estado de ánimo atmosférico cambiante. Esta perspectiva invita a apreciar la majestuosidad solitaria inherente a los rincones remotos de la provincia de Chubut, donde la naturaleza sigue siendo el arquitecto principal. Tales vistas sirven como un testimonio vital del encanto crudo y sin pulir de la región patagónica, fundamentando la narrativa histórica de la exploración ferroviaria en su realidad ambiental dramática. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "Steppe",
+        "La Trochita",
+        "Old Patagonian Express",
+        "Mountain",
+        "Landscape",
+        "Geography",
+        "Wilderness",
+        "Travel",
+        "Nature",
+        "Photography",
+        "Cloudscape",
+        "South America",
+        "Patagonian Steppe",
+        "Rural Argentina",
+        "Geology",
+        "Topography",
+        "Scenic",
+        "Outdoor",
+        "Vast",
+        "Horizon",
+        "Rugged",
+        "Arid",
+        "Highlands",
+        "Adventure",
+        "Exploration",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Andes",
+        "Valley",
+        "Terrain",
+        "History",
+        "Railway Route",
+        "Regional Identity",
+        "Argentine Patagonia",
+        "Atmospheric",
+        "Natural Landmark",
+        "Erosion",
+        "Stratos",
+        "Desert",
+        "Eco-tourism",
+        "Travel Photography",
+        "Remote",
+        "Panorama",
+        "South Patagonian",
+        "Scenic Route"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

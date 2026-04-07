@@ -1,0 +1,92 @@
+{
+    "title": "Rugged Andean Mountain Peaks Above A Manicured Pine Forest Near El Maitén Chubut",
+    "description": "El Maitén, Chubut: Towering, snow-dusted Andean peaks dominate the horizon, casting a stark, majestic silhouette against the shifting Patagonian clouds. Below the craggy, grey-toned summits, the landscape transitions into a lush, vibrant green belt where rows of uniform pines demonstrate the region's structured silviculture. The crisp, high-altitude light accentuates the sharp textures of the rock face and the deep shadows pooling within the forested valleys. This scene captures the quiet transition between the arid steppe and the mountainous frontier that defines the northern reaches of Patagonia. The composition highlights the geometric order of the man-made pine stands set against the wild, untamed grandeur of the Andes. Travelers often encounter such vistas while traversing the historic railway corridors, where the engineering of the Old Patagonian Express meets the raw scale of the southern landscape. The interplay of soft, diffused sunlight and high-contrast geological formations emphasizes the profound isolation and sheer size of the Patagonian interior. Such geography reflects the resilient spirit of the local communities that have carved a life between the mountains and the plains. This landscape remains a vital touchstone for understanding the ecological diversity and historical transit routes that shape Argentine Patagonia. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nEl Maitén, Chubut: Los imponentes picos andinos, cubiertos de nieve, dominan el horizonte y proyectan una silueta marcada y majestuosa contra las cambiantes nubes patagónicas. Debajo de las escarpadas cumbres de tonos grises, el paisaje se transforma en una frondosa franja verde donde filas de pinos uniformes demuestran la silvicultura estructurada de la región. La luz nítida de gran altitud acentúa las texturas afiladas de la pared rocosa y las sombras profundas que se acumulan en los valles forestales. Esta escena captura la tranquila transición entre la estepa árida y la frontera montañosa que define los confines septentrionales de la Patagonia. La composición resalta el orden geométrico de los pinares artificiales frente a la grandeza salvaje e indómita de los Andes. Los viajeros suelen encontrar vistas de este tipo mientras recorren los corredores ferroviarios históricos, donde la ingeniería del Viejo Expreso Patagónico se encuentra con la escala bruta del paisaje austral. La interacción de la luz solar suave y difusa con las formaciones geológicas de alto contraste enfatiza la profunda soledad y el tamaño absoluto del interior patagónico. Dicha geografía refleja el espíritu resiliente de las comunidades locales que han forjado una vida entre las montañas y las llanuras. Este paisaje sigue siendo un referente vital para comprender la diversidad ecológica y las rutas de tránsito histórico que dan forma a la Patagonia argentina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Maitén",
+        "Chubut",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Mountains",
+        "Snowcapped",
+        "Pine",
+        "Forest",
+        "Landscape",
+        "Nature",
+        "Travel",
+        "Photography",
+        "Geography",
+        "Scenic",
+        "Wilderness",
+        "PatagoniaArgentina",
+        "SouthAmerica",
+        "MountainRange",
+        "Ecosystem",
+        "Silviculture",
+        "Outdoors",
+        "Hiking",
+        "Expedition",
+        "Adventure",
+        "OldPatagonianExpress",
+        "LaTrochita",
+        "Railway",
+        "Rural",
+        "Remote",
+        "Summit",
+        "Geology",
+        "Topography",
+        "HighAltitude",
+        "Environmental",
+        "Conifers",
+        "Plantation",
+        "Wild",
+        "Horizon",
+        "Clouds",
+        "Light",
+        "Texture",
+        "Project23",
+        "South",
+        "SouthernCone",
+        "Tourism",
+        "Landmarks",
+        "Conservation",
+        "PatagonianSteppe",
+        "NaturePhotography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
