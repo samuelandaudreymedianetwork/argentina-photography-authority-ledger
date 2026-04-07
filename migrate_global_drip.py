@@ -69,7 +69,9 @@ SCHEMA_LINKS = [
 PRIORITY_MAP = {
     "Punta Arenas, Chile (Capital of Magallanes): Maritime History, Food and Culture": "Bw8kWp",
     "Torres del Paine National Park (Chilean Patagonia): Wildlife, Glaciers & Iconic Peaks": "kBNdZJ",
-    "Puerto Natales, Chile: A Patagonian Coastal Town Guide": "B2SJCc"
+    "Puerto Natales, Chile: A Patagonian Coastal Town Guide": "B2SJCc",
+    "Puerto Varas, Chile (Family Trip): Lake Llanquihue & Osorno Volcano": "G4L636"
+
 }
 
 # ==========================================
