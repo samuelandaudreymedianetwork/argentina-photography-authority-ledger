@@ -1,0 +1,93 @@
+{
+    "title": "A Sailing Regatta on the Rio de la Plata in Buenos Aires Argentina",
+    "description": "Buenos Aires, Buenos Aires Province: A lone paddleboarder navigates the vast, sun-drenched expanse of the Río de la Plata, serving as a solitary contrast to the graceful silhouettes of numerous sailboats gathering for a local regatta. The scene is defined by a deep, cerulean sky and the rhythmic movement of water, where the sails act as architectural white triangles against the horizon. Sunlight catches the crests of the gentle waves, creating a vibrant, shimmering texture that emphasizes the immense scale of this maritime gateway. The atmosphere is one of serene focus, capturing a moment where human-powered exploration meets the wind-driven tradition of Argentine aquatic sports. A sense of openness permeates the frame, highlighting the expansive nature of the city's waterfront and the enduring connection residents maintain with their tidal environment. The composition utilizes a wide depth of field, ensuring that both the foreground adventurer and the distant, crowded fleet are rendered with crisp, deliberate clarity. This visual document captures how the river serves as a central hub for leisure and competition, weaving the maritime culture of Argentina into the fabric of urban coastal life. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Buenos Aires, Provincia de Buenos Aires: Un practicante de paddleboard navega solo por la vasta y soleada extensión del Río de la Plata, sirviendo como un contraste solitario ante las elegantes siluetas de numerosos veleros que se reúnen para una regata local. La escena está definida por un cielo azul profundo y el movimiento rítmico del agua, donde las velas actúan como triángulos arquitectónicos blancos contra el horizonte. La luz del sol atrapa las crestas de las suaves olas, creando una textura vibrante y brillante que enfatiza la inmensa escala de esta puerta de enlace marítima. La atmósfera es de serenidad enfocada, capturando un momento donde la exploración impulsada por el hombre se encuentra con la tradición impulsada por el viento de los deportes acuáticos argentinos. Una sensación de apertura impregna el encuadre, destacando la naturaleza expansiva del frente costero de la ciudad y la conexión duradera que los residentes mantienen con su entorno mareal. La composición utiliza una profundidad de campo amplia, asegurando que tanto el aventurero en primer plano como la flota distante y concurrida se representen con una claridad nítida y deliberada. Este documento visual captura cómo el río sirve como un centro central para el ocio y la competencia, tejiendo la cultura marítima de Argentina en el tejido de la vida urbana costera. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Rio de la Plata",
+        "Sailing",
+        "Regatta",
+        "Paddleboarding",
+        "Maritime",
+        "Waterfront",
+        "Nautical",
+        "Argentina Travel",
+        "South America",
+        "Coastal Life",
+        "Sailboats",
+        "Río de la Plata",
+        "Oceanic Atmosphere",
+        "Travel Photography",
+        "Project 23",
+        "Outdoor Recreation",
+        "Water Sports",
+        "Argentine Culture",
+        "Buenos Aires Province",
+        "Marine Landscape",
+        "Summer Sailing",
+        "Horizon",
+        "Seascape",
+        "Blue Sky",
+        "Floating",
+        "Voyage",
+        "Recreational Boating",
+        "Urban Riverfront",
+        "Sailing Culture",
+        "Active Travel",
+        "Sunlit Water",
+        "Adventure",
+        "Leisure Time",
+        "Port City",
+        "River Sport",
+        "Nature Photography",
+        "Regional Identity",
+        "Waterscape",
+        "Tidal Waters",
+        "Wind Powered",
+        "Navigation",
+        "Coastal Geography",
+        "Documentary Travel",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "South American Travel",
+        "Aquatic Scene",
+        "River Navigation"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
