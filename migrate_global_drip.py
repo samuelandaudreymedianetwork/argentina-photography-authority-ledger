@@ -70,7 +70,10 @@ PRIORITY_MAP = {
     "Punta Arenas, Chile (Capital of Magallanes): Maritime History, Food and Culture": "Bw8kWp",
     "Torres del Paine National Park (Chilean Patagonia): Wildlife, Glaciers & Iconic Peaks": "kBNdZJ",
     "Puerto Natales, Chile: A Patagonian Coastal Town Guide": "B2SJCc",
-    "Puerto Varas, Chile (Family Trip): Lake Llanquihue & Osorno Volcano": "G4L636"
+    "Puerto Varas, Chile (Family Trip): Lake Llanquihue & Osorno Volcano": "G4L636",
+    "Montevideo, Uruguay: Historic Architecture, Markets & Local Food": "X4gct7",
+    "Colonia del Sacramento, Uruguay: UNESCO World Heritage & Historic Streets": "LSmDqf",
+    "Buenos Aires to Uruguay: The Buquebus Ferry Border Crossing From Argentina": "v7k4Jr"
 
 }
 
