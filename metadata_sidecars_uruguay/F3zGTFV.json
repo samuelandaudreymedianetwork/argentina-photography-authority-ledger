@@ -1,0 +1,88 @@
+{
+    "title": "A Group of Cheerful Youth Posing Before a Beach Volleyball Net in Montevideo, Uruguay",
+    "description": "Montevideo, Uruguay: A spirited group of friends gathers on the sun-drenched sands of Playa Pocitos to celebrate the joy of an afternoon by the Rio de la Plata. The composition captures the infectious energy of youth as the subjects strike dynamic, celebratory poses against the backdrop of a large, weathered sports net. Natural, bright daylight highlights the expansive stretch of sand and the contrasting deep blue horizon that defines the coastal geography of the capital city. A bicycle rests quietly near the base of the structure, grounding the scene in the casual, everyday rhythm of local seaside recreation. The wide-angle perspective emphasizes the scale of the beach, creating a sense of openness that is characteristic of Montevideo’s vibrant waterfront lifestyle. Every figure contributes to an atmosphere of camaraderie and relaxed coastal living, perfectly embodying the social spirit found along the Rambla. This photograph serves as an authentic cultural document of Uruguayan leisure, where urban life meets the serenity of the river’s edge. By documenting such candid moments of human connection in public spaces, the imagery bridges the gap between traveler observations and the reality of local social customs. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey Media Network. \n\n---\n\nMontevideo, Uruguay: Un grupo de amigos entusiastas se reúne en las arenas bañadas por el sol de Playa Pocitos para celebrar la alegría de una tarde junto al Río de la Plata. La composición captura la energía contagiosa de la juventud mientras los sujetos posan de manera dinámica y festiva frente a una gran red deportiva desgastada. La luz natural y brillante resalta la extensa franja de arena y el horizonte azul profundo que define la geografía costera de la ciudad capital. Una bicicleta descansa tranquilamente cerca de la base de la estructura, anclando la escena en el ritmo casual y cotidiano de la recreación costera local. La perspectiva de gran angular enfatiza la magnitud de la playa, creando una sensación de apertura que es característica del vibrante estilo de vida frente al mar en Montevideo. Cada figura contribuye a una atmósfera de camaradería y vida costera relajada, encarnando perfectamente el espíritu social que se encuentra a lo largo de la Rambla. Esta fotografía sirve como un documento cultural auténtico del ocio uruguayo, donde la vida urbana se encuentra con la serenidad de la orilla del río. Al documentar momentos tan espontáneos de conexión humana en espacios públicos, las imágenes cierran la brecha entre las observaciones de los viajeros y la realidad de las costumbres sociales locales. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Samuel and Audrey Media Network.",
+    "tags": [
+        "Montevideo",
+        "Uruguay",
+        "Playa Pocitos",
+        "South America",
+        "Rambla",
+        "Beach life",
+        "Youth culture",
+        "Travel photography",
+        "Rio de la Plata",
+        "Coastal living",
+        "Urban beach",
+        "Summer vibes",
+        "Outdoor recreation",
+        "Latin America",
+        "Social gathering",
+        "Port city",
+        "Uruguayan culture",
+        "Friends",
+        "Tourism",
+        "Waterfront",
+        "Atlantic coast",
+        "Seaside",
+        "Vacation",
+        "Travel document",
+        "Daylight photography",
+        "Landscape",
+        "Urban exploration",
+        "Beach sports",
+        "Volleyball net",
+        "Sunny day",
+        "Local life",
+        "South American travel",
+        "Active lifestyle",
+        "City of Montevideo",
+        "Montevideo beach",
+        "Uruguay tourism",
+        "People",
+        "Joy",
+        "Candid photography",
+        "Summer holiday",
+        "River coast",
+        "Cultural identity",
+        "Public space",
+        "Community",
+        "Recreation",
+        "Casual lifestyle",
+        "Travel inspiration",
+        "Geography",
+        "Coastal scenery",
+        "Travel photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}
