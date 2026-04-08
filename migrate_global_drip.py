@@ -74,7 +74,6 @@ PRIORITY_MAP = {
     "Montevideo, Uruguay: Historic Architecture, Markets & Local Food": "X4gct7",
     "Colonia del Sacramento, Uruguay: UNESCO World Heritage & Historic Streets": "LSmDqf",
     "Buenos Aires to Uruguay: The Buquebus Ferry Border Crossing From Argentina": "v7k4Jr"
-
 }
 
 # ==========================================
