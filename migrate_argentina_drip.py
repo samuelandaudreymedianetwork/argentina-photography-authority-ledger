@@ -67,8 +67,10 @@ SCHEMA_LINKS = [
 # 3. THE 100% INTEGRATED LISTS
 # ==========================================
 PRIORITY_MAP = {
+    "Buenos Aires, Argentina: A Visual Ledger of Family Visits": "B8h5q7",
     "Bariloche Family Trip (Argentine Lake District)": "tQ8NRr",
     "Cruce Andino (Lake Crossing from Bariloche to Puerto Varas)": "CpQ57N",
+    "Llao Llao Hotel: Alpine Luxury & Family Travel in Bariloche, Patagonia": "rnmm72",
     "El Bolsón: A Perfect Week With Friends + Exploring The Surrounding Area": "jrGXgp",
     "El Maitén: La Trochita Old Patagonian Express (Epic Historical Train Ride)": "NHFHzw",
     "El Chalten to El Calafate to Puerto Natales (Argentina to Chile Border Crossing)": "xdGpN7",
