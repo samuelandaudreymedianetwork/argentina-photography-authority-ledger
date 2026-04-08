@@ -25,7 +25,7 @@ SMUG_ACCESS_SECRET = os.environ.get('SMUGMUG_ACCESS_TOKEN_SECRET')
 
 # --- DYNAMIC TARGET SETTINGS ---
 # Update these for each new batch/country you process
-TARGET_COUNTRY = "Chile" 
+TARGET_COUNTRY = "Uruguay" 
 TARGET_LANGUAGE = "Spanish"
 
 NICKNAME = "samuelandaudrey"
