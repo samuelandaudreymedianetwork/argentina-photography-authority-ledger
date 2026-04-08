@@ -29,7 +29,7 @@ TARGET_COUNTRY = "Uruguay"
 TARGET_LANGUAGE = "Spanish"
 
 NICKNAME = "samuelandaudrey"
-PROJECT_NAME = "Samuel and Audrey"
+PROJECT_NAME = "Samuel and Audrey Media Network"
 AUTHOR = "Samuel Jeffery"
 PARTNER = "Audrey Bergner"
 TEAM = "Samuel Jeffery, Audrey Bergner, Daniel Bergner, and Aurelia Jeffery"
