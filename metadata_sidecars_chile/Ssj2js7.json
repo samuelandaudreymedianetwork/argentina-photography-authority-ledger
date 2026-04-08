@@ -1,0 +1,88 @@
+{
+    "title": "Audrey Bergner and Aurelia Jeffery Relaxing by Lake Llanquihue in Puerto Varas, Southern Chile",
+    "description": "Puerto Varas, Los Lagos Region: Audrey Bergner sits peacefully with Aurelia Jeffery along the picturesque shores of Lake Llanquihue. The soft, dappled sunlight filters through the lush, verdant greenery of the surrounding temperate rainforest, casting gentle shadows across the scene. Audrey leans down to share a tender, quiet moment with her daughter, highlighting the intimacy of travel amidst the natural splendor of the Chilean Lake District. The textures of the corduroy jacket and stone seating contrast with the smooth fabric of the child's clothing, creating a tactile depth to the photograph. A stroller stands nearby, serving as a silent witness to the family’s journey through this volcanic landscape. The composition utilizes a natural frame provided by the foliage, emphasizing the tranquil beauty of the region. This snapshot captures the intersection of motherhood and exploration against the backdrop of one of Chile's most iconic lakeside towns. It serves as a testament to the profound connection between family and place during their immersive international journey. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey.\n\n---\n\nPuerto Varas, Región de Los Lagos: Audrey Bergner descansa pacíficamente junto a Aurelia Jeffery a lo largo de las pintorescas orillas del Lago Llanquihue. La suave luz del sol se filtra a través de la exuberante y verde vegetación de la selva templada circundante, proyectando sombras suaves en toda la escena. Audrey se inclina para compartir un momento tierno y tranquilo con su hija, resaltando la intimidad de viajar en medio del esplendor natural del Distrito de los Lagos en Chile. Las texturas de la chaqueta de pana y el asiento de piedra contrastan con la tela suave de la ropa de la niña, creando una profundidad táctil en la fotografía. Un cochecito se encuentra cerca, sirviendo como un testigo silencioso del viaje de la familia a través de este paisaje volcánico. La composición utiliza un marco natural proporcionado por el follaje, enfatizando la tranquilidad y belleza de la región. Esta instantánea captura la intersección de la maternidad y la exploración en el contexto de una de las ciudades lacustres más icónicas de Chile. Sirve como testimonio de la profunda conexión entre la familia y el lugar durante su inmersivo viaje internacional. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Samuel and Audrey.",
+    "tags": [
+        "Puerto Varas",
+        "Chile",
+        "Lake Llanquihue",
+        "Los Lagos Region",
+        "Patagonia",
+        "Southern Chile",
+        "Chilean Lake District",
+        "Family Travel",
+        "Travel Photography",
+        "Motherhood",
+        "Nature",
+        "Outdoors",
+        "Lakeside",
+        "Volcanic Landscape",
+        "Travel Documentary",
+        "South America",
+        "Verdant Scenery",
+        "Temperate Rainforest",
+        "Exploration",
+        "Backpacking",
+        "Nomadic Life",
+        "Cultural Travel",
+        "Regional Identity",
+        "Landscape Photography",
+        "Childhood",
+        "Tender Moments",
+        "Travel Life",
+        "Adventure Travel",
+        "Scenic Chile",
+        "Llanquihue Province",
+        "Global Travel",
+        "Family Adventure",
+        "Natural Light",
+        "Outdoor Lifestyle",
+        "Travelers",
+        "Journey",
+        "Destination Chile",
+        "Lake District",
+        "Volcano Surroundings",
+        "Travel Memoir",
+        "Authentic Moments",
+        "Organic Photography",
+        "South American Travel",
+        "Travel Bloggers",
+        "Family Connection",
+        "Travel Documentation",
+        "Chilean Culture",
+        "Peaceful Scenery",
+        "Travel Moments",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}
