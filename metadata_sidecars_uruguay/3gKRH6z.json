@@ -1,0 +1,88 @@
+{
+    "title": "A Solitary Sailboat Drifts Past the Historic Colonia del Sacramento Lighthouse at Golden Hour",
+    "description": "Colonia del Sacramento, Uruguay: A solitary sailboat carves a graceful silhouette across the reflective Rio de la Plata during a dramatic, amber-hued sunset. The composition balances the vertical lines of the mast against the soft, diffused warmth of the cloud-streaked horizon. In the distance, the iconic lighthouse stands as a silent sentinel on a rocky outcropping, marking a centuries-old maritime boundary between Argentina and Uruguay. Deep shadows envelope the foreground water, while the sky transitions from burning orange to deep copper, creating an atmosphere of profound tranquility. The play of light across the rippling surface captures the essential, languid pace of life in this historic riverside enclave. Photographed with a telephoto lens, the image emphasizes the isolation of the vessel against the vast expanse of the estuary. The scene reflects the deep maritime heritage that has defined this UNESCO World Heritage town since its founding in the late 17th century. Travel enthusiasts value such moments for the way they encapsulate the serene, timeless beauty of the Uruguayan coastline. By documenting these quiet intersections of history and nature, the image provides a window into the soul of the Rio de la Plata. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Samuel and Audrey Media Network. \n\n---\n\nColonia del Sacramento, Uruguay: Un velero solitario traza una silueta elegante sobre el Río de la Plata, mientras el sol se oculta en un atardecer de tonos ámbar. La composición equilibra las líneas verticales del mástil con el calor difuso y suave del horizonte marcado por las nubes. En la distancia, el icónico faro se alza como un centinela silencioso sobre un afloramiento rocoso, marcando un límite marítimo centenario entre Argentina y Uruguay. Las sombras profundas envuelven el agua en primer plano, mientras el cielo transita del naranja ardiente al cobre profundo, creando una atmósfera de profunda tranquilidad. El juego de luces sobre la superficie ondulante captura el ritmo esencial y lánguido de la vida en este histórico enclave ribereño. Fotografiada con un teleobjetivo, la imagen enfatiza el aislamiento de la embarcación frente a la vasta extensión del estuario. La escena refleja la profunda herencia marítima que ha definido a esta ciudad declarada Patrimonio de la Humanidad por la UNESCO desde su fundación a finales del siglo XVII. Los entusiastas de los viajes valoran estos momentos por la forma en que encapsulan la belleza serena y atemporal de la costa uruguaya. Al documentar estas silenciosas intersecciones de historia y naturaleza, la imagen ofrece una ventana al alma del Río de la Plata. Este es un trabajo colaborativo realizado por Samuel Jeffery y Audrey Bergner para Samuel and Audrey Media Network.",
+    "tags": [
+        "Colonia del Sacramento",
+        "Uruguay",
+        "Rio de la Plata",
+        "Lighthouse",
+        "Sunset",
+        "Sailing",
+        "Sailboat",
+        "UNESCO World Heritage",
+        "South America",
+        "Maritime",
+        "Coastal",
+        "Estuary",
+        "Golden Hour",
+        "Travel Photography",
+        "Uruguayan Coast",
+        "Travel",
+        "Photography",
+        "Nature",
+        "Seascape",
+        "Sunset Horizon",
+        "Historic Landmarks",
+        "River Plate",
+        "Marine Heritage",
+        "Uruguay Tourism",
+        "Colonia Lighthouse",
+        "Water Reflection",
+        "Peaceful",
+        "Landscape",
+        "Outdoors",
+        "Sailing Trip",
+        "Travel Documentary",
+        "South American Travel",
+        "Silhouettes",
+        "Golden Light",
+        "Waterfront",
+        "Serenity",
+        "Nautical",
+        "Tourist Destination",
+        "Scenic View",
+        "Vacation",
+        "History",
+        "Colonial Architecture",
+        "Riverside",
+        "Coastal Living",
+        "Uruguayan Culture",
+        "Latin America",
+        "Sunlight",
+        "Cloudscapes",
+        "Atlantic Coast",
+        "Evening Calm"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey"
+                ]
+            }
+        ]
+    }
+}
