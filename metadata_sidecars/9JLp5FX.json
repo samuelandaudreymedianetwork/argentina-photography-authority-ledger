@@ -1,0 +1,93 @@
+{
+    "title": "Daniel Bergner and Audrey Bergner at Puerto Madero Waterfront in Buenos Aires City Heritage",
+    "description": "Puerto Madero, Buenos Aires City: Daniel Bergner and Audrey Bergner stand composed against the historic backdrop of the Dársena Sur, where brick-clad maritime warehouses meet the sleek verticality of modern high-rises. The natural light of the Argentine afternoon casts gentle shadows across the scene, highlighting the textural contrast between the weathered red masonry of the old docks and the reflective glass of the contemporary skyline. A tall, vintage-style sailing vessel remains moored in the background, serving as a silent sentinel of the city's port history. The shallow depth of field isolates the subjects, allowing their relaxed, confident expressions to resonate against the urban energy of the riverfront promenade. As they lean against the metallic railing, the composition perfectly captures the intersection of colonial legacy and rapid metropolitan development that defines this rehabilitated district. The warm, diffused sunlight enhances the vibrant tones of the landscape, creating an inviting atmosphere that encourages exploration of the city's evolving public spaces. This photograph effectively documents a meaningful moment of travel, situating the individuals within the grander narrative of Buenos Aires' transformation from a commercial dockland into a bustling cultural hub. Through this visual record, the image underscores the significance of connecting personal experiences to the architectural heritage of global cities. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Puerto Madero, Ciudad de Buenos Aires: Daniel Bergner y Audrey Bergner posan compuestos frente al trasfondo histórico de la Dársena Sur, donde los antiguos almacenes portuarios de ladrillo se encuentran con la esbelta verticalidad de los rascacielos modernos. La luz natural de la tarde argentina proyecta sombras suaves sobre la escena, resaltando el contraste de texturas entre la mampostería roja erosionada de los viejos muelles y el cristal reflectante del horizonte contemporáneo. Un velero de estilo antiguo permanece amarrado al fondo, sirviendo como un centinela silencioso de la historia portuaria de la ciudad. La profundidad de campo selectiva aísla a los sujetos, permitiendo que sus expresiones relajadas y seguras resuenen contra la energía urbana del paseo ribereño. Mientras se apoyan sobre la barandilla metálica, la composición captura perfectamente la intersección entre el legado colonial y el rápido desarrollo metropolitano que define a este distrito rehabilitado. La luz solar cálida y difusa realza los tonos vibrantes del paisaje, creando un ambiente acogedor que invita a explorar los espacios públicos en constante evolución de la ciudad. Esta fotografía documenta eficazmente un momento significativo de viaje, situando a los individuos dentro de la narrativa más amplia de la transformación de Buenos Aires, pasando de ser una zona comercial portuaria a un vibrante centro cultural. A través de este registro visual, la imagen subraya la importancia de conectar las experiencias personales con el patrimonio arquitectónico de las ciudades globales. Este image es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Puerto Madero",
+        "Buenos Aires",
+        "Argentina",
+        "Project 23",
+        "Travel Photography",
+        "South America",
+        "Urban Heritage",
+        "Architecture",
+        "Dársena Sur",
+        "Waterfront",
+        "Cityscape",
+        "Red Brick",
+        "Historical Landmarks",
+        "Modern Development",
+        "Travel Documentary",
+        "Port District",
+        "Argentine Culture",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Portraiture",
+        "Travel Diary",
+        "Capital City",
+        "Riverside Promenade",
+        "Maritime History",
+        "Sailing Vessel",
+        "Latin America",
+        "Urban Exploration",
+        "Skyline View",
+        "Street Photography",
+        "Cultural Tourism",
+        "Outdoor Portrait",
+        "Travel Authority",
+        "Geographic Documentation",
+        "Tourist Destinations",
+        "Rehabilitated Docks",
+        "Metropolitan Life",
+        "Architectural Contrast",
+        "Buenos Aires Tourism",
+        "Travelers",
+        "Iconic Landmarks",
+        "City Planning",
+        "Regional Identity",
+        "Reflective Glass",
+        "Industrial History",
+        "South American Travel",
+        "Daylight Photography",
+        "Public Spaces",
+        "Travel Partners",
+        "City Infrastructure",
+        "Atmospheric Portrait"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "title": "A Creamy Tiramisu Slice Served at a Traditional Parilla Restaurant in Buenos Aires City",
+    "description": "Buenos Aires City, Buenos Aires: A decadent slice of tiramisu rests on a ceramic plate, showcasing the rich, layered architecture of sponge soaked in coffee and mascarpone cream. The shallow depth of field isolates the dessert, emphasizing the delicate dusting of cocoa powder that blankets the top surface. Soft, ambient lighting accentuates the velvety texture of the cream, suggesting a quiet moment of culinary indulgence within a bustling urban environment. A silver spoon peeks from the side, resting against the subtle branding of the establishment on the rim of the dish. This image captures the intersection of Italian culinary heritage and the sophisticated dining culture deeply embedded in Argentine society. As a staple of local cafes and family-run restaurants, this dessert reflects the immigrant influence that continues to define the capital’s gastronomic identity. Beyond the plate, the scene hints at the communal spirit of shared meals often enjoyed during family visits in the heart of the city. The composition invites the viewer to appreciate the aesthetic simplicity of a well-prepared classic. This visual documentation serves as a testament to the enduring traditions that define the contemporary culinary landscape of Buenos Aires. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Ciudad de Buenos Aires, Buenos Aires: Un trozo decadente de tiramisú descansa sobre un plato de cerámica, mostrando la rica arquitectura de capas de bizcocho bañado en café y crema de mascarpone. La profundidad de campo poco profunda aísla el postre, enfatizando el delicado espolvoreado de cacao en polvo que cubre la superficie superior. La iluminación ambiental suave acentúa la textura aterciopelada de la crema, sugiriendo un momento tranquilo de indulgencia culinaria dentro de un entorno urbano bullicioso. Una cuchara de plata asoma por el lateral, apoyada contra la marca sutil del establecimiento en el borde del plato. Esta imagen captura la intersección de la herencia culinaria italiana y la sofisticada cultura gastronómica profundamente arraigada en la sociedad argentina. Como elemento básico de los cafés locales y los restaurantes familiares, este postre refleja la influencia inmigrante que continúa definiendo la identidad gastronómica de la capital. Más allá del plato, la escena alude al espíritu comunitario de las comidas compartidas que a menudo se disfrutan durante las visitas familiares en el corazón de la ciudad. La composición invita al espectador a apreciar la simplicidad estética de un clásico bien preparado. Esta documentación visual sirve como testimonio de las tradiciones duraderas que definen el paisaje culinario contemporáneo de Buenos Aires. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Tiramisu",
+        "Dessert",
+        "Argentine cuisine",
+        "South America",
+        "Food photography",
+        "Italian influence",
+        "Gourmet",
+        "Cuisine",
+        "Restaurant",
+        "Dining",
+        "Mascarpone",
+        "Coffee",
+        "Cocoa",
+        "Sweet",
+        "Pastry",
+        "Gastronomy",
+        "Travel photography",
+        "City life",
+        "Culinary heritage",
+        "Urban dining",
+        "Cafe culture",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Foodie",
+        "Sweet treat",
+        "Layers",
+        "Texture",
+        "Creamy",
+        "Plate",
+        "Table setting",
+        "Delicious",
+        "Local flavor",
+        "Capital city",
+        "Travel journal",
+        "Cultural identity",
+        "Italian heritage",
+        "Buenos Aires city",
+        "Dessert lover",
+        "Food blog",
+        "Latin American food",
+        "Baking",
+        "Sweets",
+        "Coffee break",
+        "Fine dining",
+        "Visual storytelling",
+        "Traditional food",
+        "South American travel"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
