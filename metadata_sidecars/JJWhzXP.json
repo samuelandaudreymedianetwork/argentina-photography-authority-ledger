@@ -1,0 +1,93 @@
+{
+    "title": "Audrey Bergner and Daniel Bergner at the San Martin Monument in Buenos Aires Argentina",
+    "description": "Plaza San Martín, Buenos Aires: Audrey Bergner and Daniel Bergner stand before the imposing equestrian statue of General José de San Martín, captured under the bright, clear sky of the Argentine capital. The monument, rendered in dark, weathered bronze, looms above them against a backdrop of lush, dense green trees that contrast sharply with the structured red granite pedestal. Soft, midday sunlight illuminates the scene, casting gentle shadows that define the intricate military reliefs carved into the stone base, grounding the subjects within this historic urban heart. The composition utilizes a wide angle to provide context, balancing the scale of the grand memorial against the human presence of the travelers. Surrounding the plaza, the architectural landscape reflects the European influence prevalent in the city's development, bridging the gap between colonial history and modern metropolitan life. The couple remains still, their posture reflective of a quiet moment of exploration amidst the bustle of one of South America's most significant cultural hubs. This juxtaposition of monumental bronze and local greenery highlights the ongoing preservation of national heritage within an evolving city. Capturing such landmarks is essential for documenting the intersection of historical memory and contemporary tourism in the Southern Cone. This image serves as a permanent record of personal discovery and the exploration of Argentina's complex urban identity. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Plaza San Martín, Buenos Aires: Audrey Bergner y Daniel Bergner se encuentran frente a la imponente estatua ecuestre del General José de San Martín, capturada bajo el cielo brillante y despejado de la capital argentina. El monumento, realizado en bronce oscuro y desgastado, se alza sobre ellos con un telón de fondo de árboles verdes, densos y frondosos que contrastan fuertemente con el pedestal de granito rojo estructurado. La suave luz del mediodía ilumina la escena, proyectando sombras sutiles que definen los intrincados relieves militares tallados en la base de piedra, situando a los sujetos en este corazón histórico urbano. La composición utiliza un gran angular para proporcionar contexto, equilibrando la escala del gran memorial con la presencia humana de los viajeros. Rodeando la plaza, el paisaje arquitectónico refleja la influencia europea prevaleciente en el desarrollo de la ciudad, uniendo la historia colonial con la vida metropolitana moderna. La pareja permanece quieta, su postura refleja un momento tranquilo de exploración en medio del ajetreo de uno de los centros culturales más importantes de Sudamérica. Esta yuxtaposición de bronce monumental y vegetación local destaca la preservación continua del patrimonio nacional dentro de una ciudad en constante evolución. Capturar estos monumentos es esencial para documentar la intersección de la memoria histórica y el turismo contemporáneo en el Cono Sur. Esta imagen sirve como registro permanente del descubrimiento personal y la exploración de la compleja identidad urbana de Argentina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Plaza San Martin",
+        "Buenos Aires",
+        "Argentina",
+        "General Jose de San Martin",
+        "Equestrian Statue",
+        "South America",
+        "Travel Photography",
+        "Argentine Culture",
+        "Urban Exploration",
+        "Historical Landmark",
+        "Bronze Sculpture",
+        "Public Monuments",
+        "Retiro District",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Daniel Bergner",
+        "Cityscape",
+        "Latin America",
+        "Architecture",
+        "Historical Plaza",
+        "Argentine Heritage",
+        "Tourist Destination",
+        "Outdoor Photography",
+        "Sunny Day",
+        "Granite Pedestal",
+        "Sculptural Art",
+        "Metropolitan Life",
+        "Travel Documentary",
+        "South American Travel",
+        "Public Spaces",
+        "Buenos Aires City",
+        "Cultural Tourism",
+        "Fine Art Photography",
+        "Travel Journal",
+        "National Monument",
+        "European Influence",
+        "Urban Park",
+        "Travelers",
+        "Sightseeing",
+        "Argentina Tourism",
+        "History",
+        "Landmark Photography",
+        "City Center",
+        "Street Photography",
+        "Portrait Photography",
+        "Vacation",
+        "Outdoor Portrait",
+        "Artistic Documentation",
+        "Argentina Travel Authority"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
