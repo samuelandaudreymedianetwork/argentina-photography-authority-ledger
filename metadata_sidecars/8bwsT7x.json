@@ -1,0 +1,93 @@
+{
+    "title": "The Bronze Quadriga atop the Argentine National Congress Building in Buenos Aires City Center",
+    "description": "Buenos Aires, Ciudad Autónoma de Buenos Aires: The copper-clad dome of the National Congress pulses with history under a brilliant, cloudless sky. This striking architectural detail centers on the iconic bronze quadriga sculpture, a symbol of national triumph that crowns the Legislative Palace. The deep verdigris patina of the dome offers a sharp, elegant contrast against the vibrant azure backdrop of a perfect Argentine afternoon. Sunlight catches the intricate metallic textures of the horses and the allegorical chariot figure, while the national flag flutters with resolute pride from the central mast. The symmetry of the neoclassical design reflects the grand ambitions of the early twentieth century, grounding the city’s political heart in timeless monumentalism. Photographed with a telephoto lens, the composition flattens the depth to emphasize the stark geometric patterns of the pillars and the ornate sculptural centerpiece. As the seat of the nation's bicameral legislature, this landmark represents the bedrock of Argentine democracy and the complex evolution of its statehood. For travelers and historians alike, this vantage point serves as a powerful testament to the influence of European architectural heritage on the urban fabric of South America’s most cosmopolitan capital. Understanding the structural and cultural significance of this site provides essential context for interpreting the political landscape that defines the nation today. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Buenos Aires, Ciudad Autónoma de Buenos Aires: La cúpula revestida de cobre del Congreso Nacional late con historia bajo un cielo brillante y sin nubes. Este llamativo detalle arquitectónico se centra en la emblemática cuadriga de bronce, un símbolo de triunfo nacional que corona el Palacio Legislativo. La profunda pátina color verde cardenillo de la cúpula ofrece un contraste agudo y elegante contra el vibrante telón de fondo azul cobalto de una perfecta tarde argentina. La luz del sol captura las intrincadas texturas metálicas de los caballos y la figura alegórica del carruaje, mientras la bandera nacional ondea con orgullo decidido desde el mástil central. La simetría del diseño neoclásico refleja las grandes ambiciones de principios del siglo XX, cimentando el corazón político de la ciudad en un monumentalismo atemporal. Fotografiada con un teleobjetivo, la composición aplana la profundidad para enfatizar los marcados patrones geométricos de las columnas y el ornamentado centro escultórico. Como sede de la legislatura bicameral de la nación, este monumento representa el pilar de la democracia argentina y la compleja evolución de su estatidad. Tanto para viajeros como para historiadores, este punto de vista sirve como un poderoso testimonio de la influencia de la herencia arquitectónica europea en el tejido urbano de la capital más cosmopolita de Sudamérica. Comprender la importancia estructural y cultural de este sitio proporciona un contexto esencial para interpretar el panorama político que define a la nación hoy en día. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Project 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "National Congress",
+        "Congreso de la Nación",
+        "Architecture",
+        "Neoclassical",
+        "Quadriga",
+        "Sculpture",
+        "Bronze",
+        "Dome",
+        "Copper",
+        "Verdigris",
+        "Skyline",
+        "Landmark",
+        "Travel",
+        "Photography",
+        "Legislative Palace",
+        "Argentine Flag",
+        "Patriotism",
+        "South America",
+        "Urban Design",
+        "Capital City",
+        "History",
+        "Politics",
+        "Tourism",
+        "Iconic",
+        "Classical",
+        "Monument",
+        "Cityscape",
+        "Architecture Detail",
+        "Cultural Heritage",
+        "South American Travel",
+        "Blue Sky",
+        "Sunlight",
+        "Civic Building",
+        "Government",
+        "Democracy",
+        "Facade",
+        "Statue",
+        "Public Building",
+        "Historic Preservation",
+        "Argentine Republic",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Travel Photography",
+        "Latin America",
+        "City Landmarks",
+        "Outdoor Architecture",
+        "Fine Art Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
