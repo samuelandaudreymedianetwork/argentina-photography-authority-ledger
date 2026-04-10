@@ -1,0 +1,92 @@
+{
+    "title": "Vibrant Fuchsia Blooms Grace the Temperate Rainforest Landscapes of Bariloche Rio Negro Argentina",
+    "description": "Bariloche, Río Negro: Delicate fuchsia flowers hang gracefully from slender stems, showcasing their signature deep crimson sepals and dark violet corollas against a softly blurred emerald forest backdrop. The macro photography captures the intricate, pendulum-like structure of these blossoms, emphasizing their velvety textures and the subtle play of light filtering through the canopy of the Patagonian Andean forest. Each bloom seems to dance in the cool, moisture-rich air characteristic of this temperate climate, where such flora thrives in the shadow of volcanic peaks and alpine lakes. The shallow depth of field isolates the foreground details, drawing the eye toward the dramatic contrast between the intense red hues and the vibrant greenery of the surrounding woodland. This composition highlights the biodiversity encountered along the Cruce Andino, a route renowned for its transition between dense temperate rainforests and high-altitude alpine zones. The botanical richness of this region serves as a living testament to the unique microclimates fostered by the intersection of mountain ranges and oceanic influences. Such visual details are essential for documenting the delicate ecological balance that defines the scenic allure of the Argentine Lake District. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Bariloche",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Fuchsia",
+        "Andean Forest",
+        "Cruce Andino",
+        "Botanical Photography",
+        "Temperate Rainforest",
+        "Native Flora",
+        "Patagonian Andes",
+        "Macro Nature",
+        "South America",
+        "Floral Macro",
+        "Lake District Argentina",
+        "Andes Mountains",
+        "Nature Photography",
+        "Wildflowers",
+        "Outdoor Exploration",
+        "Travel Documentation",
+        "Regional Ecology",
+        "Mountain Wilderness",
+        "Verdant Scenery",
+        "Argentine Biodiversity",
+        "Botanical Detail",
+        "Forest Ecosystem",
+        "Plant Life",
+        "Mountain Flora",
+        "Natural Beauty",
+        "Andean Landscape",
+        "Project 23",
+        "Patagonian Wildlife",
+        "Sustainable Tourism",
+        "Ecological Preserve",
+        "Greenery",
+        "Crimson Petals",
+        "Horticulture",
+        "Andean Biodiversity",
+        "Vibrant Nature",
+        "Regional Vegetation",
+        "Alpine Environment",
+        "Springtime Bloom",
+        "Wild Plant Life",
+        "Backcountry Photography",
+        "Scenic Patagonia",
+        "Botanical Study",
+        "Remote Wilderness",
+        "Andean Botany",
+        "Patagonian Travels",
+        "Nature Enthusiast"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

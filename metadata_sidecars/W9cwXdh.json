@@ -1,0 +1,93 @@
+{
+    "title": "Glacial Turquoise River Flowing Through Lush Valdivian Temperate Rainforests in Bariloche Rio Negro Province",
+    "description": "Bariloche, Río Negro: A glacial river carves a path through the dense, verdant canopy of the Patagonian wilderness, displaying a mesmerizing, milky turquoise hue characteristic of suspended rock flour. The deep saturation of the water contrasts sharply against the rich, multi-layered greenery of the surrounding Valdivian temperate rainforest, where ancient trees lean gracefully over the banks. Moss-covered logs rest at the water's edge, anchoring the foreground and adding a tactile, weathered element to the composition. Soft, diffused daylight filters through the dense foliage, highlighting the intricate textures of the bark and the varying shades of emerald and lime leaves. This remote perspective captures the untamed beauty of the lake crossing route, emphasizing the geological isolation and ecological diversity found within this Andean corridor. The stillness of the scene invites a moment of quiet reflection, showcasing the pristine, untouched nature of these southern waterways. A sense of geological history permeates the frame, as the movement of glacial meltwater serves as a silent testament to the shaping of the Argentine landscape over millennia. This vista represents a quintessential segment of the Cruce Andino, illustrating the dramatic shift in topography as the mountains transition toward the Chilean border. Such imagery is essential for understanding the unique hydrological and botanical heritage that defines the heart of the Patagonian Lake District. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "spanish_description": "Bariloche, Río Negro: Un río glaciar labra su camino a través del denso y verde dosel de la naturaleza virgen de la Patagonia, exhibiendo un fascinante tono turquesa lechoso, característico de la harina de roca en suspensión. La profunda saturación del agua contrasta marcadamente con el rico verdor de múltiples capas de la selva valdiviana circundante, donde árboles milenarios se inclinan elegantemente sobre las orillas. Troncos cubiertos de musgo descansan al borde del agua, anclando el primer plano y añadiendo un elemento táctil y erosionado a la composición. La luz natural difusa se filtra a través del espeso follaje, resaltando las intrincadas texturas de la corteza y los variados tonos de las hojas esmeralda y lima. Esta perspectiva remota captura la belleza indómita de la ruta del cruce de lagos, enfatizando el aislamiento geológico y la diversidad ecológica que se encuentra dentro de este corredor andino. La quietud de la escena invita a un momento de reflexión tranquila, mostrando la naturaleza prístina e intacta de estas vías fluviales del sur. Un sentido de historia geológica impregna el encuadre, ya que el movimiento del agua de deshielo glaciar sirve como un testimonio silencioso de la formación del paisaje argentino a lo largo de milenios. Esta vista representa un segmento esencial del Cruce Andino, ilustrando el cambio dramático en la topografía a medida que las montañas hacen la transición hacia la frontera chilena. Tales imágenes son esenciales para comprender el patrimonio hidrológico y botánico único que define el corazón del Distrito de los Lagos Patagónicos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Bariloche",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Cruce Andino",
+        "Lake Crossing",
+        "Andes Mountains",
+        "Glacial River",
+        "Turquoise Water",
+        "Valdivian Temperate Rainforest",
+        "Patagonian Wilderness",
+        "South America",
+        "Nature Photography",
+        "Travel Photography",
+        "Project 23",
+        "River Landscape",
+        "Forest Canopy",
+        "Geology",
+        "Hydrology",
+        "Eco-tourism",
+        "Wilderness",
+        "Ecology",
+        "Outdoor Adventure",
+        "Travel Destination",
+        "Landscape Photography",
+        "Temperate Forest",
+        "River Bank",
+        "Native Flora",
+        "Andean Region",
+        "Patagonian Lake District",
+        "Untouched Nature",
+        "Environmental Conservation",
+        "Scenery",
+        "Remote Areas",
+        "Natural Heritage",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Documentary Photography",
+        "Lush Vegetation",
+        "Waterways",
+        "Biogeography",
+        "Scenic Route",
+        "Geographic Exploration",
+        "Travel Documentary",
+        "Argentine Patagonia",
+        "Biodiversity",
+        "Riverscape",
+        "Forestry",
+        "Earth Sciences",
+        "Regional Identity"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

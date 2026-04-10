@@ -1,0 +1,93 @@
+{
+    "title": "Sunken Branches and Emerald Waters of the Cruce Andino near Bariloche Rio Negro",
+    "description": "Cruce Andino, Rio Negro: A delicate, submerged branch drifts beneath the surface of the glacial water, creating an ethereal study of light and transparency. The emerald-hued liquid, characteristic of Patagonian lakes, possesses a muted depth that softens the textures of the aquatic vegetation trailing below. Overhanging maple leaves frame the right side of the composition, their vibrant green tones providing a stark, organic contrast to the fluid, monochromatic backdrop. The lighting remains diffuse and soft, emphasizing the stillness of the remote alpine environment and the raw, untouched beauty of the region's wilderness. Every ripple in the water seems to hold a sense of geologic time, reflecting the pristine conditions that define this mountainous corridor between Argentina and Chile. The composition utilizes a shallow depth of field to isolate the interplay between the shore-bound foliage and the mysterious, submerged organic elements. This scene represents the quiet contemplation often found during the transit through these vast southern waterways, where nature dictates the pace of the journey. The tranquility captured here highlights the profound connection between the terrestrial forest and the hidden aquatic world of the Andean interior. Such imagery serves as an evocative reminder of the fragile balance within these protected ecosystems that are integral to the identity of the Patagonian landscape. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "spanish_description": "Cruce Andino, Río Negro: Una delicada rama sumergida flota bajo la superficie del agua glaciar, creando un estudio etéreo de luz y transparencia. El líquido de tono esmeralda, característico de los lagos patagónicos, posee una profundidad apagada que suaviza las texturas de la vegetación acuática que se arrastra debajo. Las hojas de arce que cuelgan en el lado derecho de la composición enmarcan la escena, aportando tonos verdes vibrantes que contrastan notablemente con el fondo fluido y monocromático. La iluminación permanece difusa y suave, enfatizando la quietud del remoto entorno alpino y la belleza cruda y virgen de la naturaleza de la región. Cada ondulación en el agua parece contener un sentido del tiempo geológico, reflejando las condiciones prístinas que definen este corredor montañoso entre Argentina y Chile. La composición utiliza una profundidad de campo reducida para aislar la interacción entre el follaje de la orilla y los misteriosos elementos orgánicos sumergidos. Esta escena representa la tranquila contemplación que a menudo se encuentra durante el tránsito por estas vastas vías fluviales del sur, donde la naturaleza dicta el ritmo del viaje. La tranquilidad capturada aquí resalta la profunda conexión entre el bosque terrestre y el mundo acuático oculto del interior andino. Tales imágenes sirven como un recordatorio evocador del frágil equilibrio dentro de estos ecosistemas protegidos que son integrales a la identidad del paisaje patagónico. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Cruce Andino",
+        "Rio Negro",
+        "Argentina",
+        "Patagonia",
+        "Andes",
+        "Lake Crossing",
+        "Bariloche",
+        "Glacial Waters",
+        "Emerald Water",
+        "Alpine Landscape",
+        "Nature Photography",
+        "Submerged Forest",
+        "Patagonian Wilderness",
+        "South America",
+        "Travel Photography",
+        "Outdoor Exploration",
+        "Reflections",
+        "Aquatic Botany",
+        "Forestry",
+        "Mountain Scenery",
+        "Remote Landscapes",
+        "Eco-tourism",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Landscape Details",
+        "Water Texture",
+        "Maple Leaves",
+        "Environmental Beauty",
+        "Southern Hemisphere",
+        "Waterways",
+        "Scenic Routes",
+        "Nature Journal",
+        "Geographic Documentation",
+        "Mountain Lake",
+        "Wilderness Conservation",
+        "Photography Art",
+        "Freshwater Ecosystem",
+        "Argentine Geography",
+        "Tranquility",
+        "Natural Light",
+        "Botanical Detail",
+        "Visual Storytelling",
+        "Patagonia Travel",
+        "Backcountry",
+        "Transparent Water",
+        "Alpine Vegetation",
+        "Lakeside",
+        "Nature Conservancy",
+        "Andean Region"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

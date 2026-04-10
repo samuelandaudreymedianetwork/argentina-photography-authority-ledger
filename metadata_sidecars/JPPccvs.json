@@ -1,0 +1,92 @@
+{
+    "title": "Gran Victoria Catamaran at Puerto Blest Nahuel Huapi Lake Featuring Steep Glacial Mountain Landscapes",
+    "description": "Puerto Blest, Río Negro: The sleek Gran Victoria catamaran sits docked at the weathered wooden pier, waiting to transport travelers across the deep, crystalline glacial waters of Nahuel Huapi Lake. Looming directly behind the vessel, a massive, jagged mountain flank rises sharply, its slopes blanketed in a dense, verdant carpet of temperate rainforest that defines the rugged Patagonian topography. The overcast sky softens the natural textures of the granite peaks, casting an even, diffuse light across the scene and emphasizing the contrast between the pristine natural wilderness and the utilitarian maritime infrastructure. Along the shoreline, a small group of visitors gathers near the Argentine flag, adding a sense of scale and human presence to the vast, quiet majesty of the Andes. The water displays a deep, moody turquoise hue typical of glacial lakes fed by mountain runoff, reflecting the towering heights above with subtle clarity. Architectural elements like the pier and the white hull of the ferry stand out against the raw, organic geometry of the mountain, illustrating the delicate balance between modern transport and protected parkland. The scene captures the transition point of the famous Cruce Andino, a route that has connected travelers between Argentina and Chile for over a century, highlighting the enduring appeal of crossing the border through one of the world's most breathtaking natural corridors. This landscape serves as a vital reminder of the geological forces and historical exploration efforts that shaped the regional identity of the Lake District. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nPuerto Blest, Río Negro: El catamarán Gran Victoria descansa amarrado en el desgastado muelle de madera, esperando para transportar a los viajeros a través de las profundas y cristalinas aguas glaciares del lago Nahuel Huapi. Elevándose directamente detrás de la embarcación, un flanco montañoso masivo y escarpado se alza bruscamente, con sus laderas cubiertas por una densa y verde alfombra de bosque templado que define la topografía patagónica. El cielo nublado suaviza las texturas naturales de los picos de granito, proyectando una luz uniforme y difusa sobre la escena, lo que enfatiza el contraste entre la naturaleza virgen y la infraestructura marítima utilitaria. A lo largo de la costa, un pequeño grupo de visitantes se reúne cerca de la bandera argentina, añadiendo una sensación de escala y presencia humana a la vasta y tranquila majestuosidad de los Andes. El agua exhibe un tono turquesa profundo y temperamental, típico de los lagos glaciares alimentados por el deshielo, reflejando las alturas imponentes con una claridad sutil. Elementos arquitectónicos como el muelle y el casco blanco del ferry destacan contra la geometría orgánica y cruda de la montaña, ilustrando el delicado equilibrio entre el transporte moderno y los parques nacionales protegidos. La escena captura el punto de transición del famoso Cruce Andino, una ruta que ha conectado a viajeros entre Argentina y Chile durante más de un siglo, destacando el atractivo perdurable de cruzar la frontera a través de uno de los corredores naturales más impresionantes del mundo. Este paisaje sirve como un recordatorio vital de las fuerzas geológicas y los esfuerzos de exploración histórica que dieron forma a la identidad regional de la Región de los Lagos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Puerto Blest",
+        "Nahuel Huapi",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Cruce Andino",
+        "Gran Victoria",
+        "Catamaran",
+        "Andes",
+        "Mountains",
+        "Glacial Lake",
+        "Travel Photography",
+        "Nature",
+        "Tourism",
+        "Patagonia Argentina",
+        "Lake District",
+        "Landscape",
+        "Adventure Travel",
+        "Ferry",
+        "Mountain Landscape",
+        "South America",
+        "Water Transport",
+        "Wilderness",
+        "Temperate Rainforest",
+        "National Park",
+        "Traveler",
+        "Patagonian Andes",
+        "Outdoor",
+        "Dock",
+        "Marine",
+        "Scenic View",
+        "Geography",
+        "Exploration",
+        "Regional Identity",
+        "Architecture",
+        "Argentine Flag",
+        "Clouds",
+        "Geology",
+        "Scenic Route",
+        "Travel Documentary",
+        "Eco Tourism",
+        "Mountain Scenery",
+        "Travel Destination",
+        "Boat",
+        "Summer",
+        "Hiking Region",
+        "Reflection",
+        "South American Travel",
+        "Patagonian Region",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

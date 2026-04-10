@@ -1,0 +1,92 @@
+{
+    "title": "Glacial River Waters and Mossy Fallen Logs in the Lush Cruce Andino Corridor",
+    "description": "Cruce Andino, Río Negro: A vibrant, turquoise-hued glacial river flows sluggishly beneath a dense canopy of native Patagonian rainforest. The scene is anchored by weathered, moss-covered logs resting at the water's edge, their decaying textures contrasting sharply with the smooth, opaque surface of the mineral-rich current. Above the river, a thick tapestry of deep green foliage obscures the sky, creating a soft, diffused light that emphasizes the cool tones of the landscape. The lack of direct sunlight allows the saturated colors of the aquatic environment to pop, highlighting the sediment-heavy clarity typical of Andean glacial runoff. This composition captures the untamed solitude of the borderlands, where the transition between Argentina and Chile unfolds through narrow, forested water passages. The stillness of the water creates a mirror-like quality, reflecting the overhanging branches and adding a sense of profound depth to the frame. By meticulously isolating the intersection of earth and water, the lens captures the primordial silence often found in these remote mountain crossing points. Such imagery serves as a vital record of the diverse hydrogeography that defines the Southern Cone, inviting observers to appreciate the delicate balance of temperate rainforest ecosystems. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Cruce Andino",
+        "Río Negro",
+        "Argentina",
+        "Patagonia",
+        "Glacial River",
+        "Andes Mountains",
+        "South America",
+        "Turquoise Water",
+        "Temperate Rainforest",
+        "Nature Photography",
+        "Landscape Photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Travel Photography",
+        "Waterway",
+        "Andean Forest",
+        "Wilderness",
+        "Patagonian Landscapes",
+        "Eco-tourism",
+        "River Bank",
+        "Natural Textures",
+        "Mossy Logs",
+        "Glacial Sediment",
+        "Andean Geography",
+        "Crossing Point",
+        "Remote Wilderness",
+        "Forest Canopy",
+        "Outdoor Exploration",
+        "Argentine Nature",
+        "Water Reflections",
+        "Environmental Detail",
+        "Scenic Route",
+        "Border Region",
+        "Untamed Nature",
+        "Geography of Argentina",
+        "Earth Tones",
+        "Botanical Diversity",
+        "Mountain Ecosystem",
+        "Water Surface",
+        "Patagonia Travel",
+        "Regional Identity",
+        "Freshwater",
+        "Hydrology",
+        "Natural Habitat",
+        "Flora and Fauna",
+        "Quiet Wilderness",
+        "Andean Ecosystem",
+        "Sustainable Tourism",
+        "Project 23 Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

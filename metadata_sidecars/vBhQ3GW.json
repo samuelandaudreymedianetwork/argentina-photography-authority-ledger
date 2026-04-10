@@ -1,0 +1,92 @@
+{
+    "title": "Ashy-Headed Geese Grazing on Lush Grassy Meadows in the Scenic Cruce Andino Region",
+    "description": "Cruce Andino, Río Negro: A small flock of ashy-headed geese forages across a vibrant green meadow nestled within the mountainous terrain of the Argentine Lake District. These elegant birds, characterized by their distinct grey heads and intricately patterned brown and white plumage, move in a loose formation as they graze on the nutrient-rich grasses of the valley floor. The scene is illuminated by soft, natural daylight that highlights the varied textures of the landscape, from the fine blades of grass to the subtle iridescence of the geese’s feathers. Shallow depth of field keeps the avian subjects in sharp focus, while the soft-focus background provides a gentle hint of the rugged Patagonian wilderness beyond. The crisp, clear air of the southern Andes creates an ideal environment for wildlife observation, showcasing the biodiversity found along the traditional trans-Andean route. Such tranquil moments in nature offer a profound look into the unique ecosystems that define the geography and aesthetic of Argentina’s most breathtaking regions. Travelers traversing the lake crossing often find these resilient birds to be a quintessential component of the local mountain character. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Cruce Andino",
+        "Argentina",
+        "Patagonia",
+        "Río Negro",
+        "Ashy-headed goose",
+        "Chloephaga poliocephala",
+        "Andean wildlife",
+        "Birdwatching",
+        "Patagonian birds",
+        "Lake District",
+        "Nature photography",
+        "Wildlife exploration",
+        "Argentine biodiversity",
+        "Travel photography",
+        "Outdoor adventures",
+        "Mountain ecosystem",
+        "South America",
+        "Andean landscape",
+        "Sustainable tourism",
+        "Wildlife conservation",
+        "Photography expedition",
+        "Fauna of Argentina",
+        "Scenic travel",
+        "Wild geese",
+        "Natural habitats",
+        "Eco-tourism",
+        "Andean region",
+        "Wilderness landscapes",
+        "Environmental beauty",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Rural Argentina",
+        "Andean foothills",
+        "Avian species",
+        "Wildlife behavior",
+        "Pastoral scenes",
+        "Patagonian geography",
+        "Nature documentary",
+        "Regional identity",
+        "Mountain flora and fauna",
+        "Travel journalism",
+        "Argentine outdoors",
+        "Bird photography",
+        "South American nature",
+        "Scenic vistas",
+        "Travel inspiration",
+        "Biodiversity hotspots",
+        "Patagonian wilderness",
+        "Field photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
