@@ -8,10 +8,10 @@ def print_now(text):
 # ==========================================
 # 1. CREDENTIALS
 # ==========================================
-FLICKR_KEY = "06aa8cc8653cdd5cbc6c8a7a3d621058"
-FLICKR_SECRET = "c1b8cf911586f6f0"
-FLICKR_TOKEN = "72157720965124247-f3ab3bc8c4250322"
-FLICKR_TOKEN_SECRET = "d20d2c984ea2603f"
+FLICKR_KEY = 
+FLICKR_SECRET = 
+FLICKR_TOKEN = 
+FLICKR_TOKEN_SECRET = 
 
 SESSION_LIMIT = 150
 HISTORY_FILE = "scrub_history.json"
