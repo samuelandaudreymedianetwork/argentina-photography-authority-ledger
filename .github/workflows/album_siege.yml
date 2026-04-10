@@ -10,11 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
+        with:
+          python-version: '3.11'
+          
       - name: Install Dependencies
         run: pip install requests requests-oauthlib google-genai
+        
       - name: Execute Album Ledger
         env:
           SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
@@ -23,10 +27,12 @@ jobs:
           SMUGMUG_ACCESS_TOKEN_SECRET: ${{ secrets.SMUGMUG_ACCESS_TOKEN_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python smugmug_album_ledger.py
+        
       - name: Commit Master Ledger
+        if: always() # CRITICAL: Saves progress even if the script crashes or times out
         run: |
           git config user.name "AlbumBot"
           git config user.email "bot@nomadicsamuel.com"
           git add album_history.json ALBUM_METADATA_MASTER.json
-          git commit -m "Album Ledger: Updated Master Metadata File" || exit 0
+          git commit -m "Album Ledger: Saving progress from partial run" || exit 0
           git push
