@@ -1,0 +1,32 @@
+name: 🚀 Manual SmugMug Album Siege
+on:
+  workflow_dispatch: # This creates the manual button
+
+permissions:
+  contents: write # Needed to update album_history.json
+
+jobs:
+  run-ledger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Install Dependencies
+        run: pip install requests requests-oauthlib google-generativeai
+      - name: Execute Album Ledger
+        env:
+          SMUGMUG_API_KEY: ${{ secrets.SMUGMUG_API_KEY }}
+          SMUGMUG_API_SECRET: ${{ secrets.SMUGMUG_API_SECRET }}
+          SMUGMUG_ACCESS_TOKEN: ${{ secrets.SMUGMUG_ACCESS_TOKEN }}
+          SMUGMUG_ACCESS_TOKEN_SECRET: ${{ secrets.SMUGMUG_ACCESS_TOKEN_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python smugmug_album_ledger.py
+      - name: Commit Progress
+        run: |
+          git config user.name "AlbumBot"
+          git config user.email "bot@nomadicsamuel.com"
+          git add album_history.json
+          git commit -m "Album Ledger: Updated priority galleries" || exit 0
+          git push
