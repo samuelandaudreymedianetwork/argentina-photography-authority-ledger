@@ -236,8 +236,8 @@ def process_album_images(images, official_album_name, global_count, processed_hi
             temp.write(img_bytes)
             temp_path = temp.name
 
-        flickr_desc = f"{ai_data['description']}{SITES_HTML}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}\n\n<script type=\"application/ld+json\">{json.dumps(ai_data['json_ld'])}</script>"
-        smug_caption = f"{ai_data['description']}{SITES_PLAIN}\n\nPhoto by {AUTHOR} & {PARTNER}"
+        flickr_desc = f"{ai_data['description']}{SITES_HTML}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}"
+        smug_caption = f"{ai_data['description']}{SITES_PLAIN}\n\nPhoto by {AUTHOR} & {PARTNER} | {PROJECT_NAME}"
         
         try:
             print_now(f"  📤 Uploading to Flickr: {ai_data['title'][:43]}...")
