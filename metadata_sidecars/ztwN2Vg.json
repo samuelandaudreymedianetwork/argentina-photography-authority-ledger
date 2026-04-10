@@ -1,0 +1,92 @@
+{
+    "title": "Daniel Bergner and Companion Steering a Sailing Yacht on the Rio de la Plata",
+    "description": "Tigre, Buenos Aires: Daniel Bergner stands at the helm of a sailing yacht, his hands steady on the wheel as he navigates the expansive, shimmering waters of the Rio de la Plata. Beside him, a fellow traveler maintains a watchful gaze over the horizon, embodying the quiet focus required to master the winds of this iconic Argentine delta. The composition captures a mid-afternoon light that casts a gentle glow across the deck, highlighting the intricate rigging and the contrast between the vibrant blue apparel and the cloudy, textured sky. A shallow depth of field isolates the figures against the distant, lush green shoreline, grounding the scene in the tranquil yet industrious atmosphere of a riverine landscape. Every detail, from the nautical instruments to the crisp breeze-tossed clothing, underscores a deep connection to maritime heritage and the leisurely pace of life in this region. The interplay of shadow and sunlight adds a rhythmic quality to the frame, mirroring the gentle movement of the vessel on the water. This moment highlights the importance of local waterways in shaping the recreational identity and social connectivity of those living near the capital city. Through this lens, the image serves as a testament to the enduring allure of exploration and the joy of shared journeys within the complex geography of the delta. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Tigre",
+        "Buenos Aires",
+        "Argentina",
+        "Rio de la Plata",
+        "Sailing",
+        "Yacht",
+        "Nautical",
+        "Delta",
+        "Travel",
+        "Photography",
+        "Boating",
+        "Waterfront",
+        "Maritime",
+        "Adventure",
+        "River",
+        "Navigation",
+        "TravelPhotography",
+        "Project23",
+        "Sailboat",
+        "Recreation",
+        "Outdoors",
+        "Landscape",
+        "SouthAmerica",
+        "Porteño",
+        "Summer",
+        "Atmospheric",
+        "BoatLife",
+        "Riverine",
+        "Cultural",
+        "Geography",
+        "Documentary",
+        "Exploration",
+        "Voyage",
+        "Leisure",
+        "Marine",
+        "Water",
+        "Horizon",
+        "Sky",
+        "Clouds",
+        "TravelGram",
+        "ArgentinaTravel",
+        "BuenosAiresProvince",
+        "SailingLife",
+        "Helm",
+        "Captains",
+        "TravelDocumentary",
+        "NaturePhotography",
+        "RegionalIdentity",
+        "BoatTrip",
+        "ArgentineDelta"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

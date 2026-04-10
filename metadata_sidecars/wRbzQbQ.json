@@ -1,0 +1,92 @@
+{
+    "title": "Sailing Vessels Docked at a Quiet Marina in the Riverside Town of Tigre Buenos Aires",
+    "description": "Tigre, Buenos Aires: A tranquil marina stretches deep into the frame, housing a dense collection of sailboats and cruisers reflecting against the calm, silt-heavy waters. The scene captures the rhythmic stillness of a weekend afternoon, where rows of white hulls and tall masts create a geometric corridor leading toward the lush treeline in the distance. Above, an expansive, azure sky is marbled with soft, wispy clouds that cast a gentle, diffused light across the polished decks and rigging of the stationary vessels. The architecture of the clubhouse at the water's edge hints at the refined nautical culture prevalent in the Delta del Paraná region. Each boat represents a story of exploration, anchored in the soft mud of the riverbanks while the current remains barely perceptible. A shallow depth of field preserves the clarity of the foreground rigging while allowing the background to soften into a picturesque, serene horizon. This perspective emphasizes the integral role of maritime life in the local Argentine lifestyle, bridging the gap between urban escape and natural wilderness. The composition highlights the technical precision of the photographers, balancing the warmth of the natural light with the metallic coolness of the docked craft. Understanding the waterways of Tigre is essential for grasping the unique geography of the Buenos Aires province and its historical reliance on inland navigation. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n---\nTigre, Buenos Aires: Un puerto tranquilo se extiende hacia el fondo del encuadre, albergando una densa colección de veleros y cruceros que se reflejan en las aguas tranquilas y ricas en sedimentos. La escena captura la quietud rítmica de una tarde de fin de semana, donde las hileras de cascos blancos y mástiles altos crean un corredor geométrico que conduce hacia la frondosa línea de árboles en la distancia. Arriba, un cielo azul expansivo está veteado con nubes suaves y tenues que arrojan una luz suave y difusa a través de las cubiertas pulidas y el aparejo de las embarcaciones estacionarias. La arquitectura de la casa club al borde del agua sugiere la refinada cultura náutica prevalente en la región del Delta del Paraná. Cada barco representa una historia de exploración, anclado en el barro blando de las riberas mientras la corriente permanece apenas perceptible. Una profundidad de campo reducida conserva la claridad del aparejo en primer plano, permitiendo al mismo tiempo que el fondo se suavice hacia un horizonte pintoresco y sereno. Esta perspectiva enfatiza el papel integral de la vida marítima en el estilo de vida argentino local, tendiendo un puente entre el escape urbano y la naturaleza salvaje. La composición resalta la precisión técnica de los fotógrafos, equilibrando la calidez de la luz natural con la frialdad metálica de las embarcaciones atracadas. Comprender las vías fluviales de Tigre es esencial para comprender la geografía única de la provincia de Buenos Aires y su dependencia histórica de la navegación interior. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Tigre",
+        "Buenos Aires",
+        "Argentina",
+        "Delta del Parana",
+        "Marina",
+        "Sailboats",
+        "Nautical",
+        "River life",
+        "Sailing",
+        "Boating",
+        "Waterway",
+        "South America",
+        "Travel photography",
+        "Project 23",
+        "Riverside",
+        "Docked boats",
+        "Nautical lifestyle",
+        "Argentine geography",
+        "Tourism",
+        "Maritime",
+        "Reflections",
+        "Outdoor adventure",
+        "Skyline",
+        "Cloudscapes",
+        "Summer leisure",
+        "Regional identity",
+        "Inland navigation",
+        "Boat club",
+        "Scenic view",
+        "Peaceful waters",
+        "Recreational boating",
+        "Argentine culture",
+        "Travel destination",
+        "Photography craft",
+        "Estuary",
+        "Nature travel",
+        "Water sports",
+        "Coastal atmosphere",
+        "Weekend getaway",
+        "Landmark",
+        "Port",
+        "Vessel",
+        "Mast",
+        "Rigging",
+        "River delta",
+        "South American travel",
+        "Travel documentary",
+        "Outdoors",
+        "Calm",
+        "Horizon"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

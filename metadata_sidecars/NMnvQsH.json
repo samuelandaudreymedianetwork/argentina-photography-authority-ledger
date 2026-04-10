@@ -1,0 +1,93 @@
+{
+    "title": "Polished Silver Tea Service Reflecting the Presidential Crest in the City of Buenos Aires",
+    "description": "Buenos Aires, Buenos Aires: A meticulously polished silver tea service rests upon a circular tray, capturing the crisp, diffused light of a museum interior. The centerpiece, a grand teapot adorned with the official Argentine presidential crest, mirrors the surrounding blue display panels and architectural lines of the setting. Beside it sits a petite matching creamer and a delicate porcelain cup resting on a saucer, rimmed with fine gold and blue accents. The arrangement evokes an era of institutional history and formal hospitality, preserved behind protective glass to maintain its pristine luster. Every surface reflects the clean, clinical aesthetic of the archival space, emphasizing the historical weight of the objects on display. The stark contrast between the metallic brilliance of the silver and the saturated blue backdrop draws the eye to the craftsmanship inherent in national artifacts. This collection serves as a tangible link to Argentina’s political heritage, offering a glimpse into the rituals performed within the halls of governance. Documentation of such items provides essential context for understanding the aesthetic evolution and ceremonial life of a nation’s leaders. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Buenos Aires, Buenos Aires: Un servicio de té de plata meticulosamente pulido descansa sobre una bandeja circular, capturando la luz nítida y difusa de un interior de museo. La pieza central, una gran tetera adornada con el escudo presidencial argentino, refleja los paneles de exhibición azules circundantes y las líneas arquitectónicas del entorno. A su lado se encuentra una pequeña jarra de leche a juego y una delicada taza de porcelana reposando sobre un plato, bordeado con finos detalles en oro y azul. El arreglo evoca una época de historia institucional y hospitalidad formal, preservada tras un cristal protector para mantener su brillo impecable. Cada superficie refleja la estética limpia y clínica del espacio de archivo, enfatizando el peso histórico de los objetos en exhibición. El marcado contraste entre el brillo metálico de la plata y el fondo azul saturado dirige la mirada hacia la artesanía inherente a los artefactos nacionales. Esta colección sirve como un vínculo tangible con la herencia política de Argentina, ofreciendo una mirada a los rituales realizados dentro de los salones de gobierno. La documentación de tales objetos proporciona un contexto esencial para comprender la evolución estética y la vida ceremonial de los líderes de una nación. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Silverware",
+        "TeaService",
+        "PresidentialCrest",
+        "MuseumArtifacts",
+        "ArgentineHistory",
+        "CulturalHeritage",
+        "FineSilver",
+        "CeremonialObjects",
+        "DesignHistory",
+        "SouthAmerica",
+        "TravelPhotography",
+        "ArchivalDisplay",
+        "InstitutionalHistory",
+        "Metalwork",
+        "Porcelain",
+        "GoldTrim",
+        "NationalSymbols",
+        "GovernmentHouse",
+        "CasaRosada",
+        "LatinAmerica",
+        "HistoricalPreservation",
+        "ReflectiveSurfaces",
+        "StudioLighting",
+        "MuseumInterior",
+        "VintageTableware",
+        "ArgentineCulture",
+        "FineCraftsmanship",
+        "DocumentaryPhotography",
+        "Project23",
+        "UrbanHistory",
+        "PoliticalArtifacts",
+        "InteriorDesign",
+        "ElegantLiving",
+        "DecorativeArts",
+        "Metalsmithing",
+        "LuxuryTableware",
+        "HistoricObjects",
+        "CollectionPhotography",
+        "ArgentineIdentity",
+        "MuseumCuration",
+        "ArtifactPhotography",
+        "SilverTeaSet",
+        "PolishedMetal",
+        "CulturalTravel",
+        "SouthAmericanHistory",
+        "IconicDesign",
+        "SophisticatedStyle",
+        "BuenosAiresCity"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
