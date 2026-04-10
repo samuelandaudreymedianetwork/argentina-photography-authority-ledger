@@ -1,0 +1,92 @@
+{
+    "title": "Artisanal Bread Baking Inside a Historic Brick Oven Bakery in Buenos Aires Argentina",
+    "description": "Buenos Aires, Buenos Aires: A monochromatic historical archive captures the rhythmic labor of artisanal bakers working within the cavernous hearth of a traditional Argentine bakery. The composition focuses on the warm, grainy texture of exposed brick arches that frame the massive, wood-fired ovens, creating a visual rhythm that emphasizes the heritage of local gastronomy. Four bakers are captured in various stages of preparation, their movements fluid and practiced as they handle long wooden peels and intricate pastry trays. Light spills softly across the workspace, highlighting the industrial geometry of the vaulted ovens and the flour-dusted surfaces where generations of recipes have been perfected. The monochromatic palette strips away modern distractions, forcing the viewer to contemplate the tactile connection between the craftsman and the raw ingredients. The atmosphere is thick with the implied scent of fermenting dough and charred oak, anchoring the viewer in a bygone era of slow, deliberate production. This scene serves as a testament to the enduring culinary traditions that define the neighborhood identity and social fabric of the capital city. By documenting these labor-intensive techniques, the photography preserves a vital chapter of Argentine immigrant history and the evolution of the iconic panadería. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nBuenos Aires, Buenos Aires: Un archivo histórico monocromático captura la labor rítmica de panaderos artesanales que trabajan dentro del hogar cavernoso de una panadería tradicional argentina. La composición se centra en la textura cálida y granulada de los arcos de ladrillo visto que enmarcan los hornos masivos de leña, creando un ritmo visual que enfatiza la herencia de la gastronomía local. Cuatro panaderos son capturados en varias etapas de preparación, sus movimientos son fluidos y practicados mientras manejan largas palas de madera y bandejas de pastelería intrincadas. La luz se derrama suavemente a través del espacio de trabajo, destacando la geometría industrial de los hornos abovedados y las superficies cubiertas de harina donde se han perfeccionado generaciones de recetas. La paleta monocromática elimina las distracciones modernas, obligando al espectador a contemplar la conexión táctil entre el artesano y los ingredientes crudos. La atmósfera es densa con el aroma implícito de la masa fermentada y el roble carbonizado, anclando al espectador en una era pasada de producción lenta y deliberada. Esta escena sirve como testimonio de las tradiciones culinarias perdurables que definen la identidad del barrio y el tejido social de la ciudad capital. Al documentar estas técnicas intensivas en mano de obra, la fotografía preserva un capítulo vital de la historia de los inmigrantes argentinos y la evolución de la icónica panadería. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Panadería",
+        "Baking",
+        "History",
+        "Photography",
+        "Artisan",
+        "Bread",
+        "Tradition",
+        "Heritage",
+        "Culinary",
+        "Culture",
+        "Monochrome",
+        "BlackAndWhite",
+        "Craftsmanship",
+        "Bakery",
+        "Oven",
+        "Brickwork",
+        "Gastronomy",
+        "Archive",
+        "SouthAmerica",
+        "Travel",
+        "Documentary",
+        "FoodCulture",
+        "Authentic",
+        "Vintage",
+        "BuenosAiresCity",
+        "Porteño",
+        "Work",
+        "Labor",
+        "Flour",
+        "Pastry",
+        "Dough",
+        "Kitchen",
+        "Historical",
+        "Project23",
+        "SamuelJeffery",
+        "AudreyBergner",
+        "Chef",
+        "Bakers",
+        "TraditionalCooking",
+        "Architecture",
+        "Industrial",
+        "Skills",
+        "LocalLife",
+        "UrbanHistory",
+        "Neighborhood",
+        "BuenosAiresProvince",
+        "FoodHistory",
+        "Craft"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
