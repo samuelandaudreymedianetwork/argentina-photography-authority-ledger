@@ -128,9 +128,10 @@ Return strictly in this JSON format:
 """
 
 def process_album(album_name, album_key):
-    print_now(f"\n🚀 STARTING ALBUM: {album_name}")
+    print_now(f"\n🚀 STARTING FRUGAL ALBUM AUDIT: {album_name}")
     
-    album_url = f"https://www.smugmug.com/api/v2/album/{album_key}!images?count=500"
+    # Fetch image list
+    album_url = f"https://www.smugmug.com/api/v2/album/{album_key}!images?count=10000"
     data = smug_api(album_url)
     images = data.get('Response', {}).get('AlbumImage', [])
     
@@ -138,71 +139,63 @@ def process_album(album_name, album_key):
         print_now(f"⚠️ No images found in {album_key}")
         return False
 
+    # --- FRUGAL SAMPLING LOGIC ---
+    # If gallery is < 50, take all. If > 50, sample at even intervals.
     if len(images) <= 50:
         sample = images
     else:
         step = max(1, len(images) // 50)
         sample = images[::step][:50]
     
-    print_now(f"📸 Sampling {len(sample)} images...")
+    print_now(f"📸 Frugal Mode: Sampling {len(sample)} images out of {len(images)}...")
     
     image_parts = []
     for img in sample:
-        # Using ArchivedUri (direct download link) as used in your migration script
         img_url = img.get('ArchivedUri')
         if img_url:
-            img_bytes = requests.get(img_url).content
-            image_parts.append(types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'))
+            try:
+                img_bytes = requests.get(img_url, timeout=20).content
+                image_parts.append(types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'))
+            except: continue
 
-    print_now(f"🧠 Asking Gemini to write the Ledger...")
-    try:
-        response = client.models.generate_content(model=MODEL_ID, contents=[SYSTEM_PROMPT] + image_parts)
-        raw_text = response.text.strip()
-        start_idx = raw_text.find('{')
-        end_idx = raw_text.rfind('}')
-        clean_json = raw_text[start_idx:end_idx+1]
-        result = json.loads(clean_json)
-        
-        social_links = (
-            "\n\nExplore more of our work:\n"
-            "🎥 YouTube: <a href='https://youtube.com/@samuelandaudrey'>@samuelandaudrey</a> & <a href='https://youtube.com/@samuelyaudrey'>@samuelyaudrey</a>\n"
-            "🎒 Travel Guides: <a href='https://thatbackpacker.com'>thatbackpacker.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
-            "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a>\n"
-            "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>\n"
-            "📊 <a href='https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23'>Project 23 Master Database</a>"
-        )
-
-        update_url = f"https://www.smugmug.com/api/v2/album/{album_key}"
-        payload = {
-            "Name": result['title'],
-            "Description": result['description'] + social_links,
-            "Keywords": result['tags']
-        }
-        
-        resp = smug_api(update_url, method="PATCH", data=payload)
-        if resp.get('Code') == 200 or 'Response' in resp:
-            print_now(f"✅ ALBUM UPDATED: {result['title']}")
-            return True
-        return False
+    # --- THE FRICTION GUARDRAIL (GEMINI RETRY LOOP) ---
+    ai_data = None
+    for attempt in range(10):
+        try:
+            print_now(f"🧠 Asking Gemini Pro to analyze samples (Attempt {attempt+1}/10)...")
+            response = client.models.generate_content(model=MODEL_ID, contents=[SYSTEM_PROMPT] + image_parts)
             
-    except Exception as e:
-        print_now(f"❌ Error: {e}")
-        return False
+            raw_text = response.text.strip()
+            start_idx = raw_text.find('{')
+            end_idx = raw_text.rfind('}')
+            ai_data = json.loads(raw_text[start_idx:end_idx+1])
+            break 
+        except Exception as e:
+            wait_time = min((attempt + 1) * 20, 120) 
+            print_now(f"  ⚠️ Gemini glitch. Retrying in {wait_time}s...")
+            time.sleep(wait_time)
 
-if __name__ == "__main__":
-    if not os.path.exists(HISTORY_FILE):
-        with open(HISTORY_FILE, 'w') as f: json.dump([], f)
+    if not ai_data: return False
+
+    social_links = (
+        "\n\nExplore more of our work:\n"
+        "🎥 YouTube: <a href='https://youtube.com/@samuelandaudrey'>@samuelandaudrey</a> & <a href='https://youtube.com/@samuelyaudrey'>@samuelyaudrey</a>\n"
+        "🎒 Travel Guides: <a href='https://thatbackpacker.com'>thatbackpacker.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
+        "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a>\n"
+        "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>\n"
+        "📊 <a href='https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23'>Project 23 Master Database</a>"
+    )
+
+    update_payload = {
+        "Name": ai_data['title'],
+        "Description": ai_data['description'] + social_links,
+        "Keywords": ai_data['tags']
+    }
     
-    with open(HISTORY_FILE, 'r') as f:
-        try: history = json.load(f)
-        except: history = []
-
-    for name, key in PRIORITY_MAP.items():
-        if key in history:
-            print_now(f"⏩ {name} already processed.")
-            continue
-            
-        if process_album(name, key):
-            history.append(key)
-            with open(HISTORY_FILE, 'w') as f: json.dump(history, f, indent=2)
-            time.sleep(5)
+    update_url = f"https://www.smugmug.com/api/v2/album/{album_key}"
+    resp = smug_api(update_url, method="PATCH", data=update_payload)
+    
+    if resp.get('Code') == 200 or 'Response' in resp:
+        print_now(f"✅ ALBUM UPDATED: {ai_data['title']}")
+        return True
+    return False
