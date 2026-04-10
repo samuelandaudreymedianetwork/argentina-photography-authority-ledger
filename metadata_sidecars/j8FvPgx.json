@@ -1,0 +1,93 @@
+{
+    "title": "Sailboats Gliding Across the Rio de la Plata in Buenos Aires Capital Federal Argentina",
+    "description": "Buenos Aires, Capital Federal: A sleek, dark-hulled sailboat cuts through the choppy waters of the Rio de la Plata, its expansive white sail billowing against a brilliant, azure sky. The scene is part of a broader regatta, with numerous smaller vessels dotting the horizon, creating a rhythmic pattern of canvas and mast that stretches toward the distant, hazy outline of the city skyline. Soft, natural light cascades across the water, emphasizing the deep blues and rippling textures of the estuary, which serves as a vital maritime artery for the bustling metropolis. The perspective captures the vastness of the water, highlighting the intersection of recreational sailing culture and the urban expanse of Argentina’s capital. The composition utilizes a wide angle to ground the primary vessel in the foreground while allowing the fleet to lead the viewer’s eye toward the faint urban silhouette. High-shutter speed photography crisply freezes the motion of the boats, maintaining focus on the graceful tension of the rigging and the gentle wake trailing behind the lead craft. This imagery captures the essential character of coastal Argentine life, where the proximity of the water offers a serene escape from the intense energy of urban living. The balance between the man-made structures of the city and the natural fluidity of the river reflects the enduring relationship between Buenos Aires and its waterfront. Exploring these waters provides a unique vantage point to understand the geographic identity and leisure culture that defines the river-facing districts of this historic city. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Buenos Aires, Capital Federal: Un velero de casco oscuro corta las aguas del Río de la Plata, con su gran vela blanca ondeando contra un cielo azul brillante. La escena forma parte de una regata más amplia, con numerosas embarcaciones pequeñas punteando el horizonte, creando un patrón rítmico de lienzos y mástiles que se extiende hacia el contorno lejano y brumoso del horizonte de la ciudad. Una luz natural suave cae sobre el agua, enfatizando los tonos azules profundos y las texturas ondulantes del estuario, que sirve como una arteria marítima vital para la bulliciosa metrópolis. La perspectiva captura la inmensidad del agua, resaltando la intersección de la cultura de navegación recreativa y la extensión urbana de la capital argentina. La composición utiliza un gran angular para situar la embarcación principal en primer plano mientras permite que la flota guíe el ojo del espectador hacia la tenue silueta urbana. La fotografía de alta velocidad de obturación congela nítidamente el movimiento de los barcos, manteniendo el enfoque en la elegante tensión del aparejo y la estela suave que queda detrás de la embarcación principal. Estas imágenes capturan el carácter esencial de la vida costera argentina, donde la proximidad del agua ofrece un escape sereno de la intensa energía de la vida urbana. El equilibrio entre las estructuras artificiales de la ciudad y la fluidez natural del río refleja la relación duradera entre Buenos Aires y su frente costero. Explorar estas aguas ofrece un punto de vista único para comprender la identidad geográfica y la cultura de ocio que define los distritos frente al río de esta histórica ciudad. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Rio de la Plata",
+        "Capital Federal",
+        "Sailboat",
+        "Sailing",
+        "Regatta",
+        "Maritime",
+        "Estuary",
+        "South America",
+        "Travel Photography",
+        "Waterscape",
+        "Sailing Culture",
+        "Urban Horizon",
+        "Skyline",
+        "Boating",
+        "Nautical",
+        "Argentine Coast",
+        "Recreation",
+        "Adventure Travel",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Landscape",
+        "Blue Sky",
+        "Coastal City",
+        "River Plate",
+        "Water Sports",
+        "Maritime Heritage",
+        "Cityscape",
+        "Outdoor Life",
+        "South American Travel",
+        "Travel Documentary",
+        "Sailing Regatta",
+        "Coastal Argentina",
+        "Navigation",
+        "Leisure",
+        "Tourist Destination",
+        "Geographic Identity",
+        "Port City",
+        "Blue Hour",
+        "Windy Day",
+        "Sailing Life",
+        "Waterfront",
+        "Argentine Culture",
+        "River Sailing",
+        "Coastal Views",
+        "Boat Fleet",
+        "South American Geography",
+        "Travel Photography Ledger"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
