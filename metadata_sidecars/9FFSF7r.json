@@ -1,0 +1,93 @@
+{
+    "title": "Air Canada Jetliner at Ezeiza International Airport in Buenos Aires Province Under Clouded Skies",
+    "description": "Ezeiza, Buenos Aires Province: A sleek, white Air Canada aircraft rests on the tarmac, its turbine engine catching the bright afternoon light as final preparations for departure occur. The expansive sky is a dramatic canvas of deep azure, broken by billowy, textured clouds that cast soft, shifting shadows across the metallic wing in the foreground. Through the window, the scene frames the intricate geometry of the airport's infrastructure, contrasting the industrial precision of the jet with the natural vastness of the horizon. Ground personnel and auxiliary vehicles clustered around the fuselage suggest the rhythmic, orderly chaos inherent in international transit hubs. The composition utilizes a wide-angle perspective to emphasize the sheer scale of the machine, while the crisp light highlights the pristine paintwork against the vibrant Argentine backdrop. This moment captures the silent anticipation of travel, representing the vital bridge between distant cultures and the logistical arteries that facilitate global exploration. As the aircraft stands ready to span continents, the image serves as a testament to the persistent allure of movement and the connectivity that defines modern long-haul journeys. Documenting such transit hubs is essential for understanding the infrastructure that enables cross-border cultural exchange and the logistical backbone of Argentine tourism. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Ezeiza, provincia de Buenos Aires: Una elegante aeronave blanca de Air Canada descansa en la pista, con su motor de turbina captando la brillante luz de la tarde mientras se realizan los preparativos finales para la partida. El cielo expansivo es un lienzo dramático de azul profundo, interrumpido por nubes esponjosas y texturizadas que proyectan sombras suaves y cambiantes sobre el ala metálica en primer plano. A través de la ventana, la escena enmarca la geometría intrincada de la infraestructura aeroportuaria, contrastando la precisión industrial del avión con la inmensidad natural del horizonte. El personal de tierra y los vehículos auxiliares agrupados alrededor del fuselaje sugieren el caos rítmico y ordenado inherente a los centros de tránsito internacional. La composición utiliza una perspectiva de gran angular para enfatizar la magnitud de la máquina, mientras que la luz nítida resalta el impecable trabajo de pintura contra el vibrante fondo argentino. Este momento captura la silenciosa anticipación del viaje, representando el puente vital entre culturas distantes y las arterias logísticas que facilitan la exploración global. Mientras la aeronave se prepara para cruzar continentes, la imagen sirve como testimonio del persistente atractivo del movimiento y la conectividad que define los viajes modernos de larga distancia. Documentar estos centros de tránsito es esencial para comprender la infraestructura que permite el intercambio cultural transfronterizo y la columna vertebral logística del turismo argentino. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Ezeiza",
+        "Buenos Aires",
+        "Argentina",
+        "Air Canada",
+        "Aircraft",
+        "Aviation",
+        "International Airport",
+        "Travel",
+        "Aviation Photography",
+        "Tarmac",
+        "Runway",
+        "Jet Engine",
+        "Travel Ledger",
+        "Project 23",
+        "Airplane Wing",
+        "Airport Infrastructure",
+        "Aeronautics",
+        "Flight Operations",
+        "Travel Photography",
+        "South America",
+        "Commercial Aviation",
+        "Aviation Industry",
+        "Skyline",
+        "Cloudscape",
+        "Aviation Enthusiast",
+        "Travelogue",
+        "Global Transit",
+        "Airport Life",
+        "Terminal Activity",
+        "Aviation Hub",
+        "Transatlantic Travel",
+        "Argentine Geography",
+        "Air Travel",
+        "Aviation Culture",
+        "Flight Experience",
+        "Transportation",
+        "Aeronautical Engineering",
+        "Airline Travel",
+        "Airport Logistics",
+        "Aviation Spotting",
+        "Travel Documentation",
+        "Professional Photography",
+        "Visual Ledger",
+        "Travel Narrative",
+        "Airport Scene",
+        "Global Connectivity",
+        "Aviation Travel",
+        "Ezeiza Airport",
+        "Buenos Aires Province",
+        "Samuel and Audrey"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
