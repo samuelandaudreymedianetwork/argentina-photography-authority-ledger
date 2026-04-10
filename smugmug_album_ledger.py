@@ -160,6 +160,7 @@ def process_album(album_name, album_key):
 
     if not ai_data: return False
 
+    # Standard Social Links
     social_links = (
         "\n\n🎥 YouTube: @samuelandaudrey & @samuelyaudrey\n"
         "🎒 Travel Guides: thatbackpacker.com & nomadicsamuel.com\n"
@@ -176,11 +177,15 @@ def process_album(album_name, album_key):
     else:
         master_data = {}
 
+    # NEW: Format tags as a clean comma-separated string
+    raw_tags = ai_data.get('tags', [])
+    clean_tags = ", ".join(raw_tags) if isinstance(raw_tags, list) else raw_tags
+
     # Append new data
     master_data[album_name] = {
         "new_title": ai_data['title'],
         "description": ai_data['description'] + social_links,
-        "tags": ai_data['tags'],
+        "seo_tags": clean_tags,
         "key": album_key,
         "processed_at": time.strftime("%Y-%m-%d %H:%M:%S")
     }
