@@ -16,13 +16,14 @@ SMUG_TOKEN = os.environ.get('SMUGMUG_ACCESS_TOKEN')
 SMUG_TOKEN_SECRET = os.environ.get('SMUGMUG_ACCESS_TOKEN_SECRET')
 
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
-MODEL_ID = "gemini-3.1-flash-lite-preview" # Using Flash-lite-preview for the 6-paragraph depth
+MODEL_ID = "gemini-1.5-pro" 
 
 HISTORY_FILE = "album_history.json"
+MASTER_FILE = "ALBUM_METADATA_MASTER.json"
 auth = OAuth1(SMUG_KEY, SMUG_SECRET, SMUG_TOKEN, SMUG_TOKEN_SECRET)
 
 # ==========================================
-# 2. PRIORITY MAP
+# 2. PRIORITY MAP (ALL 71 GALLERIES)
 # ==========================================
 PRIORITY_MAP = {
     "Buenos Aires, Argentina: A Visual Ledger of Family Visits": "B8h5q7",
@@ -98,39 +99,17 @@ PRIORITY_MAP = {
     "Puerto Madero Barrio: Modern Skyline, Costanera Sur Ecological Reserve & Historic Docks in Buenos Aires, Argentina": "8jkVcc"
 }
 
-def smug_api(url, method="GET", data=None):
+def smug_api(url):
     headers = {"Accept": "application/json", "User-Agent": "SamuelAndAudreyMediaBot/1.0"}
-    if method == "GET":
-        resp = requests.get(url, auth=auth, headers=headers)
-    else:
-        resp = requests.patch(url, auth=auth, headers=headers, json=data)
-    
-    try:
-        return resp.json()
-    except:
-        print_now(f"  ⚠️ Non-JSON response from {url}")
-        return {}
+    resp = requests.get(url, auth=auth, headers=headers, timeout=30)
+    return resp.json()
 
 # ==========================================
-# 3. THE VISUAL LEDGER PROTOCOL
+# 3. CORE PROCESSING (FRUGAL + FILE OUTPUT)
 # ==========================================
-SYSTEM_PROMPT = """
-You are a high-end travel publisher and SEO specialist. Analyze these photos from a single gallery.
-1. Title: Create one authoritative title following: [DESTINATION] Photos | [Keyword 1], [Keyword 2] & [Keyword 3] Photography Gallery | [Province], [Region], [Country] | Samuel & Audrey
-2. Description: Write 6 long, grounded paragraphs (approx 800-1000 words total). 
-   - NO AI-isms (tapestry, vibrant, nestled, delve, underscores). 
-   - Focus on actual experiences: the texture of the food, the specific models of transit (Don Otto, Marcopolo), the architectural styles, and the atmosphere of the destination.
-3. First Sentence: Must be a punchy meta-description (150-160 chars) front-loaded with keywords for Google SERPs.
-4. Tags: Provide 50 comma-separated SEO tags based on visual data.
-
-Return strictly in this JSON format:
-{"title": "...", "description": "...", "tags": "..."}
-"""
-
 def process_album(album_name, album_key):
-    print_now(f"\n🚀 STARTING FRUGAL ALBUM AUDIT: {album_name}")
+    print_now(f"\n🚀 STARTING FRUGAL AUDIT: {album_name}")
     
-    # Fetch image list
     album_url = f"https://www.smugmug.com/api/v2/album/{album_key}!images?count=10000"
     data = smug_api(album_url)
     images = data.get('Response', {}).get('AlbumImage', [])
@@ -139,15 +118,11 @@ def process_album(album_name, album_key):
         print_now(f"⚠️ No images found in {album_key}")
         return False
 
-    # --- FRUGAL SAMPLING LOGIC ---
-    # If gallery is < 50, take all. If > 50, sample at even intervals.
     if len(images) <= 50:
         sample = images
     else:
         step = max(1, len(images) // 50)
         sample = images[::step][:50]
-    
-    print_now(f"📸 Frugal Mode: Sampling {len(sample)} images out of {len(images)}...")
     
     image_parts = []
     for img in sample:
@@ -158,44 +133,78 @@ def process_album(album_name, album_key):
                 image_parts.append(types.Part.from_bytes(data=img_bytes, mime_type='image/jpeg'))
             except: continue
 
-    # --- THE FRICTION GUARDRAIL (GEMINI RETRY LOOP) ---
+    SYSTEM_PROMPT = """
+    You are a high-end travel publisher and SEO specialist. Analyze these photos from a single gallery.
+    1. Title: Create one title: [DESTINATION] Photos | [Keyword 1], [Keyword 2] & [Keyword 3] Photography Gallery | [Province], [Region], [Country] | Samuel & Audrey
+    2. Description: Write 6 long, grounded paragraphs (800-1000 words total). 
+       - NO AI-isms (tapestry, vibrant, nestled, delve, underscores). 
+       - Focus on experiences: food textures, transit models, architectural styles.
+    3. Meta Description: First sentence must be 150-160 chars and front-loaded with keywords.
+    4. Tags: Provide 50 comma-separated SEO tags.
+    Return JSON: {"title": "...", "description": "...", "tags": "..."}
+    """
+
     ai_data = None
     for attempt in range(10):
         try:
-            print_now(f"🧠 Asking Gemini Pro to analyze samples (Attempt {attempt+1}/10)...")
+            print_now(f"🧠 Gemini Analysis (Attempt {attempt+1}/10)...")
             response = client.models.generate_content(model=MODEL_ID, contents=[SYSTEM_PROMPT] + image_parts)
-            
             raw_text = response.text.strip()
             start_idx = raw_text.find('{')
             end_idx = raw_text.rfind('}')
             ai_data = json.loads(raw_text[start_idx:end_idx+1])
             break 
-        except Exception as e:
+        except Exception:
             wait_time = min((attempt + 1) * 20, 120) 
-            print_now(f"  ⚠️ Gemini glitch. Retrying in {wait_time}s...")
             time.sleep(wait_time)
 
     if not ai_data: return False
 
     social_links = (
-        "\n\nExplore more of our work:\n"
-        "🎥 YouTube: <a href='https://youtube.com/@samuelandaudrey'>@samuelandaudrey</a> & <a href='https://youtube.com/@samuelyaudrey'>@samuelyaudrey</a>\n"
-        "🎒 Travel Guides: <a href='https://thatbackpacker.com'>thatbackpacker.com</a> & <a href='https://nomadicsamuel.com'>nomadicsamuel.com</a>\n"
-        "🇦🇷 Local Guides: <a href='https://cheargentinatravel.com'>cheargentinatravel.com</a>\n"
-        "🌎 Personal Sites: <a href='https://samueljeffery.net'>samueljeffery.net</a>, <a href='https://audreybergner.com'>audreybergner.com</a> & <a href='https://samuelandaudrey.com'>samuelandaudrey.com</a>\n"
-        "📊 <a href='https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23'>Project 23 Master Database</a>"
+        "\n\n🎥 YouTube: @samuelandaudrey & @samuelyaudrey\n"
+        "🎒 Travel Guides: thatbackpacker.com & nomadicsamuel.com\n"
+        "🇦🇷 Local Guides: cheargentinatravel.com\n"
+        "🌎 Personal Sites: samueljeffery.net, audreybergner.com & samuelandaudrey.com\n"
+        "📊 Project 23 Master Database"
     )
 
-    update_payload = {
-        "Name": ai_data['title'],
-        "Description": ai_data['description'] + social_links,
-        "Keywords": ai_data['tags']
+    # Load existing Master Ledger or create new
+    if os.path.exists(MASTER_FILE):
+        with open(MASTER_FILE, 'r') as f:
+            try: master_data = json.load(f)
+            except: master_data = {}
+    else:
+        master_data = {}
+
+    # Append new data
+    master_data[album_name] = {
+        "new_title": ai_data['title'],
+        "description": ai_data['description'] + social_links,
+        "tags": ai_data['tags'],
+        "key": album_key,
+        "processed_at": time.strftime("%Y-%m-%d %H:%M:%S")
     }
+
+    with open(MASTER_FILE, 'w') as f:
+        json.dump(master_data, f, indent=4)
+
+    print_now(f"✅ SAVED TO LEDGER: {ai_data['title']}")
+    return True
+
+if __name__ == "__main__":
+    if not os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, 'w') as f: json.dump([], f)
     
-    update_url = f"https://www.smugmug.com/api/v2/album/{album_key}"
-    resp = smug_api(update_url, method="PATCH", data=update_payload)
-    
-    if resp.get('Code') == 200 or 'Response' in resp:
-        print_now(f"✅ ALBUM UPDATED: {ai_data['title']}")
-        return True
-    return False
+    with open(HISTORY_FILE, 'r') as f:
+        try: history = json.load(f)
+        except: history = []
+
+    for name, key in PRIORITY_MAP.items():
+        if key in history:
+            print_now(f"⏩ {name} skipped.")
+            continue
+            
+        if process_album(name, key):
+            history.append(key)
+            with open(HISTORY_FILE, 'w') as f: json.dump(history, f, indent=2)
+            time.sleep(5)
