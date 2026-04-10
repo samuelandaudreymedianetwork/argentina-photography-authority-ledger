@@ -1,0 +1,93 @@
+{
+    "title": "Grand Theater Architecture and Rows of Books inside El Ateneo Grand Splendid Buenos Aires",
+    "description": "Buenos Aires, Buenos Aires: A historic theater turned bookstore presents an awe-inspiring vista of gold-leafed balconies and velvet-draped stages. The camera captures an elevated perspective, looking down from a mezzanine level onto the bustling main floor where rows of bookshelves radiate outward beneath a dramatic, painted ceiling. Golden light catches the intricate ornate carvings on the proscenium arch, while shadows deepen within the tiers of former theater boxes. Patrons wander through the narrow aisles, becoming part of the living heritage of this repurposed cultural landmark. The atmosphere is quiet yet vibrant, characterized by the hushed movements of visitors exploring the depths of Argentine literature. High-contrast lighting emphasizes the interplay between the preserved stage and the modern functionality of the bookshelves below. Every corner of the space reflects a commitment to architectural preservation, blending the opulence of the early twentieth century with the intellectual curiosity of the present. This iconic site serves as a vital testament to the importance of adapting historical urban structures to foster contemporary community engagement. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Buenos Aires, Buenos Aires: Un teatro histórico convertido en librería presenta una vista impresionante de balcones con hojas de oro y escenarios cubiertos de terciopelo. La cámara captura una perspectiva elevada, mirando desde un nivel de entresuelo hacia el piso principal donde las filas de estanterías irradian hacia afuera bajo un techo dramático y pintado. La luz dorada atrapa las intrincadas tallas ornamentadas en el arco del proscenio, mientras las sombras se profundizan dentro de los niveles de los antiguos palcos del teatro. Los clientes deambulan por los estrechos pasillos, convirtiéndose en parte del patrimonio vivo de este hito cultural reutilizado. La atmósfera es tranquila pero vibrante, caracterizada por los movimientos silenciosos de los visitantes que exploran las profundidades de la literatura argentina. La iluminación de alto contraste enfatiza la interacción entre el escenario preservado y la funcionalidad moderna de las estanterías de abajo. Cada rincón del espacio refleja un compromiso con la preservación arquitectónica, combinando la opulencia del siglo XX con la curiosidad intelectual del presente. Este sitio icónico sirve como un testimonio vital de la importancia de adaptar las estructuras urbanas históricas para fomentar el compromiso comunitario contemporáneo. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "El Ateneo Grand Splendid",
+        "Buenos Aires",
+        "Argentina",
+        "Capital Federal",
+        "Bookstore",
+        "Historic Theater",
+        "Architecture",
+        "Literature",
+        "Library",
+        "Travel Photography",
+        "Cultural Heritage",
+        "Urban Exploration",
+        "Travel Argentina",
+        "South America",
+        "Interior Design",
+        "Baroque Revival",
+        "Ornate Ceiling",
+        "Proscenium Arch",
+        "Book Lovers",
+        "Reading Culture",
+        "Travel Documentary",
+        "Historic Preservation",
+        "Public Space",
+        "Tourism",
+        "City Life",
+        "Buenos Aires Landmarks",
+        "Reading",
+        "Cultural Landmark",
+        "Bookshelves",
+        "Theater Boxes",
+        "Artistic Interior",
+        "Latin America",
+        "Travel Diary",
+        "European Influence",
+        "Argentina Travel",
+        "Iconic Architecture",
+        "Sightseeing",
+        "Book Browsing",
+        "Historical Building",
+        "Retail Space",
+        "Urban Photography",
+        "Architecture Appreciation",
+        "Community Space",
+        "Cultural Tourism",
+        "Travel Inspiration",
+        "Project 23",
+        "Samuel and Audrey",
+        "Argentina Authority Ledger",
+        "Historic Site",
+        "Fine Art Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
