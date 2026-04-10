@@ -1,0 +1,93 @@
+{
+    "title": "Aerial View of Urban Neighborhoods and Wetland Canals in Tigre Buenos Aires Province",
+    "description": "Tigre, Buenos Aires: A complex labyrinth of artificial waterways and residential developments stretches across the lush landscape, viewed from the perspective of an incoming flight. The golden hour light catches the reflective surfaces of the canal networks, highlighting the deliberate integration of suburban living with the marshy, low-lying topography of the Paraná Delta fringe. Deep blues and earthy tones define the contrast between the densely built urban grid and the winding, aquatic corridors designed to provide waterfront access to homes. From this high altitude, the sprawling metropolitan expansion reveals the intricate relationship between human habitation and the natural hydrology of the region. The image captures a serene yet structured geometric beauty, where roads and canals mirror one another in a delicate balance. This perspective provides an essential look at the evolving land-use patterns that characterize the growth of suburban Buenos Aires as it expands toward the river. Such aerial insights are vital for understanding how environmental topography dictates the architectural character and regional identity of Argentina's most populated corridor. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Tigre, Buenos Aires: Un complejo laberinto de canales artificiales y desarrollos residenciales se extiende a través del exuberante paisaje, visto desde la perspectiva de un vuelo que aterriza. La luz de la hora dorada ilumina las superficies reflectantes de las redes de canales, destacando la integración deliberada de la vida suburbana con la topografía pantanosa y de baja elevación del borde del Delta del Paraná. Tonos azules profundos y tonos terrosos definen el contraste entre la densa cuadrícula urbana y los serpenteantes corredores acuáticos diseñados para brindar acceso al agua a los hogares. Desde esta gran altitud, la expansión metropolitana en expansión revela la intrincada relación entre la habitación humana y la hidrología natural de la región. La imagen captura una belleza geométrica serena pero estructurada, donde las carreteras y los canales se reflejan mutuamente en un delicado equilibrio. Esta perspectiva proporciona una mirada esencial sobre los patrones de uso de la tierra en evolución que caracterizan el crecimiento de los suburbios de Buenos Aires a medida que se expande hacia el río. Tales conocimientos aéreos son vitales para comprender cómo la topografía ambiental dicta el carácter arquitectónico y la identidad regional del corredor más poblado de Argentina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Tigre",
+        "Buenos Aires",
+        "Argentina",
+        "Aerial Photography",
+        "Delta del Paraná",
+        "Urban Planning",
+        "Waterfront Living",
+        "Canal Networks",
+        "Suburban Development",
+        "South America",
+        "Geography",
+        "Landscape",
+        "Topography",
+        "Hydrology",
+        "Metropolitan Growth",
+        "Argentina Travel",
+        "Province of Buenos Aires",
+        "Land Use",
+        "Human Habitation",
+        "Residential Architecture",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Aerial View",
+        "Birdseye View",
+        "Marshlands",
+        "Wetlands",
+        "River Delta",
+        "Urban Sprawl",
+        "Infrastructure",
+        "Environmental Design",
+        "Travel Photography",
+        "Regional Identity",
+        "Pampa",
+        "Buenos Aires Province",
+        "Canal Systems",
+        "Geometric Landscape",
+        "Sustainable Development",
+        "Latin America",
+        "Geography of Argentina",
+        "Coastal Urbanism",
+        "Landscape Analysis",
+        "Aviation Photography",
+        "Modern Housing",
+        "Water Systems",
+        "Natural Resources",
+        "Eco-conscious Planning",
+        "South American Landscapes",
+        "Urban Expansion",
+        "Aerial Documentation"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

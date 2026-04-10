@@ -1,0 +1,93 @@
+{
+    "title": "Aerial Perspective of Norwegian Air Wing Above the Vast Clouds of Buenos Aires Province",
+    "description": "Buenos Aires, Buenos Aires Province: A commercial aircraft wing slices through the stratosphere, framed against an expansive, textured canopy of stratocumulus clouds stretching toward the horizon. The vibrant blue sky transitions into a deep, infinite indigo, emphasizing the sheer scale of the Argentine atmosphere during a domestic flight. Sunlight catches the polished metallic surface of the jet engine and the iconic red winglet, creating sharp, clean lines that contrast with the chaotic, soft undulations of the cloud formations below. This high-altitude vantage point captures the transition between the bustling urban landscape of the capital and the vast, rolling plains of the surrounding province. The composition uses the wing as a natural leading line, drawing the viewer’s eye toward the curvature of the earth and the play of light across the upper atmosphere. Such aerial perspectives are essential for understanding the sheer geography of Argentina, highlighting the ease of travel between distant provinces that shapes modern national connectivity. This image serves as a testament to the logistical journeys undertaken to bridge family connections across the diverse landscapes of this expansive nation. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Aviation",
+        "AerialPhotography",
+        "NorwegianAir",
+        "Cloudscape",
+        "TravelPhotography",
+        "FlightView",
+        "Skyline",
+        "Atmospheric",
+        "Stratosphere",
+        "JetEngine",
+        "Winglet",
+        "SouthAmerica",
+        "Project23",
+        "BuenosAiresProvince",
+        "TravelDocumentary",
+        "Horizon",
+        "CloudTexture",
+        "BlueSky",
+        "AirTravel",
+        "CommercialFlight",
+        "Perspective",
+        "Geography",
+        "Landscape",
+        "ScenicFlight",
+        "NationalConnectivity",
+        "TravelDiary",
+        "HighAltitude",
+        "Daylight",
+        "TravelJournal",
+        "ExploringArgentina",
+        "RegionalTravel",
+        "AviationPhotography",
+        "FlightPath",
+        "ArgentineSkies",
+        "CloudFormation",
+        "WindowSeat",
+        "TravelExperience",
+        "NomadicTravel",
+        "SouthAmericanTravel",
+        "Aeroplane",
+        "TravelCulture",
+        "VisualStorytelling",
+        "TravelLog",
+        "Journey",
+        "AerialView",
+        "WeatherPatterns",
+        "ArgentineIdentity",
+        "AviationArt"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Aerial Perspective of Norwegian Air Wing Above the Vast Clouds of Buenos Aires Province",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

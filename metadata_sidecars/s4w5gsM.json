@@ -1,0 +1,92 @@
+{
+    "title": "Low Altitude Clouds Over Expansive Agricultural Fields Near The City Of Buenos Aires Argentina",
+    "description": "Buenos Aires, Buenos Aires Province: A vast, geometric patchwork of agricultural fields unfolds beneath a dramatic canopy of low-hanging clouds, viewed from the cabin of a commercial aircraft. The landscape is defined by the stark, earth-toned squares of tilled soil and vibrant green pastures, cut through by the linear precision of a rural highway. From this elevated perspective, the immense scale of the Pampa region becomes tangible, with subtle shifts in light creating textures across the damp, verdant earth. The aircraft turbine frame anchors the composition, providing a technical contrast to the ethereal, shifting vapor that partially obscures the ground below. Scattered farmsteads and long, narrow structures appear as tiny, isolated punctuations within the immense, agrarian sprawl that feeds the nation. As the plane descends, the interplay between the cloud cover and the horizon line emphasizes the vastness of the Argentine interior. The soft, diffused light of an overcast day mutes the color palette, lending a contemplative, documentary quality to the aerial traverse. Documenting these transitions from the sky offers a unique insight into the logistical heart of the country, where the pulse of commerce and agriculture meets the sky. This visual ledger captures the essence of transit and the topographic diversity found during a return journey to the capital city. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Pampa",
+        "Aerial Photography",
+        "Agriculture",
+        "Farmland",
+        "Cloudscape",
+        "Rural Argentina",
+        "Airplane Window",
+        "Aviation",
+        "Travel Photography",
+        "Geography",
+        "South America",
+        "Landscape",
+        "Agricultural Fields",
+        "Province of Buenos Aires",
+        "Project 23",
+        "Topography",
+        "Aerial View",
+        "Clouds",
+        "Rural Infrastructure",
+        "Economic Geography",
+        "Flight",
+        "Travel Documentary",
+        "Natural Light",
+        "Argentine Heartland",
+        "Regional Identity",
+        "Travelogue",
+        "Earth Tones",
+        "Atmospheric",
+        "Transportation",
+        "Commercial Flight",
+        "Perspective",
+        "Horizon",
+        "Agrarian Landscape",
+        "Rural Development",
+        "Texture",
+        "Window Seat",
+        "Journey",
+        "South American Travel",
+        "Field Patterns",
+        "Ethereal",
+        "Overcast",
+        "Aerial Perspective",
+        "Cultural Landscape",
+        "Visual Ledger",
+        "Argentina Travel",
+        "Rural Life",
+        "Turbine",
+        "Skyline"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
