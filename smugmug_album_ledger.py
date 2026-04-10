@@ -16,7 +16,7 @@ SMUG_TOKEN = os.environ.get('SMUGMUG_ACCESS_TOKEN')
 SMUG_TOKEN_SECRET = os.environ.get('SMUGMUG_ACCESS_TOKEN_SECRET')
 
 client = genai.Client(api_key=os.environ.get('GEMINI_API_KEY'))
-MODEL_ID = "gemini-1.5-pro" 
+MODEL_ID = "gemini-3.1-flash-lite-preview" 
 
 HISTORY_FILE = "album_history.json"
 MASTER_FILE = "ALBUM_METADATA_MASTER.json"
