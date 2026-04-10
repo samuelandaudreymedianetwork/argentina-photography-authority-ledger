@@ -13,7 +13,7 @@ SMUG_TOKEN_SECRET = "dxH7GDBznM6fpRnkMT3QnPnGHhWdRGdpXqbHmZj95hFZKNWHTzfDTLbC628
 
 # Gemini API (Replace with your actual Gemini API Key)
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-3.1-flash-lite-preview')
 
 HISTORY_FILE = "album_history.json"
 
