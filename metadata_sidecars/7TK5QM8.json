@@ -1,0 +1,93 @@
+{
+    "title": "Turquoise Rapids of Saltos del Petrohué in Puerto Varas Region Featuring Glacial Melt Waters",
+    "description": "Puerto Varas, Los Lagos: The Saltos del Petrohué thunder through a dramatic volcanic landscape, showcasing the relentless power of glacial meltwater cascading over basaltic rock formations. The long-exposure technique transforms the rushing currents into a silky, ethereal veil of white mist that contrasts sharply against the rugged, moss-draped cliffs of the Chilean Andes. Sunlight filters through the dense temperate rainforest canopy, highlighting the deep, saturated turquoise hues characteristic of rivers fed by glacial runoff. Each ripple in the churning water below the falls reflects the raw, untamed energy of the Vicente Pérez Rosales National Park, creating a hypnotic visual rhythm. The dense vegetation clinging to the dark, craggy stone borders speaks to the sheer biodiversity and moisture-rich climate of this southern region. This location serves as a primary geographic nexus for the popular Cruce Andino, linking mountain passes with expansive lake systems. The interplay of geological history and hydrology provides a captivating look at the forces shaping the southern cone of South America. By capturing the kinetic energy of the falls, the image emphasizes the enduring majesty of Chile’s natural landscape. Such powerful displays of nature act as vital anchors for ecological tourism and regional identity, drawing travelers into the heart of the Andean wilderness. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Puerto Varas, Los Lagos: Los Saltos del Petrohué resuenan a través de un dramático paisaje volcánico, mostrando el poder incesante del agua de deshielo glacial que cae sobre formaciones rocosas de basalto. La técnica de larga exposición transforma las corrientes impetuosas en un velo sedoso y etéreo de niebla blanca que contrasta marcadamente con los escarpados acantilados cubiertos de musgo de los Andes chilenos. La luz del sol se filtra a través del denso dosel del bosque templado, resaltando los profundos tonos turquesa saturados característicos de los ríos alimentados por el deshielo. Cada ondulación en el agua turbulenta debajo de las cascadas refleja la energía cruda e indómita del Parque Nacional Vicente Pérez Rosales, creando un ritmo visual hipnótico. La densa vegetación que se aferra a la piedra oscura y escarpada habla de la inmensa biodiversidad y el clima húmedo de esta región del sur. Esta ubicación sirve como un nexo geográfico principal para el popular Cruce Andino, que une pasos de montaña con extensos sistemas lacustres. La interacción de la historia geológica y la hidrología ofrece una mirada cautivadora a las fuerzas que dan forma al cono sur de América del Sur. Al capturar la energía cinética de las caídas, la imagen enfatiza la majestad perdurable del paisaje natural de Chile. Muestras tan poderosas de la naturaleza actúan como anclas vitales para el turismo ecológico y la identidad regional, atrayendo a los viajeros al corazón de la naturaleza andina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Saltos del Petrohué",
+        "Puerto Varas",
+        "Los Lagos",
+        "Chile",
+        "Cruce Andino",
+        "Vicente Pérez Rosales National Park",
+        "Andes Mountains",
+        "Waterfalls",
+        "Long Exposure",
+        "Glacial Rivers",
+        "Patagonia",
+        "South America",
+        "Nature Photography",
+        "Travel Photography",
+        "River Rapids",
+        "Basalt Rocks",
+        "Temperate Rainforest",
+        "Turquoise Water",
+        "Landscape Photography",
+        "Volcanic Geology",
+        "Water Power",
+        "Eco Tourism",
+        "Chilean Patagonia",
+        "South American Travel",
+        "Wilderness",
+        "National Parks",
+        "Outdoor Adventure",
+        "River Landscapes",
+        "Scenic Chile",
+        "Andean Peaks",
+        "Travel Geography",
+        "Nature's Energy",
+        "Geological Wonders",
+        "Water Motion",
+        "South of Chile",
+        "Remote Landscapes",
+        "Environmental Beauty",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Photography Expeditions",
+        "Watershed",
+        "River Currents",
+        "Scenic Vistas",
+        "Travel Documentation",
+        "South American Geography",
+        "Andean Scenery",
+        "Water Sprays",
+        "Rugged Terrain",
+        "Natural Heritage"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

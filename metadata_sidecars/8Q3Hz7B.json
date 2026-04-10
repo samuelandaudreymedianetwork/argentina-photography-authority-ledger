@@ -1,0 +1,93 @@
+{
+    "title": "Cerro Tronador Peaks Over the Lush Patagonian Forest During the Scenic Cruce Andino Crossing",
+    "description": "Cruce Andino, Río Negro: The jagged, snow-draped summit of Cerro Tronador pierces the brilliant Patagonian sky, standing as a silent sentinel over the dense temperate rainforest that carpets the foothills. Soft, wispy lenticular clouds cling to the mountain’s weathered granite face, creating a dynamic interplay of shadow and light that emphasizes the immense geological scale of the Andes. The sharp contrast between the deep, verdant greens of the native forest and the pristine, blinding white of the hanging glaciers captures the untamed essence of this iconic border crossing between Argentina and Chile. Expertly composed, the image utilizes a crisp focal depth to isolate the mountain peak, allowing the intricate textures of the glacial ice and exposed rock to emerge with striking clarity. As a central artery for exploration, this region serves as a vital bridge for travelers seeking to understand the dramatic shifts in climate and terrain that define the Southern Cone. The atmosphere is one of profound stillness, where the sheer majesty of the landscape invites contemplation of the ancient volcanic forces that carved these deep valleys. This visual document highlights the raw beauty of the Andes, providing a testament to the enduring appeal of one of South America's most celebrated wilderness routes. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Cruce Andino, Río Negro: La cumbre escarpada y nevada del Cerro Tronador perfora el brillante cielo patagónico, erigiéndose como un centinela silencioso sobre el denso bosque templado que cubre las estribaciones. Nubes lenticulares suaves y tenues se aferran a la desgastada cara de granito de la montaña, creando un juego dinámico de luces y sombras que enfatiza la inmensa escala geológica de los Andes. El fuerte contraste entre los verdes profundos y vibrantes del bosque nativo y el blanco prístino y cegador de los glaciares colgantes captura la esencia indómita de este icónico cruce fronterizo entre Argentina y Chile. Compuesta con maestría, la imagen utiliza una profundidad focal nítida para aislar el pico de la montaña, permitiendo que las texturas intrincadas del hielo glaciar y la roca expuesta emerjan con una claridad sorprendente. Como arteria central para la exploración, esta región sirve como un puente vital para los viajeros que buscan comprender los cambios dramáticos en el clima y el terreno que definen al Cono Sur. La atmósfera es de una profunda quietud, donde la pura majestuosidad del paisaje invita a la contemplación de las antiguas fuerzas volcánicas que tallaron estos valles profundos. Este documento visual destaca la belleza cruda de los Andes, proporcionando un testimonio del atractivo perdurable de una de las rutas silvestres más celebradas de Sudamérica. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Cerro Tronador",
+        "Cruce Andino",
+        "Patagonia",
+        "Argentina",
+        "Río Negro",
+        "Andes Mountains",
+        "Glacier",
+        "Mountain Landscape",
+        "Patagonian Andes",
+        "Travel Photography",
+        "Nature Photography",
+        "South America",
+        "Temperate Rainforest",
+        "Geology",
+        "Volcanic Peaks",
+        "High Altitude",
+        "Scenic View",
+        "Wilderness",
+        "Outdoor Adventure",
+        "Bariloche",
+        "Lenticular Clouds",
+        "Alpine Scenery",
+        "Andean Peaks",
+        "Glacial Ice",
+        "South American Travel",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Mountain Range",
+        "Ecology",
+        "Landscape Photography",
+        "Environment",
+        "National Park",
+        "Tourism",
+        "Explore Argentina",
+        "Iconic Landmarks",
+        "Natural Wonders",
+        "Cloud Formations",
+        "Summit",
+        "Andean Forest",
+        "Border Crossing",
+        "Adventure Travel",
+        "Geological Formations",
+        "Mountain Wilderness",
+        "Vista",
+        "Nature Lover",
+        "Outdoor Life",
+        "Travel Documentation",
+        "South American Andes",
+        "Scenic Routes"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

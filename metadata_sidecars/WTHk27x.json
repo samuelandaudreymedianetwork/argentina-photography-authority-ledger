@@ -1,0 +1,93 @@
+{
+    "title": "A Vivid Red and White Lighthouse on Nahuel Huapi Lake Near Bariloche Rio Negro",
+    "description": "Nahuel Huapi Lake, Río Negro: A vibrant red and white lighthouse stands as a silent sentinel upon a craggy, lichen-spotted rock formation amidst the expansive Andean waters. The structure, captured with a telephoto lens to compress the depth, serves as a sharp focal point against the dense, verdant backdrop of Patagonian temperate rainforest. Soft afternoon light glazes the textures of the stone base and the surrounding evergreen canopy, emphasizing the remote and pristine nature of the Cruce Andino route. This navigational beacon punctuates the deep blues of the glacial lake, offering a quiet moment of visual stability in an otherwise vast and rugged wilderness. The composition balances the industrial precision of the lighthouse against the wild, unkempt beauty of the native forest vegetation lining the shore. Such maritime architecture is essential for safe passage through these complex, island-dotted waterways that connect Argentina and Chile. Documenting these remote markers provides a deeper understanding of the infrastructure required to traverse one of South America's most challenging and breathtaking border landscapes. The interplay of light and shadow reinforces the solitude inherent in Patagonian travel, inviting explorers to appreciate the quiet landmarks that guide their journey. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Lago Nahuel Huapi, Río Negro: Un vibrante faro rojo y blanco se erige como un centinela silencioso sobre una formación rocosa escarpada y manchada de líquenes en medio de las extensas aguas andinas. La estructura, capturada con un teleobjetivo para comprimir la profundidad, sirve como un punto focal nítido contra el denso y verde telón de fondo de la selva templada patagónica. La luz suave de la tarde baña las texturas de la base de piedra y el dosel de hoja perenne circundante, enfatizando la naturaleza remota y prístina de la ruta del Cruce Andino. Esta baliza de navegación puntúa los azules profundos del lago glacial, ofreciendo un momento tranquilo de estabilidad visual en un desierto vasto y accidentado. La composición equilibra la precisión industrial del faro contra la belleza salvaje y descuidada de la vegetación forestal nativa que bordea la orilla. Tal arquitectura marítima es esencial para el paso seguro a través de estas vías fluviales complejas y salpicadas de islas que conectan a Argentina y Chile. Documentar estos marcadores remotos proporciona una comprensión más profunda de la infraestructura necesaria para atravesar uno de los paisajes fronterizos más desafiantes e impresionantes de América del Sur. La interacción de luces y sombras refuerza la soledad inherente a los viajes por la Patagonia, invitando a los exploradores a apreciar los hitos tranquilos que guían su viaje. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Nahuel Huapi",
+        "Rio Negro",
+        "Argentina",
+        "Patagonia",
+        "Cruce Andino",
+        "Lighthouse",
+        "Lake Crossing",
+        "Bariloche",
+        "Andes",
+        "Navigation",
+        "Maritime",
+        "Travel Photography",
+        "Temperate Rainforest",
+        "Glacial Lake",
+        "South America",
+        "Beacon",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Patagonian Wilderness",
+        "Landscape Photography",
+        "Scenic View",
+        "Outdoor Exploration",
+        "Nature Photography",
+        "Geographic Landmark",
+        "Andean Mountains",
+        "Waterway",
+        "Travel Documenting",
+        "Remote Travel",
+        "Travel Architecture",
+        "Patagonian Coast",
+        "Inland Navigation",
+        "Safety Marker",
+        "Travel Infrastructure",
+        "Natural Textures",
+        "Mountain Scenery",
+        "Lake Landscape",
+        "Argentine Geography",
+        "Travel Adventure",
+        "Wilderness Travel",
+        "Geographical Records",
+        "Iconic Landmarks",
+        "Patagonian Flora",
+        "Reflective Waters",
+        "South American Travel",
+        "Regional Travel",
+        "Atmospheric Photography",
+        "Photography Expeditions",
+        "Coastal Navigation",
+        "Argentine Patagonia"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

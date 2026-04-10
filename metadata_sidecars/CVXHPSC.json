@@ -1,0 +1,93 @@
+{
+    "title": "Glacial Blue Waters Rushing Through Dark Volcanic Basalt Rock in the Vicente Pérez Rosales",
+    "description": "Vicente Pérez Rosales National Park, Los Lagos: The turquoise waters of the Petrohué River churn with relentless force as they carve a passage through ancient, craggy volcanic basalt formations. Photographed with a slower shutter speed, the rushing current takes on a smooth, ethereal texture that contrasts sharply against the jagged, dark textures of the surrounding stone walls. The lighting is diffused, emphasizing the deep, saturated blues of the glacial runoff that defines this dramatic Andean landscape. Every ripple and fold in the water captures the raw power of the volcanic geology that characterizes this vital waterway in the Lake District. The deep shadows within the stone canyons provide a sense of scale, grounding the fluid movement of the river in the stillness of the solid rock. As the water cascades through this narrow gorge, it serves as a testament to the ongoing geological processes that shape the southern borderlands. This natural spectacle highlights the immense forces behind the regional lake crossing route, where fire and water have collaborated for millennia to create the stunning vistas found throughout the border regions. Travelers witnessing this intensity are offered a visceral connection to the untamed nature of Patagonia, reflecting the enduring spirit of adventure inherent in the Cruce Andino experience. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Parque Nacional Vicente Pérez Rosales, Los Lagos: Las aguas color turquesa del río Petrohué fluyen con fuerza implacable mientras se abren paso a través de antiguas y escarpadas formaciones de basalto volcánico. Capturada con una velocidad de obturación más lenta, la corriente adquiere una textura suave y etérea que contrasta fuertemente con las texturas irregulares y oscuras de las paredes de piedra circundantes. La iluminación es difusa, enfatizando los azules profundos y saturados del deshielo glacial que define este dramático paisaje andino. Cada onda y pliegue en el agua captura el poder bruto de la geología volcánica que caracteriza a este curso de agua vital en la Región de los Lagos. Las sombras profundas dentro de los cañones de piedra proporcionan una sensación de escala, anclando el movimiento fluido del río en la quietud de la roca sólida. A medida que el agua se precipita a través de este estrecho desfiladero, sirve como testimonio de los procesos geológicos continuos que dan forma a las tierras fronterizas del sur. Este espectáculo natural destaca las inmensas fuerzas detrás de la ruta del cruce de lagos regional, donde el fuego y el agua han colaborado durante milenios para crear las impresionantes vistas que se encuentran en las regiones fronterizas. A los viajeros que presencian esta intensidad se les ofrece una conexión visceral con la naturaleza indómita de la Patagonia, reflejando el espíritu duradero de aventura inherente a la experiencia del Cruce Andino. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Vicente Perez Rosales",
+        "Petrohue River",
+        "Los Lagos",
+        "Chile",
+        "Patagonia",
+        "Andean landscape",
+        "Glacial water",
+        "Volcanic basalt",
+        "Cruce Andino",
+        "Lake Crossing",
+        "River rapids",
+        "Nature photography",
+        "Geological wonders",
+        "Water textures",
+        "South America",
+        "Patagonian geography",
+        "Travel photography",
+        "Outdoor adventure",
+        "National Park",
+        "Wilderness",
+        "Liquid motion",
+        "Andes mountains",
+        "Southern Chile",
+        "Environmental landscape",
+        "Scenic travel",
+        "Water flow",
+        "Rock formations",
+        "Geology",
+        "River gorge",
+        "Turquoise water",
+        "Natural beauty",
+        "Adventure travel",
+        "Landscape photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Destination Chile",
+        "Regional identity",
+        "Water power",
+        "Raw nature",
+        "Geological features",
+        "Basalt canyons",
+        "River currents",
+        "Patagonian wilderness",
+        "Andean nature",
+        "Landscape art",
+        "Scenic beauty",
+        "Travel inspiration",
+        "Eco tourism",
+        "Remote landscapes"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
