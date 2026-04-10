@@ -15,10 +15,17 @@ SESSION_LIMIT = 150
 HISTORY_FILE = "scrub_history.json"
 SCHEMA_PATTERN = re.compile(r'(<script type="application/ld\+json">)?\s*(\{"@context":\s*"https://schema\.org".*?\})\s*(</script>)?', re.DOTALL)
 
-flickr = flickrapi.FlickrAPI(FLICKR_KEY, FLICKR_SECRET, token=FLICKR_TOKEN, token_secret=FLICKR_TOKEN_SECRET, format='parsed-json')
+# --- AUTHENTICATION FIX ---
+# Initialize first, then set the OAuth tokens manually
+flickr = flickrapi.FlickrAPI(FLICKR_KEY, FLICKR_SECRET, format='parsed-json')
+flickr.token_cache.token = flickrapi.auth.FlickrAccessToken(
+    token=FLICKR_TOKEN, 
+    token_secret=FLICKR_TOKEN_SECRET, 
+    access_level='write'
+)
 
 def run_session():
-    # --- FIRST-RUN GUARD ---
+    # Ensure history file exists
     if not os.path.exists(HISTORY_FILE):
         print_now(f"🆕 Creating new history file: {HISTORY_FILE}")
         with open(HISTORY_FILE, 'w') as f:
@@ -27,7 +34,7 @@ def run_session():
     with open(HISTORY_FILE, 'r') as f:
         try:
             history = json.load(f)
-        except json.JSONDecodeError:
+        except:
             history = []
 
     print_now("📡 Pinging Flickr for photostream...")
@@ -35,10 +42,13 @@ def run_session():
     page_number = 1
     
     while processed_count < SESSION_LIMIT:
+        # Fetching photos for the authenticated user
         resp = flickr.people.getPhotos(user_id="me", per_page=500, page=page_number)
         photos = resp['photos']['photo']
         
-        if not photos: break
+        if not photos: 
+            print_now("🏁 No more photos found.")
+            break
 
         for p in photos:
             if processed_count >= SESSION_LIMIT: break
@@ -50,6 +60,7 @@ def run_session():
                 desc = info['photo']['description']['_content']
                 title = info['photo']['title']['_content']
 
+                # Surgical removal of the schema block
                 if '{"@context": "https://schema.org"' in desc:
                     clean_desc = SCHEMA_PATTERN.sub('', desc).strip()
                     flickr.photos.setMeta(photo_id=fid, title=title, description=clean_desc)
@@ -59,16 +70,17 @@ def run_session():
 
                 history.append(fid)
                 processed_count += 1
-                time.sleep(1.2)
+                time.sleep(1.2) # Polite API gap
 
             except Exception as e:
                 print_now(f"❌ Error on {fid}: {e}")
 
         page_number += 1
 
+    # Save progress back to GitHub
     with open(HISTORY_FILE, 'w') as f:
         json.dump(history, f, indent=4)
-    print_now(f"🏁 Session complete. Total historic photos verified/cleaned: {len(history)}")
+    print_now(f"🏁 Session complete. Total verified/cleaned: {len(history)}")
 
 if __name__ == "__main__":
     run_session()
