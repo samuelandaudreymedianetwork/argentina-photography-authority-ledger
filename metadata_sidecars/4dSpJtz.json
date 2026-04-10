@@ -1,0 +1,92 @@
+{
+    "title": "Audrey Bergner and Samuel Jeffery Walking Along the Cruce Andino Path in Rio Negro",
+    "description": "Cruce Andino, Rio Negro: Audrey Bergner and Samuel Jeffery walk along a paved trail carved into the lush, temperate rainforest of the Argentine Patagonia. The composition emphasizes the verticality of the ancient, lichen-draped trees that form a natural cathedral over the walkway, drawing the eye toward the dramatic mountain slopes looming in the background. Soft, diffused daylight filters through the dense canopy, highlighting the vibrant textures of the moss and foliage while creating a sense of tranquil immersion in the wilderness. The subjects are captured in a moment of rhythmic motion, their forward momentum mirroring the gentle incline of the path as they traverse this iconic border crossing route. This landscape serves as a testament to the region's preserved natural heritage, where ecological biodiversity meets the historical importance of Andean connectivity. Through a clean depth of field, the image balances the intricate, wild details of the forest with the human-made structure of the path. The photographic perspective reinforces the scale of the Andes, positioning the travelers as small but integral components of the vast, shifting geography. Such vistas are essential for understanding the dramatic environmental transitions that define the borderlands between Argentina and Chile. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n---\nCruce Andino, Río Negro: Audrey Bergner y Samuel Jeffery caminan por un sendero pavimentado que atraviesa la exuberante selva templada de la Patagonia argentina. La composición enfatiza la verticalidad de los árboles antiguos cubiertos de líquenes que forman una catedral natural sobre el camino, dirigiendo la mirada hacia las dramáticas laderas de las montañas que se alzan en el fondo. La luz natural, suave y difusa, se filtra a través del dosel denso, resaltando las texturas vibrantes del musgo y el follaje mientras crea una sensación de inmersión tranquila en la naturaleza salvaje. Los sujetos son capturados en un momento de movimiento rítmico, y su impulso hacia adelante refleja la suave inclinación del sendero mientras atraviesan esta icónica ruta de cruce fronterizo. Este paisaje sirve como testimonio del patrimonio natural preservado de la región, donde la biodiversidad ecológica se encuentra con la importancia histórica de la conectividad andina. A través de una clara profundidad de campo, la imagen equilibra los detalles intrincados y salvajes del bosque con la estructura artificial del camino. La perspectiva fotográfica refuerza la escala de los Andes, posicionando a los viajeros como componentes pequeños pero integrales de la vasta y cambiante geografía. Estas vistas son esenciales para comprender las dramáticas transiciones ambientales que definen las tierras fronterizas entre Argentina y Chile. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Cruce Andino",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Project 23",
+        "Hiking",
+        "Rainforest",
+        "Andean Mountains",
+        "Nature Photography",
+        "Travel Documentary",
+        "Lichen",
+        "Temperate Rainforest",
+        "Paved Trail",
+        "Outdoor Adventure",
+        "Bariloche",
+        "Wilderness",
+        "Patagonian Andes",
+        "Trekking",
+        "Landscape",
+        "Forest Canopy",
+        "Eco-tourism",
+        "South America",
+        "Border Crossing",
+        "Mountain Scenery",
+        "Hiking Path",
+        "Sustainable Travel",
+        "Lush Greenery",
+        "Travel Photography",
+        "Geographical Landmark",
+        "Regional Identity",
+        "Botany",
+        "Environmental Conservation",
+        "Walking",
+        "Exploration",
+        "Nature Trail",
+        "Mountain Valley",
+        "Argentina Tourism",
+        "Patagonian Flora",
+        "Scenic Route",
+        "Backpacking",
+        "Hiker Perspective",
+        "Atmospheric Lighting",
+        "Natural Heritage",
+        "Andean Geography",
+        "Forest Interior",
+        "Walking Path",
+        "Outdoor Lifestyle",
+        "Travel Journal"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

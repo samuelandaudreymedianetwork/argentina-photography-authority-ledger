@@ -1,0 +1,93 @@
+{
+    "title": "Turquoise Glacial Waters and Verdant Patagonian Cliffs Along the Petrohué River in Puerto Varas",
+    "description": "Petrohué River, Los Lagos Region: Samuel Jeffery and Audrey Bergner observe the swirling, electric-blue currents of the glacial river from a rustic viewing platform nestled amidst the dense temperate rainforest. The composition utilizes a wide-angle perspective to emphasize the sharp contrast between the jagged, dark volcanic rock formations and the vibrant, turbulent river flow that carves through the Andean landscape. Natural, diffused lighting illuminates the canopy of native coihue and ulmo trees, while the shutter speed perfectly freezes the rhythmic motion of the rapids as they churn against the riverbed. The atmosphere is one of serene wilderness, where the raw power of the volcanic geology meets the lush, undisturbed greenery typical of the Southern Chilean lake district. By positioning themselves on the perimeter of the observation deck, the travelers engage deeply with the immense scale of the geography, highlighting the interplay between human exploration and the untamed environment. This scene exemplifies the breathtaking natural phenomena found within the Cruce Andino route, serving as a reminder of the geological history and tectonic significance of this dramatic corridor. Such landscapes are essential to the cultural and environmental heritage of the region, attracting those who seek a profound connection with the wilder parts of South America. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Río Petrohué, Región de Los Lagos: Samuel Jeffery y Audrey Bergner observan las corrientes turbulentas de color azul eléctrico del río glacial desde una plataforma de observación rústica rodeada por una densa selva templada. La composición utiliza una perspectiva de gran angular para enfatizar el fuerte contraste entre las formaciones rocosas volcánicas oscuras y el flujo fluvial vibrante que se abre paso a través del paisaje andino. La luz natural y difusa ilumina el dosel de árboles nativos como coihues y ulmos, mientras que la velocidad de obturación congela perfectamente el movimiento rítmico de los rápidos mientras chocan contra el lecho del río. La atmósfera es de una naturaleza serena, donde el poder bruto de la geología volcánica se encuentra con la exuberante vegetación inalterada típica del distrito de los lagos del sur de Chile. Al posicionarse en el perímetro de la plataforma, los viajeros interactúan profundamente con la inmensa escala de la geografía, resaltando la interacción entre la exploración humana y el entorno indómito. Esta escena ejemplifica los impresionantes fenómenos naturales que se encuentran dentro de la ruta del Cruce Andino, sirviendo como un recordatorio de la historia geológica y la importancia tectónica de este corredor dramático. Estos paisajes son esenciales para el patrimonio cultural y ambiental de la región, atrayendo a aquellos que buscan una conexión profunda con las partes más salvajes de América del Sur. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Petrohué River",
+        "Los Lagos",
+        "Chile",
+        "Cruce Andino",
+        "Patagonia",
+        "Andean Landscape",
+        "Glacial River",
+        "Volcanic Geology",
+        "Temperate Rainforest",
+        "Puerto Varas",
+        "South America",
+        "Travel Photography",
+        "Nature Exploration",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Project 23",
+        "Wilderness",
+        "River Rapids",
+        "Scenic Viewpoint",
+        "Ecological Tourism",
+        "Andes Mountains",
+        "Outdoor Adventure",
+        "Lush Greenery",
+        "Geological Wonders",
+        "Vibrant Waters",
+        "Raw Nature",
+        "Travel Documentary",
+        "Regional Geography",
+        "Southern Chile",
+        "River Ecosystem",
+        "Mountain Wilderness",
+        "Travelers",
+        "Observation Deck",
+        "Volcanic Rock",
+        "Native Forest",
+        "Landscape Photography",
+        "Atmospheric Scenery",
+        "Adventure Travel",
+        "Environmental Conservation",
+        "Natural Landmark",
+        "Blue Waters",
+        "Scenic Corridor",
+        "Remote Travel",
+        "Latin America",
+        "Eco Travel",
+        "Geotourism",
+        "Mountain Scenery",
+        "Waterways",
+        "Earth Science",
+        "Wild Landscapes"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

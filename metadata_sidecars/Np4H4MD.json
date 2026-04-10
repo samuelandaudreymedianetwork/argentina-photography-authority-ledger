@@ -1,0 +1,92 @@
+{
+    "title": "Snow-Capped Andes Mountains Across the Border of Chile and the Province of Mendoza",
+    "description": "The Andes Mountains, Mendoza: An aerial perspective captures the dramatic transition between high-altitude snowfields and the rugged, arid terrain of the Argentine borderlands. Sunlight glints off the sharp, icy ridges, while dense clusters of clouds hover in the vast valleys, creating a sense of immense scale and isolation. Below the cloud deck, the landscape shifts from white-dusted peaks to deep ochre and brown mineral deposits, illustrating the harsh geological intensity of the range. A singular, vivid turquoise glacial lake nestles in the foothills, providing a striking contrast to the muted, earthy tones of the surrounding rock. The crisp clarity of the atmosphere emphasizes the profound elevation, as the mountain range stretches toward the horizon in a seamless, jagged rhythm. This vantage point highlights the sheer magnitude of the natural barrier that has shaped the history and migratory patterns of the region for centuries. The composition uses the wing of the aircraft as a framing device, pulling the viewer into the expansive, silent beauty of the high-altitude wilderness. By documenting these formidable peaks, the lens captures the geographic reality that defines the dramatic topography of Western Argentina. Such images serve as a vital record of the vast, untamed environments that remain central to the identity and natural heritage of the Andean provinces. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Andes",
+        "Mendoza",
+        "Argentina",
+        "Aerial",
+        "Mountains",
+        "Snow",
+        "Glacier",
+        "Landscape",
+        "Geography",
+        "Travel",
+        "Wilderness",
+        "HighAltitude",
+        "Border",
+        "Chile",
+        "Cordillera",
+        "Topography",
+        "Nature",
+        "Geology",
+        "Peaks",
+        "Vista",
+        "Flying",
+        "Aviation",
+        "Outdoors",
+        "Environment",
+        "Scenic",
+        "SouthAmerica",
+        "Remote",
+        "Rugged",
+        "Earthy",
+        "Textures",
+        "Horizon",
+        "Adventure",
+        "Exploration",
+        "Andean",
+        "Summit",
+        "Valley",
+        "Climate",
+        "Photography",
+        "Project23",
+        "Backpacking",
+        "Nomadic",
+        "Voyage",
+        "Altitude",
+        "Cloudscape",
+        "Mineral",
+        "Patagonia",
+        "Frontier",
+        "MendozaProvince",
+        "Transit",
+        "Documentation"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
