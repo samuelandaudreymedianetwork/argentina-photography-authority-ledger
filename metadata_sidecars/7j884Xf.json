@@ -1,0 +1,93 @@
+{
+    "title": "Audrey Bergner Enjoys a Classic Submarino Hot Chocolate at Cafe Tortoni Buenos Aires Argentina",
+    "description": "Buenos Aires, Buenos Aires: Audrey Bergner sits within the historic, wood-paneled walls of the city’s most iconic café, framed by the warm glow of vintage lighting. A glass of submarino—Argentina’s beloved hot milk served with a bar of rich dark chocolate—takes center stage in the foreground, its swirling remnants of melted cocoa creating a textural contrast against the creamy backdrop. The shallow depth of field gently softens the ornate architectural details behind, emphasizing a moment of quiet reflection amidst the bustle of a timeless urban institution. Polished timber surfaces and intricate velvet upholstery reflect the deep, cultural heritage of the cafe society that has defined this metropolis for over a century. The atmosphere feels steeped in nostalgia, capturing the elegance of a traditional merienda ritual that remains a cornerstone of the Porteño lifestyle. By prioritizing this intimate connection with local culinary customs, the photograph invites viewers to experience the enduring charm of the Argentine capital. Exploring such historical landmarks provides essential context for understanding the social fabric and enduring European influences of South American city life. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Buenos Aires, Buenos Aires: Audrey Bergner se sienta dentro de las históricas paredes revestidas de madera del café más icónico de la ciudad, enmarcada por el cálido resplandor de la iluminación vintage. Un vaso de submarino —la querida leche caliente argentina servida con una barra de chocolate amargo— ocupa un lugar central en primer plano, y los restos de cacao derretido crean un contraste textural contra el fondo cremoso. La profundidad de campo poco profunda suaviza suavemente los detalles arquitectónicos ornamentados detrás, enfatizando un momento de tranquila reflexión en medio del ajetreo de una institución urbana atemporal. Las superficies de madera pulida y la intrincada tapicería de terciopelo reflejan la profunda herencia cultural de la sociedad de cafés que ha definido esta metrópoli durante más de un siglo. La atmósfera se siente impregnada de nostalgia, capturando la elegancia de un ritual tradicional de merienda que sigue siendo una piedra angular del estilo de vida porteño. Al priorizar esta conexión íntima con las costumbres culinarias locales, la fotografía invita a los espectadores a experimentar el encanto perdurable de la capital argentina. Explorar hitos históricos tan emblemáticos proporciona un contexto esencial para comprender el tejido social y las duraderas influencias europeas de la vida urbana en Sudamérica. Este imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Cafe Tortoni",
+        "Submarino",
+        "Hot Chocolate",
+        "Audrey Bergner",
+        "Travel Photography",
+        "Argentine Culture",
+        "Porteño",
+        "Historic Cafe",
+        "South America",
+        "Gastronomy",
+        "Traditional Drink",
+        "Interior Design",
+        "Wood Paneling",
+        "Coffee Culture",
+        "City Life",
+        "Travel Documentary",
+        "Project 23",
+        "Urban Exploration",
+        "Samuel Jeffery",
+        "Latin America",
+        "Cafe Society",
+        "Merienda",
+        "Vintage Decor",
+        "Travel Photography Gear",
+        "Food Culture",
+        "Cultural Heritage",
+        "Atmospheric Lighting",
+        "Portrait Photography",
+        "Argentina Travel",
+        "Buenos Aires City",
+        "Iconic Landmarks",
+        "Authentic Experiences",
+        "Food Photography",
+        "City Breaks",
+        "Travel Journal",
+        "European Influence",
+        "Historical Architecture",
+        "Culinary Traditions",
+        "Urban Landscape",
+        "Warm Lighting",
+        "Detail Shot",
+        "Cafe Culture",
+        "Travel Inspiration",
+        "South American Travel",
+        "Explore Argentina",
+        "Social Fabric",
+        "Timeless Elegance",
+        "Backpacker"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "title": "Oil Painting of a Classical Musical Trio in a Buenos Aires Apartment Setting",
+    "description": "Buenos Aires, Capital Federal: An oil painting depicting a classical musical trio rests upon an intricate, red patterned textile, capturing the artistic heritage found within a local residence. The artwork features three figures in formal attire—a trombonist, a violinist, and a double bassist—rendered in a rich, impressionistic style that emphasizes deep shadows and warm, earthy tones. The light reflects softly off the framed surface, highlighting the deliberate brushstrokes and the vintage elegance of the depicted musicians. Set against a backdrop of complex paisley-style upholstery, the image bridges the gap between historical artistic expression and the domestic intimacy of an Argentine home. The composition draws the viewer into a space where music and tradition are woven into the very fabric of daily life. This piece serves as a quiet testament to the enduring influence of European classical influences within the bustling cultural landscape of the city. Such artifacts are quintessential to understanding the aesthetic identity and personal history of private dwellings throughout the urban core. The juxtaposition of the structured, framed art against the fluid, organic patterns of the fabric creates a visual dialogue between different forms of artistic craft. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nBuenos Aires, Capital Federal: Una pintura al óleo que representa un trío de música clásica descansa sobre un intrincado textil estampado en rojo, capturando la herencia artística que se encuentra dentro de una residencia local. La obra presenta a tres figuras con vestimenta formal (un trombonista, un violinista y un contrabajista) representadas en un estilo impresionista rico que enfatiza las sombras profundas y los tonos cálidos y terrosos. La luz se refleja suavemente sobre la superficie enmarcada, destacando las pinceladas deliberadas y la elegancia vintage de los músicos representados. Situada sobre un fondo de tapicería con complejos patrones de cachemira, la imagen cierra la brecha entre la expresión artística histórica y la intimidad doméstica de un hogar argentino. La composición atrae al espectador hacia un espacio donde la música y la tradición están tejidas en el tejido mismo de la vida cotidiana. Esta pieza sirve como un testimonio silencioso de la influencia duradera de las corrientes clásicas europeas dentro del bullicioso panorama cultural de la ciudad. Dichos artefactos son fundamentales para comprender la identidad estética y la historia personal de las viviendas privadas en todo el núcleo urbano. La yuxtaposición del arte estructurado y enmarcado contra los patrones fluidos y orgánicos de la tela crea un diálogo visual entre diferentes formas de artesanía artística. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Oil Painting",
+        "Classical Music",
+        "Fine Art",
+        "Interior Decor",
+        "Argentine Culture",
+        "Textile Design",
+        "Paisley Pattern",
+        "Musicians",
+        "Trombone",
+        "Violin",
+        "Double Bass",
+        "Residential Art",
+        "South American Art",
+        "Cultural Heritage",
+        "Home Decor",
+        "Framed Art",
+        "Vintage Aesthetic",
+        "Project 23",
+        "Travel Photography",
+        "Capital Federal",
+        "Artistic Expression",
+        "Domestic Life",
+        "Visual Arts",
+        "Orchestral Trio",
+        "Portrait Painting",
+        "Impressionism",
+        "Classical Musicians",
+        "Argentine Home",
+        "Decorative Arts",
+        "Detailed Texture",
+        "South American Culture",
+        "Travel Documentary",
+        "Art Appreciation",
+        "Urban Living",
+        "Artistic Detail",
+        "Classic Style",
+        "Upholstery",
+        "Patterned Fabric",
+        "Historical Influence",
+        "City Life",
+        "Artistic Interior",
+        "Studio Art",
+        "Latin American Heritage",
+        "Cultural Identity",
+        "Sophisticated Decor",
+        "Fine Art Photography",
+        "Argentine Traditions",
+        "Visual Ledger"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
