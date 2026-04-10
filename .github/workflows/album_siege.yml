@@ -1,9 +1,9 @@
 name: 🚀 Manual SmugMug Album Siege
 on:
-  workflow_dispatch: # This creates the manual button
+  workflow_dispatch:
 
 permissions:
-  contents: write # Needed to update album_history.json
+  contents: write
 
 jobs:
   run-ledger:
@@ -23,10 +23,10 @@ jobs:
           SMUGMUG_ACCESS_TOKEN_SECRET: ${{ secrets.SMUGMUG_ACCESS_TOKEN_SECRET }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python smugmug_album_ledger.py
-      - name: Commit Progress
+      - name: Commit Master Ledger
         run: |
           git config user.name "AlbumBot"
           git config user.email "bot@nomadicsamuel.com"
-          git add album_history.json
-          git commit -m "Album Ledger: Updated priority galleries" || exit 0
+          git add album_history.json ALBUM_METADATA_MASTER.json
+          git commit -m "Album Ledger: Updated Master Metadata File" || exit 0
           git push
