@@ -1,0 +1,25 @@
+name: 150-Photo Flickr Cleanup Drip
+on:
+  schedule:
+    - cron: '0 */2 * * *' # Runs 12 times a day
+  workflow_dispatch:      # Manual trigger button
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - name: Install Dependencies
+        run: pip install flickrapi
+      - name: Run Cleanup
+        run: python flickr_clean.py
+      - name: Commit Progress
+        run: |
+          git config user.name "CleanupBot"
+          git config user.email "bot@nomadicsamuel.com"
+          git add scrub_history.json
+          git commit -m "Flickr Cleanup: 150 more images processed" || exit 0
+          git push
