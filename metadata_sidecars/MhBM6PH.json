@@ -1,0 +1,93 @@
+{
+    "title": "Towering Granite Cliffs and Remote Lakeside Pier near Bariloche Rio Negro Scenic Andean Crossing",
+    "description": "Puerto Blest, Río Negro: A solitary wooden pier extends into the tranquil, deep-blue waters of Nahuel Huapi Lake, framed by the sheer, imposing verticality of granite cliffs that define the Andean landscape. Overcast skies diffuse the light, softening the craggy textures of the stone monolith while emphasizing the dense, verdant carpet of temperate rainforest hugging the shoreline. The composition utilizes a wide-angle perspective to capture the immense scale of the geography, contrasting the delicate human-built structure of the dock against the ancient, formidable mountain face. Silence seems to emanate from the glacial basin, a testament to the isolation often found in the remote corners of the Patagonian interior. As the clouds cling to the upper crags, the scene reflects the moody, ethereal climate that frequently shapes the experience of travelers navigating the famous Lake Crossing. This route serves as a historical gateway connecting the rugged frontier of Argentina with the verdant fjords of neighboring Chile. Capturing the interplay between geologic time and transient human presence, the image serves as an essential visual record for those seeking to understand the untamed spirit of the southern Andes. By highlighting the raw beauty of the Nahuel Huapi National Park, the photograph invites viewers to contemplate the profound scale of nature within South America’s most dramatic borderlands. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Puerto Blest, Río Negro: Un muelle de madera se adentra en las tranquilas y profundas aguas azules del lago Nahuel Huapi, enmarcado por la imponente y escarpada verticalidad de los acantilados de granito que definen el paisaje andino. El cielo nublado difumina la luz, suavizando las texturas rugosas del monolito de piedra mientras enfatiza el denso y verde manto de la selva templada que bordea la costa. La composición utiliza una perspectiva de gran angular para capturar la inmensa escala de la geografía, contrastando la delicada estructura del muelle construida por el hombre con la antigua y formidable cara de la montaña. Un silencio profundo parece emanar de la cuenca glaciar, testimonio del aislamiento que a menudo se encuentra en los rincones más remotos del interior patagónico. Mientras las nubes se aferran a los riscos superiores, la escena refleja el clima temperamental y etéreo que con frecuencia moldea la experiencia de los viajeros que navegan el famoso Cruce Andino. Esta ruta sirve como una puerta histórica que conecta la frontera agreste de Argentina con los verdes fiordos del vecino Chile. Al capturar la interacción entre el tiempo geológico y la presencia humana transitoria, la imagen sirve como un registro visual esencial para quienes buscan comprender el espíritu indómito de los Andes del sur. Al resaltar la belleza pura del Parque Nacional Nahuel Huapi, la fotografía invita a los espectadores a contemplar la profunda escala de la naturaleza dentro de las tierras fronterizas más espectaculares de Sudamérica. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Puerto Blest",
+        "Rio Negro",
+        "Argentina",
+        "Nahuel Huapi Lake",
+        "Andes Mountains",
+        "Cruce Andino",
+        "Patagonia",
+        "Lake Crossing",
+        "Andean Landscape",
+        "Granite Cliffs",
+        "Temperate Rainforest",
+        "South America",
+        "Nahuel Huapi National Park",
+        "Travel Photography",
+        "Nature Landscape",
+        "Outdoor Adventure",
+        "Mountain Scenery",
+        "Glacial Lake",
+        "Patagonian Wilderness",
+        "Remote Travel",
+        "Scenic View",
+        "Vertical Cliffs",
+        "Wooden Pier",
+        "Travel Documentary",
+        "Geography",
+        "Andean Region",
+        "Argentina Tourism",
+        "Wilderness",
+        "Topography",
+        "Lakeside",
+        "Atmospheric",
+        "Overcast Day",
+        "Geology",
+        "Backcountry",
+        "Travel Exploration",
+        "Andean Foothills",
+        "Photography",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Bariloche",
+        "San Carlos de Bariloche",
+        "Nature Photography",
+        "Landscape Photography",
+        "Alpine Environment",
+        "Patagonian Andes",
+        "Travel Argentina",
+        "Eco Tourism",
+        "Mountain Vista",
+        "Waterfront"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "title": "Educational Signage at Sendero de la Bahia in Nahuel Huapi National Park Argentina",
+    "description": "Bahía Blest, Río Negro: A vibrant purple informational sign stands prominently amidst the lush, temperate rainforest of Nahuel Huapi National Park, serving as an essential navigational tool for travelers on the Cruce Andino journey. The sign, illustrated with a whimsical cartoon depiction of a huillín—a river otter native to the region—outlines the path, distance, and difficulty level of the coastal trail. Sunlight filters through the dense canopy, casting dappled light across the textured wooden post and the surrounding verdant undergrowth. The clean, professional typography provides hikers with critical safety information, emphasizing the commitment of the Argentine National Park system to environmental education and trail maintenance. Each detail of the map, from the blue hues representing the surrounding glacial waters to the clear markers for nearby destinations like Cascada Los Cántaros, invites exploration of this pristine Patagonian wilderness. The depth of field remains sharp across the sign's surface, ensuring that the pictograms conveying park regulations remain legible to all passersby. This image captures the intersection of rigorous conservation efforts and accessible adventure travel, reflecting the park's dual role as a protected ecological sanctuary and a world-class tourism destination. Understanding these specific local nuances of terrain and wildlife is vital for trekkers seeking to immerse themselves responsibly in the untamed beauty of Northern Patagonia. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nBahía Blest, Río Negro: Un vibrante letrero informativo de color púrpura destaca en medio de la exuberante selva templada del Parque Nacional Nahuel Huapi, sirviendo como una herramienta de navegación esencial para los viajeros en la ruta del Cruce Andino. El cartel, ilustrado con una caprichosa representación de dibujos animados de un huillín —una nutria de río nativa de la región—, detalla el sendero, la distancia y el nivel de dificultad del camino costero. La luz del sol se filtra a través del denso dosel, proyectando una luz moteada sobre el poste de madera texturizado y la vegetación circundante. La tipografía limpia y profesional proporciona a los excursionistas información de seguridad fundamental, enfatizando el compromiso del sistema de Parques Nacionales de Argentina con la educación ambiental y el mantenimiento de senderos. Cada detalle del mapa, desde los tonos azules que representan las aguas glaciares circundantes hasta los marcadores claros para destinos cercanos como la Cascada Los Cántaros, invita a la exploración de esta prístina naturaleza patagónica. La profundidad de campo se mantiene nítida en toda la superficie del cartel, asegurando que los pictogramas que transmiten las normas del parque sigan siendo legibles para todos los transeúntes. Esta imagen captura la intersección entre los rigurosos esfuerzos de conservación y los viajes de aventura accesibles, reflejando el doble papel del parque como santuario ecológico protegido y destino turístico de clase mundial. Comprender estos matices locales específicos del terreno y la vida silvestre es vital para los excursionistas que buscan sumergirse responsablemente en la belleza indómita del norte de la Patagonia. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Bahia Blest",
+        "Nahuel Huapi National Park",
+        "Patagonia",
+        "Argentina",
+        "Cruce Andino",
+        "Rio Negro",
+        "Hiking Trail",
+        "Huillin",
+        "Nature Conservancy",
+        "Patagonian Rainforest",
+        "National Park Signage",
+        "Ecotourism",
+        "Adventure Travel",
+        "South America",
+        "Travel Photography",
+        "Trekking",
+        "Outdoor Exploration",
+        "Glacial Waters",
+        "Argentine Landscapes",
+        "Environmental Education",
+        "Flora and Fauna",
+        "Wilderness",
+        "Bariloche",
+        "Puerto Blest",
+        "Cascada Los Cantaros",
+        "Hiking Safety",
+        "Visitor Information",
+        "Patagonia Travel",
+        "Forest Trail",
+        "Landscape Photography",
+        "Nature Reserve",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Travel Guide",
+        "South American Andes",
+        "Protected Area",
+        "Lush Vegetation",
+        "Trail Sign",
+        "Navigation Tools",
+        "Alpine Environment",
+        "Patagonia Wilderness",
+        "Backpacking",
+        "Andean Forest",
+        "Outdoor Education",
+        "Tourism Argentina",
+        "Conservation",
+        "Eco-conscious Travel",
+        "Regional Geography",
+        "Wilderness Trail"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

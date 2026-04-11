@@ -1,0 +1,92 @@
+{
+    "title": "Glacial Water Cascades Over Polished Volcanic Rock in the Lush Forests of Vicente Pérez",
+    "description": "Vicente Pérez Rosales National Park, Los Lagos: A series of cascading streams cut through ancient, basaltic rock formations, creating a mesmerizing display of fluid motion within the Chilean-Argentine borderlands. The long-exposure technique smooths the rushing water into ethereal ribbons of white, contrasting sharply against the dark, weathered stone smoothed by centuries of glacial runoff. Lush temperate rainforest foliage hangs over the upper bank, casting deep shadows that frame the rhythmic descent of the stream into the lower pools. The damp, moss-dusted rocks highlight the raw, volcanic geology that defines this dramatic landscape along the iconic Cruce Andino route. Mist clings to the lower sections of the falls, suggesting the cool, pristine moisture inherent to this high-latitude Andean environment. The composition emphasizes the interplay between the stillness of the solid rock and the kinetic energy of the mountain water, reflecting the untamed spirit of Patagonia. This scene captures the quiet, powerful solitude often found by travelers journeying between the lakes of Argentina and Chile. Documenting these hidden hydrological features is essential for understanding the geomorphological shifts and biodiversity of the Andean temperate rainforest ecosystems. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nParque Nacional Vicente Pérez Rosales, Los Lagos: Una serie de arroyos en cascada atraviesan antiguas formaciones rocosas basálticas, creando una fascinante exhibición de movimiento fluido dentro de las tierras fronterizas entre Chile y Argentina. La técnica de larga exposición suaviza el agua que corre en cintas etéreas de color blanco, contrastando notablemente con la oscura roca erosionada, pulida por siglos de deshielo glacial. El follaje del bosque templado húmedo cuelga sobre la orilla superior, proyectando sombras profundas que enmarcan el descenso rítmico del arroyo hacia las pozas inferiores. Las rocas húmedas y cubiertas de musgo resaltan la geología volcánica bruta que define este paisaje dramático a lo largo de la icónica ruta del Cruce Andino. La bruma se aferra a las secciones inferiores de las cataratas, lo que sugiere la humedad fresca y prístina inherente a este entorno andino de alta latitud. La composición enfatiza la interacción entre la quietud de la roca sólida y la energía cinética del agua de montaña, reflejando el espíritu indómito de la Patagonia. Esta escena captura la soledad tranquila y poderosa que suelen encontrar los viajeros que recorren el camino entre los lagos de Argentina y Chile. Documentar estas características hidrológicas ocultas es esencial para comprender los cambios geomorfológicos y la biodiversidad de los ecosistemas de selva templada andina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Vicente Pérez Rosales",
+        "Los Lagos",
+        "Cruce Andino",
+        "Patagonia",
+        "Argentina",
+        "Chile",
+        "Andes",
+        "Waterfall",
+        "Glacial water",
+        "Long exposure",
+        "Volcanic rock",
+        "Temperate rainforest",
+        "Nature photography",
+        "Water cascading",
+        "South America",
+        "Travel photography",
+        "Andean landscape",
+        "Geology",
+        "Hydrology",
+        "Mountain stream",
+        "Patagonian wilderness",
+        "Basalt formations",
+        "Outdoor adventure",
+        "Eco-tourism",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Scenic travel",
+        "National park",
+        "Water motion",
+        "Natural textures",
+        "Forest foliage",
+        "Andean geography",
+        "Travel inspiration",
+        "Remote landscapes",
+        "Nature lovers",
+        "Water photography",
+        "Geological wonders",
+        "Wild Patagonia",
+        "Environmental study",
+        "Hiking trails",
+        "Landscape aesthetics",
+        "Mountain travel",
+        "Argentine borderlands",
+        "Southern Cone",
+        "Pristine nature",
+        "Waterway",
+        "Rock formations",
+        "Eco-exploration",
+        "Adventure photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

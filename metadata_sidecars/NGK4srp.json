@@ -1,0 +1,92 @@
+{
+    "title": "Sunlit Dining Experience at the Puerto Frías Border Crossing in Rio Negro Argentina",
+    "description": "Puerto Frías, Río Negro: Samuel Jeffery pauses for a refreshing mid-day meal while traversing the scenic Andean lake route between Argentina and Chile. The interior of the lodge is defined by high vaulted timber ceilings and large glass panes that invite an abundance of natural light to wash over the rustic wooden furniture. A warm, inviting ambiance permeates the space, highlighting the tactile quality of the driftwood wall art and the structural elegance of the stone pillars. The shallow depth of field keeps the focus on the subject, emphasizing the intimate connection between the traveler and the local culinary offerings. A freshly poured glass of juice and a bowl of traditional soup serve as a centerpiece, representing the comfort found within the rugged wilderness of the Patagonian interior. As the crossing demands a balance of adventure and logistics, this moment of respite captures the essence of slow travel through remote mountain corridors. The composition expertly layers the textures of natural pine, polished cutlery, and stone masonry to reflect the regional architecture prevalent in this protected border zone. This scene underscores the importance of cultural immersion and the quiet, sustaining rituals that define long-distance overland journeys across the Andes. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Puerto Frias",
+        "Rio Negro",
+        "Argentina",
+        "Patagonia",
+        "Cruce Andino",
+        "Andean Crossing",
+        "Travel Photography",
+        "Samuel Jeffery",
+        "Project 23",
+        "Lake Crossing",
+        "Mountain Lodge",
+        "Patagonian Cuisine",
+        "Travel Documentary",
+        "Adventure Travel",
+        "Slow Travel",
+        "Lakes District",
+        "Andes Mountains",
+        "Timber Architecture",
+        "Rustic Dining",
+        "Regional Tourism",
+        "Border Crossing",
+        "Travel Portrait",
+        "Patagonia Argentina",
+        "Nature Tourism",
+        "Cultural Immersion",
+        "Mountain Scenery",
+        "Travel Journal",
+        "Nomadic Life",
+        "Outdoor Lifestyle",
+        "Argentine Culture",
+        "Interior Design",
+        "Woodland Aesthetics",
+        "Authentic Experiences",
+        "Journey Documentation",
+        "Landscape Photography",
+        "Travel Logistics",
+        "Remote Travel",
+        "Sustainable Tourism",
+        "Mountain Atmosphere",
+        "Culinary Travel",
+        "Travel Inspiration",
+        "Explorer Life",
+        "Regional Geography",
+        "South America",
+        "Patagonian Landscapes",
+        "Tourism Industry",
+        "Travelogue",
+        "Visual Storytelling",
+        "Heritage Architecture",
+        "Andean Foothills"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

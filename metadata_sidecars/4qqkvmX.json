@@ -1,0 +1,93 @@
+{
+    "title": "Glacial Lake Waters and Granite Cliffs near the Border Crossing of Bariloche Rio Negro",
+    "description": "Bariloche, Rio Negro: Towering granite monoliths rise dramatically from the lush, temperate rainforest that fringes the deep, cool waters of the Andean lake. The photograph captures the raw, glaciated textures of the mountain faces as they reflect under an expansive, overcast sky, emphasizing the geological isolation typical of the Patagonian borderlands. A thin, grassy shoreline in the foreground adds a sense of immediacy to the scene, drawing the viewer's eye across the rhythmic, wind-rippled surface of the water toward the dense evergreen treeline. The composition utilizes a wide-angle perspective to communicate the immense scale of these glacial valleys, where the stillness of the landscape feels both ancient and profoundly undisturbed. Shadows trace the indentations of the cliff sides, while the soft, diffused natural lighting balances the stark contrast between the pale, exposed rock and the dark, verdant foliage. This region serves as a vital transition zone, showcasing the dramatic environmental shifts that define the rugged frontier between Argentina and Chile. Documenting such landscapes is essential for understanding the unique intersection of geography, adventure tourism, and conservation within the pristine wilderness of the South American Andes. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Bariloche, Río Negro: Imponentes monolitos de granito se elevan dramáticamente desde la exuberante selva templada que bordea las aguas profundas y frescas del lago andino. La fotografía captura las texturas glaciares crudas de las paredes montañosas mientras se reflejan bajo un cielo expansivo y nublado, enfatizando el aislamiento geológico típico de las tierras fronterizas de la Patagonia. Una delgada línea de costa cubierta de hierba en primer plano añade una sensación de inmediatez a la escena, atrayendo la mirada del espectador a través de la superficie rítmica y ondulada por el viento hacia la densa línea de árboles de hoja perenne. La composición utiliza una perspectiva de gran angular para comunicar la inmensa escala de estos valles glaciares, donde la quietud del paisaje se siente antigua y profundamente inalterada. Las sombras trazan las hendiduras de los lados del acantilado, mientras que la iluminación natural suave y difusa equilibra el fuerte contraste entre la roca pálida expuesta y el follaje oscuro y verde. Esta región sirve como una zona de transición vital, mostrando los dramáticos cambios ambientales que definen la frontera escarpada entre Argentina y Chile. Documentar tales paisajes es esencial para comprender la intersección única entre la geografía, el turismo de aventura y la conservación dentro de la naturaleza prístina de los Andes sudamericanos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Bariloche",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Andes",
+        "Cruce Andino",
+        "Lake Crossing",
+        "Glacial Lake",
+        "Granite Mountains",
+        "Temperate Rainforest",
+        "Patagonian Landscape",
+        "South America",
+        "Wilderness",
+        "Nature Photography",
+        "Andean Peaks",
+        "Travel Photography",
+        "Project 23",
+        "Outdoor Adventure",
+        "Geography",
+        "Mountain Scenery",
+        "Geology",
+        "Travel Documentary",
+        "Remote Wilderness",
+        "Eco-Tourism",
+        "Scenic View",
+        "Landscape Photography",
+        "Water Reflection",
+        "Cloudy Sky",
+        "Mountain Valley",
+        "Nature Preservation",
+        "Patagonia Argentina",
+        "Hiking Destinations",
+        "Lake District",
+        "Remote Exploration",
+        "Natural Landmark",
+        "Untouched Nature",
+        "Mountain Geography",
+        "Adventure Travel",
+        "Rocky Outcrops",
+        "Andean Forest",
+        "Environmental Beauty",
+        "Travel Inspiration",
+        "Rugged Terrain",
+        "Still Waters",
+        "Mountain Pass",
+        "South American Travel",
+        "Regional Identity",
+        "Wild Landscapes",
+        "Outdoor Lifestyle",
+        "Geographic Documentation"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
