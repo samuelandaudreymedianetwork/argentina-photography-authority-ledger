@@ -1,0 +1,93 @@
+{
+    "title": "Isolated Rural Homesteads Amidst Rolling Patagonian Hills Near the Border of Tierra del Fuego",
+    "description": "Cerro Sombrero, Tierra del Fuego: A series of modest white buildings with vibrant green roofs sits tucked into the base of sweeping, grassy slopes under a vast, cloud-dappled Patagonian sky. The photograph captures the stark contrast between the bright, man-made architecture and the undulating topography of the landscape, where wild yellow flora carpets the base of the hills. A gravel forecourt leads the eye toward the structures, grounding the scene in the remote, functional reality of border-crossing transit routes. Crisp, high-contrast lighting highlights the textures of the sprawling meadow and the crisp edges of the mountain ridges that dominate the horizon. The composition utilizes a wide-angle perspective to emphasize the isolation and grand scale of the Southern Cone's wilderness. Subtle human traces, such as a parked vehicle and a wooden gate, underscore the quiet, persistent presence of habitation in this otherwise untamed region. As travelers navigate the long, winding path between Chile and Argentina, these lonely outposts serve as vital waypoints that frame the stark, windswept character of the frontier. The intersection of architectural simplicity and expansive geological formations defines the visual narrative of traversing the remote southern territories. Understanding these transitions is essential for appreciating the isolation and endurance required to explore the world’s southernmost reaches. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Cerro Sombrero, Tierra del Fuego: Una serie de modestos edificios blancos con techos verdes vibrantes se asienta al pie de onduladas laderas cubiertas de hierba bajo un vasto cielo patagónico moteado de nubes. La fotografía captura el marcado contraste entre la arquitectura artificial brillante y la topografía ondulante del paisaje, donde la flora amarilla silvestre alfombra la base de las colinas. Una explanada de grava guía la vista hacia las estructuras, anclando la escena en la realidad funcional y remota de las rutas de tránsito fronterizo. La iluminación nítida de alto contraste resalta las texturas de la extensa pradera y los bordes definidos de las crestas montañosas que dominan el horizonte. La composición utiliza una perspectiva de gran angular para enfatizar el aislamiento y la gran escala de la naturaleza salvaje del Cono Sur. Los sutiles rastros humanos, como un vehículo estacionado y una puerta de madera, subrayan la presencia tranquila y persistente de la habitación en esta región por lo demás indómita. Mientras los viajeros navegan por el largo y sinuoso camino entre Chile y Argentina, estos puestos solitarios sirven como puntos de paso vitales que enmarcan el carácter austero y azotado por el viento de la frontera. La intersección de la simplicidad arquitectónica y las expansivas formaciones geológicas define la narrativa visual de recorrer los remotos territorios del sur. Comprender estas transiciones es esencial para apreciar el aislamiento y la resistencia necesarios para explorar los confines más australes del mundo. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Cerro Sombrero",
+        "Tierra del Fuego",
+        "Patagonia",
+        "Chile",
+        "Argentina",
+        "Border Crossing",
+        "Travel Photography",
+        "Rural Architecture",
+        "Patagonian Landscape",
+        "Bus Travel",
+        "Ferry Transit",
+        "Southern Cone",
+        "Mountain Scenery",
+        "Wilderness",
+        "Remote Travel",
+        "Project 23",
+        "Samuel and Audrey",
+        "Nomadic Travel",
+        "South America",
+        "Andes Mountains",
+        "Grasslands",
+        "Blue Sky",
+        "Cloud Formations",
+        "Frontier Life",
+        "Road Trip",
+        "Transit Hub",
+        "Rural Homestead",
+        "Gravel Lot",
+        "Landscape Photography",
+        "Outdoor Adventure",
+        "Travel Documentary",
+        "Strait of Magellan",
+        "Punta Arenas",
+        "Ushuaia",
+        "Geographic Isolation",
+        "Nature Exploration",
+        "Backpacking South America",
+        "Mountain Vista",
+        "Argentine Frontier",
+        "Chilean Border",
+        "Scenic Route",
+        "Windswept Plains",
+        "Rural Setting",
+        "Sustainable Travel",
+        "Adventure Documentation",
+        "Travel Blog",
+        "Continental Divide",
+        "Expedition",
+        "Topography",
+        "Vista"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

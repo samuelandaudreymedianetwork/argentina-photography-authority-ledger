@@ -1,0 +1,92 @@
+{
+    "title": "Passengers Awaiting Ferry Departure at the Remote Strait of Magellan Crossing in Southern Chile",
+    "description": "Bahía Azul, Magallanes: A group of travelers stands on the deck of a ferry, looking toward the concrete ramp as a transport truck prepares to disembark. The bright, crisp light of the southern hemisphere illuminates the deep blue waters of the Strait of Magellan, casting clear shadows against the rugged, windswept coastline in the distance. Samuel Jeffery, positioned prominently in the foreground with a backpack, observes the maritime transition while others nearby capture the moment on their mobile devices. The scene is defined by a sense of anticipation and the raw, utilitarian beauty of regional transit infrastructure connecting the remote reaches of Patagonia. The composition utilizes a deep depth of field to draw the viewer’s eye from the immediate crowd toward the industrial vehicles waiting on the shore. This border-crossing point serves as a vital artery for logistics and tourism, bridging the gap between isolated settlements and the vast wilderness beyond. Each traveler remains immersed in the collective experience of crossing, reflecting the transient nature of life on the road in one of the world's southernmost regions. The stark contrast between the modern maritime vessel and the barren, rocky terrain underscores the logistical challenges inherent in sub-Antarctic exploration. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nBahía Azul, Magallanes: Un grupo de viajeros permanece en la cubierta de un ferry, observando la rampa de concreto mientras un camión de transporte se prepara para desembarcar. La luz brillante y nítida del hemisferio sur ilumina las profundas aguas azules del Estrecho de Magallanes, proyectando sombras claras sobre la costa escarpada y ventosa en la distancia. Samuel Jeffery, posicionado prominentemente en primer plano con una mochila, observa la transición marítima mientras otros a su lado capturan el momento con sus dispositivos móviles. La escena está definida por una sensación de anticipación y la belleza utilitaria de la infraestructura de tránsito regional que conecta los confines de la Patagonia. La composición utiliza una gran profundidad de campo para guiar la mirada del espectador desde la multitud inmediata hacia los vehículos industriales que esperan en la costa. Este punto de cruce fronterizo sirve como una arteria vital para la logística y el turismo, cerrando la brecha entre asentamientos aislados y la vasta naturaleza salvaje. Cada viajero permanece inmerso en la experiencia colectiva del cruce, reflejando la naturaleza transitoria de la vida en la ruta en una de las regiones más australes del mundo. El marcado contraste entre la moderna embarcación marítima y el terreno árido y rocoso subraya los desafíos logísticos inherentes a la exploración subantártica. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Bahía Azul",
+        "Magallanes",
+        "Strait of Magellan",
+        "Patagonia",
+        "Chile",
+        "Ferry Crossing",
+        "Travel Photography",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Project 23",
+        "Border Crossing",
+        "Maritime Transport",
+        "Southern Hemisphere",
+        "Remote Travel",
+        "Adventure Travel",
+        "Patagonian Landscapes",
+        "Ferry Transit",
+        "Travel Logistics",
+        "Coastal Scenery",
+        "Transportation Infrastructure",
+        "Travel Documentary",
+        "Exploration",
+        "Road Trip",
+        "South America",
+        "Fjord Landscape",
+        "Travelers",
+        "Outdoors",
+        "Waterways",
+        "Chilean Patagonia",
+        "Regional Geography",
+        "Travel Experience",
+        "Maritime Culture",
+        "Port Infrastructure",
+        "Cargo Shipping",
+        "Tourism",
+        "Scenic Routes",
+        "Crossing the Strait",
+        "Patagonian Sky",
+        "Remote Locations",
+        "Transportation Network",
+        "Geographic Exploration",
+        "Travel Memories",
+        "Authentic Travel",
+        "Landscape Photography",
+        "Island Connection",
+        "Wilderness Travel",
+        "Blue Waters",
+        "Travel Gear",
+        "Journey",
+        "Transit Point"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
