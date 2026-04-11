@@ -1,0 +1,92 @@
+{
+    "title": "Bus Route Map and Distance Signage at a Transit Hub in Punta Arenas Chile",
+    "description": "Punta Arenas, Magallanes: A large, brightly lit map display illustrates the sprawling bus network connecting Chilean and Argentine Patagonia. The primary focus rests on the vibrant, color-coded signage that quantifies the vast distances between key southern hubs, ranging from local transits to international border crossings. Each panel features crisp, sans-serif typography set against bold blocks of color, reflecting the functional and organized nature of regional public transportation. The clean composition highlights the cartographic details of the Strait of Magellan and surrounding archipelagos, grounding the viewer in the geography of the southern tip of South America. Harsh, artificial lighting casts a soft sheen over the laminated surfaces, emphasizing the clarity of the information provided for adventurous travelers. Navigating these remote latitudes requires careful planning, and these placards serve as essential navigational beacons for those traversing the rugged landscapes of the Tierra del Fuego province. The vivid blue backdrop provides a striking contrast, echoing the icy, glacial aesthetics synonymous with this wild, windswept corner of the world. This informational installation bridges the gap between logistical necessity and the sheer scale of the Patagonian wilderness, reminding travelers of the long distances required to reach remote destinations like Ushuaia or El Calafate. Understanding these transit links is vital for anyone planning a ground-based expedition through these challenging, weather-beaten frontier territories. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nPunta Arenas, Magallanes: Un gran mapa brillantemente iluminado ilustra la extensa red de autobuses que conecta la Patagonia chilena y argentina. El enfoque principal recae en la señalización vibrante y codificada por colores que cuantifica las vastas distancias entre centros clave del sur, desde tránsitos locales hasta cruces fronterizos internacionales. Cada panel presenta una tipografía nítida sobre bloques de color llamativos, lo que refleja la naturaleza funcional y organizada del transporte público regional. La composición limpia destaca los detalles cartográficos del Estrecho de Magallanes y los archipiélagos circundantes, ubicando al espectador en la geografía del extremo sur de América del Sur. La iluminación artificial intensa proyecta un suave brillo sobre las superficies laminadas, enfatizando la claridad de la información proporcionada para los viajeros aventureros. Navegar por estas latitudes remotas requiere una planificación cuidadosa, y estos carteles sirven como balizas de navegación esenciales para quienes atraviesan los paisajes escarpados de la provincia de Tierra del Fuego. El fondo azul intenso proporciona un contraste sorprendente, evocando la estética gélida y glaciar sinónimo de este rincón salvaje y ventoso del mundo. Esta instalación informativa cierra la brecha entre la necesidad logística y la inmensidad de la naturaleza patagónica, recordando a los viajeros las largas distancias necesarias para llegar a destinos remotos como Ushuaia o El Calafate. Comprender estos enlaces de tránsito es vital para cualquiera que planee una expedición terrestre a través de estos desafiantes territorios fronterizos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Project 23.",
+    "tags": [
+        "Punta Arenas",
+        "Magallanes",
+        "Chile",
+        "Patagonia",
+        "Bus-Sur",
+        "Transportation",
+        "Travel",
+        "Map",
+        "Geography",
+        "Cartography",
+        "Distance",
+        "Signage",
+        "Tourism",
+        "South America",
+        "Tierra del Fuego",
+        "Argentina",
+        "El Calafate",
+        "Rio Gallegos",
+        "Rio Grande",
+        "Ushuaia",
+        "Torres del Paine",
+        "Border Crossing",
+        "Logistics",
+        "Expedition",
+        "Navigation",
+        "Road Trip",
+        "Backpacking",
+        "Remote",
+        "Frontier",
+        "Adventure",
+        "Strait of Magellan",
+        "Information",
+        "Transit",
+        "Regional Identity",
+        "Iconography",
+        "Color-coded",
+        "Typography",
+        "Glacial",
+        "Landscape",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Documentation",
+        "Travel Planning",
+        "Bus Route",
+        "South Pole",
+        "Antarctic Gateway",
+        "Chilean Patagonia",
+        "Argentine Patagonia",
+        "Wayfinding"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

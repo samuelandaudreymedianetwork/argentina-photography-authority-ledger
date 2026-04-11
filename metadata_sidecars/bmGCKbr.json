@@ -1,0 +1,93 @@
+{
+    "title": "A Multiflavor Argentine Pizza Served on an Orange Tablecloth in Rio Gallegos Santa Cruz",
+    "description": "Rio Gallegos, Santa Cruz: A vibrant, four-section pizza sits prominently on a white serving tray, capturing the quintessential culinary experience of a Southern Argentine traveler. The pizza showcases a diverse array of local toppings, including thin ribbons of ham, strips of red roasted peppers, fresh tomato slices, shredded onions, and briny green and black olives. The high-angle, overhead perspective highlights the rich textures of the melting cheese and the golden-brown crust, all set against a bold, bright orange tablecloth that creates a high-contrast visual. Soft, diffused lighting enhances the glistening oil on the toppings, suggesting a freshly prepared meal shared during a respite from a long bus journey across Patagonia. The composition is clean and focused, reflecting the simple joys of dining out while navigating the remote borderlands between Chile and Argentina. Every quadrant of the pizza represents the hearty, straightforward flavors favored in the region, providing a comforting caloric fuel for the road ahead. This culinary snapshot emphasizes the role of local gastronomy in bridging the gap between vast, rugged landscapes and the human need for connection through shared food. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Rio Gallegos",
+        "Santa Cruz",
+        "Argentina",
+        "Patagonia",
+        "Argentine Food",
+        "Pizza",
+        "Travel Dining",
+        "South America",
+        "Project 23",
+        "Travel Photography",
+        "Regional Cuisine",
+        "Food Culture",
+        "Authentic Argentina",
+        "Patagonian Gastronomy",
+        "Culinary Travel",
+        "Road Trip",
+        "Border Crossing",
+        "Travel Experience",
+        "Lunch",
+        "Dinner",
+        "Pizzeria",
+        "Traditional Food",
+        "Foodie",
+        "Local Flavors",
+        "Southern Argentina",
+        "Restaurant Scene",
+        "Tabletop Photography",
+        "Gastronomy",
+        "Food Photography",
+        "Traveler's Meal",
+        "Argentine Life",
+        "Travel Story",
+        "Holiday Dining",
+        "Meal Break",
+        "Regional Identity",
+        "Cultural Landscape",
+        "Travelog",
+        "Nomadic Life",
+        "Adventure Travel",
+        "Borderlands",
+        "Patagonian Life",
+        "European Influence",
+        "Dining Out",
+        "Food Composition",
+        "Travel Destination",
+        "South American Travel",
+        "Remote Travel",
+        "Gourmet Pizza",
+        "Street Food",
+        "Internal Tourism"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "A Multiflavor Argentine Pizza Served on an Orange Tablecloth in Rio Gallegos Santa Cruz",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
