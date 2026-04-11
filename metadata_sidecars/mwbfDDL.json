@@ -1,0 +1,93 @@
+{
+    "title": "A TurisTour Bus Transporting Travelers Through the Lush Temperate Rainforests of Puerto Frías Argentina",
+    "description": "Puerto Frías, Río Negro: A vibrant blue tour bus, adorned with murals of Andean peaks and Patagonian wildlife, rests upon a rugged forest track under a canopy of dense, sun-dappled foliage. The vehicle, operated by TurisTour, serves as a crucial link in the multi-modal journey of the Cruce Andino, connecting travelers between the pristine lakes of Argentina and Chile. Light filters through the overhead beech leaves, casting complex patterns across the bus's side graphics which display iconic regional landmarks. The composition emphasizes the contrast between the mechanical, human-made transport and the wild, untamed nature of the southern temperate rainforest. With the door open, the scene captures a fleeting pause in a longer cross-border transit, highlighting the accessibility of remote wilderness areas. The image utilizes a wide-angle perspective to integrate the towering trees with the primary subject, emphasizing the vast scale of the mountain corridor. This transit route remains a testament to early 20th-century exploration, allowing modern visitors to witness the dramatic transition from Andean peaks to volcanic landscapes. By facilitating cross-border movement through such ecologically sensitive regions, these transportation hubs bridge the gap between distinct Patagonian ecosystems. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Puerto Frías, Río Negro: Un vibrante autobús turístico azul, adornado con murales de picos andinos y fauna patagónica, descansa sobre una pista forestal accidentada bajo un dosel de follaje denso y moteado por el sol. El vehículo, operado por TurisTour, sirve como un enlace crucial en el viaje multimodal del Cruce Andino, conectando a los viajeros entre los lagos prístinos de Argentina y Chile. La luz se filtra a través de las hojas de haya superiores, proyectando patrones complejos a través de los gráficos laterales del autobús que muestran hitos regionales icónicos. La composición enfatiza el contraste entre el transporte mecánico hecho por el hombre y la naturaleza salvaje e indómita de la selva templada del sur. Con la puerta abierta, la escena captura una pausa fugaz en un tránsito transfronterizo más largo, destacando la accesibilidad de las áreas silvestres remotas. La imagen utiliza una perspectiva de gran angular para integrar los árboles imponentes con el tema principal, enfatizando la vasta escala del corredor de montaña. Esta ruta de tránsito sigue siendo un testimonio de la exploración de principios del siglo XX, permitiendo a los visitantes modernos presenciar la transición dramática desde los picos andinos hasta los paisajes volcánicos. Al facilitar el movimiento transfronterizo a través de regiones ecológicamente tan sensibles, estos centros de transporte cierran la brecha entre distintos ecosistemas patagónicos. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Puerto Frías",
+        "Río Negro",
+        "Argentina",
+        "Patagonia",
+        "Cruce Andino",
+        "TurisTour",
+        "Travel photography",
+        "Lake Crossing",
+        "Andean mountains",
+        "South America",
+        "Temperate rainforest",
+        "Bus transport",
+        "Regional travel",
+        "Nature tourism",
+        "Forest road",
+        "Patagonian landscape",
+        "Adventure travel",
+        "Eco tourism",
+        "Travel logistics",
+        "Bus tour",
+        "Scenic route",
+        "South American geography",
+        "Wilderness",
+        "Travel infrastructure",
+        "Mountain transit",
+        "Outdoor exploration",
+        "Canopy light",
+        "Nature photography",
+        "Travel documentary",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Border transit",
+        "Patagonian wilderness",
+        "Tourist transport",
+        "Geography of Argentina",
+        "Forest ecology",
+        "Travel experience",
+        "Andean landscape",
+        "Travel journalism",
+        "Vehicle design",
+        "Remote travel",
+        "Patagonia travel",
+        "Scenic transit",
+        "Forest scenery",
+        "Travel routes",
+        "Andes mountains",
+        "South American travel",
+        "Destination Patagonia",
+        "Transport logistics"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

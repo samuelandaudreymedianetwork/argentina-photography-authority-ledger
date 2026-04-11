@@ -1,0 +1,92 @@
+{
+    "title": "Sunlit Patagonian Wetlands and Glacial Mountain Peaks Along the Scenic Route of Cruce Andino",
+    "description": "Cruce Andino, Los Lagos: The vast expanse of the Argentine wetlands unfolds beneath a brilliant, high-altitude sky, framed by the jagged silhouettes of the Andean range. Verdant grasses and scattered shrubs blanket the foreground, creating a tactile sense of depth that draws the eye toward the distant, crystalline waters of the lake. Soft sunlight illuminates the valley, casting gentle shadows that accentuate the rugged textures of the native vegetation and the weathered remnants of fallen trees. The interplay between the sprawling, unmanicured landscape and the imposing, snow-dusted summits underscores the wild, untouched majesty of the Northern Patagonia borderlands. Photographed with a keen focus on the panoramic scale, the image utilizes a crisp aperture to preserve the intricate details of the distant topography while anchoring the viewer in the lush, low-lying basin. This landscape serves as a testament to the dramatic geological transitions that define the border crossing, shifting from dense forest floors to the expansive, open vistas of the glacial corridor. As a vital segment of the international route connecting Bariloche and Puerto Varas, this passage captures the quiet solitude often found within the most travelled paths of the Southern Andes. Documenting such topographies allows for a deeper appreciation of the complex ecosystems that thrive in the shadow of volcanic mountain chains and glacial valleys. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nCruce Andino, Los Lagos: La vasta extensión de los humedales argentinos se despliega bajo un cielo brillante de gran altitud, enmarcada por las siluetas irregulares de la cordillera de los Andes. Pastos verdes y arbustos dispersos cubren el primer plano, creando una sensación táctil de profundidad que dirige la mirada hacia las aguas cristalinas del lago en la distancia. La suave luz del sol ilumina el valle, proyectando sombras tenues que acentúan las texturas rugosas de la vegetación nativa y los restos desgastados de árboles caídos. La interacción entre el paisaje extenso y descuidado y las imponentes cumbres polvorientas de nieve subraya la majestuosidad salvaje y virgen de las tierras fronterizas de la Patagonia Norte. Fotografiada con un enfoque agudo en la escala panorámica, la imagen utiliza una apertura nítida para preservar los detalles intrincados de la topografía distante mientras ancla al espectador en la exuberante cuenca baja. Este paisaje sirve como testimonio de las dramáticas transiciones geológicas que definen el cruce fronterizo, pasando de densos suelos forestales a las amplias y abiertas vistas del corredor glaciar. Como segmento vital de la ruta internacional que conecta Bariloche y Puerto Varas, este pasaje captura la tranquila soledad que a menudo se encuentra en los caminos más transitados de los Andes del Sur. Documentar tales topografías permite una apreciación más profunda de los ecosistemas complejos que prosperan a la sombra de cadenas montañosas volcánicas y valles glaciares. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Cruce Andino",
+        "Patagonia",
+        "Argentina",
+        "Los Lagos",
+        "Andes Mountains",
+        "Landscape Photography",
+        "Glacial Valley",
+        "Wetlands",
+        "Nature Travel",
+        "South America",
+        "Mountain Scenery",
+        "Wilderness",
+        "Northern Patagonia",
+        "Travel Photography",
+        "Eco Tourism",
+        "Geology",
+        "Outdoor Adventure",
+        "Panoramic View",
+        "Bariloche",
+        "Puerto Varas",
+        "Border Crossing",
+        "National Park",
+        "Temperate Rainforest",
+        "Mountain Range",
+        "Clear Skies",
+        "Scenic Route",
+        "Patagonian Landscape",
+        "Remote Regions",
+        "Environmental Beauty",
+        "Flora",
+        "Grasslands",
+        "Topography",
+        "Summit Views",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Nomadic Sam and Audrey",
+        "Travel Documentation",
+        "South American Travel",
+        "Ecosystem",
+        "High Altitude",
+        "Natural Heritage",
+        "Adventure Travel",
+        "Visual Geography",
+        "Mountain Expedition",
+        "Wild Landscapes",
+        "Andean Foothills",
+        "Nature Conservation",
+        "Landscape Art",
+        "Explore Argentina"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
