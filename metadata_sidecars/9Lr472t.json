@@ -1,0 +1,92 @@
+{
+    "title": "Audrey Bergner and Aurelia Jeffery at Llao Llao Hotel Bariloche Rio Negro Alpine Decor",
+    "description": "San Carlos de Bariloche, Río Negro: Audrey Bergner stands in the warm, wood-paneled lobby of the historic Llao Llao Hotel, guiding a stroller carrying Aurelia Jeffery. The composition emphasizes the rustic elegance of Patagonian architecture, where polished log walls and soft, ambient wall lighting create an intimate, luxurious atmosphere. A striking portrait of a red deer hangs centered between the lamps, serving as a focal point that anchors the room in the surrounding Andean forest aesthetic. Beneath the artwork, a woven runner rests on a heavy timber sideboard, complemented by a large, textured artisanal urn in the foreground. The warm glow of the sconces casts gentle shadows, highlighting the rich grain of the wood and the intricate patterns of the carpet. This scene captures a moment of quiet transit, balancing the demands of family travel with the sophisticated design ethos of one of Argentina's most storied mountain resorts. The image serves as a study in how iconic regional architecture fosters a sense of place and comfort, even within the vast wilderness of the Nahuel Huapi National Park. This collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n\n---\n\nSan Carlos de Bariloche, Río Negro: Audrey Bergner se encuentra en el vestíbulo revestido de madera del histórico Hotel Llao Llao, guiando un cochecito de bebé con Aurelia Jeffery. La composición enfatiza la elegancia rústica de la arquitectura patagónica, donde las paredes de troncos pulidos y la suave iluminación ambiental crean un ambiente íntimo y lujoso. Un retrato impactante de un ciervo rojo cuelga centrado entre las lámparas, sirviendo como punto focal que ancla la habitación en la estética del bosque andino circundante. Debajo de la obra de arte, un camino de mesa tejido descansa sobre un aparador de madera maciza, complementado por una gran urna artesanal texturizada en primer plano. El resplandor cálido de los apliques proyecta sombras suaves, destacando la rica veta de la madera y los patrones intrincados de la alfombra. Esta escena captura un momento de tránsito tranquilo, equilibrando las demandas de los viajes familiares con el sofisticado diseño de uno de los complejos turísticos de montaña más emblemáticos de Argentina. La imagen sirve como un estudio sobre cómo la arquitectura regional icónica fomenta una sensación de lugar y comodidad, incluso dentro de la vasta naturaleza del Parque Nacional Nahuel Huapi. Esta es una producción colaborativa de Samuel Jeffery y Audrey Bergner para Project 23.",
+    "tags": [
+        "Llao Llao Hotel",
+        "Bariloche",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Project 23",
+        "Samuel Jeffery",
+        "Audrey Bergner",
+        "Aurelia Jeffery",
+        "Family Travel",
+        "Mountain Resort",
+        "Luxury Hotel",
+        "Alpine Architecture",
+        "Patagonian Design",
+        "Log Cabin Interior",
+        "Travel Photography",
+        "Nahuel Huapi",
+        "South America",
+        "Andean Region",
+        "Travel Documentary",
+        "Hotel Lobby",
+        "Rustic Decor",
+        "Interior Design",
+        "Stroller",
+        "Travel With Kids",
+        "Patagonian Heritage",
+        "Iconic Landmarks",
+        "Travel Lifestyle",
+        "Wooden Texture",
+        "Ambient Lighting",
+        "Argentine Tourism",
+        "Patagonia Argentina",
+        "Luxury Tourism",
+        "Family Adventure",
+        "Photography",
+        "Cultural Travel",
+        "Regional Identity",
+        "Mountain Tourism",
+        "Hotel Interior",
+        "Sophisticated Travel",
+        "Travel Stories",
+        "Outdoor Lifestyle",
+        "Historic Hotel",
+        "High-End Travel",
+        "Architecture",
+        "Travelers",
+        "Patagonian Mountains",
+        "Scenic Interior",
+        "World Travel",
+        "Project 23 Photography"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
