@@ -1,0 +1,93 @@
+{
+    "title": "A Decadent Slice of Fugazzeta Pizza Served on Avenida Corrientes in Buenos Aires Argentina",
+    "description": "Buenos Aires, Capital Federal: A single, indulgent slice of pizza rests on a simple white plate, capturing the essence of the city's iconic late-night culinary culture. The photograph utilizes a shallow depth of field, sharpening the focus on the glistening, molten mozzarella cheese that cascades over the crust and the prominent, salty anchovy fillet resting atop the vibrant red tomato base. Soft, warm interior lighting illuminates the textured bubbles of the scorched cheese, evoking the rustic, no-frills atmosphere of a traditional porteño pizzeria. Every element, from the rich oil sheen on the crust to the charred edges of the dough, speaks to the storied heritage of Italian-influenced gastronomy that defines this bustling metropolis. The framing highlights the sheer volume of cheese characteristic of local styles, emphasizing the tactile, comfort-food quality of the dish. This slice represents a pilgrimage for food lovers, serving as a quintessential marker of the local lifestyle along the theater district's most legendary thoroughfare. Sampling these historic pizzerias provides essential context for understanding the deep-rooted cultural synthesis that shapes Argentine urban life. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Buenos Aires",
+        "Argentina",
+        "Avenida Corrientes",
+        "Pizza",
+        "Fugazzeta",
+        "Anchovy Pizza",
+        "Porteño Cuisine",
+        "Argentine Gastronomy",
+        "Italian Influence",
+        "South American Food",
+        "Travel Photography",
+        "Culinary Travel",
+        "Food Culture",
+        "Late Night Eating",
+        "Pizzeria",
+        "Urban Exploration",
+        "Capital Federal",
+        "Street Food",
+        "Melted Cheese",
+        "Comfort Food",
+        "Gourmet Photography",
+        "Dining Experience",
+        "Regional Specialty",
+        "Italian Diaspora",
+        "Buenos Aires Eats",
+        "Foodie Adventure",
+        "Traditional Cooking",
+        "South America",
+        "Latin American Culture",
+        "Gastronomic Heritage",
+        "Iconic Landmarks",
+        "Urban Lifestyle",
+        "City Life",
+        "Crust Texture",
+        "Mozzarella",
+        "Tomato Sauce",
+        "Food Stylist",
+        "Travel Documentary",
+        "Cultural Immersion",
+        "Restaurant Scene",
+        "Local Flavors",
+        "Authentic Dining",
+        "Dining Out",
+        "Argentine Traditions",
+        "Food Appreciation",
+        "Close Up Photography",
+        "Macro Food",
+        "Culinary Journey",
+        "Project 23",
+        "Buenos Aires Tourism"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "A Decadent Slice of Fugazzeta Pizza Served on Avenida Corrientes in Buenos Aires Argentina",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
