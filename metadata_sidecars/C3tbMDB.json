@@ -1,0 +1,93 @@
+{
+    "title": "Stone Filled Gabion Structure on the Tidal Shore of Rio Gallegos Santa Cruz Argentina",
+    "description": "Río Gallegos, Santa Cruz: A rugged stone-filled gabion structure lies embedded within the tidal flats, serving as a testament to the engineering required to withstand the region's extreme coastal shifts. The composition captures the harsh, natural textures of local river rock encased in industrial wire mesh, creating a striking geometric form against the muted, organic tones of the surrounding mudflats. The low-angle perspective emphasizes the length of the structure, leading the viewer's eye from the foreground pebbles toward the distant, silt-heavy shoreline where the tide has receded. Soft, diffused daylight enhances the granular detail of the stones, revealing the intricate patterns of silt and moss accumulated over time. This utilitarian installation highlights the contrast between human intervention and the untamed power of the South Atlantic coastline, reflecting the persistent environmental challenges faced by communities in Patagonia. The image captures the intersection of industrial infrastructure and the raw, sprawling geography of the southern tip of the continent. Such structures provide essential stability to the shifting coastline, showcasing how infrastructure is adapted to meet the geological demands of the far south. This document of the intertidal landscape underscores the importance of observing regional development in relation to the unique tidal geography of Santa Cruz. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Río Gallegos",
+        "Santa Cruz",
+        "Argentina",
+        "Patagonia",
+        "South America",
+        "Coastal Engineering",
+        "Gabion Structure",
+        "Tidal Flats",
+        "Patagonian Coastline",
+        "Civil Infrastructure",
+        "Landscape Photography",
+        "Project 23",
+        "Southern Patagonia",
+        "Atlantic Coast",
+        "Intertidal Zone",
+        "Geological Landscape",
+        "Coastal Erosion Control",
+        "Industrial Design",
+        "Rural Argentina",
+        "Travel Photography",
+        "Argentine Geography",
+        "Tidal Environment",
+        "Coastal Textures",
+        "Stony Shore",
+        "Environmental Adaptation",
+        "Remote Regions",
+        "South Atlantic",
+        "Structural Design",
+        "Coastal Defense",
+        "Patagonian Wilderness",
+        "Natural Textures",
+        "Travel Documentation",
+        "Regional Infrastructure",
+        "South American Coast",
+        "Coastal Geography",
+        "Patagonia Argentina",
+        "Geomorphology",
+        "Coastal Protection",
+        "Tidal Mudflats",
+        "Coastal Management",
+        "South Argentine Coast",
+        "Coastal Resilience",
+        "Stony Beach",
+        "Engineering Solutions",
+        "Remote Patagonia",
+        "Southern South America",
+        "Patagonian Shoreline",
+        "Infrastructure Development",
+        "Environmental Geography",
+        "Coastal Studies"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "name": "Stone Filled Gabion Structure on the Tidal Shore of Rio Gallegos Santa Cruz Argentina",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

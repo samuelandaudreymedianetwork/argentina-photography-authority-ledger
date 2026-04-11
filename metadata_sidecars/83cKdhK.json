@@ -1,0 +1,92 @@
+{
+    "title": "Corroding Maritime Relic at the Abandoned Coal Loading Dock in Río Gallegos Santa Cruz",
+    "description": "Río Gallegos, Santa Cruz: An oxidized, abandoned ship rests upon a pebble-strewn coastline, its decaying hull serving as a stark monument to the industrial maritime history of Patagonia. The vessel’s rusted, skeletal silhouette leans against a massive, weathered timber pier, which stretches into the murky waters under an expansive, overcast sky. Deep oranges and browns of the flaking iron provide a poignant visual contrast against the muted greys of the estuary and the dull sky. The composition utilizes a wide-angle perspective to emphasize the sheer scale of the derelict loading apparatus, capturing the stillness of a port long since surrendered to the elements. Sharp lines of the rigging and crane structures intersect with the soft, textured shoreline, highlighting the passage of time and the inevitable reclamation of human infrastructure by the harsh southern environment. This evocative scene invites reflection on the region’s economic shifts and the transient nature of coal-driven prosperity in the deep south. This image stands as a testament to the resilient industrial heritage that continues to define the rugged character of the Santa Cruz province. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23. \n\n---\n\nRío Gallegos, Santa Cruz: Un barco abandonado y oxidado descansa sobre una costa de guijarros, su casco en descomposición sirve como un crudo monumento a la historia marítima industrial de la Patagonia. El esqueleto de hierro del buque se inclina contra un inmenso y erosionado muelle de madera, que se extiende hacia las turbias aguas bajo un cielo vasto y nublado. Los naranjas y marrones profundos del hierro descascarado ofrecen un marcado contraste visual frente a los grises apagados del estuario y el cielo opaco. La composición utiliza una perspectiva de gran angular para enfatizar la escala de la infraestructura de carga, capturando la quietud de un puerto que fue entregado hace mucho tiempo a los elementos. Las líneas definidas de la jarcia y las estructuras de las grúas se cruzan con la orilla texturizada, destacando el paso del tiempo y la inevitable recuperación de la infraestructura humana por parte del duro entorno austral. Esta escena evocadora invita a la reflexión sobre los cambios económicos de la región y la naturaleza transitoria de la prosperidad impulsada por el carbón en el extremo sur. Esta imagen es un testimonio del resistente patrimonio industrial que continúa definiendo el carácter accidentado de la provincia de Santa Cruz. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Río Gallegos",
+        "Santa Cruz",
+        "Patagonia",
+        "Argentina",
+        "Shipwreck",
+        "Abandoned",
+        "IndustrialHistory",
+        "Maritime",
+        "CoalDock",
+        "Rust",
+        "Coastline",
+        "Estuary",
+        "SouthAmerica",
+        "Project23",
+        "TravelPhotography",
+        "PatagonianCoast",
+        "Ruins",
+        "PortInfrastructure",
+        "Decay",
+        "Weathered",
+        "SouthernPatagonia",
+        "ArgentineTravel",
+        "Landscape",
+        "NatureReclaiming",
+        "HistoricalSite",
+        "Dock",
+        "TimberPier",
+        "Overcast",
+        "IndustrialHeritage",
+        "PatagoniaTravel",
+        "MaritimeHistory",
+        "Corrosion",
+        "Shoreline",
+        "RemoteLocations",
+        "ArgentinePatagonia",
+        "CoastalView",
+        "AbandonedPlaces",
+        "SamuelJeffery",
+        "AudreyBergner",
+        "TravelDocumentary",
+        "GeographicDiscovery",
+        "RustingIron",
+        "AtlanticCoast",
+        "IndustrialArchaeology",
+        "TravelJournal",
+        "SouthPoleRegion",
+        "PatagonianSummer",
+        "PhotographyPortfolio",
+        "AdventureTravel",
+        "HeritageSite"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
