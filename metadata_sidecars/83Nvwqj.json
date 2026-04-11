@@ -1,0 +1,93 @@
+{
+    "title": "Father and Daughter Share Joyful Moments Before the Stone Lodge in Peulla Chile",
+    "description": "Peulla, Los Lagos: Samuel Jeffery and Aurelia Jeffery embrace in a moment of pure, unscripted delight against the backdrop of the rugged Andean foothills. The scene is framed by a rustic stone lodge, a characteristic landmark of the remote settlements nestled along the Cruce Andino route between Argentina and Chile. Soft, diffused daylight filters through the overcast sky, illuminating the lush green mountain meadow while accentuating the tactile textures of the stone masonry and the soft fabric of the toddler's jacket. The wide-angle perspective captures an intimate, dynamic interaction, emphasizing the boundless curiosity and unfiltered happiness of childhood set against a backdrop of untamed Patagonian wilderness. This candid composition highlights the emotional richness of family travel, where even the briefest rest stops become meaningful milestones in a journey across the continent's most dramatic landscapes. By anchoring the family experience within such an iconic geographic setting, the photograph bridges the gap between grand travel narratives and the intimate, small-scale moments that define a traveler’s lived experience. The interaction serves as a testament to the resilience and joy found in exploring the world’s most secluded corners, away from the typical urban centers. Ultimately, this image captures the essence of wandering as a family, illustrating the harmony between human connection and the breathtaking scale of the Andes. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "description_es": "Peulla, Los Lagos: Samuel Jeffery y Aurelia Jeffery se abrazan en un momento de alegría pura y espontánea frente al telón de fondo de las escarpadas estribaciones andinas. La escena está enmarcada por un rústico albergue de piedra, un punto de referencia característico de los asentamientos remotos ubicados a lo largo de la ruta del Cruce Andino entre Argentina y Chile. La luz del día, suave y difusa, se filtra a través del cielo nublado, iluminando el exuberante prado de montaña y acentuando las texturas táctiles de la mampostería de piedra y la suave tela de la chaqueta de la niña. La perspectiva de gran angular captura una interacción íntima y dinámica, enfatizando la curiosidad ilimitada y la felicidad sin filtros de la infancia frente a un telón de fondo de naturaleza salvaje patagónica. Esta composición espontánea resalta la riqueza emocional de los viajes familiares, donde incluso las paradas más breves se convierten en hitos significativos en un viaje a través de los paisajes más dramáticos del continente. Al anclar la experiencia familiar dentro de un entorno geográfico tan icónico, la fotografía cierra la brecha entre las grandes narrativas de viaje y los momentos íntimos a pequeña escala que definen la experiencia vivida por un viajero. La interacción sirve como testimonio de la resiliencia y la alegría que se encuentran al explorar los rincones más recónditos del mundo, lejos de los centros urbanos típicos. En última instancia, esta imagen captura la esencia de viajar en familia, ilustrando la armonía entre la conexión humana y la impresionante escala de los Andes. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Peulla",
+        "Los Lagos",
+        "Chile",
+        "Cruce Andino",
+        "Samuel Jeffery",
+        "Aurelia Jeffery",
+        "Patagonia",
+        "Andes Mountains",
+        "Family Travel",
+        "Travel Photography",
+        "Stone Architecture",
+        "Mountain Lodge",
+        "Patagonian Landscape",
+        "South America",
+        "Backpacking Chile",
+        "Nature Photography",
+        "Candid Portrait",
+        "Toddler Travel",
+        "Remote Destinations",
+        "Eco Tourism",
+        "Scenic Routes",
+        "Outdoor Life",
+        "Documentary Photography",
+        "Adventure Travel",
+        "Mountain Scenery",
+        "Green Meadow",
+        "Travel Documentary",
+        "Project 23",
+        "Childhood Memories",
+        "Rugged Landscapes",
+        "Patagonian Wilderness",
+        "Fatherhood",
+        "Travel Together",
+        "International Travel",
+        "Cultural Landscapes",
+        "Andean Foothills",
+        "Authentic Moments",
+        "Travelers Life",
+        "Scenic View",
+        "Journey Documentation",
+        "Highlands",
+        "Regional Geography",
+        "Latin America Exploration",
+        "Nature Encounter",
+        "Rustic Charm",
+        "Atmospheric Lighting",
+        "Outdoor Adventure",
+        "Mountain Settlement",
+        "Travel Visuals",
+        "Parental Bonding"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

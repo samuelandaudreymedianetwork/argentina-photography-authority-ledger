@@ -1,0 +1,92 @@
+{
+    "title": "Daniel Bergner and Aurelia Jeffery Share a Joyful Embrace in Puerto Frias Rio Negro",
+    "description": "Puerto Frias, Río Negro: Daniel Bergner and Aurelia Jeffery share a heartwarming moment of connection amidst the lush, temperate rainforest landscapes of the Andes. The candid composition captures the genuine elation of a familial embrace, set against a verdant backdrop of towering native trees and expansive grassy meadows. Soft, diffused daylight highlights the textured fabrics of their layered clothing, emphasizing the cool-weather atmosphere characteristic of this high-altitude mountain pass. The shallow depth of field isolates the subjects from the sprawling natural environment, drawing focus entirely to the emotional warmth of their interaction. As travelers navigate the multi-modal journey of the Cruce Andino, such intimate snapshots encapsulate the spirit of multi-generational exploration in the Argentine wilderness. The vibrant greens of the forest floor contrast beautifully with the soft hues of the child's hat and jacket, grounding the scene in the tranquil serenity of the Patagonia region. This moment serves as a poignant reminder that travel is as much about the people we share our discoveries with as it is about the geography itself. Documenting these interactions provides a human dimension to the dramatic, isolated topography of the border region between Argentina and Chile. This image captures the essence of legacy and curiosity that defines our broader mission to showcase the diverse landscapes and personal connections found throughout South America. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "tags": [
+        "Puerto Frias",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Cruce Andino",
+        "Andes Mountains",
+        "Travel Photography",
+        "Family Travel",
+        "Multi-generational",
+        "South America",
+        "Outdoor Adventure",
+        "Temperate Rainforest",
+        "Nature",
+        "Wilderness",
+        "Mountain Scenery",
+        "Candid Photography",
+        "Joy",
+        "Connection",
+        "Travel Documentary",
+        "Project 23",
+        "Argentine Patagonia",
+        "National Park",
+        "Hiking Route",
+        "Lake Crossing",
+        "Lush Landscape",
+        "Travel Storytelling",
+        "Toddler Travel",
+        "Grandfather",
+        "Family Bond",
+        "Patagonian Summer",
+        "Remote Destination",
+        "Border Region",
+        "Greenery",
+        "Meadow",
+        "Forest",
+        "Backpacking",
+        "Adventure Travel",
+        "Exploration",
+        "Regional Travel",
+        "Scenic",
+        "Documentary Style",
+        "Visual Storytelling",
+        "Portraiture",
+        "Childhood",
+        "Life Outdoors",
+        "Patagonian Flora",
+        "Travel Inspiration",
+        "Global Wanderlust",
+        "Southern Hemisphere",
+        "Authentic Travel"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}

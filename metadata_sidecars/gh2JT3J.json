@@ -1,0 +1,93 @@
+{
+    "title": "Moss Covered Fallen Timber and Wooden Hiking Trail in the Rainforests of Bariloche Rio Negro",
+    "description": "Bariloche, Río Negro: An ancient, moss-draped log rests dramatically against the hillside, anchoring this immersive trek through the dense Andean temperate rainforest. The composition utilizes the diagonal lines of the decaying timber to lead the eye toward a small, functional wooden bridge, which offers passage through the rocky, uneven terrain. Soft, diffused natural light filters through the dense forest canopy, highlighting the intricate textures of lichen, bark, and weathered wood. This remote segment of the Cruce Andino represents the raw, untamed beauty of the Patagonian wilderness, where human engineering subtly yields to the overwhelming dominance of nature. The vibrant green hues and damp earth tones capture the humid, oxygen-rich atmosphere characteristic of this high-altitude ecosystem. Each step along this path is defined by a deep silence, interrupted only by the rustling of leaves and the distant murmur of glacial streams nearby. This visual journey serves as a reminder of the delicate balance between adventure tourism and the preservation of pristine environmental landscapes in South America. The intricate details of the moss and the weathered wooden structure emphasize the historical erosion and geological processes occurring within this lush, protected forest. By documenting these hidden corners of the Andes, the image invites travelers to appreciate the fragility and grandeur of Argentina’s southern wilderness. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.",
+    "---": "Bariloche, Río Negro: Un antiguo tronco cubierto de musgo descansa dramáticamente contra la ladera, anclando esta caminata inmersiva a través de la densa selva templada andina. La composición utiliza las líneas diagonales de la madera en descomposición para guiar la vista hacia un pequeño puente de madera funcional, que ofrece paso a través del terreno rocoso e irregular. La luz natural suave y difusa se filtra a través del denso dosel forestal, destacando las intrincadas texturas de líquenes, corteza y madera desgastada. Este remoto segmento del Cruce Andino representa la belleza cruda e indómita de la naturaleza patagónica, donde la ingeniería humana cede sutilmente ante el dominio abrumador de la naturaleza. Los tonos verdes vibrantes y los tonos tierra húmeda capturan la atmósfera húmeda y rica en oxígeno característica de este ecosistema de gran altitud. Cada paso a lo largo de este camino está definido por un profundo silencio, interrumpido solo por el susurro de las hojas y el distante murmullo de los arroyos glaciares cercanos. Este viaje visual sirve como un recordatorio del delicado equilibrio entre el turismo de aventura y la preservación de paisajes ambientales vírgenes en América del Sur. Los detalles intrincados del musgo y la estructura de madera desgastada enfatizan la erosión histórica y los procesos geológicos que ocurren dentro de este exuberante bosque protegido. Al documentar estos rincones ocultos de los Andes, la imagen invita a los viajeros a apreciar la fragilidad y la grandeza de la naturaleza salvaje del sur de Argentina. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Bariloche",
+        "Rio Negro",
+        "Patagonia",
+        "Argentina",
+        "Cruce Andino",
+        "Andes",
+        "Rainforest",
+        "Hiking",
+        "Patagonian wilderness",
+        "Temperate forest",
+        "Trekking",
+        "Nature photography",
+        "Adventure travel",
+        "South America",
+        "Eco-tourism",
+        "Fallen log",
+        "Mossy forest",
+        "Wooden bridge",
+        "Mountain landscape",
+        "Wilderness",
+        "Outdoor exploration",
+        "Patagonia travel",
+        "Argentine Patagonia",
+        "Forest trail",
+        "Natural textures",
+        "Landscape photography",
+        "Travel photography",
+        "Andean region",
+        "Backpacking",
+        "Nature trail",
+        "Forest canopy",
+        "Mountain terrain",
+        "Hiking path",
+        "Remote travel",
+        "Green nature",
+        "Patagonia hiking",
+        "Untouched landscape",
+        "Scenic route",
+        "Trail photography",
+        "Environmental beauty",
+        "Travel destination",
+        "South American Andes",
+        "Hiking adventure",
+        "Nature preserve",
+        "Forest ecosystem",
+        "Outdoor activity",
+        "Hiking trail",
+        "Patagonia region",
+        "Wild beauty",
+        "Project 23"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
