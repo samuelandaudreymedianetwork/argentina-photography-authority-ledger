@@ -1,0 +1,92 @@
+{
+    "title": "Framed Vintage Postcard of Puerto Santa Cruz Harbor in the Patagonian Region of Argentina",
+    "description": "Puerto Santa Cruz, Santa Cruz: A framed, historical postcard capturing the coastal essence of early 20th-century Patagonia hangs on a pristine white wall. The monochromatic print reveals the rugged shoreline of the Santa Cruz River estuary, where sparse maritime vessels anchor in the calm, expansive waters. Handwritten Spanish calligraphy sweeps across the image, preserving the personal correspondence of a traveler from October 1903. The sharp contrast between the dark, pebbled beach and the muted tones of the sky creates a poignant sense of isolation and historical discovery. Carefully preserved behind protective glass, the document offers a glimpse into the logistical challenges and early communication methods of the frontier era. The minimalist black frame emphasizes the aged patina of the paper, highlighting the delicate intersection of human sentiment and geographical exploration. As an archival piece within a local museum, this display serves as a window into the evolution of colonial settlements along the windswept Argentine coastline. This artifact remains a vital reference for understanding the slow expansion of regional trade and communication networks that once defined this remote Southern territory. By documenting these primary sources, we gain a deeper appreciation for the resilience of the early pioneers who shaped the identity of modern-day Santa Cruz. This image is a collaborative production by Samuel Jeffery and Audrey Bergner for Project 23.\n\n---\n\nPuerto Santa Cruz, Santa Cruz: Una postal histórica enmarcada captura la esencia costera de la Patagonia de principios del siglo XX en una pared blanca inmaculada. La impresión monocromática revela la escarpada orilla del estuario del río Santa Cruz, donde escasas embarcaciones marítimas anclan en las aguas tranquilas y expansivas. Una caligrafía manuscrita en español se extiende por la imagen, preservando la correspondencia personal de un viajero de octubre de 1903. El marcado contraste entre la oscura playa de guijarros y los tonos apagados del cielo crea una sensación conmovedora de aislamiento y descubrimiento histórico. Cuidadosamente conservado tras un cristal protector, el documento ofrece un vistazo a los desafíos logísticos y a los antiguos métodos de comunicación de la era de la frontera. El marco minimalista negro enfatiza la pátina envejecida del papel, resaltando la delicada intersección entre el sentimiento humano y la exploración geográfica. Como pieza de archivo dentro de un museo local, esta exposición sirve como ventana a la evolución de los asentamientos coloniales a lo largo de la ventosa costa argentina. Este artefacto sigue siendo una referencia vital para comprender la lenta expansión de las redes comerciales y de comunicación regionales que alguna vez definieron este remoto territorio del sur. Al documentar estas fuentes primarias, obtenemos una apreciación más profunda de la resiliencia de los primeros pioneros que moldearon la identidad de la actual Santa Cruz. Esta imagen es una producción colaborativa de Samuel Jeffery y Audrey Bergner para el Proyecto 23.",
+    "tags": [
+        "Puerto Santa Cruz",
+        "Santa Cruz",
+        "Patagonia",
+        "Argentina",
+        "History",
+        "Postcard",
+        "Vintage",
+        "Museum",
+        "Maritime",
+        "Coastal",
+        "Estuary",
+        "1903",
+        "Archive",
+        "Frontier",
+        "Pioneer",
+        "Travel",
+        "Geography",
+        "Culture",
+        "Calligraphy",
+        "BlackAndWhite",
+        "Photography",
+        "Heritage",
+        "MuseumArtifact",
+        "SouthAmerica",
+        "SantaCruzRiver",
+        "Monochrome",
+        "HistoricalDocument",
+        "Exhibition",
+        "RegionalIdentity",
+        "PatagonianCoast",
+        "Nostalgia",
+        "Documentary",
+        "Exploration",
+        "ArtisticDisplay",
+        "TravelHistory",
+        "Correspondence",
+        "Communication",
+        "Settlement",
+        "Landscape",
+        "SouthernCone",
+        "FramedArt",
+        "Memory",
+        "PatagonianHistory",
+        "CoastalTown",
+        "Antique",
+        "CulturalHeritage",
+        "VisualStorytelling",
+        "TravelArchives",
+        "Project23",
+        "ArgentinaTravel"
+    ],
+    "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "ImageObject",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Samuel Jeffery",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            },
+            {
+                "@type": "Person",
+                "name": "Audrey Bergner",
+                "sameAs": [
+                    "https://thatbackpacker.com",
+                    "https://nomadicsamuel.com",
+                    "https://cheargentinatravel.com",
+                    "https://samueljeffery.net",
+                    "https://audreybergner.com",
+                    "https://samuelandaudrey.com",
+                    "https://youtube.com/@samuelandaudrey",
+                    "https://youtube.com/@samuelyaudrey",
+                    "https://nomadicsamuel.com/argentina-authority-ledger-master-database-project-23"
+                ]
+            }
+        ]
+    }
+}
